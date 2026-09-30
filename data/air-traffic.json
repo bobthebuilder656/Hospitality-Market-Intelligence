@@ -1,0 +1,1071 @@
+{
+  "source": "https://www.aai.aero/en/business-opportunities/aai-traffic-news",
+  "months": [
+    {
+      "month": "2026-01",
+      "pdfUrl": "https://www.aai.aero/sites/default/files/traffic-news/Jan2k26Annex3_0.pdf",
+      "cities": {
+        "delhi": {
+          "passengers": 7300281,
+          "lastYear": 6907741,
+          "change": 5.7,
+          "airports": [
+            "DELHI (DIAL)",
+            "NOIDA (NIAL)",
+            "HINDON"
+          ]
+        },
+        "mumbai": {
+          "passengers": 5276745,
+          "lastYear": 4994239,
+          "change": 5.7,
+          "airports": [
+            "MUMBAI (MIAL)",
+            "NAVI MUMBAI (NMIAL)"
+          ]
+        },
+        "bengaluru": {
+          "passengers": 4032742,
+          "lastYear": 3726523,
+          "change": 8.2,
+          "airports": [
+            "BENGALURU (BIAL)",
+            "BENGALURU (HAL)"
+          ]
+        },
+        "hyderabad": {
+          "passengers": 2653520,
+          "lastYear": 2644110,
+          "change": 0.4,
+          "airports": [
+            "HYDERABAD (GHIAL)",
+            "HYDERABAD (BEGUMPET)"
+          ]
+        },
+        "chennai": {
+          "passengers": 2077076,
+          "lastYear": 2064961,
+          "change": 0.6,
+          "airports": [
+            "CHENNAI"
+          ]
+        },
+        "kolkata": {
+          "passengers": 1912271,
+          "lastYear": 1941893,
+          "change": -1.5,
+          "airports": [
+            "KOLKATA"
+          ]
+        },
+        "pune": {
+          "passengers": 976208,
+          "lastYear": 946803,
+          "change": 3.1,
+          "airports": [
+            "PUNE"
+          ]
+        },
+        "goa": {
+          "passengers": 1182316,
+          "lastYear": 1165184,
+          "change": 1.5,
+          "airports": [
+            "GOA (MOPA)",
+            "GOA (DABOLIM)"
+          ]
+        },
+        "jaipur": {
+          "passengers": 565608,
+          "lastYear": 569314,
+          "change": -0.7,
+          "airports": [
+            "JAIPUR"
+          ]
+        },
+        "udaipur": {
+          "passengers": 201668,
+          "lastYear": 172070,
+          "change": 17.2,
+          "airports": [
+            "UDAIPUR"
+          ]
+        },
+        "ahmedabad": {
+          "passengers": 1302846,
+          "lastYear": 1307436,
+          "change": -0.4,
+          "airports": [
+            "AHMEDABAD"
+          ]
+        },
+        "kochi": {
+          "passengers": 1084314,
+          "lastYear": 1040634,
+          "change": 4.2,
+          "airports": [
+            "KOCHI"
+          ]
+        },
+        "lucknow": {
+          "passengers": 556958,
+          "lastYear": 587261,
+          "change": -5.2,
+          "airports": [
+            "LUCKNOW"
+          ]
+        },
+        "indore": {
+          "passengers": 376927,
+          "lastYear": 346043,
+          "change": 8.9,
+          "airports": [
+            "INDORE"
+          ]
+        },
+        "coimbatore": {
+          "passengers": 309464,
+          "lastYear": 292655,
+          "change": 5.7,
+          "airports": [
+            "COIMBATORE"
+          ]
+        }
+      },
+      "checkedAt": "2026-09-26T13:08:28.657Z"
+    },
+    {
+      "month": "2026-02",
+      "pdfUrl": "https://www.aai.aero/sites/default/files/traffic-news/Feb2k26Annex3.pdf",
+      "cities": {
+        "delhi": {
+          "passengers": 7049455,
+          "lastYear": 6720421,
+          "change": 4.9,
+          "airports": [
+            "DELHI (DIAL)",
+            "NOIDA (NIAL)",
+            "HINDON"
+          ]
+        },
+        "mumbai": {
+          "passengers": 4748062,
+          "lastYear": 4567735,
+          "change": 3.9,
+          "airports": [
+            "MUMBAI (MIAL)",
+            "NAVI MUMBAI (NMIAL)"
+          ]
+        },
+        "bengaluru": {
+          "passengers": 3643537,
+          "lastYear": 3308678,
+          "change": 10.1,
+          "airports": [
+            "BENGALURU (BIAL)",
+            "BENGALURU (HAL)"
+          ]
+        },
+        "hyderabad": {
+          "passengers": 2317577,
+          "lastYear": 2527437,
+          "change": -8.3,
+          "airports": [
+            "HYDERABAD (GHIAL)",
+            "HYDERABAD (BEGUMPET)"
+          ]
+        },
+        "chennai": {
+          "passengers": 1816593,
+          "lastYear": 1860811,
+          "change": -2.4,
+          "airports": [
+            "CHENNAI"
+          ]
+        },
+        "kolkata": {
+          "passengers": 1716916,
+          "lastYear": 1793479,
+          "change": -4.3,
+          "airports": [
+            "KOLKATA"
+          ]
+        },
+        "pune": {
+          "passengers": 909319,
+          "lastYear": 840470,
+          "change": 8.2,
+          "airports": [
+            "PUNE"
+          ]
+        },
+        "goa": {
+          "passengers": 974298,
+          "lastYear": 1012508,
+          "change": -3.8,
+          "airports": [
+            "GOA (MOPA)",
+            "GOA (DABOLIM)"
+          ]
+        },
+        "jaipur": {
+          "passengers": 514859,
+          "lastYear": 561310,
+          "change": -8.3,
+          "airports": [
+            "JAIPUR"
+          ]
+        },
+        "udaipur": {
+          "passengers": 204926,
+          "lastYear": 156282,
+          "change": 31.1,
+          "airports": [
+            "UDAIPUR"
+          ]
+        },
+        "ahmedabad": {
+          "passengers": 1147749,
+          "lastYear": 1200274,
+          "change": -4.4,
+          "airports": [
+            "AHMEDABAD"
+          ]
+        },
+        "kochi": {
+          "passengers": 868703,
+          "lastYear": 866135,
+          "change": 0.3,
+          "airports": [
+            "KOCHI"
+          ]
+        },
+        "lucknow": {
+          "passengers": 514022,
+          "lastYear": 610746,
+          "change": -15.8,
+          "airports": [
+            "LUCKNOW"
+          ]
+        },
+        "indore": {
+          "passengers": 362293,
+          "lastYear": 329615,
+          "change": 9.9,
+          "airports": [
+            "INDORE"
+          ]
+        },
+        "coimbatore": {
+          "passengers": 257891,
+          "lastYear": 280678,
+          "change": -8.1,
+          "airports": [
+            "COIMBATORE"
+          ]
+        }
+      },
+      "checkedAt": "2026-09-26T13:08:31.365Z"
+    },
+    {
+      "month": "2026-03",
+      "pdfUrl": "https://www.aai.aero/sites/default/files/traffic-news/Mar2k26Annex3_0.pdf",
+      "cities": {
+        "delhi": {
+          "passengers": 7081099,
+          "lastYear": 7059342,
+          "change": 0.3,
+          "airports": [
+            "DELHI (DIAL)",
+            "NOIDA (NIAL)",
+            "HINDON"
+          ]
+        },
+        "mumbai": {
+          "passengers": 4559161,
+          "lastYear": 4622535,
+          "change": -1.4,
+          "airports": [
+            "MUMBAI (MIAL)",
+            "NAVI MUMBAI (NMIAL)"
+          ]
+        },
+        "bengaluru": {
+          "passengers": 3651173,
+          "lastYear": 3639658,
+          "change": 0.3,
+          "airports": [
+            "BENGALURU (BIAL)",
+            "BENGALURU (HAL)"
+          ]
+        },
+        "hyderabad": {
+          "passengers": 2289270,
+          "lastYear": 2600701,
+          "change": -12,
+          "airports": [
+            "HYDERABAD (GHIAL)",
+            "HYDERABAD (BEGUMPET)"
+          ]
+        },
+        "chennai": {
+          "passengers": 1775631,
+          "lastYear": 1909441,
+          "change": -7,
+          "airports": [
+            "CHENNAI"
+          ]
+        },
+        "kolkata": {
+          "passengers": 1793004,
+          "lastYear": 1927598,
+          "change": -7,
+          "airports": [
+            "KOLKATA"
+          ]
+        },
+        "pune": {
+          "passengers": 925085,
+          "lastYear": 855298,
+          "change": 8.2,
+          "airports": [
+            "PUNE"
+          ]
+        },
+        "goa": {
+          "passengers": 984873,
+          "lastYear": 1062478,
+          "change": -7.3,
+          "airports": [
+            "GOA (MOPA)",
+            "GOA (DABOLIM)"
+          ]
+        },
+        "jaipur": {
+          "passengers": 466085,
+          "lastYear": 533019,
+          "change": -12.6,
+          "airports": [
+            "JAIPUR"
+          ]
+        },
+        "udaipur": {
+          "passengers": 199075,
+          "lastYear": 151671,
+          "change": 31.3,
+          "airports": [
+            "UDAIPUR"
+          ]
+        },
+        "ahmedabad": {
+          "passengers": 1105726,
+          "lastYear": 1211034,
+          "change": -8.7,
+          "airports": [
+            "AHMEDABAD"
+          ]
+        },
+        "kochi": {
+          "passengers": 740281,
+          "lastYear": 842371,
+          "change": -12.1,
+          "airports": [
+            "KOCHI"
+          ]
+        },
+        "lucknow": {
+          "passengers": 497253,
+          "lastYear": 511187,
+          "change": -2.7,
+          "airports": [
+            "LUCKNOW"
+          ]
+        },
+        "indore": {
+          "passengers": 364562,
+          "lastYear": 350045,
+          "change": 4.1,
+          "airports": [
+            "INDORE"
+          ]
+        },
+        "coimbatore": {
+          "passengers": 263847,
+          "lastYear": 282368,
+          "change": -6.6,
+          "airports": [
+            "COIMBATORE"
+          ]
+        }
+      },
+      "checkedAt": "2026-09-26T13:08:35.965Z"
+    },
+    {
+      "month": "2026-04",
+      "pdfUrl": "https://www.aai.aero/sites/default/files/traffic-news/April2k26Annex3.pdf",
+      "cities": {
+        "delhi": {
+          "passengers": 6696516,
+          "lastYear": 6732351,
+          "change": -0.5,
+          "airports": [
+            "DELHI (DIAL)",
+            "NOIDA (NIAL)",
+            "HINDON"
+          ]
+        },
+        "mumbai": {
+          "passengers": 4571829,
+          "lastYear": 4566333,
+          "change": 0.1,
+          "airports": [
+            "MUMBAI (MIAL)",
+            "NAVI MUMBAI (NMIAL)"
+          ]
+        },
+        "bengaluru": {
+          "passengers": 3686685,
+          "lastYear": 3759843,
+          "change": -1.9,
+          "airports": [
+            "BENGALURU (BIAL)",
+            "BENGALURU (HAL)"
+          ]
+        },
+        "hyderabad": {
+          "passengers": 2250860,
+          "lastYear": 2650912,
+          "change": -15.1,
+          "airports": [
+            "HYDERABAD (GHIAL)",
+            "HYDERABAD (BEGUMPET)"
+          ]
+        },
+        "chennai": {
+          "passengers": 1739902,
+          "lastYear": 1943018,
+          "change": -10.5,
+          "airports": [
+            "CHENNAI"
+          ]
+        },
+        "kolkata": {
+          "passengers": 1764280,
+          "lastYear": 1832690,
+          "change": -3.7,
+          "airports": [
+            "KOLKATA"
+          ]
+        },
+        "pune": {
+          "passengers": 874946,
+          "lastYear": 924047,
+          "change": -5.3,
+          "airports": [
+            "PUNE"
+          ]
+        },
+        "goa": {
+          "passengers": 861254,
+          "lastYear": 912000,
+          "change": -5.6,
+          "airports": [
+            "GOA (MOPA)",
+            "GOA (DABOLIM)"
+          ]
+        },
+        "jaipur": {
+          "passengers": 447290,
+          "lastYear": 402132,
+          "change": 11.2,
+          "airports": [
+            "JAIPUR"
+          ]
+        },
+        "udaipur": {
+          "passengers": 130821,
+          "lastYear": 118431,
+          "change": 10.5,
+          "airports": [
+            "UDAIPUR"
+          ]
+        },
+        "ahmedabad": {
+          "passengers": 1293450,
+          "lastYear": 1182757,
+          "change": 9.4,
+          "airports": [
+            "AHMEDABAD"
+          ]
+        },
+        "kochi": {
+          "passengers": 827921,
+          "lastYear": 969454,
+          "change": -14.6,
+          "airports": [
+            "KOCHI"
+          ]
+        },
+        "lucknow": {
+          "passengers": 530850,
+          "lastYear": 504045,
+          "change": 5.3,
+          "airports": [
+            "LUCKNOW"
+          ]
+        },
+        "indore": {
+          "passengers": 324197,
+          "lastYear": 341957,
+          "change": -5.2,
+          "airports": [
+            "INDORE"
+          ]
+        },
+        "coimbatore": {
+          "passengers": 267289,
+          "lastYear": 308681,
+          "change": -13.4,
+          "airports": [
+            "COIMBATORE"
+          ]
+        }
+      },
+      "checkedAt": "2026-09-26T13:08:38.439Z"
+    },
+    {
+      "month": "2026-05",
+      "pdfUrl": "https://www.aai.aero/sites/default/files/traffic-news/May2K26Annex3.pdf",
+      "cities": {
+        "delhi": {
+          "passengers": 7209610,
+          "lastYear": 6293341,
+          "change": 14.6,
+          "airports": [
+            "DELHI (DIAL)",
+            "NOIDA (NIAL)",
+            "HINDON"
+          ]
+        },
+        "mumbai": {
+          "passengers": 5208617,
+          "lastYear": 4618021,
+          "change": 12.8,
+          "airports": [
+            "MUMBAI (MIAL)",
+            "NAVI MUMBAI (NMIAL)"
+          ]
+        },
+        "bengaluru": {
+          "passengers": 4018465,
+          "lastYear": 3864300,
+          "change": 4,
+          "airports": [
+            "BENGALURU (BIAL)",
+            "BENGALURU (HAL)"
+          ]
+        },
+        "hyderabad": {
+          "passengers": 2550559,
+          "lastYear": 2792303,
+          "change": -8.7,
+          "airports": [
+            "HYDERABAD (GHIAL)",
+            "HYDERABAD (BEGUMPET)"
+          ]
+        },
+        "chennai": {
+          "passengers": 1904259,
+          "lastYear": 2041235,
+          "change": -6.7,
+          "airports": [
+            "CHENNAI"
+          ]
+        },
+        "kolkata": {
+          "passengers": 1870319,
+          "lastYear": 1797337,
+          "change": 4.1,
+          "airports": [
+            "KOLKATA"
+          ]
+        },
+        "pune": {
+          "passengers": 999166,
+          "lastYear": 938552,
+          "change": 6.5,
+          "airports": [
+            "PUNE"
+          ]
+        },
+        "goa": {
+          "passengers": 957231,
+          "lastYear": 955088,
+          "change": 0.2,
+          "airports": [
+            "GOA (MOPA)",
+            "GOA (DABOLIM)"
+          ]
+        },
+        "jaipur": {
+          "passengers": 432874,
+          "lastYear": 397186,
+          "change": 9,
+          "airports": [
+            "JAIPUR"
+          ]
+        },
+        "udaipur": {
+          "passengers": 122639,
+          "lastYear": 108301,
+          "change": 13.2,
+          "airports": [
+            "UDAIPUR"
+          ]
+        },
+        "ahmedabad": {
+          "passengers": 1240116,
+          "lastYear": 1219545,
+          "change": 1.7,
+          "airports": [
+            "AHMEDABAD"
+          ]
+        },
+        "kochi": {
+          "passengers": 934818,
+          "lastYear": 1022572,
+          "change": -8.6,
+          "airports": [
+            "KOCHI"
+          ]
+        },
+        "lucknow": {
+          "passengers": 605709,
+          "lastYear": 482233,
+          "change": 25.6,
+          "airports": [
+            "LUCKNOW"
+          ]
+        },
+        "indore": {
+          "passengers": 333069,
+          "lastYear": 341590,
+          "change": -2.5,
+          "airports": [
+            "INDORE"
+          ]
+        },
+        "coimbatore": {
+          "passengers": 317777,
+          "lastYear": 330037,
+          "change": -3.7,
+          "airports": [
+            "COIMBATORE"
+          ]
+        }
+      },
+      "checkedAt": "2026-09-26T13:08:43.283Z"
+    },
+    {
+      "month": "2026-06",
+      "pdfUrl": "https://www.aai.aero/sites/default/files/traffic-news/Jun2k26Annex3.pdf",
+      "cities": {
+        "delhi": {
+          "passengers": 6640571,
+          "lastYear": 6233205,
+          "change": 6.5,
+          "airports": [
+            "DELHI (DIAL)",
+            "NOIDA (NIAL)",
+            "HINDON"
+          ]
+        },
+        "mumbai": {
+          "passengers": 4677700,
+          "lastYear": 4432566,
+          "change": 5.5,
+          "airports": [
+            "MUMBAI (MIAL)",
+            "NAVI MUMBAI (NMIAL)"
+          ]
+        },
+        "bengaluru": {
+          "passengers": 3566807,
+          "lastYear": 3648079,
+          "change": -2.2,
+          "airports": [
+            "BENGALURU (BIAL)",
+            "BENGALURU (HAL)"
+          ]
+        },
+        "hyderabad": {
+          "passengers": 2288724,
+          "lastYear": 2626802,
+          "change": -12.9,
+          "airports": [
+            "HYDERABAD (GHIAL)",
+            "HYDERABAD (BEGUMPET)"
+          ]
+        },
+        "chennai": {
+          "passengers": 1678544,
+          "lastYear": 1923505,
+          "change": -12.7,
+          "airports": [
+            "CHENNAI"
+          ]
+        },
+        "kolkata": {
+          "passengers": 1622934,
+          "lastYear": 1734183,
+          "change": -6.4,
+          "airports": [
+            "KOLKATA"
+          ]
+        },
+        "pune": {
+          "passengers": 910997,
+          "lastYear": 910258,
+          "change": 0.1,
+          "airports": [
+            "PUNE"
+          ]
+        },
+        "goa": {
+          "passengers": 822016,
+          "lastYear": 917675,
+          "change": -10.4,
+          "airports": [
+            "GOA (MOPA)",
+            "GOA (DABOLIM)"
+          ]
+        },
+        "jaipur": {
+          "passengers": 370086,
+          "lastYear": 406107,
+          "change": -8.9,
+          "airports": [
+            "JAIPUR"
+          ]
+        },
+        "udaipur": {
+          "passengers": 112135,
+          "lastYear": 108783,
+          "change": 3.1,
+          "airports": [
+            "UDAIPUR"
+          ]
+        },
+        "ahmedabad": {
+          "passengers": 1026721,
+          "lastYear": 1101090,
+          "change": -6.8,
+          "airports": [
+            "AHMEDABAD"
+          ]
+        },
+        "kochi": {
+          "passengers": 824663,
+          "lastYear": 900758,
+          "change": -8.4,
+          "airports": [
+            "KOCHI"
+          ]
+        },
+        "lucknow": {
+          "passengers": 524104,
+          "lastYear": 497027,
+          "change": 5.4,
+          "airports": [
+            "LUCKNOW"
+          ]
+        },
+        "indore": {
+          "passengers": 315993,
+          "lastYear": 349180,
+          "change": -9.5,
+          "airports": [
+            "INDORE"
+          ]
+        },
+        "coimbatore": {
+          "passengers": 274976,
+          "lastYear": 312531,
+          "change": -12,
+          "airports": [
+            "COIMBATORE"
+          ]
+        }
+      },
+      "checkedAt": "2026-09-26T13:08:50.969Z"
+    },
+    {
+      "month": "2026-07",
+      "pdfUrl": "https://www.aai.aero/sites/default/files/traffic-news/Jul2k26Annex3.pdf",
+      "cities": {
+        "delhi": {
+          "passengers": 6133362,
+          "lastYear": 5914422,
+          "change": 3.7,
+          "airports": [
+            "DELHI (DIAL)",
+            "NOIDA (NIAL)",
+            "HINDON"
+          ]
+        },
+        "mumbai": {
+          "passengers": 4258154,
+          "lastYear": 4406576,
+          "change": -3.4,
+          "airports": [
+            "MUMBAI (MIAL)",
+            "NAVI MUMBAI (NMIAL)"
+          ]
+        },
+        "bengaluru": {
+          "passengers": 3335188,
+          "lastYear": 3446047,
+          "change": -3.2,
+          "airports": [
+            "BENGALURU (BIAL)",
+            "BENGALURU (HAL)"
+          ]
+        },
+        "hyderabad": {
+          "passengers": 2224528,
+          "lastYear": 2459316,
+          "change": -9.5,
+          "airports": [
+            "HYDERABAD (GHIAL)",
+            "HYDERABAD (BEGUMPET)"
+          ]
+        },
+        "chennai": {
+          "passengers": 1649501,
+          "lastYear": 1883611,
+          "change": -12.4,
+          "airports": [
+            "CHENNAI"
+          ]
+        },
+        "kolkata": {
+          "passengers": 1424544,
+          "lastYear": 1620914,
+          "change": -12.1,
+          "airports": [
+            "KOLKATA"
+          ]
+        },
+        "pune": {
+          "passengers": 890773,
+          "lastYear": 866363,
+          "change": 2.8,
+          "airports": [
+            "PUNE"
+          ]
+        },
+        "goa": {
+          "passengers": 690785,
+          "lastYear": 779628,
+          "change": -11.4,
+          "airports": [
+            "GOA (MOPA)",
+            "GOA (DABOLIM)"
+          ]
+        },
+        "jaipur": {
+          "passengers": 353514,
+          "lastYear": 419298,
+          "change": -15.7,
+          "airports": [
+            "JAIPUR"
+          ]
+        },
+        "udaipur": {
+          "passengers": 103514,
+          "lastYear": 101356,
+          "change": 2.1,
+          "airports": [
+            "UDAIPUR"
+          ]
+        },
+        "ahmedabad": {
+          "passengers": 914308,
+          "lastYear": 1012454,
+          "change": -9.7,
+          "airports": [
+            "AHMEDABAD"
+          ]
+        },
+        "kochi": {
+          "passengers": 874599,
+          "lastYear": 908392,
+          "change": -3.7,
+          "airports": [
+            "KOCHI"
+          ]
+        },
+        "lucknow": {
+          "passengers": 427504,
+          "lastYear": 444903,
+          "change": -3.9,
+          "airports": [
+            "LUCKNOW"
+          ]
+        },
+        "indore": {
+          "passengers": 301622,
+          "lastYear": 328506,
+          "change": -8.2,
+          "airports": [
+            "INDORE"
+          ]
+        },
+        "coimbatore": {
+          "passengers": 256341,
+          "lastYear": 276998,
+          "change": -7.5,
+          "airports": [
+            "COIMBATORE"
+          ]
+        }
+      },
+      "checkedAt": "2026-09-26T13:08:57.225Z"
+    },
+    {
+      "month": "2026-08",
+      "pdfUrl": "https://www.aai.aero/sites/default/files/traffic-news/Aug2k26Annex3.pdf",
+      "cities": {
+        "delhi": {
+          "passengers": 6168022,
+          "lastYear": 6081302,
+          "change": 1.4,
+          "airports": [
+            "DELHI (DIAL)",
+            "NOIDA (NIAL)",
+            "HINDON"
+          ]
+        },
+        "mumbai": {
+          "passengers": 4405892,
+          "lastYear": 4521955,
+          "change": -2.6,
+          "airports": [
+            "MUMBAI (MIAL)",
+            "NAVI MUMBAI (NMIAL)"
+          ]
+        },
+        "bengaluru": {
+          "passengers": 3405847,
+          "lastYear": 3515284,
+          "change": -3.1,
+          "airports": [
+            "BENGALURU (BIAL)",
+            "BENGALURU (HAL)"
+          ]
+        },
+        "hyderabad": {
+          "passengers": 2187017,
+          "lastYear": 2470997,
+          "change": -11.5,
+          "airports": [
+            "HYDERABAD (GHIAL)",
+            "HYDERABAD (BEGUMPET)"
+          ]
+        },
+        "chennai": {
+          "passengers": 1681835,
+          "lastYear": 1891833,
+          "change": -11.1,
+          "airports": [
+            "CHENNAI"
+          ]
+        },
+        "kolkata": {
+          "passengers": 1397093,
+          "lastYear": 1596429,
+          "change": -12.5,
+          "airports": [
+            "KOLKATA"
+          ]
+        },
+        "pune": {
+          "passengers": 908137,
+          "lastYear": 901217,
+          "change": 0.8,
+          "airports": [
+            "PUNE"
+          ]
+        },
+        "goa": {
+          "passengers": 729079,
+          "lastYear": 840792,
+          "change": -13.3,
+          "airports": [
+            "GOA (MOPA)",
+            "GOA (DABOLIM)"
+          ]
+        },
+        "jaipur": {
+          "passengers": 367940,
+          "lastYear": 435556,
+          "change": -15.5,
+          "airports": [
+            "JAIPUR"
+          ]
+        },
+        "udaipur": {
+          "passengers": 114949,
+          "lastYear": 108992,
+          "change": 5.5,
+          "airports": [
+            "UDAIPUR"
+          ]
+        },
+        "ahmedabad": {
+          "passengers": 877764,
+          "lastYear": 1059985,
+          "change": -17.2,
+          "airports": [
+            "AHMEDABAD"
+          ]
+        },
+        "kochi": {
+          "passengers": 979732,
+          "lastYear": 959679,
+          "change": 2.1,
+          "airports": [
+            "KOCHI"
+          ]
+        },
+        "lucknow": {
+          "passengers": 423137,
+          "lastYear": 469810,
+          "change": -9.9,
+          "airports": [
+            "LUCKNOW"
+          ]
+        },
+        "indore": {
+          "passengers": 300741,
+          "lastYear": 360940,
+          "change": -16.7,
+          "airports": [
+            "INDORE"
+          ]
+        },
+        "coimbatore": {
+          "passengers": 270736,
+          "lastYear": 270399,
+          "change": 0.1,
+          "airports": [
+            "COIMBATORE"
+          ]
+        }
+      },
+      "checkedAt": "2026-09-26T13:08:59.642Z"
+    }
+  ],
+  "held": [],
+  "updatedAt": "2026-09-26T13:08:59.642Z"
+}

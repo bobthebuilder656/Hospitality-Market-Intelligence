@@ -1,0 +1,15 @@
+node_modules/
+.env
+
+# Articles, case studies, their pictures and the project notes that list them.
+# They are scheduled ahead of their publish dates, so they live in a separate
+# private repository (see lib/paths.js).
+content/
+
+# Written by the evals on every run.
+evals/report.html
+evals/report.json
+evals/self-test-report.json
+
+# Written by the monthly events check; may name articles that are not published yet.
+data/event-review.json

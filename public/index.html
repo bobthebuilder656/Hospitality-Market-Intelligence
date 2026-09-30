@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hospitality Market Intelligence</title>
+<meta name="description" content="A daily briefing for hotel sales teams in India: hospitality news, hotel and travel stock prices, city events and demand dates, and practical reads." />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- One bar holds the brand and the tabs. On phones the tabs move to a bar at the
+       bottom of the screen and show their icon and short label. -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+          <g fill="#f26b1d">
+            <ellipse cx="16" cy="6.5" rx="4" ry="5.5" />
+            <ellipse cx="16" cy="6.5" rx="4" ry="5.5" transform="rotate(45 16 16)" />
+            <ellipse cx="16" cy="6.5" rx="4" ry="5.5" transform="rotate(90 16 16)" />
+            <ellipse cx="16" cy="6.5" rx="4" ry="5.5" transform="rotate(135 16 16)" />
+            <ellipse cx="16" cy="6.5" rx="4" ry="5.5" transform="rotate(180 16 16)" />
+            <ellipse cx="16" cy="6.5" rx="4" ry="5.5" transform="rotate(225 16 16)" />
+            <ellipse cx="16" cy="6.5" rx="4" ry="5.5" transform="rotate(270 16 16)" />
+            <ellipse cx="16" cy="6.5" rx="4" ry="5.5" transform="rotate(315 16 16)" />
+          </g>
+          <circle cx="16" cy="16" r="5.5" fill="#1c1c1c" />
+        </svg>
+        <h1>Hospitality Market Intelligence</h1>
+      </div>
+
+      <nav class="tabs" aria-label="Sections">
+        <button class="tab active" data-tab="dashboard">
+          <svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="1.5" /><rect x="14" y="3" width="7" height="5" rx="1.5" /><rect x="14" y="12" width="7" height="9" rx="1.5" /><rect x="3" y="16" width="7" height="5" rx="1.5" /></svg>
+          <span>Dashboard</span>
+        </button>
+        <button class="tab" data-tab="news">
+          <svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h13v14H6a2 2 0 0 1-2-2z" /><path d="M17 9h3v8a2 2 0 0 1-2 2" /><path d="M8 9h5M8 13h5" /></svg>
+          <span>News</span>
+        </button>
+        <button class="tab" data-tab="stocks">
+          <svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8" /><path d="M15 7h6v6" /></svg>
+          <span class="tab-full">Stock Prices</span><span class="tab-short">Stocks</span>
+        </button>
+        <button class="tab" data-tab="events">
+          <svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M3 10h18M8 3v4M16 3v4" /></svg>
+          <span class="tab-full">City Events</span><span class="tab-short">Events</span>
+        </button>
+        <button class="tab" data-tab="resources">
+          <svg class="tab-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z" /><path d="M5 17a3 3 0 0 1 3-3h11" /></svg>
+          <span>Resources</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="dashboard" class="tab-panel active">
+      <div id="dash-content">
+        <p class="loading">Loading dashboard…</p>
+      </div>
+    </section>
+
+    <section id="news" class="tab-panel">
+      <div class="panel-header">
+        <span><span id="news-count"></span><span class="updated" id="updated-at"></span></span>
+        <button id="refresh-btn">Refresh</button>
+      </div>
+      <!-- Filters are titled dropdowns. The hidden button rows below hold the filtering logic; app.js keeps them in step. -->
+      <div class="filters">
+        <label class="filter">
+          <span class="filter-label">Region</span>
+          <select id="news-region-select">
+            <option value="all">All regions</option>
+            <option value="India">India</option>
+            <option value="Global">International</option>
+          </select>
+        </label>
+      </div>
+      <div class="sort-controls filter-buttons" id="news-region-controls">
+        <button class="sort-btn active" data-region="all">All</button>
+        <button class="sort-btn" data-region="India">India</button>
+        <button class="sort-btn" data-region="Global">International</button>
+      </div>
+      <div id="news-list" class="news-list">
+        <p class="loading">Loading news…</p>
+      </div>
+    </section>
+
+    <section id="stocks" class="tab-panel">
+      <div class="panel-header">
+        <span id="stocks-count" class="market-status"></span>
+        <button id="stocks-refresh-btn">Refresh</button>
+      </div>
+      <div id="stocks-pulse" class="pulse-bar"></div>
+      <div class="toolbar">
+        <div class="filters">
+          <label class="filter">
+            <span class="filter-label">Category</span>
+            <select id="stock-category-select">
+              <option value="all">All categories</option>
+              <option value="hotel">Hotel chains</option>
+              <option value="restaurant">Restaurant brands</option>
+              <option value="ota">Online travel</option>
+            </select>
+          </label>
+          <label class="filter">
+            <span class="filter-label">Sort by</span>
+            <select id="stock-sort-select">
+              <option value="gainers">Top gainers</option>
+              <option value="losers">Top losers</option>
+              <option value="az">Name, A–Z</option>
+            </select>
+          </label>
+        </div>
+        <div class="sort-controls filter-buttons" id="stock-category-controls">
+          <button class="sort-btn active" data-category="all">All</button>
+          <button class="sort-btn" data-category="hotel">Hotel Chains</button>
+          <button class="sort-btn" data-category="restaurant">Restaurant Brands</button>
+          <button class="sort-btn" data-category="ota">Online travel</button>
+        </div>
+        <div class="sort-controls filter-buttons" id="sort-controls">
+          <button class="sort-btn active" data-sort="gainers">Top Gainers</button>
+          <button class="sort-btn" data-sort="losers">Top Losers</button>
+          <button class="sort-btn" data-sort="az">A–Z</button>
+        </div>
+        <div class="sort-controls toolbar-end" id="stock-tools-controls">
+          <button type="button" class="sort-btn" id="compare-btn" aria-pressed="false">Compare stocks</button>
+        </div>
+      </div>
+      <div id="compare-bar" class="compare-bar" hidden></div>
+      <p id="stocks-msg" class="stocks-msg" role="status"></p>
+      <div id="stocks-watchlist"></div>
+      <div id="stocks-list" class="stocks-list">
+        <p class="loading">Loading stock prices…</p>
+      </div>
+      <p class="disclaimer">For information only, not financial advice. Prices come from Yahoo Finance and may be delayed.</p>
+    </section>
+
+    <section id="events" class="tab-panel">
+      <div class="panel-header">
+        <span id="events-count"></span>
+        <div class="view-toggle" id="events-view-controls">
+          <button class="sort-btn active" data-view="list">List</button>
+          <button class="sort-btn" data-view="calendar">Calendar</button>
+        </div>
+      </div>
+      <div class="filters" id="events-filters">
+        <label class="filter filter-city">
+          <span class="filter-label">City</span>
+          <select id="events-city-select"></select>
+        </label>
+        <label class="filter">
+          <span class="filter-label">Period</span>
+          <select id="events-range-select">
+            <option value="30">Next 30 days</option>
+            <option value="60">Next 60 days</option>
+            <option value="90">Next 90 days</option>
+            <option value="all">All (6 months)</option>
+          </select>
+        </label>
+        <label class="filter">
+          <span class="filter-label">Event type</span>
+          <select id="events-type-select">
+            <option value="all">All types</option>
+            <option value="festive">Holidays &amp; festivals</option>
+            <option value="business">Business</option>
+            <option value="sports">Sports</option>
+            <option value="culture">Culture</option>
+          </select>
+        </label>
+      </div>
+      <div id="events-summary" class="events-summary"></div>
+      <div id="events-cityinfo" class="events-cityinfo" hidden></div>
+      <div id="events-list" class="events-list">
+        <p class="loading">Loading city events…</p>
+      </div>
+      <div id="events-calendar" class="events-calendar" hidden></div>
+      <p class="disclaimer" id="events-footnote"></p>
+    </section>
+
+    <section id="resources" class="tab-panel">
+      <div id="res-content">
+        <p class="loading">Loading resources…</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="stock-modal" class="modal-backdrop hidden">
+    <div class="modal-content" role="dialog" aria-modal="true" aria-label="Stock details">
+      <button id="modal-close" class="modal-close" aria-label="Close">&times;</button>
+      <div id="modal-body"><p class="loading">Loading…</p></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="air.js"></script>
+  <script src="events.js"></script>
+  <script src="resources.js"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>

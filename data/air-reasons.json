@@ -1,0 +1,78 @@
+{
+  "_readme": "One-line, sourced reasons for each city's latest AAI year-on-year change, shown in City Events > Air traffic. Only shown while 'month' matches the latest month in air-traffic.json; update it when a new month arrives. basis 'city' = a source names this city; 'national' = no city-specific cause published, so the national driver is shown and labelled as such. Cities left out have no verified cause.",
+  "month": "2026-08",
+  "checkedAt": "2026-09-29",
+  "all": {
+    "text": "The West Asia conflict disrupted Gulf flights, and high jet fuel prices led Air India (−22%) and IndiGo (−5–7%) to cut domestic flights from June to August.",
+    "sources": [
+      { "name": "Sentinel Assam, 28 May 2026", "url": "https://www.sentinelassam.com/more-news/business/air-india-cuts-22-domestic-flights-indigo-trims-5-7-domestic-17-international" },
+      { "name": "Khaleej Times, 28 May 2026", "url": "https://www.khaleejtimes.com/world/asia/high-airfares-mideast-war-drag-indias-air-traffic-mumbai-airport-down-62-in-march" }
+    ]
+  },
+  "national": {
+    "text": "Airlines cut domestic flights from June to August over high fuel costs (Air India −22%, IndiGo −5–7%); India's domestic traffic fell 6.3% in August.",
+    "sources": [
+      { "name": "Sentinel Assam, 28 May 2026", "url": "https://www.sentinelassam.com/more-news/business/air-india-cuts-22-domestic-flights-indigo-trims-5-7-domestic-17-international" },
+      { "name": "Angel One (DGCA data), 23 Sep 2026", "url": "https://www.angelone.in/news/economy/india-s-domestic-air-traffic-drops-6-34-to-12-126-million-passengers-in-august-2026" }
+    ]
+  },
+  "cities": {
+    "delhi": {
+      "basis": "city",
+      "text": "Noida International Airport (Jewar) opened to commercial flights on 15 June 2026, adding new capacity to the NCR.",
+      "sources": [{ "name": "Republic World", "url": "https://www.republicworld.com/amp/india/noida-international-airport-in-jewar-to-start-commercial-flights-from-june-15" }]
+    },
+    "mumbai": {
+      "basis": "city",
+      "text": "Gulf flights from Mumbai were disrupted by the West Asia conflict, and Mumbai routes were among those cut from June to August over high fuel costs.",
+      "sources": [
+        { "name": "Khaleej Times, 28 May 2026", "url": "https://www.khaleejtimes.com/world/asia/high-airfares-mideast-war-drag-indias-air-traffic-mumbai-airport-down-62-in-march" },
+        { "name": "Business Today, 27 May 2026", "url": "https://www.businesstoday.in/india/story/air-india-indigo-to-cut-domestic-flights-from-june-1-report-533465-2026-05-27" }
+      ]
+    },
+    "bengaluru": {
+      "basis": "city",
+      "text": "Delhi–Bengaluru was among the routes where Air India and IndiGo cut frequencies from June to August over high fuel costs.",
+      "sources": [{ "name": "Business Today, 27 May 2026", "url": "https://www.businesstoday.in/india/story/air-india-indigo-to-cut-domestic-flights-from-june-1-report-533465-2026-05-27" }]
+    },
+    "hyderabad": {
+      "basis": "city",
+      "text": "Gulf traffic fell sharply amid the West Asia conflict (international −26%), and Delhi–Hyderabad frequencies were cut over fuel costs (domestic −13.6%).",
+      "sources": [
+        { "name": "Siasat, 17 Sep 2026", "url": "https://www.siasat.com/hyderabad-airport-passenger-traffic-falls-11-5-pc-in-august-3543522/" },
+        { "name": "Siasat (Gulf traffic), 17 Sep 2026", "url": "https://www.siasat.com/hyderabad-gulf-traffic-falls-as-west-asia-tensions-persist-3543823/" }
+      ]
+    },
+    "chennai": { "basis": "national" },
+    "kolkata": {
+      "basis": "city",
+      "text": "Delhi–Kolkata was among the routes where Air India and IndiGo cut frequencies from June to August over high fuel costs.",
+      "sources": [{ "name": "Business Today, 27 May 2026", "url": "https://www.businesstoday.in/india/story/air-india-indigo-to-cut-domestic-flights-from-june-1-report-533465-2026-05-27" }]
+    },
+    "goa": {
+      "basis": "city",
+      "text": "Mopa airport traffic fell 22.8% in August, and Gulf flights were scaled back amid the West Asia conflict (Goa's international traffic down 42–69% in April–June).",
+      "sources": [
+        { "name": "Goemkarponn, 18 Sep 2026", "url": "https://goemkarponn.com/mopa-passenger-traffic-drops-22-8-in-august-as-goa-airport-faces-sharp-decline/" },
+        { "name": "Goemkarponn, 26 Aug 2026", "url": "https://goemkarponn.com/goas-international-air-traffic-takes-major-hit-dabolim-down-69-and-mopa-42/" }
+      ]
+    },
+    "jaipur": {
+      "basis": "city",
+      "text": "Airlines suspended seven domestic services from Jaipur in June 2026, citing low occupancy.",
+      "sources": [{ "name": "Jaipur Unveiled, 1 Jun 2026", "url": "https://www.jaipurunveiled.com/news/international-flight-disruptions-impact-jaipur-as-several-air-routes-remain-suspended/" }]
+    },
+    "udaipur": {
+      "basis": "city",
+      "text": "Tourism and destination-wedding demand keep traffic rising (up 21% over the three years to FY2025-26).",
+      "sources": [{ "name": "Udaipur Kiran, 25 Aug 2026", "url": "https://udaipurkiran.com/udaipur-airport-passenger-traffic-rises-21-in-three-years/" }]
+    },
+    "ahmedabad": {
+      "basis": "city",
+      "text": "Mumbai–Ahmedabad was among the routes where Air India and IndiGo cut frequencies from June to August over high fuel costs.",
+      "sources": [{ "name": "Business Today, 27 May 2026", "url": "https://www.businesstoday.in/india/story/air-india-indigo-to-cut-domestic-flights-from-june-1-report-533465-2026-05-27" }]
+    },
+    "lucknow": { "basis": "national" },
+    "indore": { "basis": "national" }
+  }
+}

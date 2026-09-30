@@ -1,0 +1,328 @@
+{
+  "generatedAt": "2026-09-30T11:34:56.335Z",
+  "sources": [
+    {
+      "name": "Hotelier India",
+      "region": "India"
+    },
+    {
+      "name": "ET HospitalityWorld",
+      "region": "India"
+    },
+    {
+      "name": "HospitalityBiz India",
+      "region": "India"
+    },
+    {
+      "name": "TravelBiz Monitor",
+      "region": "India"
+    },
+    {
+      "name": "Hotelivate",
+      "region": "India"
+    },
+    {
+      "name": "Travel Trade Journal",
+      "region": "India"
+    },
+    {
+      "name": "Hospitality ON",
+      "region": "Global"
+    },
+    {
+      "name": "Hospitality Net",
+      "region": "Global"
+    },
+    {
+      "name": "Skift",
+      "region": "Global"
+    },
+    {
+      "name": "Travel Daily News",
+      "region": "Global"
+    },
+    {
+      "name": "Business Traveller",
+      "region": "Global"
+    },
+    {
+      "name": "Hotel Dive",
+      "region": "Global"
+    }
+  ],
+  "feedHealth": [
+    {
+      "id": "hotelier-india",
+      "name": "Hotelier India",
+      "ok": true,
+      "fetched": 60,
+      "kept": 4,
+      "dropped": {
+        "award announcement with no real content": 2
+      },
+      "error": null
+    },
+    {
+      "id": "et-hospitality",
+      "name": "ET HospitalityWorld",
+      "ok": true,
+      "fetched": 10,
+      "kept": 4,
+      "dropped": {},
+      "error": null
+    },
+    {
+      "id": "hospitalitybiz-india",
+      "name": "HospitalityBiz India",
+      "ok": true,
+      "fetched": 10,
+      "kept": 4,
+      "dropped": {
+        "non-English": 1
+      },
+      "error": null
+    },
+    {
+      "id": "travelbiz-monitor",
+      "name": "TravelBiz Monitor",
+      "ok": true,
+      "fetched": 10,
+      "kept": 4,
+      "dropped": {
+        "non-English": 1
+      },
+      "error": null
+    },
+    {
+      "id": "hotelivate",
+      "name": "Hotelivate",
+      "ok": true,
+      "fetched": 10,
+      "kept": 0,
+      "dropped": {
+        "too old": 10
+      },
+      "error": null
+    },
+    {
+      "id": "travel-trade-journal",
+      "name": "Travel Trade Journal",
+      "ok": true,
+      "fetched": 10,
+      "kept": 4,
+      "dropped": {
+        "staff appointment": 1,
+        "too old": 2
+      },
+      "error": null
+    },
+    {
+      "id": "hospitality-on",
+      "name": "Hospitality ON",
+      "ok": true,
+      "fetched": 100,
+      "kept": 4,
+      "dropped": {
+        "award announcement with no real content": 1,
+        "too old": 3
+      },
+      "error": null
+    },
+    {
+      "id": "hospitality-net",
+      "name": "Hospitality Net",
+      "ok": true,
+      "fetched": 20,
+      "kept": 4,
+      "dropped": {
+        "award announcement with no real content": 1
+      },
+      "error": null
+    },
+    {
+      "id": "skift",
+      "name": "Skift",
+      "ok": true,
+      "fetched": 10,
+      "kept": 4,
+      "dropped": {},
+      "error": null
+    },
+    {
+      "id": "travel-daily-news",
+      "name": "Travel Daily News",
+      "ok": true,
+      "fetched": 10,
+      "kept": 4,
+      "dropped": {},
+      "error": null
+    },
+    {
+      "id": "business-traveller",
+      "name": "Business Traveller",
+      "ok": true,
+      "fetched": 18,
+      "kept": 4,
+      "dropped": {
+        "non-English": 2,
+        "sponsored": 2
+      },
+      "error": null
+    },
+    {
+      "id": "hotel-dive",
+      "name": "Hotel Dive",
+      "ok": true,
+      "fetched": 10,
+      "kept": 4,
+      "dropped": {
+        "roundup/digest (title)": 1
+      },
+      "error": null
+    }
+  ],
+  "droppedItems": [
+    {
+      "source": "Hotelier India",
+      "title": "Novotel Visakhapatnam Varun Beach named Best 5-Star Deluxe Hotel at Andhra Pradesh Tourism Excellence Awards 2026",
+      "reason": "award announcement with no real content"
+    },
+    {
+      "source": "Hotelier India",
+      "title": "The Postcard Hotel wins 12 honours at World Travel Awards 2026",
+      "reason": "award announcement with no real content"
+    },
+    {
+      "source": "HospitalityBiz India",
+      "title": "Onora Hospitality to open jüSTa Luxé Monsoon Palace in Udaipur on October 11",
+      "reason": "non-English"
+    },
+    {
+      "source": "TravelBiz Monitor",
+      "title": "Onora Hospitality to open jüSTa Luxé Monsoon Palace in Udaipur on October 11",
+      "reason": "non-English"
+    },
+    {
+      "source": "Travel Trade Journal",
+      "title": "Atmosphere Core appoints Neeraj Seth as Assistant Vice President – Communication",
+      "reason": "staff appointment"
+    },
+    {
+      "source": "Hospitality ON",
+      "title": "Hospitality Awards 2026: the nominees for the Best Brand Concept award",
+      "reason": "award announcement with no real content"
+    },
+    {
+      "source": "Hospitality Net",
+      "title": "AHLA Foundation Awards More Than $800,000 in Academic Scholarships to 256 Students Nationwide",
+      "reason": "award announcement with no real content"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Neue Einreiseregeln weltweit: Das hat sich aktuell geändert",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Naher Osten: Flüge nach Dubai sollen Ende Oktober wieder starten",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "The New Rules of Men’s Health",
+      "reason": "sponsored"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Heading to Arkansas? Make Crystal Bridges Your First Stop",
+      "reason": "sponsored"
+    },
+    {
+      "source": "Hotel Dive",
+      "title": "Lodging Lowdown: Highgate names new CMO, Ritz-Carlton Residences in Florida tops out",
+      "reason": "roundup/digest (title)"
+    }
+  ],
+  "items": [
+    {
+      "title": "WTTC Brings Together More Than 100 Global Speakers for the World's Most Influential Travel & Tourism Event: WTTC’s Global Summit",
+      "link": "https://www.hospitalitynet.org/news/4134660/wttc-brings-together-more-than-100-global-speakers-for-the-worlds-most-influential-travel-tourism-event-wttcs-global-summit",
+      "source": "Hospitality Net",
+      "region": "Global",
+      "pubDate": "2026-09-30T11:21:23.000Z",
+      "snippet": "WTTC's 26th Global Summit in Valletta, Malta, under the theme FUTU[RE]SET, convenes 100+ speakers including ministers, CEOs, and former heads of state across eight strategic priorities for travel and tourism."
+    },
+    {
+      "title": "Build Inclusive Workplaces, Reap Immense Employee Loyalty: Keshav Suri",
+      "link": "https://hospitalitybizindia.com/example-3/hotels/build-inclusive-workplaces-reap-immense-employee-loyalty-keshav-suri/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-09-30T11:06:36.000Z",
+      "snippet": "“They are only looking for equal opportunity and a holding hand. In return, business enterprises can get unmatched loyalty. The moment you show belongingness, these communities will stay forever,” Suri said. He pointed to The Lalit Group’s own experience, saying more than 50 per cent of its workforce comes from marginalised communities, with attrition among them at zero."
+    },
+    {
+      "title": "Conrad Koh Samui’s New Villa Packs In a Sauna, Cinema and Plunge Pools",
+      "link": "https://www.businesstraveller.com/news/conrad-koh-samui-pearl-presidential-villa/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-09-30T11:02:40.000Z",
+      "snippet": "The 766sqm Pearl villa will welcome its first guests in October."
+    },
+    {
+      "title": "Subway restaurants operator EverBrands India files papers for Rs 600 crore IPO",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/subway-restaurants-operator-everbrands-india-files-papers-for-rs-600-crore-ipo/134587868",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-09-30T10:30:00.000Z",
+      "snippet": "EverBrands India Ltd, which operates Subway restaurants, has filed draft papers for an initial public offering. The company aims to raise Rs 600 crore to support its expansion plans. Proceeds from the IPO will be used to repay borrowings and fund new Subway store openings."
+    },
+    {
+      "title": "Luxury Travel Is Shifting from Showy Holidays to Calm, Seamless Journeys",
+      "link": "https://travelbizmonitor.com/guest/luxury-travel-is-shifting-from-showy-holidays-to-calm-seamless-journeys/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-09-30T10:24:52.000Z",
+      "snippet": "Deepak Nangla, Managing Director, Premier by Brightsun Luxury travel is increasingly being judged by how little effort a traveller has to expend, rather than by how visibly expensive a holiday appears."
+    },
+    {
+      "title": "Rethinking India’s Tourism PPPs",
+      "link": "https://travelbizmonitor.com/editorial/rethinking-indias-tourism-ppps/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-09-30T10:21:21.000Z",
+      "snippet": "India’s tourism opportunity is no longer limited by a lack of attractions. From heritage cities and wildlife reserves to beaches, spiritual centres and emerging leisure destinations, the country has an extraordinary portfolio. Infrastructure is improving, too. The bigger challenge is turning these individual strengths into destinations that offer a seamless, compelling and commercially sustainable visitor experience."
+    },
+    {
+      "title": "CMAC Group partners with iCoupon",
+      "link": "https://www.traveldailynews.com/aviation/cmac-group-icoupon-airline-disruption-services/",
+      "source": "Travel Daily News",
+      "region": "Global",
+      "pubDate": "2026-09-30T10:15:50.000Z",
+      "snippet": "ACCRINGTON, UK – CMAC Group , an airline disruption support and accommodation provider, is partnering with iCoupon to enhance passenger services during disruption. CMAC provides ground transportation services for the global travel sector. The company has become a transportation partner for iCoupon Rides. iCoupon Rides is already used by global airlines."
+    },
+    {
+      "title": "Rotana CEO: Last-Minute Gulf Bookings Make Q4 Hard To Predict",
+      "link": "https://skift.com/2026/09/30/rotana-ceo-last-minute-gulf-bookings-make-q4-hard-to-predict/",
+      "source": "Skift",
+      "region": "Global",
+      "pubDate": "2026-09-30T10:00:00.000Z",
+      "snippet": "Skift Take: The expected return of international travelers and a busy events calendar give hope for a Q4 recovery. Photo Credit: Saadiyat Rotana in Abu Dhabi. Rotana The expected return of international travelers and a busy events calendar give hope for a Q4 recovery."
+    },
+    {
+      "title": "Taj celebrates the opening of Taj Hessischer Hof Frankfurt",
+      "link": "https://traveltradejournal.com/taj-celebrates-the-opening-of-taj-hessischer-hof-frankfurt/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-09-29T12:56:37.000Z",
+      "snippet": "Indian Hotels Company (IHCL) has opened Taj Hessischer Hof Frankfurt, marking the Taj brand’s debut in continental Europe and expanding IHCL’s presence in the region. Located in Frankfurt’s trade fair district, the hotel brings the historic Hessischer Hof property under the Taj portfolio, combining the building’s established heritage with the brand’s hospitality offering."
+    },
+    {
+      "title": "Apeejay Surrendra Park Hotels signs Zone Connect by The Park Bharatpur",
+      "link": "https://www.hotelierindia.com/development/apeejay-surrendra-park-hotels-signs-zone-connect-by-the-park-bharatpur",
+      "source": "Hotelier India",
+      "region": "India",
+      "pubDate": "2026-09-29T09:01:51.000Z",
+      "snippet": ""
+    }
+  ]
+}

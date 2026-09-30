@@ -1,0 +1,707 @@
+{
+  "_readme": "Hand-curated City Events: expos, conferences, sports and culture that matter for hotels. Only add an event once its dates are officially announced, and always include a source. cities: city ids from lib/cities.js. Dates are inclusive (YYYY-MM-DD). newsKeywords: phrases a headline must contain to count as news about this event (the first one is also the search term). Optional newsAlso: the headline must also contain one of these. Optional newsExclude: regex patterns that rule a headline out (look-alikes such as hockey or overseas editions). image: optional picture for the card (the event website's sharing image, checked by hand). Last researched: 2026-09-23.",
+  "events": [
+    {
+      "id": "wi-t20i-lucknow-2026",
+      "name": "India vs West Indies, 1st T20I",
+      "category": "sports",
+      "start": "2026-10-06",
+      "end": "2026-10-06",
+      "venue": "Ekana Cricket Stadium",
+      "note": "Night match. Visiting fans, teams and broadcast crews book one or two nights.",
+      "cities": [
+        "lucknow"
+      ],
+      "source": "https://en.wikipedia.org/wiki/West_Indian_cricket_team_in_India_in_2026%E2%80%9327",
+      "newsKeywords": [
+        "India vs West Indies",
+        "IND vs WI"
+      ],
+      "newsAlso": [
+        "cricket",
+        "ODI",
+        "T20I",
+        "T20",
+        "Test"
+      ],
+      "newsExclude": [
+        "hockey",
+        "U-?19",
+        "under-19",
+        "women"
+      ]
+    },
+    {
+      "id": "imc-2026",
+      "name": "India Mobile Congress 2026",
+      "category": "expo",
+      "start": "2026-10-07",
+      "end": "2026-10-10",
+      "venue": "Yashobhoomi (IICC), Dwarka",
+      "note": "Large telecom and tech crowd of exhibitors and delegates. Dwarka and Aerocity hotels see the most demand.",
+      "cities": [
+        "delhi"
+      ],
+      "source": "https://www.indiatvnews.com/technology/news/india-mobile-congress-2026-dates-jyotiraditya-scindia-mwc-barcelona-2026-03-04-1032555",
+      "newsKeywords": [
+        "India Mobile Congress"
+      ],
+      "image": "https://cdn.indiamobilecongress.com/10-years-theme.webp"
+    },
+    {
+      "id": "wi-t20i-indore-2026",
+      "name": "India vs West Indies, 3rd T20I",
+      "category": "sports",
+      "start": "2026-10-11",
+      "end": "2026-10-11",
+      "venue": "Holkar Stadium",
+      "note": "Sunday night match. Visiting fans, teams and broadcast crews book one or two nights.",
+      "cities": [
+        "indore"
+      ],
+      "source": "https://en.wikipedia.org/wiki/West_Indian_cricket_team_in_India_in_2026%E2%80%9327",
+      "newsKeywords": [
+        "India vs West Indies",
+        "IND vs WI"
+      ],
+      "newsAlso": [
+        "cricket",
+        "ODI",
+        "T20I",
+        "T20",
+        "Test"
+      ],
+      "newsExclude": [
+        "hockey",
+        "U-?19",
+        "under-19",
+        "women"
+      ]
+    },
+    {
+      "id": "ihgf-autumn-2026",
+      "name": "IHGF Delhi Fair (Autumn)",
+      "category": "expo",
+      "start": "2026-10-13",
+      "end": "2026-10-17",
+      "venue": "India Expo Centre & Mart, Greater Noida",
+      "note": "Asia's largest handicrafts and gifts sourcing fair. International buyers stay the full week; Greater Noida and Noida hotels fill first.",
+      "cities": [
+        "delhi"
+      ],
+      "source": "https://www.indianembassyzagreb.gov.in/page/ihgf-delhi-fair-autumn-2026-13-17-october-2026-india-expo-centre-and-mart-delhi-ncr/",
+      "newsKeywords": [
+        "IHGF"
+      ]
+    },
+    {
+      "id": "wi-t20i-hyderabad-2026",
+      "name": "India vs West Indies, 4th T20I",
+      "category": "sports",
+      "start": "2026-10-14",
+      "end": "2026-10-14",
+      "venue": "Rajiv Gandhi International Stadium",
+      "note": "Night match. Visiting fans, teams and broadcast crews book one or two nights.",
+      "cities": [
+        "hyderabad"
+      ],
+      "source": "https://en.wikipedia.org/wiki/West_Indian_cricket_team_in_India_in_2026%E2%80%9327",
+      "newsKeywords": [
+        "India vs West Indies",
+        "IND vs WI"
+      ],
+      "newsAlso": [
+        "cricket",
+        "ODI",
+        "T20I",
+        "T20",
+        "Test"
+      ],
+      "newsExclude": [
+        "hockey",
+        "U-?19",
+        "under-19",
+        "women"
+      ]
+    },
+    {
+      "id": "wi-t20i-bengaluru-2026",
+      "name": "India vs West Indies, 5th T20I",
+      "category": "sports",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "venue": "M. Chinnaswamy Stadium",
+      "note": "Saturday night match. Visiting fans, teams and broadcast crews book one or two nights.",
+      "cities": [
+        "bengaluru"
+      ],
+      "source": "https://en.wikipedia.org/wiki/West_Indian_cricket_team_in_India_in_2026%E2%80%9327",
+      "newsKeywords": [
+        "India vs West Indies",
+        "IND vs WI"
+      ],
+      "newsAlso": [
+        "cricket",
+        "ODI",
+        "T20I",
+        "T20",
+        "Test"
+      ],
+      "newsExclude": [
+        "hockey",
+        "U-?19",
+        "under-19",
+        "women"
+      ]
+    },
+    {
+      "id": "rei-expo-2026",
+      "name": "Renewable Energy India Expo",
+      "category": "expo",
+      "start": "2026-10-22",
+      "end": "2026-10-24",
+      "venue": "India Expo Centre & Mart, Greater Noida",
+      "note": "Asia's largest clean-energy show, with 1,000+ exhibitors and 55,000+ visitors. Strong demand in Greater Noida and Noida.",
+      "cities": [
+        "delhi"
+      ],
+      "source": "https://www.renewableenergyindiaexpo.com/",
+      "newsKeywords": [
+        "Renewable Energy India Expo",
+        "REI Expo"
+      ]
+    },
+    {
+      "id": "iitf-2026",
+      "name": "India International Trade Fair (IITF)",
+      "category": "expo",
+      "start": "2026-11-13",
+      "end": "2026-11-27",
+      "venue": "Bharat Mandapam, Pragati Maidan",
+      "note": "India's largest trade fair, two weeks long. Exhibitors and state pavilions book long stays in central and South Delhi. In 2026 it opens on 13 November, a day earlier than its usual 14 November start (The Tribune, 30 Sep 2026).",
+      "cities": [
+        "delhi"
+      ],
+      "source": "https://globaltradefairs.com/tradefairs/event-details/iitf-2026",
+      "newsKeywords": [
+        "India International Trade Fair",
+        "IITF"
+      ],
+      "image": "https://s3.ap-south-1.amazonaws.com/globaltradefairs.com/event-logos/1780141917_iitf-2026.jpg"
+    },
+    {
+      "id": "bts-2026",
+      "name": "Bengaluru Tech Summit 2026",
+      "category": "conference",
+      "start": "2026-11-17",
+      "end": "2026-11-19",
+      "venue": "BIEC, Tumakuru Road",
+      "note": "Asia's large tech summit, with international delegations. Hotels near BIEC and in north Bengaluru fill first.",
+      "cities": [
+        "bengaluru"
+      ],
+      "source": "https://www.bengalurutechsummit.com/",
+      "newsKeywords": [
+        "Bengaluru Tech Summit"
+      ],
+      "image": "https://www.bengalurutechsummit.com/img/banner/bts-new-ban2.webp"
+    },
+    {
+      "id": "iffi-2026",
+      "name": "IFFI Goa (International Film Festival of India)",
+      "category": "culture",
+      "start": "2026-11-20",
+      "end": "2026-11-28",
+      "venue": "Panjim",
+      "note": "Nine-day film festival: delegates, film industry guests and media, concentrated around Panjim.",
+      "cities": [
+        "goa"
+      ],
+      "source": "https://www.iffigoa.org/",
+      "newsKeywords": [
+        "IFFI"
+      ],
+      "newsAlso": [
+        "Goa",
+        "57th",
+        "2026"
+      ],
+      "image": "https://www.iffigoa.org/images/header-logo/iffi-logo.png"
+    },
+    {
+      "id": "cphi-pmec-2026",
+      "name": "CPHI & PMEC India",
+      "category": "expo",
+      "start": "2026-11-23",
+      "end": "2026-11-26",
+      "venue": "Yashobhoomi, Dwarka (CPHI) and India Expo Centre, Greater Noida (PMEC)",
+      "note": "South Asia's biggest pharma show, split across two venues this year. Pharma delegates fill hotels in Dwarka, Aerocity and Greater Noida.",
+      "cities": [
+        "delhi"
+      ],
+      "source": "https://www.cphi.com/india/",
+      "newsKeywords": [
+        "CPHI India",
+        "PMEC India",
+        "CPHI"
+      ],
+      "newsAlso": [
+        "India",
+        "pharma"
+      ]
+    },
+    {
+      "id": "plast-pack-indore-2026",
+      "name": "Plast Pack 2026",
+      "category": "expo",
+      "start": "2026-11-27",
+      "end": "2026-11-30",
+      "venue": "Labhganga Exhibition Centre",
+      "note": "Plastics, packaging and printing exhibition with 500+ companies; exhibitors and trade buyers stay for the show.",
+      "cities": [
+        "indore"
+      ],
+      "source": "https://m.thewire.in/article/ptiprnews/plast-pack-2026-indore-to-host-the-mega-industrial-expo-from-november-27-to-30/amp",
+      "newsKeywords": [
+        "Plast Pack"
+      ],
+      "newsAlso": [
+        "Indore"
+      ]
+    },
+    {
+      "id": "itme-2026",
+      "name": "India ITME 2026",
+      "category": "expo",
+      "start": "2026-12-04",
+      "end": "2026-12-09",
+      "venue": "India Expo Centre & Mart, Greater Noida",
+      "note": "The largest textile machinery show in its field: 1,800+ exhibitors from 90+ countries and about 150,000 visitors over six days. Expect Greater Noida and Noida to sell out.",
+      "cities": [
+        "delhi"
+      ],
+      "source": "https://indiaexpomart.com/events/india-itme-2026/",
+      "newsKeywords": [
+        "India ITME",
+        "ITME 2026"
+      ]
+    },
+    {
+      "id": "sl-odi-delhi-2026",
+      "name": "India vs Sri Lanka, 1st ODI",
+      "category": "sports",
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "venue": "Arun Jaitley Stadium",
+      "note": "Sunday day-night match. Visiting fans, teams and broadcast crews book one or two nights.",
+      "cities": [
+        "delhi"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Sri_Lankan_cricket_team_in_India_in_2026%E2%80%9327",
+      "newsKeywords": [
+        "India vs Sri Lanka",
+        "IND vs SL"
+      ],
+      "newsAlso": [
+        "cricket",
+        "ODI",
+        "T20I",
+        "T20",
+        "Test"
+      ],
+      "newsExclude": [
+        "hockey",
+        "U-?19",
+        "under-19",
+        "women"
+      ]
+    },
+    {
+      "id": "serendipity-2026",
+      "name": "Serendipity Arts Festival",
+      "category": "culture",
+      "start": "2026-12-13",
+      "end": "2026-12-20",
+      "venue": "Panjim",
+      "note": "Eight-day arts festival. Adds to Goa's December build-up before the Christmas peak.",
+      "cities": [
+        "goa"
+      ],
+      "source": "https://www.serendipityartsfestival.com/",
+      "newsKeywords": [
+        "Serendipity Arts Festival"
+      ]
+    },
+    {
+      "id": "sl-odi-bengaluru-2026",
+      "name": "India vs Sri Lanka, 2nd ODI",
+      "category": "sports",
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "venue": "M. Chinnaswamy Stadium",
+      "note": "Day-night match. Visiting fans, teams and broadcast crews book one or two nights.",
+      "cities": [
+        "bengaluru"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Sri_Lankan_cricket_team_in_India_in_2026%E2%80%9327",
+      "newsKeywords": [
+        "India vs Sri Lanka",
+        "IND vs SL"
+      ],
+      "newsAlso": [
+        "cricket",
+        "ODI",
+        "T20I",
+        "T20",
+        "Test"
+      ],
+      "newsExclude": [
+        "hockey",
+        "U-?19",
+        "under-19",
+        "women"
+      ]
+    },
+    {
+      "id": "madras-music-season-2026",
+      "name": "Chennai December Music Season",
+      "category": "culture",
+      "start": "2026-12-16",
+      "end": "2027-01-01",
+      "venue": "Music Academy and sabhas across the city",
+      "note": "Carnatic music and dance season. NRI and domestic visitors stay for a week or more, often in South Chennai.",
+      "cities": [
+        "chennai"
+      ],
+      "source": "https://musicacademymadras.in/100th-annual-concerts-2026/",
+      "newsKeywords": [
+        "Music Academy",
+        "December Season",
+        "Margazhi"
+      ],
+      "newsAlso": [
+        "Chennai",
+        "Madras",
+        "Carnatic"
+      ],
+      "image": "https://musicacademymadras.in/wp-content/uploads/2025/12/Logo-1200x625-1.png"
+    },
+    {
+      "id": "sunburn-2026",
+      "name": "Sunburn Festival 2026",
+      "category": "culture",
+      "start": "2026-12-18",
+      "end": "2026-12-20",
+      "venue": "Mahalaxmi Racecourse (closing party at NSCI Dome)",
+      "note": "Two-day EDM festival plus a closing party; out-of-town fans book central Mumbai for the weekend.",
+      "cities": [
+        "mumbai"
+      ],
+      "source": "https://musically.com/2026/05/13/sunburn-2026-to-be-staged-over-two-days-at-mumbais-mahalaxmi-racecourse/",
+      "newsKeywords": [
+        "Sunburn"
+      ],
+      "newsAlso": [
+        "festival",
+        "Mumbai",
+        "EDM"
+      ],
+      "image": "https://musically.com/wp-content/uploads/2025/08/Sunburn-2024-2.jpg"
+    },
+    {
+      "id": "sl-odi-ahmedabad-2026",
+      "name": "India vs Sri Lanka, 3rd ODI",
+      "category": "sports",
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "venue": "Narendra Modi Stadium",
+      "note": "Saturday day-night match at the world's largest cricket stadium. Visiting fans, teams and broadcast crews book one or two nights.",
+      "cities": [
+        "ahmedabad"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Sri_Lankan_cricket_team_in_India_in_2026%E2%80%9327",
+      "newsKeywords": [
+        "India vs Sri Lanka",
+        "IND vs SL"
+      ],
+      "newsAlso": [
+        "cricket",
+        "ODI",
+        "T20I",
+        "T20",
+        "Test"
+      ],
+      "newsExclude": [
+        "hockey",
+        "U-?19",
+        "under-19",
+        "women"
+      ]
+    },
+    {
+      "id": "jjs-2026",
+      "name": "Jaipur Jewellery Show",
+      "category": "expo",
+      "start": "2026-12-22",
+      "end": "2026-12-25",
+      "venue": "JECC (Novotel Jaipur Convention Centre)",
+      "note": "India's largest B2B and B2C jewellery show, with 800+ exhibitors, running into the Christmas peak. A trade-only preview day is on 21 Dec.",
+      "cities": [
+        "jaipur"
+      ],
+      "source": "https://www.indianjeweller.in/Indian-Jewellery-News/16048/jaipur-jewellery-show-2026-sets-dates-adds-trade-only-preview-day",
+      "newsKeywords": [
+        "Jaipur Jewellery Show"
+      ]
+    },
+    {
+      "id": "sl-t20i-pune-2026",
+      "name": "India vs Sri Lanka, 3rd T20I",
+      "category": "sports",
+      "start": "2026-12-27",
+      "end": "2026-12-27",
+      "venue": "MCA Stadium, Gahunje",
+      "note": "Sunday night match in the holiday week. Visiting fans, teams and broadcast crews book one or two nights.",
+      "cities": [
+        "pune"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Sri_Lankan_cricket_team_in_India_in_2026%E2%80%9327",
+      "newsKeywords": [
+        "India vs Sri Lanka",
+        "IND vs SL"
+      ],
+      "newsAlso": [
+        "cricket",
+        "ODI",
+        "T20I",
+        "T20",
+        "Test"
+      ],
+      "newsExclude": [
+        "hockey",
+        "U-?19",
+        "under-19",
+        "women"
+      ]
+    },
+    {
+      "id": "vibrant-gujarat-2027",
+      "name": "Vibrant Gujarat Global Summit 2027",
+      "category": "conference",
+      "start": "2027-01-10",
+      "end": "2027-01-12",
+      "venue": "Mahatma Mandir, Gandhinagar",
+      "note": "Gujarat's flagship investment summit, with heads of state, global CEOs and delegations. Ahmedabad and Gandhinagar hotels book out well ahead.",
+      "cities": [
+        "ahmedabad"
+      ],
+      "source": "https://www.eoibudapest.gov.in/section/public-advisories/conference-vibrant-gujarat-summit-10-12-jan-2027-at-gujarat-india/",
+      "newsKeywords": [
+        "Vibrant Gujarat"
+      ]
+    },
+    {
+      "id": "jlf-2027",
+      "name": "Jaipur Literature Festival 2027",
+      "category": "culture",
+      "start": "2027-01-14",
+      "end": "2027-01-18",
+      "venue": "Hotel Clarks Amer",
+      "note": "One of Jaipur's busiest weeks. Speakers, delegates and visitors from across India and abroad.",
+      "cities": [
+        "jaipur"
+      ],
+      "source": "https://www.jaipurliteraturefestival.org/programme",
+      "newsKeywords": [
+        "Jaipur Literature Festival",
+        "JLF"
+      ],
+      "newsExclude": [
+        "Boulder",
+        "London",
+        "Houston",
+        "New York",
+        "Toronto",
+        "Adelaide",
+        "Doha",
+        "Colorado"
+      ],
+      "image": "https://www.jaipurliteraturefestival.org/jlf-social-preview.png"
+    },
+    {
+      "id": "ndwbf-2027",
+      "name": "New Delhi World Book Fair",
+      "category": "expo",
+      "start": "2027-01-16",
+      "end": "2027-01-24",
+      "venue": "Bharat Mandapam",
+      "note": "Publishers and exhibitors from India and abroad stay for the nine-day fair.",
+      "cities": [
+        "delhi"
+      ],
+      "source": "https://thenewpublishingstandard.com/2026/02/26/ndwbf-2027-registration-opens/",
+      "newsKeywords": [
+        "World Book Fair"
+      ],
+      "image": "https://cdn.thenewpublishingstandard.com/wp-content/uploads/2026/02/Book-Fair-Brief.jpg"
+    },
+    {
+      "id": "mumbai-marathon-2027",
+      "name": "Tata Mumbai Marathon",
+      "category": "sports",
+      "start": "2027-01-17",
+      "end": "2027-01-17",
+      "venue": "CSMT to Marine Drive route",
+      "note": "Race day is Sunday; out-of-town runners arrive Friday–Saturday for the expo and bib collection. Road closures in South Mumbai.",
+      "cities": [
+        "mumbai"
+      ],
+      "source": "https://www.ahotu.com/event/tata-mumbai-marathon",
+      "newsKeywords": [
+        "Mumbai Marathon"
+      ],
+      "image": "https://tatamumbaimarathon.procam.in/_next/static/media/og-image.1ea55f10.jpg"
+    },
+    {
+      "id": "imtex-2027",
+      "name": "IMTEX 2027",
+      "category": "expo",
+      "start": "2027-01-21",
+      "end": "2027-01-27",
+      "venue": "BIEC, Tumakuru Road",
+      "note": "Asia's largest machine tool exhibition. Week-long exhibitor and buyer stays; north Bengaluru fills first.",
+      "cities": [
+        "bengaluru"
+      ],
+      "source": "https://www.imtex.in/",
+      "newsKeywords": [
+        "IMTEX"
+      ]
+    },
+    {
+      "id": "kolkata-book-fair-2027",
+      "name": "International Kolkata Book Fair (50th edition)",
+      "category": "expo",
+      "start": "2027-01-22",
+      "end": "2027-02-03",
+      "venue": "Central Park Mela Ground, Salt Lake",
+      "note": "Two-week fair, a milestone 50th edition. Publishers and visitors, mostly around Salt Lake.",
+      "cities": [
+        "kolkata"
+      ],
+      "source": "https://madhyom.in/50th-kolkata-book-fair-2027-dates-israel-theme-bangladesh-stall/",
+      "newsKeywords": [
+        "Kolkata Book Fair",
+        "Boi Mela"
+      ],
+      "image": "https://dtuxpyit8mln9.cloudfront.net/wp-content/uploads/2026/09/08115709/Kolkata-Book-Fair_f.jpeg"
+    },
+    {
+      "id": "aus-test-chennai-2027",
+      "name": "India vs Australia, 2nd Test",
+      "category": "sports",
+      "start": "2027-01-29",
+      "end": "2027-02-02",
+      "venue": "MA Chidambaram Stadium",
+      "note": "Five-day Test in the Border–Gavaskar series. Teams, media and travelling fans stay the full week.",
+      "cities": [
+        "chennai"
+      ],
+      "source": "https://www.cricket.com.au/news/4476875/australia-v-india-test-series-border-gavaskar-trophy-2027-schedule-venues-revealed",
+      "newsKeywords": [
+        "India vs Australia",
+        "Border-Gavaskar"
+      ],
+      "newsAlso": [
+        "2027",
+        "Border-Gavaskar",
+        "BGT"
+      ],
+      "newsExclude": [
+        "hockey",
+        "U-?19",
+        "under-19",
+        "women"
+      ]
+    },
+    {
+      "id": "kgaf-2027",
+      "name": "Kala Ghoda Arts Festival",
+      "category": "culture",
+      "start": "2027-01-30",
+      "end": "2027-02-07",
+      "venue": "Kala Ghoda, South Mumbai",
+      "note": "Nine-day street arts festival; mostly local crowds, with extra F&B demand in South Mumbai.",
+      "cities": [
+        "mumbai"
+      ],
+      "source": "https://www.timeout.com/mumbai/news/kala-ghoda-arts-festivals-2027-dates-and-theme-are-out-what-to-know-072126",
+      "newsKeywords": [
+        "Kala Ghoda Arts Festival",
+        "KGAF"
+      ],
+      "image": "https://media.timeout.com/images/106428843/image.jpg"
+    },
+    {
+      "id": "bmge-2027",
+      "name": "Bharat Mobility Global Expo 2027",
+      "category": "expo",
+      "start": "2027-02-04",
+      "end": "2027-02-09",
+      "venue": "Bharat Mandapam and Yashobhoomi",
+      "note": "India's auto and mobility show across two venues. Heavy exhibitor, OEM and media demand across Delhi NCR.",
+      "cities": [
+        "delhi"
+      ],
+      "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2141842",
+      "newsKeywords": [
+        "Bharat Mobility"
+      ]
+    },
+    {
+      "id": "aero-india-2027",
+      "name": "Aero India 2027",
+      "category": "expo",
+      "start": "2027-02-08",
+      "end": "2027-02-12",
+      "venue": "Air Force Station Yelahanka",
+      "note": "Asia's biggest air show. International defence delegations; north Bengaluru and airport-area hotels sell out.",
+      "cities": [
+        "bengaluru"
+      ],
+      "source": "https://indiadefencewire.com/articles/aero-india-2027-dates-feb-8-12-yelahanka",
+      "newsKeywords": [
+        "Aero India"
+      ],
+      "image": "https://aeroindia.gov.in/opengraph-image?860b8d1d33b614b0"
+    },
+    {
+      "id": "aus-test-ahmedabad-2027",
+      "name": "India vs Australia, 5th Test",
+      "category": "sports",
+      "start": "2027-02-27",
+      "end": "2027-03-03",
+      "venue": "Narendra Modi Stadium",
+      "note": "Final Test of the Border–Gavaskar series. Teams, media and travelling fans stay the full week.",
+      "cities": [
+        "ahmedabad"
+      ],
+      "source": "https://www.cricket.com.au/news/4476875/australia-v-india-test-series-border-gavaskar-trophy-2027-schedule-venues-revealed",
+      "newsKeywords": [
+        "India vs Australia",
+        "Border-Gavaskar"
+      ],
+      "newsAlso": [
+        "2027",
+        "Border-Gavaskar",
+        "BGT"
+      ],
+      "newsExclude": [
+        "hockey",
+        "U-?19",
+        "under-19",
+        "women"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "_readme": "Links and settings for the Resources tab. Reports: only reports published in the current year, each linked to the report itself, with the publication date checked by hand (last checked 2026-09-26). Older editions are removed when a new year starts; the monthly check flags new editions. Descriptions are our own words. group: market | travel. access is shown only when a report isn't free. Learning material (research papers such as Cornell's) belongs in articles and case studies, not here.",
+  "gst": {
+    "effectiveFrom": "2025-09-22",
+    "roomSlabs": [
+      {
+        "upTo": 7500,
+        "rate": 5,
+        "note": "No input tax credit (ITC) for the hotel. Applies to every room up to ₹7,500 a night; the old exemption for rooms under ₹1,000 was withdrawn in July 2022."
+      },
+      {
+        "upTo": null,
+        "rate": 18,
+        "note": "Input tax credit (ITC) available"
+      }
+    ],
+    "food": {
+      "standard": 5,
+      "specifiedPremises": 18,
+      "note": "Food and drinks served in a hotel are taxed at 18% if any room in that hotel was sold above ₹7,500 a night in the previous financial year (a \"specified premises\"), otherwise 5%."
+    },
+    "sources": [
+      {
+        "name": "GST Council: recommendations of the 56th meeting (official press release, Sep 2025, PDF)",
+        "url": "https://gstcouncil.gov.in/sites/default/files/2025-09/press_release_press_information_bureau_0.pdf"
+      },
+      {
+        "name": "ClearTax: GST on hotel rooms",
+        "url": "https://cleartax.in/s/impact-of-gst-hospitality-industry"
+      },
+      {
+        "name": "Business Standard: 18% GST on restaurants in hotels above ₹7,500",
+        "url": "https://www.business-standard.com/industry/news/hotel-restaurants-charge-18-gst-if-room-rent-exceeds-rs-7-5k-per-day-cbic-125032701340_1.html"
+      },
+      {
+        "name": "Angel One: 18% GST for restaurant services in hotels with tariffs above ₹7,500",
+        "url": "https://www.angelone.in/news/18-gst-for-restaurant-services-in-hotels-with-tariffs-above-7500-what-it-means"
+      }
+    ]
+  },
+  "reports": [
+    {
+      "group": "market",
+      "name": "HVS Anarock Monitor: July 2026",
+      "publisher": "HVS Anarock",
+      "frequency": "Monthly",
+      "published": "4 Aug 2026",
+      "about": "The latest monthly update on Indian hotel occupancy, room rates and RevPAR, with the month's key trends.",
+      "url": "https://anarock.com/research/research-reports/hvs-anarock-monitor-july-2026"
+    },
+    {
+      "group": "market",
+      "name": "India Hospitality Industry Overview 2025",
+      "publisher": "HVS Anarock",
+      "frequency": "Annual",
+      "published": "8 May 2026",
+      "about": "Performance of the major Indian hotel markets in 2025, new supply, brand signings and deals.",
+      "url": "https://www.hvs.com/article/10451-hvs-anarock-india-hospitality-industry-overview-2025"
+    },
+    {
+      "group": "market",
+      "name": "The Indian Hospitality Industry",
+      "publisher": "ICRA",
+      "frequency": "Several times a year",
+      "published": "Mar 2026 (PDF)",
+      "about": "A credit-rating agency's view of demand, room rates and supply for premium hotels, with FY2027 forecasts.",
+      "url": "https://www.icra.in/Rating/DownloadResearchSpecialCommentReport?id=6849"
+    },
+    {
+      "group": "market",
+      "name": "India Hotel Market Review 2025",
+      "publisher": "Horwath HTL",
+      "frequency": "Annual",
+      "published": "Feb 2026 (PDF)",
+      "about": "National and city-by-city occupancy, room rates and RevPAR for 2025 (CoStar data), plus supply, pipeline and demand mix.",
+      "url": "https://horwathhtl.com/wp-content/uploads/2026/02/HHTL-India-Market-Report-2025.pdf"
+    },
+    {
+      "group": "market",
+      "name": "Indian Hotel Sector: 2025 in Review",
+      "publisher": "HVS",
+      "frequency": "Annual",
+      "published": "7 Jan 2026",
+      "about": "HVS's look back at 2025: domestic travel strength, growth in tier-II and III cities, weak foreign arrivals, and the year's disruptions.",
+      "url": "https://www.hvs.com/article/10354-indian-hotel-sector-2025-in-review"
+    },
+    {
+      "group": "travel",
+      "name": "India Tourism Data Portal",
+      "publisher": "Ministry of Tourism",
+      "frequency": "Monthly",
+      "published": "Updated monthly",
+      "about": "The Ministry of Tourism's official statistics: monthly foreign tourist arrivals, domestic visits, state-wise figures and its latest tourism snapshots.",
+      "url": "https://data.tourism.gov.in/"
+    },
+    {
+      "group": "travel",
+      "name": "India Travel & Tourism Economic Impact",
+      "publisher": "WTTC",
+      "frequency": "Annual",
+      "published": "Jul 2026",
+      "about": "Tourism's contribution to India's economy and jobs, domestic vs international spending, and forecasts to 2036.",
+      "url": "https://researchhub.wttc.org/product/factsheet-india-travel-tourism-economic-impact"
+    },
+    {
+      "group": "travel",
+      "name": "State of Travel 2026",
+      "publisher": "Skift Research",
+      "frequency": "Annual",
+      "published": "11 Aug 2026",
+      "access": "Paid",
+      "about": "A global map of the travel industry with 150+ charts and a chapter on hotels, including how travellers use AI to plan trips.",
+      "url": "https://skift.com/insights/state-of-travel/"
+    },
+    {
+      "group": "travel",
+      "name": "The Skift India Travel Intelligence Briefing",
+      "publisher": "Skift Research",
+      "frequency": "Occasional",
+      "published": "25 Mar 2026",
+      "access": "Paid",
+      "about": "India's domestic, inbound and outbound travel compared on one scorecard: where India is strong and where it lags.",
+      "url": "https://research.skift.com/reports/the-skift-india-travel-intelligence-briefing/"
+    }
+  ]
+}

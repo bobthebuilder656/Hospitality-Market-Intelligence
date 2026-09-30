@@ -1,0 +1,25 @@
+{
+  "name": "hospitality-intel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hospitality Market Intelligence tool for hotel sales teams",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "refresh-news": "node lib/fetchNews.js",
+    "check-events": "node lib/monthlyCheck.js",
+    "evals": "node evals/run.js",
+    "evals:quick": "node evals/run.js --quick",
+    "evals:links": "node evals/run.js --links",
+    "evals:all": "node evals/run.js --all",
+    "evals:self-test": "node evals/self-test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pdf-parse": "^1.1.1",
+    "rss-parser": "^3.13.0"
+  }
+}

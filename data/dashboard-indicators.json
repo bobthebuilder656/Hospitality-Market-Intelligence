@@ -1,0 +1,105 @@
+{
+  "_readme": "Indicators saved for the Dashboard tab (not built yet): shown there as small cards. Moved from the Resources market pulse on 2026-09-26; figures and sources as checked then.",
+  "indicators": [
+    {
+      "id": "foreign-arrivals",
+      "icon": "🌍",
+      "title": "Foreign tourist arrivals",
+      "measures": "How many foreign visitors came to India in a year. Counted at immigration and published by the Ministry of Tourism.",
+      "period": "Year 2025",
+      "value": "About 90–92 lakh visitors",
+      "change": {
+        "percent": -9,
+        "label": "Down 8–9% on 2024"
+      },
+      "whatItMeans": [
+        "Fewer foreign visitors came to India in 2025 than in 2024.",
+        "Most of the fall came from one country: visitors from Bangladesh dropped by about 73% (from 17.5 lakh to 4.7 lakh) as fewer visas were issued. Leaving Bangladesh out, arrivals actually grew by about 4%.",
+        "Foreign visitors are a small part of Indian hotel demand: Indians travelling within India make up about 86% of all tourism spending."
+      ],
+      "note": "The Ministry's first figure (reported March 2026) was 90.2 lakh, down 9.4%; a later report (August 2026) gave 91.5 lakh, down 8.1%. Early figures are often revised.",
+      "official": [
+        {
+          "name": "Ministry of Tourism: India Tourism Data Portal",
+          "url": "https://data.tourism.gov.in/"
+        }
+      ],
+      "reported": [
+        {
+          "name": "Daily Pioneer: 90.2 lakh, and the Bangladesh effect (Mar 2026)",
+          "url": "https://dailypioneer.com/news/foreign-tourist-arrivals-to-india-fall-9-4-amid-bangladesh-tensions"
+        },
+        {
+          "name": "Business Today: 91.5 lakh (Aug 2026)",
+          "url": "https://www.businesstoday.in/india/story/indias-foreign-tourist-arrivals-fall-8-to-just-9-million-552244-2026-08-31"
+        },
+        {
+          "name": "WTTC: domestic share of tourism spending",
+          "url": "https://wttc.org/news/india-unlock-international-demand-become-leading-player-global-tourism"
+        }
+      ]
+    },
+    {
+      "id": "india-hotels",
+      "icon": "🏨",
+      "title": "India hotel performance",
+      "measures": "How full India's branded hotels are and what they charge. January–March 2026 from HVS Anarock; full-year 2025 from Horwath HTL, using CoStar data. The two use different hotel samples, so compare trends rather than exact numbers.",
+      "period": "January–March 2026",
+      "compare": {
+        "columns": [
+          "Jan–Mar 2026",
+          "Full year 2025"
+        ],
+        "rows": [
+          {
+            "label": "Occupancy",
+            "values": [
+              "67–69%",
+              "64%"
+            ]
+          },
+          {
+            "label": "Average room rate",
+            "values": [
+              "₹10,000–10,200",
+              "₹8,624"
+            ]
+          },
+          {
+            "label": "RevPAR",
+            "values": [
+              "₹6,700–7,038",
+              "₹5,522"
+            ]
+          }
+        ]
+      },
+      "whatItMeans": [
+        "January to March is India's busiest hotel season (weddings, conferences and winter travel), so it usually runs above the full-year average.",
+        "Early 2026 was better than the same months of 2025, led by New Delhi (78–80% occupancy in March) and Mumbai (73–75%).",
+        "Growth slowed from April to June because of geopolitical tensions and the usual summer lull, but May and June were still ahead of 2025."
+      ],
+      "note": "In 2025 occupancy rose 1.1 points, the average rate 8.6% and RevPAR 10.8% (Horwath HTL). HVS Anarock gives its figures as ranges.",
+      "official": [
+        {
+          "name": "HVS Anarock Monitor, April 2026 (Jan–Mar figures)",
+          "url": "https://www.hvs.com/article/10452-HVS-ANAROCK-MONITOR-April-2026"
+        },
+        {
+          "name": "Horwath HTL: India Hotel Market Review 2025 (PDF, page 4)",
+          "url": "https://horwathhtl.com/wp-content/uploads/2026/02/HHTL-India-Market-Report-2025.pdf"
+        }
+      ],
+      "reported": [
+        {
+          "name": "HVS Anarock Monitor, July 2026 (slowdown from April to June)",
+          "url": "https://www.hotelnewsresource.com/article142363.html"
+        },
+        {
+          "name": "HVS Anarock Monitor, June 2026 (May ahead of last year)",
+          "url": "https://www.hvs.com/article/10503-hvs-anarock-monitor-june-2026"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "_readme": "Glossary for the Resources tab: one term is shown each day. Definitions follow common hotel-industry usage (as used by STR/CoStar, USALI, HSMAI and hotel schools), written in our own words: 3-4 lines explaining what the term means, how it's worked out and why it matters, plus a worked example. short: one complete sentence shown on the Resources home. group: performance | pricing | sales | revenue | distribution.",
+  "terms": [
+    {
+      "term": "Occupancy",
+      "group": "performance",
+      "short": "The percentage of available rooms that were sold: rooms sold ÷ rooms available.",
+      "definition": "Occupancy is the share of your available rooms that were actually sold, shown as a percentage. It's worked out as rooms sold ÷ rooms available, for a night, a month or a year. It tells you how full the hotel is, but not how much each room earned: a hotel can be full and still make little money if rooms are sold cheaply. That's why occupancy is always read together with ADR and RevPAR.",
+      "example": "A 120-room hotel sells 96 rooms on a Tuesday night. Occupancy = 96 ÷ 120 = 80%. Over a 30-night month, the same hotel has 3,600 rooms available; if it sells 2,700, monthly occupancy is 75%."
+    },
+    {
+      "term": "ADR (Average Daily Rate)",
+      "group": "performance",
+      "short": "The average price earned per room sold: room revenue ÷ rooms sold.",
+      "definition": "ADR is the average price earned per room sold. It's worked out as room revenue ÷ rooms sold, and it only counts rooms that were actually sold, not empty ones. ADR shows your pricing power: whether guests are paying more or less per night. It can rise while the hotel gets emptier, so it should never be judged on its own.",
+      "example": "The hotel earns ₹8,40,000 in room revenue from 96 rooms sold. ADR = ₹8,40,000 ÷ 96 = ₹8,750. If next week it sells only 80 rooms but at ₹9,500 each, ADR goes up while occupancy goes down."
+    },
+    {
+      "term": "RevPAR (Revenue per Available Room)",
+      "group": "performance",
+      "short": "Room revenue divided by all available rooms, sold or not; it equals occupancy × ADR.",
+      "definition": "RevPAR is room revenue divided by all the rooms you had available, sold or not. It combines occupancy and rate in one number: RevPAR = occupancy × ADR. Because empty rooms count against you, it rewards the right balance between filling rooms and charging well. It's the headline number most hotels and investors use to compare performance.",
+      "example": "₹8,40,000 room revenue across 120 available rooms gives RevPAR of ₹7,000. The same answer comes from 80% occupancy × ₹8,750 ADR. A rival with 90% occupancy but a ₹7,000 ADR has a lower RevPAR of ₹6,300."
+    },
+    {
+      "term": "TRevPAR (Total Revenue per Available Room)",
+      "group": "performance",
+      "short": "All hotel revenue (rooms, food, banquets, spa) divided by rooms available.",
+      "definition": "TRevPAR is all the hotel's revenue (rooms, restaurants, bars, banquets, spa and other services) divided by rooms available. RevPAR only sees room income; TRevPAR shows how well the whole hotel earns from each room it has. It matters most for hotels with big food, banquet or events businesses, where a lower room rate can still win if guests spend more elsewhere.",
+      "example": "A 120-room hotel earns ₹8,40,000 from rooms and ₹3,60,000 from food, drink and banquets in a night. TRevPAR = ₹12,00,000 ÷ 120 = ₹10,000, compared with a RevPAR of ₹7,000."
+    },
+    {
+      "term": "GOPPAR (Gross Operating Profit per Available Room)",
+      "group": "performance",
+      "short": "Gross operating profit divided by rooms available: how much profit each room generates.",
+      "definition": "GOPPAR is gross operating profit (revenue minus the costs of running the hotel, before items like rent, interest and management fees) divided by rooms available. Where RevPAR and TRevPAR measure income, GOPPAR measures profit. It shows whether extra revenue is actually worth it once staff, commissions and running costs are paid.",
+      "example": "The hotel makes ₹12,00,000 of revenue in a night and spends ₹7,20,000 running it, leaving ₹4,80,000 gross operating profit. GOPPAR = ₹4,80,000 ÷ 120 rooms = ₹4,000."
+    },
+    {
+      "term": "Flow-through",
+      "group": "performance",
+      "short": "The share of a change in revenue that turns into a change in profit.",
+      "definition": "Flow-through is the share of a change in revenue that ends up as a change in profit. It's worked out as change in gross operating profit ÷ change in revenue. High flow-through means extra revenue is being earned efficiently; low flow-through means costs are rising almost as fast as sales. Owners watch it closely when a hotel's revenue grows.",
+      "example": "Revenue rises by ₹10 lakh compared with last year, and gross operating profit rises by ₹6 lakh. Flow-through = ₹6 lakh ÷ ₹10 lakh = 60%. If profit had risen by only ₹2 lakh, flow-through would be a weak 20%."
+    },
+    {
+      "term": "ALOS (Average Length of Stay)",
+      "group": "performance",
+      "short": "The average number of nights per booking: room nights sold ÷ number of stays.",
+      "definition": "ALOS is the average number of nights each booking stays. It's worked out as room nights sold ÷ number of bookings (stays). Longer stays usually mean lower costs per night (fewer check-ins and room changeovers) and steadier occupancy. Leisure and wedding guests tend to stay longer than business travellers.",
+      "example": "In a week the hotel sells 300 room nights from 120 bookings. ALOS = 300 ÷ 120 = 2.5 nights. A Goa resort in peak season might see 4 nights; a Gurugram business hotel might see 1.6."
+    },
+    {
+      "term": "Comp set (competitive set)",
+      "group": "performance",
+      "short": "The small group of similar nearby hotels you compare your performance against.",
+      "definition": "Your comp set is the small group of hotels you measure yourself against: usually 4 to 6 nearby hotels of a similar class, price and guest mix. Benchmarking services such as STR (CoStar) compare your results with the comp set's combined results, so you know whether a good month was your doing or the whole market's. A comp set that includes the wrong hotels gives misleading answers.",
+      "example": "A 5-star hotel in Aerocity, Delhi, might choose four other 5-star hotels in Aerocity as its comp set, rather than hotels in central Delhi that serve different guests."
+    },
+    {
+      "term": "MPI, ARI and RGI",
+      "group": "performance",
+      "short": "Indices comparing your occupancy, rate and RevPAR with your comp set, where 100 means equal.",
+      "definition": "These three indices compare your hotel with its comp set, where 100 means you perform exactly like the comp set. MPI (market penetration index) compares occupancy, ARI (average rate index) compares ADR, and RGI (revenue generation index) compares RevPAR. Above 100 means you're taking more than your fair share; below 100 means less. RGI is the one most owners watch.",
+      "example": "Your occupancy is 78% and the comp set's is 72%: MPI = 78 ÷ 72 × 100 = 108. Your ADR is ₹8,000 against their ₹8,500: ARI = 94. Your RGI works out at about 102, so you're slightly ahead overall, mainly by filling rooms."
+    },
+    {
+      "term": "BAR (Best Available Rate)",
+      "group": "pricing",
+      "short": "The lowest unrestricted rate any guest can book for a night; it changes with demand.",
+      "definition": "BAR is the lowest rate that any guest can book for a given night without special conditions: no advance payment, membership or corporate agreement needed. It changes with demand, day by day, and is usually the reference point that other rates (corporate, member, package rates) are set against, often as a discount from BAR.",
+      "example": "BAR for a deluxe room is ₹9,000 on a busy Saturday and ₹6,500 on a quiet Monday. A corporate client with a '10% off BAR' agreement pays ₹8,100 and ₹5,850 on those nights."
+    },
+    {
+      "term": "Rack rate",
+      "group": "pricing",
+      "short": "The hotel's full published room price before any discount; few guests pay it.",
+      "definition": "The rack rate is the hotel's full published price for a room, before any discount. The name comes from the days when rates were printed on a card on the front-desk rack. Today very few guests pay it; it mainly acts as a ceiling, and many hotels use dynamic BAR pricing instead of a fixed rack rate.",
+      "example": "A room has a rack rate of ₹15,000, but on most nights it sells for ₹9,000 to ₹11,000 through BAR, corporate and package rates."
+    },
+    {
+      "term": "Transient",
+      "group": "sales",
+      "short": "Guests who book individually rather than as part of a group.",
+      "definition": "Transient guests are those who book individually rather than as part of a group, whether they're travelling for business or leisure. Transient business is usually booked closer to arrival and at higher rates than group business. Hotels forecast transient demand carefully because it decides how many rooms are worth holding back from groups.",
+      "example": "A consultant booking two nights through the hotel website for a client meeting is transient business; 40 rooms booked by a company for its conference are group business."
+    },
+    {
+      "term": "Group",
+      "group": "sales",
+      "short": "A booking of several rooms (usually 10+ a night) for one event or purpose, under one contract.",
+      "definition": "A group booking is several rooms (commonly 10 or more on the same night) booked for the same event or purpose, usually under one contract. Groups bring volume and often meals, meeting rooms and banquets, and are booked well in advance, but at a discount. Deciding which groups to accept is one of the most important revenue decisions a hotel makes.",
+      "example": "A pharma company books 40 rooms for 3 nights for its dealer meet, with a conference hall, lunches and a gala dinner, all under one agreement."
+    },
+    {
+      "term": "MICE",
+      "group": "sales",
+      "short": "Meetings, Incentives, Conferences and Exhibitions: business travel built around events.",
+      "definition": "MICE stands for Meetings, Incentives, Conferences and Exhibitions: business travel built around an event rather than individual trips. It includes company meetings, reward trips for staff or dealers, industry conferences and trade shows. MICE guests often come in large numbers, stay several nights and spend on meeting space and food, which makes them valuable, especially on weekdays.",
+      "example": "Exhibitors and visitors at a trade fair at Bharat Mandapam or India Expo Mart fill hotels across Delhi NCR for the fair's duration; that's MICE demand."
+    },
+    {
+      "term": "FIT (Free Independent Traveller)",
+      "group": "sales",
+      "short": "A guest travelling on their own itinerary rather than with a tour group.",
+      "definition": "An FIT is a guest travelling on their own itinerary, not as part of a tour group. They may book directly, through an OTA, or through a travel agent who plans a custom trip for them. FITs usually pay more per room than tour groups but need more individual attention, and they're a big part of leisure demand in destinations like Jaipur and Goa.",
+      "example": "A couple from Mumbai planning their own 5-night Rajasthan trip, booking each hotel separately, are FITs."
+    },
+    {
+      "term": "GIT (Group Inclusive Tour)",
+      "group": "sales",
+      "short": "A tour group on a fixed package itinerary, usually booked through a tour operator.",
+      "definition": "A GIT is a tour group travelling on a fixed, packaged itinerary, usually organised by a tour operator who bundles hotels, transport and sightseeing. Hotels sell GITs rooms at contracted rates, often well below BAR, in exchange for volume and advance commitment. They help fill quieter periods but can crowd out higher-paying guests on peak dates.",
+      "example": "A 25-person group on a 7-night Golden Triangle package (Delhi, Agra, Jaipur) booked through one tour operator is a GIT."
+    },
+    {
+      "term": "RFP (Request for Proposal)",
+      "group": "sales",
+      "short": "A formal request asking hotels to quote rates and terms for a company's or event's business.",
+      "definition": "An RFP is a formal request from a company, agency or event planner asking hotels to quote for their business: room rates, meeting space, meals and terms. Corporate travel managers send RFPs each year to set negotiated rates, and event planners send them for conferences and incentives. How quickly and clearly a hotel responds often decides who wins.",
+      "example": "A pharma company sends an RFP to five Bengaluru hotels asking for 60 rooms over 3 nights, a 200-seat hall and all meals; each hotel replies with a priced proposal."
+    },
+    {
+      "term": "Room block",
+      "group": "sales",
+      "short": "Rooms held aside for a group at an agreed rate on specific dates.",
+      "definition": "A room block is a set number of rooms held aside for a group at an agreed rate on specific dates. The group's guests book into the block, often through a rooming list or a booking link. Blocks come with a cut-off date and attrition terms, so the hotel isn't left holding unwanted rooms.",
+      "example": "A wedding family blocks 30 rooms per night from 12 to 14 December at ₹7,500; guests book against the block until the cut-off date."
+    },
+    {
+      "term": "Cut-off date",
+      "group": "sales",
+      "short": "The deadline for a group to confirm names, after which unused rooms go back on sale.",
+      "definition": "The cut-off date is the deadline by which a group must confirm the names for its room block. After it, any rooms not yet assigned are released back into general sale, usually at the normal rate. It protects the hotel from holding empty rooms and should be set early enough to resell them.",
+      "example": "A conference block of 50 rooms has a cut-off 21 days before arrival. On that date only 38 names have been given, so the other 12 rooms go back on sale."
+    },
+    {
+      "term": "Attrition",
+      "group": "sales",
+      "short": "When a group uses fewer rooms than contracted; shortfalls beyond an agreed limit are charged.",
+      "definition": "Attrition is when a group ends up using fewer rooms than it contracted for. Group contracts usually allow some shortfall (often 10–20%) without penalty, and charge the group for unused rooms beyond that. Clear attrition terms protect the hotel's revenue when groups shrink.",
+      "example": "A group contracts 50 rooms and the contract allows 20% attrition, so it must use at least 40. It uses 35, so it pays for the 5 rooms below the 40-room minimum."
+    },
+    {
+      "term": "Displacement",
+      "group": "revenue",
+      "short": "Revenue lost by giving rooms to a lower-rate group instead of higher-paying individual guests.",
+      "definition": "Displacement is the revenue you give up by accepting a group at a lower rate on dates you could have sold to individual (transient) guests at higher rates. Before accepting a group, hotels compare what the group brings in (rooms plus meals and events) with the transient revenue it would push out. On quiet dates displacement is close to zero; on peak dates it can make a group a bad deal.",
+      "example": "On a peak night you could sell 40 rooms to transient guests at ₹9,000 (₹3.6 lakh). A group wants those 40 rooms at ₹6,000 (₹2.4 lakh) plus ₹60,000 of dinners. The group is worth ₹3 lakh, so accepting it costs you about ₹60,000."
+    },
+    {
+      "term": "Pickup",
+      "group": "revenue",
+      "short": "New bookings received for a future date over a period of time.",
+      "definition": "Pickup is the number of new bookings received for a future date over a period of time: how many rooms were 'picked up' since you last looked. Tracking pickup day by day shows whether demand for a date is building fast or slowly, which tells you whether to raise rates, hold them or stimulate demand.",
+      "example": "On Monday you had 60 rooms booked for 20 December; by Friday you have 75. Pickup for the week is 15 rooms, much faster than usual, a sign to raise rates for that night."
+    },
+    {
+      "term": "Pace",
+      "group": "revenue",
+      "short": "How bookings for a future date compare with the same point last year.",
+      "definition": "Pace compares how bookings for a future date stand today with where they stood at the same point before the same date last year (or against your forecast). Being 'ahead of pace' means demand is building faster than last year. Because festivals move each year, compare festival to festival, not calendar date to calendar date.",
+      "example": "Thirty days before Diwali you have 45 rooms booked. Last year, 30 days before Diwali, you had 38. You're 7 rooms ahead of pace, so there's room to hold or raise rates."
+    },
+    {
+      "term": "Overbooking",
+      "group": "revenue",
+      "short": "Accepting more bookings than rooms, expecting some cancellations and no-shows.",
+      "definition": "Overbooking means deliberately accepting more bookings than rooms available, expecting that some guests will cancel late or not turn up. Done carefully, based on each date's history of no-shows and late cancellations, it avoids empty rooms. Done badly, it leaves guests without a room, and the hotel must 'walk' them to another hotel at its own cost.",
+      "example": "A 100-room hotel usually sees about 5% no-shows on weekdays, so it accepts up to 104 bookings. If everyone arrives, it arranges and pays for 4 rooms at a comparable hotel nearby."
+    },
+    {
+      "term": "Stop sell",
+      "group": "revenue",
+      "short": "Closing a room type, rate or channel so no more bookings can be made for a date.",
+      "definition": "A stop sell closes a room type, a rate or a channel so no more bookings can be made for a date. Hotels use it when a room type is nearly full, or to stop discounted rates once demand is strong. It's applied in the booking system and sent to all channels, including OTAs.",
+      "example": "Once New Year's Eve reaches 85% occupancy, the hotel stops selling its advance-purchase discount rate, so the remaining rooms sell only at full price."
+    },
+    {
+      "term": "Minimum length of stay (MinLOS)",
+      "group": "revenue",
+      "short": "A rule that guests must book at least a set number of nights on certain dates.",
+      "definition": "A minimum length of stay requires guests to book at least a set number of nights for particular dates. It stops one-night bookings from taking rooms on peak nights and leaving the nights around them empty. It's common over long weekends, festivals and big events, and should be lifted if the dates don't fill.",
+      "example": "Over a 3-day long weekend, the hotel sets a 2-night minimum, so nobody can book Saturday on its own and leave Friday and Sunday unsold."
+    },
+    {
+      "term": "CTA (Closed to Arrival)",
+      "group": "revenue",
+      "short": "A rule stopping check-ins on a date while allowing stays that started earlier.",
+      "definition": "Closed to arrival stops guests from checking in on a particular date, while still allowing stays that begin earlier and continue through it. Hotels use it on a peak night so rooms go to guests staying several nights rather than just that one night. A related control, closed to departure (CTD), stops check-outs on a date.",
+      "example": "Saturday of a big wedding weekend is closed to arrival: a guest arriving Friday for 2 nights can book, but a guest wanting to arrive Saturday for 1 night can't."
+    },
+    {
+      "term": "Shoulder dates",
+      "group": "revenue",
+      "short": "The days just before and after a peak period, when demand is moderate.",
+      "definition": "Shoulder dates are the days just before and after a peak period, when demand is moderate: stronger than a normal night but softer than the peak itself. Pricing them a little below the peak captures overflow from guests who can't get the peak nights, and helps stays run longer.",
+      "example": "For a Friday-to-Sunday long weekend, Thursday and Monday are shoulder dates. A hotel might price Saturday at ₹12,000, Friday and Sunday at ₹10,000, and Thursday and Monday at ₹8,000."
+    },
+    {
+      "term": "No-show",
+      "group": "revenue",
+      "short": "A guest with a confirmed booking who doesn't arrive and doesn't cancel.",
+      "definition": "A no-show is a guest with a confirmed booking who doesn't arrive and doesn't cancel. The room usually stays empty for the night. Hotels reduce the loss by taking a guarantee (card details or a deposit) and charging a no-show fee, often one night's rate, and they build no-show history into overbooking decisions.",
+      "example": "A guest with a guaranteed booking at ₹7,000 doesn't arrive. The hotel charges the one-night no-show fee under its policy and releases the room for the rest of the stay."
+    },
+    {
+      "term": "OTA (Online Travel Agency)",
+      "group": "distribution",
+      "short": "A website or app, like MakeMyTrip or Booking.com, that sells rooms for a commission.",
+      "definition": "An OTA is a website or app that sells hotel rooms and earns a commission on each booking, such as MakeMyTrip, Booking.com, Agoda or Expedia. OTAs bring huge reach, especially for independent hotels, but the commission (often around 15–25%) reduces what the hotel keeps. Most hotels aim for a healthy mix of OTA and direct bookings.",
+      "example": "A guest books a ₹8,000 room through an OTA charging 18% commission. The hotel receives about ₹6,560 of the room rate; the same booking made direct would keep the full ₹8,000."
+    },
+    {
+      "term": "GDS (Global Distribution System)",
+      "group": "distribution",
+      "short": "The booking network travel agents and corporate travel tools use, such as Amadeus or Sabre.",
+      "definition": "A GDS is a worldwide booking network that travel agents and corporate travel tools use to book flights, hotels and cars, such as Amadeus, Sabre and Travelport. Hotels load their rates into the GDS so agencies and corporate travel desks can book them. It matters most for hotels that rely on corporate and international business travellers.",
+      "example": "A company's travel desk books a manager into a Hyderabad hotel at the company's negotiated rate through its travel agency's GDS, without ever visiting the hotel's website."
+    },
+    {
+      "term": "Channel manager",
+      "group": "distribution",
+      "short": "Software that keeps a hotel's rates and availability in sync across all booking channels.",
+      "definition": "A channel manager is software that sends a hotel's rates and room availability to all its sales channels (OTAs, the GDS and the hotel's own website) and keeps them in step. When a room sells on one channel, availability updates everywhere. It saves hours of manual updates and reduces the risk of overbooking by mistake.",
+      "example": "The revenue manager raises the Saturday rate from ₹8,000 to ₹9,500 once in the channel manager, and it updates on MakeMyTrip, Booking.com, Agoda and the hotel website within minutes."
+    },
+    {
+      "term": "PMS (Property Management System)",
+      "group": "distribution",
+      "short": "The hotel's core software for reservations, check-in, room status and billing.",
+      "definition": "The PMS is the hotel's core operating software. It holds reservations and guest profiles, handles check-in and check-out, tracks which rooms are clean, occupied or out of order, and produces bills. Most other systems (channel manager, booking engine, POS in restaurants) connect to it, and it's where most performance reports come from.",
+      "example": "At check-in, the front desk finds the booking in the PMS, assigns room 412, which housekeeping marked clean an hour earlier, and the room charges start posting to the guest's bill."
+    },
+    {
+      "term": "Direct booking",
+      "group": "distribution",
+      "short": "A booking made straight with the hotel, with no OTA commission to pay.",
+      "definition": "A direct booking is made straight with the hotel (through its website, phone, email or at the front desk) with no OTA commission to pay. Direct guests are cheaper to acquire and the hotel owns the relationship and their contact details. Hotels encourage direct booking with perks like free breakfast or upgrades, rather than lower rates that would break rate parity.",
+      "example": "The hotel offers free breakfast and late check-out for bookings on its own website. A guest who would have booked a ₹8,000 room through an OTA books direct instead, saving the hotel roughly ₹1,400 in commission."
+    },
+    {
+      "term": "Rate parity",
+      "group": "distribution",
+      "short": "Charging the same price for the same room and conditions on every sales channel.",
+      "definition": "Rate parity means offering the same price for the same room, dates and conditions across all sales channels: your website, OTAs and others. Guests compare prices across sites, so a cheaper OTA price trains them to book there. Many hotels keep parity on price and win direct bookings with added value instead.",
+      "example": "A deluxe room for 12 December is ₹8,000 on the hotel website, MakeMyTrip and Booking.com alike. The website adds free breakfast, which gives guests a reason to book direct without undercutting the OTAs."
+    }
+  ]
+}

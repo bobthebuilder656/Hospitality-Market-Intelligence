@@ -1,0 +1,53 @@
+{
+  "_readme": "Labelled headlines for company tagging (the stock chip on a news card, the 'Latest news' line on a stock card, the headlines in the stock popup). expect is the stock id the headline is about, or null when it is about no listed company. level 'warn' marks a known limit of keyword matching that is reported but does not block publishing. Add a case whenever a wrong tag is spotted.",
+  "cases": [
+    { "text": "Taj Opens Hessischer Hof in Frankfurt", "expect": "indian-hotels" },
+    { "text": "IHCL reports record quarterly revenue", "expect": "indian-hotels" },
+    { "text": "Indian Hotels Q2 profit rises 18%", "expect": "indian-hotels" },
+    { "text": "Taj Mahal Palace Mumbai to host global summit", "expect": "indian-hotels" },
+    { "text": "Taj Mahal Hotel in New Delhi completes renovation", "expect": "indian-hotels" },
+    { "text": "Taj Mahal sees record footfall on World Tourism Day", "expect": null, "why": "the monument, not the hotel brand" },
+    { "text": "Tajikistan opens e-visa for Indian tourists", "expect": null },
+    { "text": "Taj GVK Hotels posts record quarter", "expect": null, "why": "a different listed company" },
+    { "text": "Taj Express train delayed by fog", "expect": null, "why": "a train" },
+    { "text": "Vivek Oberoi launches restaurant in Dubai", "expect": null, "why": "a person" },
+    { "text": "Westlife announce India reunion show", "expect": null, "why": "the band" },
+    { "text": "How to grow a lemon tree on your balcony", "expect": null, "why": "gardening" },
+    { "text": "Indian hotels see strong demand this Diwali", "expect": null, "why": "hotels in India in general, not Indian Hotels Co." },
+    { "text": "Indian Hotels See Strong Demand This Diwali", "expect": null, "level": "warn", "why": "same generic phrase in a title-case headline; cannot be told apart from the company name" },
+
+    { "text": "Oberoi Hotels to open a resort in Goa", "expect": "eih" },
+    { "text": "EIH posts higher quarterly profit", "expect": "eih" },
+    { "text": "Oberoi Realty launches luxury housing project in Mumbai", "expect": null, "why": "a different company" },
+    { "text": "Their hotel pipeline grows across the region", "expect": null, "why": "'eih' inside another word" },
+
+    { "text": "Lemon Tree Hotels signs new property in Rishikesh", "expect": "lemon-tree" },
+    { "text": "Chalet Hotels completes ₹100 crore placement", "expect": "chalet" },
+    { "text": "ITC Hotels marks 50th Welcomhotel property", "expect": "itc-hotels" },
+    { "text": "ITC second-quarter profit rises on cigarette volumes", "expect": null, "why": "the parent company, not ITC Hotels" },
+    { "text": "SAMHI Hotels to develop 162-room upscale hotel in Noida", "expect": "samhi" },
+    { "text": "Juniper Hotels passes all AGM resolutions", "expect": "juniper" },
+    { "text": "Juniper Networks launches AI router", "expect": null },
+    { "text": "Mahindra Holidays adds resorts in Kerala", "expect": "mahindra-holidays" },
+    { "text": "Mahindra launches new electric SUV", "expect": null },
+    { "text": "Royal Orchid Hotels opens in Nashik", "expect": "royal-orchid" },
+
+    { "text": "Jubilant FoodWorks adds 50 Domino's stores", "expect": "jubilant-foodworks" },
+    { "text": "Westlife Foodworld to open 40 McDonald's outlets", "expect": "westlife" },
+    { "text": "Westlife announce India concert tour dates", "expect": null, "why": "the band, not the restaurant company" },
+    { "text": "Devyani International first-quarter revenue grows", "expect": "devyani" },
+    { "text": "Sapphire Foods India receives tax show cause notice", "expect": "sapphire-foods" },
+    { "text": "Burger King India operator Restaurant Brands Asia raises funds", "expect": "restaurant-brands-asia" },
+    { "text": "Speciality Restaurants opens a new Mainland China outlet", "expect": "speciality-restaurants" },
+
+    { "text": "MakeMyTrip launches a hotel loyalty scheme", "expect": "makemytrip" },
+    { "text": "EaseMyTrip enters the hotel business", "expect": "easemytrip" },
+    { "text": "Ixigo posts a quarterly profit", "expect": "ixigo" },
+    { "text": "Yatra Online wins new corporate travel accounts", "expect": "yatra" },
+    { "text": "Amarnath Yatra pilgrims fill Srinagar hotels", "expect": null, "why": "'yatra' the pilgrimage" },
+    { "text": "Char Dham yatra online registration opens next week", "expect": null, "why": "'yatra online' as ordinary words" },
+
+    { "text": "Marriott signs 12 hotels in India", "expect": null, "why": "not a listed company in this tool" },
+    { "text": "Swiss ski chalet hotels report record winter bookings", "expect": null, "level": "warn", "why": "generic 'chalet hotels'; rare in the feeds used" }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "_readme": "All-India figure shown above the city airport table on the Resources Tools page (DGCA domestic air passengers, checked against its source). City-level figures come from data/air-traffic.json (AAI). Units: 1 lakh = 100,000; 1 crore = 100 lakh.",
+  "indicators": [
+    {
+      "id": "domestic-air",
+      "icon": "✈️",
+      "title": "Domestic air passengers",
+      "measures": "How many people took a flight within India in a month. Counted by DGCA, the government body that regulates airlines.",
+      "period": "August 2026",
+      "value": "1.21 crore passengers",
+      "change": {
+        "percent": -6.34,
+        "versus": "August 2025 (1.29 crore)"
+      },
+      "whatItMeans": [
+        "About 8 lakh fewer people flew within India in August 2026 than in August 2025.",
+        "July and August are usually quiet months because of the monsoon, and this year both were below 2025. News reports link the slowdown to higher fares after fuel prices rose with the West Asia conflict.",
+        "Over January to August, air travel is almost exactly level with last year (down 0.2%): a record May (1.54 crore flyers) was cancelled out by a weak July and August."
+      ],
+      "series": {
+        "label": "Passengers per month in 2026 (lakh)",
+        "unit": "lakh",
+        "points": [
+          {
+            "month": "Jan",
+            "value": 152.49
+          },
+          {
+            "month": "Feb",
+            "value": 140.6
+          },
+          {
+            "month": "Mar",
+            "value": 144.22
+          },
+          {
+            "month": "Apr",
+            "value": 138.18
+          },
+          {
+            "month": "May",
+            "value": 153.9
+          },
+          {
+            "month": "Jun",
+            "value": 134.65
+          },
+          {
+            "month": "Jul",
+            "value": 119.99
+          },
+          {
+            "month": "Aug",
+            "value": 121.26
+          }
+        ],
+        "note": "Monthly figures from DGCA releases. February and March are split using ICRA's February estimate; together they match DGCA's January–March total."
+      },
+      "official": [
+        {
+          "name": "DGCA: Data & Reports (monthly domestic traffic)",
+          "url": "https://www.dgca.gov.in/digigov-portal/?page=yearly/4267/5192/html"
+        }
+      ],
+      "reported": [
+        {
+          "name": "Business Standard: August 2026 figures",
+          "url": "https://www.business-standard.com/industry/aviation/domestic-air-passenger-traffic-falls-6-34-to-12-12-million-in-august-dgca-126092300401_1.html"
+        },
+        {
+          "name": "Deccan Herald: July 2026 figures",
+          "url": "https://www.deccanherald.com/india/domestic-air-passenger-traffic-slips-480-to-120-crore-in-july-dgca-data-4118416"
+        },
+        {
+          "name": "Outlook Traveller: record May 2026",
+          "url": "https://www.outlooktraveller.com/News/indian-aviation-records-best-ever-may-as-domestic-passenger-traffic-hits-record-high"
+        },
+        {
+          "name": "Free Press Journal: fares and the West Asia conflict",
+          "url": "https://www.freepressjournal.in/amp/mumbai/domestic-air-traffic-down-by-1-in-march-amid-west-asia-war-airlines-passenger-load-reduces-by-average-5"
+        }
+      ]
+    }
+  ]
+}

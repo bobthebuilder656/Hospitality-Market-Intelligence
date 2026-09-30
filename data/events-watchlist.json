@@ -1,0 +1,15 @@
+{
+  "_readme": "Events worth adding to City Events once their dates are officially announced. The monthly check (lib/monthlyCheck.js) searches the news for each one and lists any headlines that look like a date announcement in data/event-review.json. Nothing here is shown on the page. Remove an entry once it has been added to events-curated.json.",
+  "events": [
+    { "id": "numaish-2027", "name": "Numaish (All India Industrial Exhibition)", "cities": ["hyderabad"], "search": "Numaish 2027", "keywords": ["Numaish"] },
+    { "id": "bioasia-2027", "name": "BioAsia 2027", "cities": ["hyderabad"], "search": "BioAsia 2027", "keywords": ["BioAsia"] },
+    { "id": "sawai-gandharva-2026", "name": "Sawai Gandharva Bhimsen Mahotsav", "cities": ["pune"], "search": "Sawai Gandharva 2026", "keywords": ["Sawai Gandharva"] },
+    { "id": "udaipur-world-music-2027", "name": "Udaipur World Music Festival", "cities": ["udaipur"], "search": "Udaipur World Music Festival 2027", "keywords": ["Udaipur World Music Festival"] },
+    { "id": "chennai-book-fair-2027", "name": "Chennai Book Fair", "cities": ["chennai"], "search": "Chennai Book Fair 2027", "keywords": ["Chennai Book Fair"] },
+    { "id": "kiff-2026", "name": "Kolkata International Film Festival", "cities": ["kolkata"], "search": "Kolkata International Film Festival 2026", "keywords": ["Kolkata International Film Festival", "KIFF"] },
+    { "id": "lucknow-mahotsav-2026", "name": "Lucknow Mahotsav", "cities": ["lucknow"], "search": "Lucknow Mahotsav 2026", "keywords": ["Lucknow Mahotsav"] },
+    { "id": "kite-festival-2027", "name": "International Kite Festival", "cities": ["ahmedabad"], "search": "International Kite Festival 2027 Ahmedabad", "keywords": ["Kite Festival"] },
+    { "id": "cochin-carnival-2026", "name": "Cochin Carnival", "cities": ["kochi"], "search": "Cochin Carnival 2026", "keywords": ["Cochin Carnival", "Fort Kochi"] },
+    { "id": "ipl-2027", "name": "IPL 2027 schedule", "cities": ["mumbai", "delhi", "bengaluru", "hyderabad", "chennai", "kolkata", "jaipur", "ahmedabad", "lucknow"], "search": "IPL 2027 schedule", "keywords": ["IPL 2027"] }
+  ]
+}

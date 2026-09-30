@@ -1,0 +1,116 @@
+# Runs the evals automatically so nothing reaches users unchecked.
+#
+#  - On every push and pull request: the checks on the code and content. If any
+#    blocker fails, the run is marked failed, and the host (set to "deploy only
+#    after checks pass") does not deploy that change.
+#  - Every morning (India time): every check, including live data, because feeds,
+#    prices and the holiday calendar change even when the code does not.
+#  - Every Monday: the external-link check.
+#  - After a deployment, or on demand: the checks against the live site, if the
+#    repository variable SITE_URL is set.
+#
+# The articles and case studies are in a separate private repository. The secret
+# CONTENT_TOKEN (a token that can read it) lets these jobs check them too.
+# Settings > Secrets and variables > Actions:
+#   Secrets:    CONTENT_TOKEN
+#   Variables:  CONTENT_REPO (owner/name of the private repository), SITE_URL (the live address)
+#
+# The report for each run is attached to it as "evals-report" (open report.html).
+
+name: Evals
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "30 1 * * *" # 07:00 India time, daily
+    - cron: "30 2 * * 1" # 08:00 India time, Mondays (links)
+  workflow_dispatch:
+  deployment_status:
+
+jobs:
+  evals:
+    name: Evals (this code)
+    if: github.event_name != 'deployment_status' && github.event.schedule != '30 2 * * 1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch the private articles and case studies
+        if: vars.CONTENT_REPO != ''
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ vars.CONTENT_REPO }}
+          token: ${{ secrets.CONTENT_TOKEN }}
+          path: content
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # A change is judged on the code and content it contains. The "live data"
+      # suite depends on outside feeds answering, so it runs on the daily
+      # schedule (where a failure means "look at the data"), not as a gate on a change.
+      - if: github.event_name != 'schedule'
+        run: npm run evals -- --only=rules,content,deploy,app
+      - if: github.event_name == 'schedule'
+        run: npm run evals
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: evals-report
+          path: |
+            evals/report.html
+            evals/report.json
+
+  links:
+    name: External links
+    if: github.event.schedule == '30 2 * * 1' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch the private articles and case studies
+        if: vars.CONTENT_REPO != ''
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ vars.CONTENT_REPO }}
+          token: ${{ secrets.CONTENT_TOKEN }}
+          path: content
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run evals:links
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: links-report
+          path: evals/report.html
+
+  live-site:
+    name: Evals (live site)
+    if: vars.SITE_URL != '' && (github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' || (github.event_name == 'deployment_status' && github.event.deployment_status.state == 'success'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch the private articles and case studies
+        if: vars.CONTENT_REPO != ''
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ vars.CONTENT_REPO }}
+          token: ${{ secrets.CONTENT_TOKEN }}
+          path: content
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run evals -- --only=live,deploy,app --url=${{ vars.SITE_URL }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: live-site-report
+          path: evals/report.html

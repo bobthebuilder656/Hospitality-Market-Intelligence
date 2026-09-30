@@ -1,0 +1,37 @@
+{
+  "_readme": "Labelled examples for the News tab's filters. Each is a headline as a feed would send it, with the verdict a hotel sales reader would want: 'keep' (a single real story) or 'drop' (junk). body: 'prose' = a normal article paragraph, 'short' = about 20 words, 'none' = the feed sent no text, 'headlines' = a run of headline fragments, or literal text. source: 'default', 'appointments' (a feed flagged dropAppointments) or 'titleOnly' (a feed that only sends titles). Add a case here whenever a bad story gets through or a good one is dropped.",
+  "cases": [
+    { "title": "CPP Investments to invest Rs 3,000 crore in Prestige Hospitality Ventures for 27% stake", "expect": "keep", "why": "single business story" },
+    { "title": "Taj Opens Hessischer Hof in Frankfurt", "expect": "keep", "why": "single opening story" },
+    { "title": "Delhi, Mumbai, Bengaluru lead hotel occupancy recovery in September", "expect": "keep", "why": "a list of cities in one story is not several headlines" },
+    { "title": "Marriott, Hilton and Hyatt report stronger third-quarter RevPAR", "expect": "keep", "why": "a list of companies in one story" },
+    { "title": "Vrbo to Double Commissions as It Plays Catch-Up to Airbnb", "expect": "keep", "why": "single story" },
+    { "title": "Café Zürich brand to open 20 hotels in India, says chief executive José Alvarez", "expect": "keep", "why": "English text with accented names" },
+    { "title": "Marriott appoints new president for Asia Pacific", "expect": "keep", "why": "senior appointments are news on feeds not flagged for appointments" },
+    { "title": "Lemon Tree Hotels wins national tourism award for sustainability", "expect": "keep", "why": "an award story with a full article behind it" },
+    { "title": "IHCL honoured as a Great Place to Work and plans 50 openings this year", "expect": "keep", "why": "award plus real news, with a full article" },
+    { "title": "Apeejay Surrendra Park Hotels signs Zone Connect by The Park Bharatpur", "body": "none", "source": "titleOnly", "expect": "keep", "why": "title-only feeds are allowed to have no text" },
+    { "title": "Bookings surge this week in Goa ahead of the long weekend", "expect": "keep", "why": "'this week in' inside a sentence is not a weekly round-up" },
+    { "title": "Update: GST Council cuts the rate on hotel rooms, effective Monday", "expect": "keep", "why": "one story with a comma after 'Update:' is not a news column" },
+    { "title": "Hotel rates in Jaipur rise 12% as wedding season begins", "ageDays": 1, "expect": "keep", "why": "fresh story" },
+    { "title": "Radisson to add 30 hotels in tier-2 cities by 2028", "ageDays": null, "expect": "keep", "why": "a story with no date is let through" },
+
+    { "title": "Weekly Roundup: hotel deals, openings and more", "expect": "drop", "why": "round-up" },
+    { "title": "Global Hotel News: New Resorts, Billion-Dollar Deals and Brand Launches", "expect": "drop", "why": "news column listing several stories" },
+    { "title": "Hyatt signs Jaipur hotel, Accor opens in Goa, Radisson adds five properties", "expect": "drop", "why": "three headlines in one title" },
+    { "title": "Hospitality wrap for Tuesday", "body": "headlines", "expect": "drop", "why": "body is a list of headlines" },
+    { "title": "Seaside Resort wins Best Spa Award", "body": "short", "expect": "drop", "why": "award announcement with no article" },
+    { "title": "The Leela appoints Rahul Sharma as Director of Sales", "source": "appointments", "expect": "drop", "why": "staff appointment on a feed flagged for them" },
+    { "title": "New boutique hotel opens in Udaipur", "body": "none", "expect": "drop", "why": "no text to summarise" },
+    { "title": "Five reasons to book your next offsite with us", "link": "https://example.com/sponsored/offsite", "expect": "drop", "why": "sponsored link" },
+    { "title": "Sponsored: the future of hotel payments", "expect": "drop", "why": "sponsored title" },
+    { "title": "Hotel group announces record quarterly results", "link": "javascript:alert(1)", "expect": "drop", "why": "the link is not a web address" },
+    { "title": "Neues Hotel in Berlin", "body": "Das Hotel ist für Gäste mit Hund nicht geeignet und die Zimmer sind von der Straße zu sehen. Es wird über den Sommer eröffnet.", "expect": "drop", "why": "German" },
+    { "title": "Les hôtels de Paris", "body": "Les hôtels de Paris sont pleins pour la saison avec des prix élevés dans tous les quartiers, ce qui est une bonne nouvelle.", "expect": "drop", "why": "French" },
+    { "title": "Hotel demand rises in Kochi", "ageDays": 9, "expect": "drop", "why": "older than the 7-day limit" },
+    { "title": "Lodging Lowdown: what moved hotel markets", "expect": "drop", "why": "recurring digest" },
+    { "title": "This Week: openings across Asia", "expect": "drop", "why": "weekly digest" },
+    { "title": "Daily briefing for hoteliers", "expect": "drop", "why": "daily digest" },
+    { "title": "This week in hospitality", "expect": "drop", "why": "weekly digest" }
+  ]
+}
