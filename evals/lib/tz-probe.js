@@ -17,6 +17,6 @@ console.log(
     brief: resources.brief && resources.brief.id,
     marketOpen: market.open,
     lastClose: market.lastCloseAt.toISOString(),
-    msUntil11amIst: typeof dates.msUntilIstHour === "function" ? dates.msUntilIstHour(11, new Date("2026-09-30T04:00:00Z")) : null,
+    events: require(path.join(__dirname, "..", "..", "lib", "longWeekends")).findLongWeekends([{ date: "2026-10-02", name: "x", public: true }], "2026-10-01", "2026-10-31"),
   })
 );

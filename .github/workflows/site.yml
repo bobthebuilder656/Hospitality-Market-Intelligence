@@ -1,0 +1,96 @@
+# Builds the site with fresh data, checks it, and publishes it to GitHub Pages.
+#
+# When it runs (times are India time):
+#  - every 30 minutes while the stock market is open (09:05 to 15:35, Mon-Fri)
+#  - every hour at other times
+#  - just after midnight, when that day's new article or case study goes live
+#  - whenever the code changes, and on demand (Actions > Build and publish > Run workflow)
+# GitHub sometimes starts scheduled runs a few minutes late; the page always shows
+# when its data was fetched.
+#
+# Nothing is published unless the checks pass: if they fail, the previous site
+# stays up and GitHub emails the repository owner.
+#
+# Settings it needs (Settings > Secrets and variables > Actions):
+#   Secret    CONTENT_TOKEN  a token that can read the private articles repository
+#   Variable  CONTENT_REPO   owner/name of that repository
+# and Settings > Pages > Source: GitHub Actions.
+
+name: Build and publish
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "35 3-9 * * 1-5" # 09:05, 10:05 ... 15:05 India time, weekdays
+    - cron: "5 4-10 * * 1-5" # 09:35, 10:35 ... 15:35 India time, weekdays
+    - cron: "17 * * * *" # hourly
+    - cron: "40 18 * * *" # 00:10 India time: new articles go live
+
+permissions:
+  contents: write # to save the daily data snapshot
+  pages: write
+  id-token: write
+
+# One build at a time; a newer one waits for the current one to finish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get the private articles and case studies
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ vars.CONTENT_REPO }}
+          token: ${{ secrets.CONTENT_TOKEN }}
+          path: content
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Build the site with fresh data
+        # A source that fails falls back on the data the live site already has.
+        run: node scripts/build-site.js --out=site --previous-url=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+
+      - name: Check it before publishing
+        # The rules, the content, the built data and the site in a real browser.
+        run: npm run evals -- --only=rules,content,live,deploy,app --site=site
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: evals-report
+          path: evals/report.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      # Once a day, save the freshly fetched data to the repository. It is the
+      # fallback when a source is down, and it keeps the repository active, since
+      # GitHub pauses the schedule of a repository with no changes for 60 days.
+      - name: Save the daily data snapshot
+        if: github.event.schedule == '40 18 * * *'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json data/stocks.json data/holidays.json data/air-traffic.json
+          git diff --cached --quiet || (git commit -m "Daily data snapshot" && git push)
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

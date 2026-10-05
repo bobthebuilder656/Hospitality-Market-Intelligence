@@ -1,6 +1,7 @@
-// Live data: what the server is sending to users right now. Starts a private
-// copy of the server (or uses --url) and checks every API response for shape,
-// freshness and quality. Needs the internet, since the server reads live feeds.
+// Site data: the files in the built site's data/ folder, which is everything the
+// page shows. Checked for shape, freshness and quality, exactly as a visitor's
+// browser receives them (from a fresh build on this machine, or from the
+// published site with --url).
 
 const path = require("path");
 const { expect, expectEqual, expectNone } = require("../lib/harness");
@@ -15,9 +16,9 @@ const ageHours = (iso) => (Date.now() - new Date(iso).getTime()) / 3600000;
 
 module.exports = {
   id: "live",
-  title: "3. Live data (news, stocks, events, weather as served right now)",
-  about: "Every API response is checked for shape, freshness and quality, the way a user's browser receives it.",
-  needs: ["server", "network"],
+  title: "3. Site data (news, stocks, events, weather in the built site)",
+  about: "Every data file the page reads is checked for shape, freshness and quality, the way a visitor's browser receives it.",
+  needs: ["site", "network"],
 
   async run(t, ctx) {
     const { api } = ctx;
@@ -32,7 +33,7 @@ module.exports = {
 
     let news = null;
     await t.check("News: between 8 and 10 stories, fetched within the last day", async () => {
-      news = await get("/api/news");
+      news = await get("/data/news.json");
       expect(Array.isArray(news.items), "no list of stories");
       expect(news.items.length >= 5, `only ${news.items.length} stories (the tab would look empty)`);
       expect(news.items.length <= 10, `${news.items.length} stories (limit is 10)`);
@@ -116,9 +117,9 @@ module.exports = {
         expectNone(Object.keys(news).filter((k) => !["generatedAt", "sources", "items"].includes(k)).map((k) => `"${k}" is sent to every visitor`));
       });
 
-      const { feeds } = await get("/api/health");
+      const { feeds } = await get("/data/build.json");
       await t.check("News feeds: at least 8 of the 12 sources responded", () => {
-        expect(feeds && feeds.total > 0, "the health check does not report on the feeds");
+        expect(feeds && feeds.total > 0, "the build report does not say how the feeds did");
         expect(feeds.responded >= 8, `only ${feeds.responded} of ${feeds.total} feeds responded`);
         return `${feeds.responded} of ${feeds.total}`;
       });
@@ -131,14 +132,15 @@ module.exports = {
 
     const symbols = lib("stockSymbols");
     let stocks = null;
-    await t.check("Stocks: every listed company is present, with the market status", async () => {
-      stocks = await get("/api/stocks");
-      expectEqual(stocks.quotes.map((q) => q.id).sort(), symbols.map((s) => s.id).sort(), "companies returned");
-      expect(stocks.market && typeof stocks.market.open === "boolean" && !Number.isNaN(Date.parse(stocks.market.lastCloseAt)), "market status is missing");
-      // Open only if the timetable says so (on an exchange holiday the server says closed).
-      expect(!stocks.market.open || lib("fetchStocks").marketStatus().open, "the market is shown as open outside trading hours");
+    await t.check("Stocks: every listed company is present, and 'last close' matches the prices' own dates", async () => {
+      stocks = await get("/data/stocks.json");
+      expectEqual(stocks.quotes.map((q) => q.id).sort(), symbols.map((s) => s.id).sort(), "companies in the file");
+      expect(ageHours(stocks.generatedAt) < 26, `prices were fetched ${Math.round(ageHours(stocks.generatedAt))} hours ago`);
+      // The page works out open/closed itself with these rules (see the app suite for the browser's copy).
+      const market = lib("fetchStocks").effectiveMarket(stocks.quotes, new Date(), stocks.generatedAt);
+      expect(!market.open || lib("fetchStocks").marketStatus().open, "the market would be shown as open outside trading hours");
       const latestTrade = Math.max(...stocks.quotes.filter((q) => !q.error && q.currency === "INR" && q.asOf).map((q) => Date.parse(q.asOf)));
-      if (!stocks.market.open) expect(Date.parse(stocks.market.lastCloseAt) - latestTrade < 6 * 3600000, `"last close" is ${stocks.market.lastCloseAt} but the newest price is from ${new Date(latestTrade).toISOString()}`);
+      if (!market.open) expect(market.lastCloseAt.getTime() - latestTrade < 6 * 3600000, `"last close" would read ${market.lastCloseAt.toISOString()} but the newest price is from ${new Date(latestTrade).toISOString()}`);
       return `${stocks.quotes.length} companies`;
     });
 
@@ -173,9 +175,9 @@ module.exports = {
       const out = [];
       const noHistory = [];
       for (const id of ["indian-hotels", "lemon-tree", "makemytrip"]) {
-        const d = await get(`/api/stocks/${id}/detail?range=1m`);
+        const file = await get(`/data/stocks/${id}.json`);
+        const d = { history: file.history["1m"] || [], relatedNews: file.relatedNews || [] };
         const entry = symbols.find((s) => s.id === id);
-        if (d.range !== "1m") out.push(`${id}: asked for 1 month, got ${d.range}`);
         // No history at all means the outside price service refused the request (reported below as a warning).
         if (d.history.length === 0) noHistory.push(id);
         else if (d.history.length < 10) out.push(`${id}: only ${d.history.length} days of history`);
@@ -196,20 +198,34 @@ module.exports = {
       expect(!historyGaps.length, `no price history just now for: ${historyGaps.join(", ")}`);
     });
 
-    await t.check("Stock popup and comparison reject bad requests cleanly", async () => {
-      expectEqual((await api("/api/stocks/not-a-stock/detail")).status, 404, "unknown company");
-      expectEqual((await get("/api/stocks/eih/detail?range=bogus")).range, "10d", "unknown range falls back to");
-      expectEqual((await api("/api/stocks/compare?ids=eih")).status, 400, "comparing one stock");
-      expectEqual((await api("/api/stocks/compare?ids=eih,chalet,samhi,juniper")).status, 400, "comparing four stocks");
-      expectEqual((await api("/api/stocks/compare?ids=eih,not-a-stock")).status, 404, "comparing an unknown stock");
-      expectEqual((await api("/api/stocks/compare")).status, 400, "comparing nothing");
+    const files = {};
+    await t.check("Stock popup: every company has its file, with history for all four chart ranges", async () => {
+      const out = [];
+      for (const s of symbols) {
+        const res = await api(`/data/stocks/${s.id}.json`);
+        if (res.status !== 200 || !res.json) {
+          out.push(`${s.name}: no file`);
+          continue;
+        }
+        files[s.id] = res.json;
+        const h = res.json.history || {};
+        for (const range of ["10d", "1m", "3m", "1y"]) {
+          if (!Array.isArray(h[range])) out.push(`${s.name}: no ${range} history`);
+          else if (h[range].some((p, i) => !(p.close > 0) || (i && p.date <= h[range][i - 1].date))) out.push(`${s.name} ${range}: prices out of order or missing`);
+        }
+        if (h["10d"] && h["10d"].length > 10) out.push(`${s.name}: the 10-day chart has ${h["10d"].length} days`);
+      }
+      expectNone(out);
+      const empty = symbols.filter((s) => files[s.id] && !(files[s.id].history["1y"] || []).length).map((s) => s.name);
+      if (empty.length) historyGaps.push(...empty);
     });
 
-    const compare = await api("/api/stocks/compare?ids=indian-hotels,eih,lemon-tree&range=3m");
-    if (compare.status >= 500) t.skip("Stock comparison: lines share dates and all start at 100", "the price-history service gave no data just now");
+    // The page draws the comparison itself from these files, with the same rules as the server code.
+    const ready = ["indian-hotels", "eih", "lemon-tree"].every((id) => files[id] && (files[id].history["3m"] || []).length);
+    if (!ready) t.skip("Stock comparison: lines share dates and all start at 100", "the price-history service gave no data just now");
     else await t.check("Stock comparison: lines share dates and all start at 100", async () => {
-      const c = compare.json;
-      expect(compare.status === 200 && c, `the comparison returned ${compare.status}`);
+      const { alignAndRebase } = lib("fetchStockCompare");
+      const c = alignAndRebase(["indian-hotels", "eih", "lemon-tree"].map((id) => ({ entry: { id, name: files[id].name, symbol: files[id].symbol }, points: files[id].history["3m"] })));
       expectEqual(c.series.length, 3, "lines");
       expect(c.dates.length >= 30, `only ${c.dates.length} dates for 3 months`);
       expectEqual(c.dates, [...c.dates].sort(), "dates in order");
@@ -217,7 +233,7 @@ module.exports = {
     });
 
     await t.check("Stock cards: each 'latest news' line is about that company, recent, and not a rating", async () => {
-      const { headlines } = await get("/api/stocks/headlines");
+      const { headlines } = await get("/data/stock-headlines.json");
       const { matchesCompany } = lib("companyMatch");
       const { isStockChatter } = lib("stockChatter");
       const out = [];
@@ -239,9 +255,10 @@ module.exports = {
     // ---- events ----------------------------------------------------------------------
 
     let events = null;
-    await t.check("City Events: today's date is India's, and events are upcoming, in order and well-formed", async () => {
-      events = await get("/api/events");
-      expectEqual(events.today, todayIst(), "today");
+    await t.check("City Events: built for India's date, and events are upcoming, in order and well-formed", async () => {
+      events = await get("/data/events.json");
+      // The file carries the date it was built on (the page moves it on to the visitor's date).
+      expect(events.today === todayIst() || events.today === addDays(todayIst(), -1), `built for ${events.today}, but today in India is ${todayIst()}`);
       expectEqual(events.horizonEnd, addDays(events.today, 180), "6-month horizon");
       const cityIds = events.cities.map((c) => c.id);
       const out = [];
@@ -298,7 +315,7 @@ module.exports = {
     }
 
     await t.check("City Events news: each linked story names its event and is under a month old", async () => {
-      const { news: eventNews } = await get("/api/events/news");
+      const { news: eventNews } = await get("/data/event-news.json");
       const curated = lib("cityEvents").readJson(lib("cityEvents").CURATED_PATH).events;
       const { matchesCompany } = lib("companyMatch");
       const out = [];
@@ -315,20 +332,16 @@ module.exports = {
 
     await t.check("Weather: a 7-day forecast with plausible temperatures for every city", async () => {
       const cities = lib("cities");
-      // One city at a time, as a user would ask; a burst of 15 gets rate-limited by the forecast service.
-      const results = [];
-      for (const c of cities) {
-        results.push([c, await api(`/api/events/weather/${c.id}`)]);
-        await ctx.sleep(250);
-      }
+      const weather = await get("/data/weather.json");
       const out = [];
       let missing = 0;
-      for (const [c, res] of results) {
-        if (res.status !== 200 || !res.json) {
+      for (const c of cities) {
+        const forecast = weather.cities[c.id];
+        if (!forecast) {
           missing++;
           continue;
         }
-        const days = res.json.days;
+        const days = forecast.days;
         if (days.length !== 7) out.push(`${c.name}: ${days.length} days`);
         if (days[0].date !== todayIst() && days[0].date !== addDays(todayIst(), -1)) out.push(`${c.name}: forecast starts on ${days[0].date}`);
         days.forEach((d, i) => {
@@ -339,15 +352,15 @@ module.exports = {
       }
       expect(missing <= 3, `no forecast for ${missing} of ${cities.length} cities`);
       expectNone(out);
-      expectEqual((await api("/api/events/weather/atlantis")).status, 404, "unknown city");
       return missing ? `${cities.length - missing} of ${cities.length} cities (the rest had no forecast just now)` : `${cities.length} cities`;
     });
 
     // ---- resources, air traffic ------------------------------------------------------
 
-    await t.check("Resources: the current article is live, nothing unpublished is sent, and the tools have their data", async () => {
-      const r = await get("/api/resources");
-      expectEqual(r.today, todayIst(), "today");
+    await t.check("Resources: the current article is live, nothing unpublished is in the site, and the tools have their data", async () => {
+      const r = await get("/data/resources.json");
+      expect(!r.preview, "this is a preview build (it includes unpublished pieces) and must never be published");
+      expect(r.today === todayIst() || r.today === addDays(todayIst(), -1), `built for ${r.today}, but today in India is ${todayIst()}`);
       // A site with no article at all has lost its content folder (see lib/paths.js).
       expect(r.brief && r.brief.publishDate <= r.today, "the current article is missing or dated in the future");
       expect(!r.caseStudy || r.caseStudy.publishDate <= r.today, "the case study shown is dated in the future");
@@ -360,7 +373,7 @@ module.exports = {
     });
 
     await t.check("Air traffic: months, cities and explanations are served", async () => {
-      const a = await get("/api/air-traffic");
+      const a = await get("/data/air-traffic.json");
       expect(a.months.length >= 6, `only ${a.months.length} months`);
       expect(Object.keys(a.months[a.months.length - 1].cities).length === 15, "latest month does not have all 15 cities");
       expect(a.reasons && a.reasons.month, "explanations are missing");
@@ -368,9 +381,14 @@ module.exports = {
 
     // ---- speed -----------------------------------------------------------------------
 
-    await t.warn("Speed: every main response arrives within 1.5 seconds once warmed up", async () => {
+    await t.warn("Sources: every source answered when the site was built", async () => {
+      const { problems } = await get("/data/build.json");
+      expectNone(problems || [], 6);
+    });
+
+    await t.warn("Speed: every main file arrives within 1.5 seconds", async () => {
       const slow = [];
-      for (const p of ["/", "/style.css", "/app.js", "/api/news", "/api/stocks", "/api/events", "/api/resources", "/api/air-traffic"]) {
+      for (const p of ["/", "/style.css", "/app.js", "/data/news.json", "/data/stocks.json", "/data/events.json", "/data/resources.json", "/data/air-traffic.json"]) {
         await api(p);
         const { ms } = await api(p);
         if (ms > 1500) slow.push(`${p} took ${ms} ms`);

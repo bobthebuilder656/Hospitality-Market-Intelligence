@@ -1,6 +1,6 @@
 // Resources tab: a home view with four section cards and previews, plus one
 // detail view per section (Tools, Glossary & reports, The Hotelier's Brief,
-// Case study). Content comes from /api/resources (hand-maintained JSON in data/).
+// Case study). Content comes from data/resources.json, built by scripts/build-site.js.
 
 let resData = null;
 let resLoading = false;
@@ -550,15 +550,10 @@ async function loadResources() {
   if (resLoading) return;
   resLoading = true;
   try {
-    // Open the app with ?preview=1 (next piece) or ?preview=YYYY-MM-DD (as on that date)
-    // to read articles and case studies before they publish. On the live site
-    // this also needs &key=… (the PREVIEW_KEY setting).
-    const params = new URLSearchParams(location.search);
-    const query = new URLSearchParams();
-    for (const name of ["preview", "key"]) if (params.get(name)) query.set(name, params.get(name));
-    const res = await fetch(`/api/resources${query.size ? `?${query}` : ""}`);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    resData = await res.json();
+    // The file holds only what was published when the site was built (to preview
+    // unpublished pieces, build the site on this machine with --preview; see README).
+    resData = await getData("resources.json");
+    if (!resData.preview) resData.today = todayIst(); // "New today" and the term of the day follow the visitor's date
     resFailed = false;
     resState.view = resViewFromAddress(); // a reload or a shared link reopens the same view
     renderResources();

@@ -53,6 +53,20 @@ linkFilterSelect("stock-sort-select", "sort-controls", "sort");
 // "30 Sept, 2:40 pm"
 const UPDATED_FORMAT = { day: "numeric", month: "short", hour: "numeric", minute: "2-digit", hour12: true };
 
+// The site is plain files: GitHub Actions rebuilds data/ every 30–60 minutes
+// (scripts/build-site.js), so the page reads ready-made files instead of asking
+// a server. "no-cache" makes the browser check for a newer build each time.
+async function getData(file) {
+  const res = await fetch(`data/${file}`, { cache: "no-cache" });
+  if (!res.ok) throw new Error(`${file}: ${res.status}`);
+  return res.json();
+}
+
+// India's date ("2026-10-05"), wherever the visitor is.
+function todayIst() {
+  return new Date(Date.now() + 5.5 * 3600000).toISOString().slice(0, 10);
+}
+
 // The Dashboard tab summarises the other tabs, so each one calls this when its
 // data changes. dashboard.js loads last; until then there is nothing to update.
 function updateDashboard() {
@@ -211,9 +225,7 @@ function scheduleNewsRetry() {
   if (newsRetryTimer) return;
   newsRetryTimer = setInterval(async () => {
     try {
-      const res = await fetch("/api/news");
-      if (!res.ok) throw new Error("bad response");
-      const data = await res.json();
+      const data = await getData("news.json");
       stopNewsRetry();
       currentNewsData = data;
       newsCache.save(data);
@@ -224,10 +236,8 @@ function scheduleNewsRetry() {
   }, 20000);
 }
 
-async function loadNews(forceRefresh = false) {
+async function loadNews() {
   const list = document.getElementById("news-list");
-  const btn = document.getElementById("refresh-btn");
-  btn.disabled = true;
 
   const cached = newsCache.load();
   if (!currentNewsData) {
@@ -235,9 +245,7 @@ async function loadNews(forceRefresh = false) {
   }
 
   try {
-    const res = await fetch(`/api/news${forceRefresh ? "?refresh=1" : ""}`);
-    if (!res.ok) throw new Error("bad response");
-    const data = await res.json();
+    const data = await getData("news.json");
     stopNewsRetry();
     currentNewsData = data;
     newsFailed = false;
@@ -249,16 +257,12 @@ async function loadNews(forceRefresh = false) {
       renderNews(cached.data, cached.savedAt);
       scheduleNewsRetry();
     } else if (!currentNewsData) {
-      list.innerHTML = '<p class="error">Failed to load news. Check your connection and press Refresh.</p>';
+      list.innerHTML = '<p class="error">Failed to load news. Check your connection and reload the page.</p>';
       newsFailed = true;
       updateDashboard();
     }
-  } finally {
-    btn.disabled = false;
   }
 }
-
-document.getElementById("refresh-btn").addEventListener("click", () => loadNews(true));
 
 loadNews();
 
@@ -609,9 +613,7 @@ function scheduleStocksRetry() {
   if (stocksRetryTimer) return;
   stocksRetryTimer = setInterval(async () => {
     try {
-      const res = await fetch("/api/stocks");
-      if (!res.ok) throw new Error("bad response");
-      const data = await res.json();
+      const data = withMarket(await getData("stocks.json"));
       stopStocksRetry();
       currentStocksData = data;
       stocksCache.save(data);
@@ -622,10 +624,59 @@ function scheduleStocksRetry() {
   }, 20000);
 }
 
-async function loadStocks(forceRefresh = false) {
+// ---------- market open / closed ----------
+// Worked out here, at the moment of viewing, from the time and the prices' own
+// trade times: the prices file is built every 30–60 minutes, so a status written
+// into it would go out of date. Same rules as lib/fetchStocks.js (marketStatus,
+// effectiveMarket); keep the two in step.
+
+const IST_OFFSET_MS = 5.5 * 60 * 60 * 1000;
+const MARKET_OPEN_MINUTE = 9 * 60 + 15;
+const MARKET_CLOSE_MINUTE = 15 * 60 + 30;
+const NO_TRADES_MS = 45 * 60 * 1000;
+
+// NSE trades Mon–Fri, 9:15–15:30 India time. lastCloseAt: the most recent 15:30 close.
+function marketStatus(now = new Date()) {
+  const ist = new Date(now.getTime() + IST_OFFSET_MS);
+  const day = ist.getUTCDay();
+  const minutes = ist.getUTCHours() * 60 + ist.getUTCMinutes();
+  const isWeekday = day >= 1 && day <= 5;
+  const open = isWeekday && minutes >= MARKET_OPEN_MINUTE && minutes < MARKET_CLOSE_MINUTE;
+  let daysBack = 0;
+  if (!(isWeekday && minutes >= MARKET_CLOSE_MINUTE)) {
+    daysBack = 1;
+    let d = (day + 6) % 7;
+    while (d === 0 || d === 6) {
+      daysBack++;
+      d = (d + 6) % 7;
+    }
+  }
+  const istMidnight = Date.UTC(ist.getUTCFullYear(), ist.getUTCMonth(), ist.getUTCDate()) - daysBack * 24 * 60 * 60 * 1000;
+  return { open, lastCloseAt: new Date(istMidnight + MARKET_CLOSE_MINUTE * 60 * 1000 - IST_OFFSET_MS) };
+}
+
+// Corrects the timetable for exchange holidays, from the prices' trade times.
+function effectiveMarket(quotes, now = new Date(), generatedAt = now) {
+  const { open, lastCloseAt } = marketStatus(now);
+  const trades = quotes.filter((q) => !q.error && q.asOf && q.currency === "INR").map((q) => new Date(q.asOf).getTime());
+  if (!trades.length) return { open, lastCloseAt, holiday: false };
+  const latest = Math.max(...trades);
+  const pricesFresh = now.getTime() - new Date(generatedAt).getTime() < NO_TRADES_MS;
+  const holidayToday = open && pricesFresh && now.getTime() - latest > NO_TRADES_MS;
+  if (open && !holidayToday) return { open: true, lastCloseAt, holiday: false };
+  const ist = new Date(latest + IST_OFFSET_MS);
+  const closeOfLatest = new Date(Date.UTC(ist.getUTCFullYear(), ist.getUTCMonth(), ist.getUTCDate()) + MARKET_CLOSE_MINUTE * 60 * 1000 - IST_OFFSET_MS);
+  const earlier = closeOfLatest.getTime() < lastCloseAt.getTime();
+  return { open: false, lastCloseAt: earlier ? closeOfLatest : lastCloseAt, holiday: holidayToday };
+}
+
+function withMarket(data) {
+  const { open, lastCloseAt, holiday } = effectiveMarket(data.quotes, new Date(), data.generatedAt);
+  return { ...data, market: { open, holiday, lastCloseAt: lastCloseAt.toISOString() } };
+}
+
+async function loadStocks() {
   const list = document.getElementById("stocks-list");
-  const btn = document.getElementById("stocks-refresh-btn");
-  btn.disabled = true;
 
   const cached = stocksCache.load();
   if (!currentStocksData) {
@@ -633,9 +684,7 @@ async function loadStocks(forceRefresh = false) {
   }
 
   try {
-    const res = await fetch(`/api/stocks${forceRefresh ? "?refresh=1" : ""}`);
-    if (!res.ok) throw new Error("bad response");
-    const data = await res.json();
+    const data = withMarket(await getData("stocks.json"));
     stopStocksRetry();
     currentStocksData = data;
     stocksFailed = false;
@@ -645,26 +694,21 @@ async function loadStocks(forceRefresh = false) {
     refreshStockLinks();
   } catch (err) {
     if (cached) {
-      currentStocksData = cached.data;
-      renderStocks(cached.data, cached.savedAt);
+      currentStocksData = withMarket(cached.data);
+      renderStocks(currentStocksData, cached.savedAt);
       stocksLoaded = true;
       refreshStockLinks();
       scheduleStocksRetry();
     } else if (!currentStocksData) {
-      list.innerHTML = '<p class="error">Failed to load stock prices. Check your connection and press Refresh.</p>';
+      list.innerHTML = '<p class="error">Failed to load stock prices. Check your connection and reload the page.</p>';
       stocksFailed = true;
       updateDashboard();
     }
-  } finally {
-    btn.disabled = false;
   }
 }
 
-document.getElementById("stocks-refresh-btn").addEventListener("click", () => loadStocks(true));
-
-// Keep prices current while the Stocks tab is being looked at. The server only
-// re-fetches from Yahoo when its own cache is stale (every ~10 min while NSE is
-// trading, once after the close), so polling every 5 min here is cheap.
+// Keep prices current while the page is open: a new build of the prices file can
+// appear every 30 minutes during trading, so checking every 5 minutes is cheap.
 const STOCKS_POLL_MS = 5 * 60 * 1000;
 
 // The News tab shows stock chips and the Dashboard a market snapshot, so they need reasonably fresh prices too.
@@ -922,13 +966,22 @@ async function openStockDetail(id, range = "10d") {
   showModal();
   body.innerHTML = '<p class="loading">Loading…</p>';
   try {
-    const res = await fetch(`/api/stocks/${id}/detail?range=${range}`);
-    if (!res.ok) throw new Error("request failed");
-    const data = await res.json();
-    renderStockDetail(data);
+    const file = await stockFile(id);
+    renderStockDetail({ id: file.id, symbol: file.symbol, name: file.name, range, history: file.history[range] || [], relatedNews: file.relatedNews || [] });
   } catch (err) {
     body.innerHTML = '<p class="error">Failed to load stock detail.</p>';
   }
+}
+
+// One file per company holds its price history for every range and its recent
+// headlines; each is fetched once per visit.
+const stockFiles = new Map();
+function stockFile(id) {
+  if (!stockFiles.has(id)) stockFiles.set(id, getData(`stocks/${id}.json`).catch((err) => {
+    stockFiles.delete(id);
+    throw err;
+  }));
+  return stockFiles.get(id);
 }
 
 // The popup behaves as a dialog for keyboard and screen-reader users: focus moves
@@ -987,9 +1040,7 @@ async function loadHeadlines() {
   if (headlinesLoading) return;
   headlinesLoading = true;
   try {
-    const res = await fetch("/api/stocks/headlines");
-    if (!res.ok) throw new Error("bad response");
-    const { headlines } = await res.json();
+    const { headlines } = await getData("stock-headlines.json");
     if (JSON.stringify(headlines) !== JSON.stringify(currentHeadlines)) {
       currentHeadlines = headlines;
       if (currentStocksData) renderStocks(currentStocksData, stocksOfflineSavedAt);
@@ -1299,12 +1350,36 @@ async function openComparison(range = currentCompareRange) {
   showModal();
   body.innerHTML = '<p class="loading">Loading…</p>';
   try {
-    const res = await fetch(`/api/stocks/compare?ids=${encodeURIComponent(compareIds.join(","))}&range=${range}`);
-    if (!res.ok) throw new Error("request failed");
-    renderComparison(await res.json());
+    const files = await Promise.all(compareIds.map(stockFile));
+    const series = files.map((f) => ({ entry: { id: f.id, name: f.name, symbol: f.symbol }, points: f.history[range] || [] }));
+    if (series.some((s) => !s.points.length)) throw new Error("no price history");
+    renderComparison({ range, ...alignAndRebase(series) });
   } catch (err) {
     body.innerHTML = '<p class="error">Failed to load the comparison.</p>';
   }
+}
+
+// Share prices aren't comparable (₹8 vs ₹8,000), so every line is rebased to 100
+// at the first date all the chosen stocks have a price; a date one stock did not
+// trade carries its previous close forward. Same as lib/fetchStockCompare.js; keep in step.
+function alignAndRebase(series) {
+  const startDate = series.map((s) => s.points[0].date).reduce((a, b) => (a > b ? a : b));
+  const dateSet = new Set();
+  for (const s of series) for (const p of s.points) if (p.date >= startDate) dateSet.add(p.date);
+  const dates = [...dateSet].sort();
+  return {
+    dates,
+    series: series.map(({ entry, points }) => {
+      const closeByDate = new Map(points.map((p) => [p.date, p.close]));
+      let last = [...points].reverse().find((p) => p.date <= startDate).close;
+      const base = last;
+      const values = dates.map((d) => {
+        if (closeByDate.has(d)) last = closeByDate.get(d);
+        return Math.round((last / base) * 10000) / 100;
+      });
+      return { id: entry.id, name: entry.name, symbol: entry.symbol, values, changePercent: Math.round((values[values.length - 1] - 100) * 100) / 100 };
+    }),
+  };
 }
 
 // After stock prices load: fetch headlines for the big movers and re-tag the

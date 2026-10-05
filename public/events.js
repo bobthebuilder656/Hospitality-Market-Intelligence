@@ -26,6 +26,7 @@ let eventsLoading = false;
 let eventsFailed = false; // the last load failed
 const eventsWeather = {}; // city id -> forecast, or null if unavailable
 const weatherRequested = new Set();
+let weatherFile = null; // the forecasts for every city, once loaded
 // range: days ahead shown in the list ("all" = everything loaded); type: an EV_TYPES value or "all".
 const eventsState = { city: "all", view: "list", month: null, day: null, range: "all", type: "all" };
 
@@ -235,8 +236,12 @@ function renderCityInfo() {
 async function loadWeather(cityId) {
   weatherRequested.add(cityId);
   try {
-    const res = await fetch(`/api/events/weather/${cityId}`);
-    eventsWeather[cityId] = res.ok ? await res.json() : null;
+    // All 15 forecasts are in one file, built with the rest of the site.
+    if (!weatherFile) weatherFile = getData("weather.json").catch((err) => {
+      weatherFile = null;
+      throw err;
+    });
+    eventsWeather[cityId] = (await weatherFile).cities[cityId] || null;
   } catch {
     eventsWeather[cityId] = null;
   }
@@ -476,9 +481,16 @@ async function loadEvents() {
   if (eventsLoading) return;
   eventsLoading = true;
   try {
-    const res = await fetch("/api/events");
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    eventsData = await res.json();
+    const data = await getData("events.json");
+    // The file was built up to an hour ago; "today" is the visitor's today in India,
+    // so countdowns are right and anything that ended since the build is dropped.
+    const today = todayIst();
+    if (today > data.today) {
+      data.today = today;
+      data.events = data.events.filter((e) => e.end >= today);
+      data.weddingDates = data.weddingDates.filter((d) => d >= today);
+    }
+    eventsData = data;
     eventsFailed = false;
     eventsState.month = evMonthKey(eventsData.today);
     document.getElementById("events-footnote").textContent =
@@ -496,12 +508,10 @@ async function loadEvents() {
   }
 }
 
-// News lookups are slower, so they arrive after the list is already on screen.
+// The event news is a separate file, so the list can show before it arrives.
 async function loadEventNews() {
   try {
-    const res = await fetch("/api/events/news");
-    if (!res.ok) return;
-    eventsNews = (await res.json()).news || {};
+    eventsNews = (await getData("event-news.json")).news || {};
     renderEvents();
   } catch {
     // No news links is fine; the events still show.

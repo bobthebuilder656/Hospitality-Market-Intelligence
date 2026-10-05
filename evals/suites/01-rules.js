@@ -182,10 +182,6 @@ module.exports = {
       expectEqual(dates.todayIst(new Date("2026-10-01T18:29:59Z")), "2026-10-01", "one second before midnight in India");
       expectEqual(dates.todayIst(new Date("2026-10-01T18:30:00Z")), "2026-10-02", "midnight in India");
       expectEqual(dates.eachDay("2026-10-30", "2026-11-02"), ["2026-10-30", "2026-10-31", "2026-11-01", "2026-11-02"], "day range");
-      // The daily refresh: how long until the clock in India next reads 11:00.
-      expectEqual(dates.msUntilIstHour(11, new Date("2026-09-30T04:00:00Z")), 1.5 * 3600000, "wait from 09:30 IST to 11:00 IST");
-      expectEqual(dates.msUntilIstHour(11, new Date("2026-09-30T05:30:00Z")), 24 * 3600000, "wait at exactly 11:00 IST");
-      expectEqual(dates.msUntilIstHour(11, new Date("2026-09-30T18:00:00Z")), 11.5 * 3600000, "wait from 23:30 IST");
     });
 
     await t.check("Long weekends and bridge days are worked out correctly", () => {
@@ -383,34 +379,6 @@ module.exports = {
       const bad = ["http://localhost:3000/api/health", "http://127.0.0.1/", "http://10.0.0.5/admin", "http://192.168.1.1/", "http://169.254.169.254/latest/meta-data", "file:///etc/passwd", "ftp://example.com/x", "https://user:pass@example.com/", "not a url"];
       const good = ["https://www.hotelierindia.com/story", "http://example.com/a"];
       expectNone([...bad.filter(isSafeToFetch).map((u) => `allowed: ${u}`), ...good.filter((u) => !isSafeToFetch(u)).map((u) => `refused: ${u}`)]);
-    });
-
-    await t.check("Preview of unpublished articles is refused unless the key is right or it is the developer's own machine", () => {
-      const { previewAllowed } = lib("security");
-      const req = ({ host = "localhost:3000", remote = "127.0.0.1", key, forwarded } = {}) => ({ query: key ? { key } : {}, headers: { host, ...(forwarded ? { "x-forwarded-for": forwarded } : {}) }, socket: { remoteAddress: remote } });
-      const cases = [
-        ["own machine, not production", req(), { isProduction: false, previewKey: "" }, true],
-        ["own machine but production", req(), { isProduction: true, previewKey: "" }, false],
-        ["a visitor from the internet, host forgot to set production", req({ host: "example.com", remote: "10.0.0.7" }), { isProduction: false, previewKey: "" }, false],
-        ["behind a proxy on the same machine, host forgot to set production", req({ host: "example.com", forwarded: "8.8.8.8" }), { isProduction: false, previewKey: "" }, false],
-        ["localhost name but forwarded by a proxy", req({ forwarded: "8.8.8.8" }), { isProduction: false, previewKey: "" }, false],
-        ["production with the right key", req({ host: "example.com", remote: "10.0.0.7", key: "k1" }), { isProduction: true, previewKey: "k1" }, true],
-        ["production with a wrong key", req({ host: "example.com", remote: "10.0.0.7", key: "nope" }), { isProduction: true, previewKey: "k1" }, false],
-        ["production, no key configured, empty key sent", req({ host: "example.com", remote: "10.0.0.7" }), { isProduction: true, previewKey: "" }, false],
-      ];
-      expectNone(cases.filter(([, r, opts, want]) => Boolean(previewAllowed(r, opts)) !== want).map(([what, , , want]) => `${what}: should be ${want ? "allowed" : "refused"}`));
-    });
-
-    await t.check("A visitor who sends too many requests is told to wait; others are unaffected", () => {
-      const { rateLimit } = lib("security");
-      const limiter = rateLimit({ windowMs: 60000, max: 3, isProduction: true });
-      const hit = (ip) => {
-        let status = 200;
-        const res = { setHeader() {}, status(s) { status = s; return { json() {} }; } };
-        limiter({ ip, socket: { remoteAddress: ip }, query: {}, path: "/" }, res, () => {});
-        return status;
-      };
-      expectEqual([hit("1.1.1.1"), hit("1.1.1.1"), hit("1.1.1.1"), hit("1.1.1.1"), hit("2.2.2.2")], [200, 200, 200, 429, 200], "responses");
     });
 
     // ---- publishing schedule ---------------------------------------------------------

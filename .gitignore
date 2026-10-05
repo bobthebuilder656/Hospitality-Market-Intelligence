@@ -13,3 +13,6 @@ evals/self-test-report.json
 
 # Written by the monthly events check; may name articles that are not published yet.
 data/event-review.json
+
+# The built site (npm run build); GitHub builds its own copy for the live site.
+site/

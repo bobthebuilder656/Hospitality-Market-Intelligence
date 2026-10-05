@@ -19,7 +19,7 @@ module.exports = {
   id: "app",
   title: "5. The app in a browser (every tab, filter, popup and article; desktop and phone)",
   about: "A real browser opens the tool and uses it the way a person would.",
-  needs: ["server", "browser", "network"],
+  needs: ["site", "browser", "network"],
 
   async run(t, ctx) {
     const b = await ctx.getBrowser();
@@ -225,8 +225,8 @@ module.exports = {
       await b.run(`document.querySelector('#stocks-list .stock-card[data-stock-id="indian-hotels"]').click();`);
       await b.waitFor("document.querySelector('#modal-body .modal-title')", 30000);
       const d = await b.run(`
-        const api = await (await fetch('/api/stocks/indian-hotels/detail?range=10d')).json();
-        const out = { history: api.history.length, title: document.querySelector('.modal-title').textContent, chart: Boolean(document.querySelector('#stock-chart-svg polyline')), price: document.querySelector('.modal-price').textContent, ranges: document.querySelectorAll('#range-toggle .range-btn').length, body: document.getElementById('modal-body').textContent };
+        const file = await (await fetch('data/stocks/indian-hotels.json')).json();
+        const out = { history: file.history['10d'].length, title: document.querySelector('.modal-title').textContent, chart: Boolean(document.querySelector('#stock-chart-svg polyline')), price: document.querySelector('.modal-price').textContent, ranges: document.querySelectorAll('#range-toggle .range-btn').length, body: document.getElementById('modal-body').textContent };
         document.querySelector('#range-toggle [data-range="3m"]').click();
         return out;`);
       await b.waitFor("document.querySelector('#range-toggle .range-btn.active') && document.querySelector('#range-toggle .range-btn.active').dataset.range === '3m'", 30000);
@@ -253,11 +253,12 @@ module.exports = {
       await b.run(`document.getElementById('compare-go').click();`);
       await b.waitFor("document.querySelector('#compare-chart-svg') || /Failed to load/.test(document.getElementById('modal-body').textContent)", 40000).catch(() => {});
       const d = await b.run(`
-        const out = { lines: document.querySelectorAll('#compare-chart-svg polyline').length, legend: document.querySelectorAll('.compare-legend li').length, failed: /Failed to load/.test(document.getElementById('modal-body').textContent), apiStatus: (await fetch('/api/stocks/compare?ids=' + compareIds.join(','))).status };
+        const files = await Promise.all(compareIds.map((id) => fetch('data/stocks/' + id + '.json').then((r) => r.json())));
+        const out = { lines: document.querySelectorAll('#compare-chart-svg polyline').length, legend: document.querySelectorAll('.compare-legend li').length, failed: /Failed to load/.test(document.getElementById('modal-body').textContent), noHistory: files.some((f) => !(f.history[currentCompareRange] || []).length) };
         closeStockDetail(); setCompareMode(false);
         return out;`);
       const name = "Stock comparison: the chosen stocks appear on one chart with a legend";
-      if (d.failed && d.apiStatus >= 500) t.skip(name, "the price-history service gave no data just now; the app showed its 'failed to load' message");
+      if (d.failed && d.noHistory) t.skip(name, "the price-history service gave no data at the last build; the app showed its 'failed to load' message");
       else await t.check(name, () => expectEqual([d.lines, d.legend], [3, 3], "lines and legend entries"));
     }
 
@@ -395,18 +396,18 @@ module.exports = {
       expectNone(wrong);
     });
 
-    if (ctx.remote) {
-      t.skip("Every scheduled article and case study renders correctly", "needs preview mode, which is locked on a live site");
+    if (!require("../lib/files").hasContent()) {
+      t.skip("Every scheduled article and case study renders correctly", "the private content folder is not on this machine");
     } else {
       await t.check("Every scheduled article and case study renders correctly, with its picture", async () => {
-        const dates = [...new Set([...read("briefs.json").articles, ...read("case-studies.json").cases].map((x) => x.publishDate))].sort();
+        // The site only holds what is published, so the pieces are handed to the page's own renderer directly.
+        const pieces = [...read("briefs.json").articles.map((a) => [a, "brief"]), ...read("case-studies.json").cases.map((c) => [c, "case"])];
         const problems = await b.run(`
           const out = [];
           const seen = new Set();
-          for (const date of ${J(dates)}) {
-            const r = await (await fetch('/api/resources?preview=' + date)).json();
-            for (const [item, kind, next] of [[r.brief, 'brief', r.nextBriefDate], [r.caseStudy, 'case', r.nextCaseDate]]) {
-              if (!item || seen.has(item.id)) continue;
+          for (const [item, kind] of ${J(pieces)}) {
+            {
+              const next = '2099-01-01';
               seen.add(item.id);
               const box = document.createElement('div');
               try { box.innerHTML = longRead(item, kind, next); } catch (err) { out.push(item.id + ': crashed while rendering (' + err.message + ')'); continue; }
@@ -418,10 +419,7 @@ module.exports = {
               if (box.querySelectorAll('.read-sources li').length !== item.sources.length) out.push(item.id + ': sources list is incomplete');
               for (const a of box.querySelectorAll('a[href]')) if (!/^https?:/.test(a.getAttribute('href'))) out.push(item.id + ': a link has no web address');
               const img = box.querySelector('.read-image img');
-              if (item.image) {
-                if (!img) out.push(item.id + ': picture not shown');
-                else { const res = await fetch(img.getAttribute('src'), { method: 'HEAD' }); if (!res.ok || !/^image\\//.test(res.headers.get('content-type') || '')) out.push(item.id + ': picture does not load (' + img.getAttribute('src') + ')'); }
-              }
+              if (item.image && (!img || img.getAttribute('src') !== item.image.src)) out.push(item.id + ': picture not shown');
               const link = box.querySelector('[data-open-tab]');
               if (link && !document.querySelector('.tab[data-tab="' + link.dataset.openTab + '"]')) out.push(item.id + ': its button points to a tab that does not exist');
             }
@@ -434,6 +432,19 @@ module.exports = {
         return `${count} pieces`;
       });
     }
+
+    await t.check("The published article's picture loads from the site", async () => {
+      const d = await b.run(`
+        const r = resData;
+        const out = [];
+        for (const item of [r.brief, r.caseStudy].filter(Boolean)) {
+          if (!item.image) continue;
+          const res = await fetch(item.image.src, { method: 'HEAD' });
+          if (!res.ok || !/^image\\//.test(res.headers.get('content-type') || '')) out.push(item.id + ': ' + item.image.src + ' does not load');
+        }
+        return out;`);
+      expectNone(d);
+    });
 
     // ---- navigation, keyboard and wording (found by the independent review) -----------------
 
@@ -614,6 +625,26 @@ module.exports = {
       expectNone(pairs.filter(([a, c], i) => browser[i] !== sameStory(a, c)).map(([a, c]) => `"${a}" / "${c}"`));
     });
 
+    await t.check("The browser's market-hours and comparison rules give the same answers as the server code's", async () => {
+      const stocks = lib("fetchStocks");
+      const { alignAndRebase } = lib("fetchStockCompare");
+      const moments = ["2026-09-30T04:30:00Z", "2026-09-30T10:00:00Z", "2026-10-02T06:00:00Z", "2026-10-03T06:00:00Z", "2026-10-05T03:00:00Z"];
+      const quotes = [{ id: "a", currency: "INR", asOf: "2026-10-01T09:59:00Z" }];
+      const node = moments.map((m) => {
+        const e = stocks.effectiveMarket(quotes, new Date(m), new Date(m));
+        return [stocks.marketStatus(new Date(m)).lastCloseAt.toISOString(), e.open, e.holiday, e.lastCloseAt.toISOString()];
+      });
+      const series = [
+        { entry: { id: "a", name: "A", symbol: "A" }, points: [{ date: "2026-09-01", close: 50 }, { date: "2026-09-02", close: 55 }, { date: "2026-09-03", close: 60 }] },
+        { entry: { id: "b", name: "B", symbol: "B" }, points: [{ date: "2026-09-02", close: 200 }, { date: "2026-09-04", close: 190 }] },
+      ];
+      const browser = await b.run(`
+        const market = ${J(moments)}.map((m) => { const e = effectiveMarket(${J(quotes)}, new Date(m), new Date(m)); return [marketStatus(new Date(m)).lastCloseAt.toISOString(), e.open, e.holiday, e.lastCloseAt.toISOString()]; });
+        return { market, compare: alignAndRebase(${J(series)}) };`);
+      expectEqual(browser.market, node, "market status at five moments (browser vs server code)");
+      expectEqual(browser.compare, alignAndRebase(series), "comparison (browser vs server code)");
+    });
+
     // ---- sizes -----------------------------------------------------------------------
 
     await t.check("No screen scrolls sideways at desktop, laptop, tablet or phone widths", async () => {
@@ -646,7 +677,7 @@ module.exports = {
       const d = await b.run(`
         const nav = document.querySelector('.tabs').getBoundingClientRect();
         const small = [];
-        for (const el of document.querySelectorAll('.tab, #stocks .filter select, #stocks-refresh-btn, #compare-btn, #stocks-list .star-btn')) { const r = el.getBoundingClientRect(); if (r.width && (r.height < 28 || r.width < 28)) small.push((el.id || el.className) + ' ' + Math.round(r.width) + 'x' + Math.round(r.height)); }
+        for (const el of document.querySelectorAll('.tab, #stocks .filter select, #compare-btn, #stocks-list .star-btn')) { const r = el.getBoundingClientRect(); if (r.width && (r.height < 28 || r.width < 28)) small.push((el.id || el.className) + ' ' + Math.round(r.width) + 'x' + Math.round(r.height)); }
         const tabs = [...document.querySelectorAll('.tab')].map((el) => el.getBoundingClientRect().height);
         return { position: getComputedStyle(document.querySelector('.tabs')).position, bottom: Math.round(window.innerHeight - nav.bottom), icons: [...document.querySelectorAll('.tab-icon')].every((i) => getComputedStyle(i).display !== 'none'), minTab: Math.min(...tabs), small: [...new Set(small)], bodyPad: parseFloat(getComputedStyle(document.body).paddingBottom), navHeight: nav.height, selectFont: parseFloat(getComputedStyle(document.querySelector('#stocks .filter select')).fontSize) };`);
       expectEqual([d.position, d.bottom], ["fixed", 0], "tab bar position");
@@ -697,7 +728,7 @@ module.exports = {
 
     await t.check("If the server goes down, returning visitors still see the last saved news and prices", async () => {
       await fresh(1280, 900);
-      await b.blockUrls(["*/api/*"]);
+      await b.blockUrls(["*/data/*"]);
       try {
         await b.open(`${base}/`, 3500);
         const d = await b.run(`
@@ -718,7 +749,7 @@ module.exports = {
 
     await t.check("If the server is down on a first visit, every tab says so instead of showing 'Loading' forever", async () => {
       await b.run(`localStorage.clear();`);
-      await b.blockUrls(["*/api/*"]);
+      await b.blockUrls(["*/data/*"]);
       try {
         await b.open(`${base}/`, 4000);
         const d = await b.run(`

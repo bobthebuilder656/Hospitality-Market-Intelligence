@@ -6,6 +6,8 @@
 <title>Hospitality Market Intelligence</title>
 <meta name="description" content="A daily briefing for hotel sales teams in India: hospitality news, hotel and travel stock prices, city events and demand dates, and practical reads." />
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<!-- Only this site's own scripts may run, so text from a news feed could never execute even if it slipped past the escaping. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -68,7 +70,6 @@
     <section id="news" class="tab-panel">
       <div class="panel-header">
         <span><span id="news-count"></span><span class="updated" id="updated-at"></span></span>
-        <button id="refresh-btn">Refresh</button>
       </div>
       <!-- Filters are titled dropdowns. The hidden button rows below hold the filtering logic; app.js keeps them in step. -->
       <div class="filters">
@@ -94,7 +95,6 @@
     <section id="stocks" class="tab-panel">
       <div class="panel-header">
         <span id="stocks-count" class="market-status"></span>
-        <button id="stocks-refresh-btn">Refresh</button>
       </div>
       <div id="stocks-pulse" class="pulse-bar"></div>
       <div class="toolbar">

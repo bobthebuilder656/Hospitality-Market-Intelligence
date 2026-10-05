@@ -9,6 +9,8 @@
   },
   "scripts": {
     "start": "node server.js",
+    "build": "node scripts/build-site.js",
+    "preview": "node server.js --preview",
     "refresh-news": "node lib/fetchNews.js",
     "check-events": "node lib/monthlyCheck.js",
     "evals": "node evals/run.js",

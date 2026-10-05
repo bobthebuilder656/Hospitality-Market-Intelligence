@@ -1,4 +1,4 @@
-// Helpers for monthly air passengers per city (AAI data from /api/air-traffic),
+// Helpers for monthly air passengers per city (AAI data, data/air-traffic.json),
 // used by the City Events tab.
 
 const AIR_MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -10,8 +10,7 @@ let airLoading = null;
 
 function loadAirTraffic() {
   if (!airLoading) {
-    airLoading = fetch("/api/air-traffic")
-      .then((r) => (r.ok ? r.json() : null))
+    airLoading = getData("air-traffic.json")
       .then((d) => (airData = d && d.months && d.months.length ? d : null))
       .catch(() => null);
   }

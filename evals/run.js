@@ -5,15 +5,20 @@
 //   npm run evals:quick      only the checks that need no server, browser or internet
 //   npm run evals:links      only the external-link check (a few minutes)
 //   npm run evals:all        everything
-//   npm run evals -- --only=news,app       chosen suites
-//   npm run evals -- --url=https://…       check a deployed copy instead of this machine
+//   npm run evals -- --only=site,app       chosen suites
+//   npm run evals -- --site=site           check a site already built (npm run build) instead of building one
+//   npm run evals -- --url=https://…       check the published site instead of this machine
+//
+// Without --site or --url, the suites that need the site build a fresh copy of it
+// first (this fetches today's news, prices and weather, so it takes a minute or two).
 //
 // Results are printed and also written to evals/report.html and evals/report.json.
-// The exit code is 1 if any blocker failed, so this can gate a deployment.
+// The exit code is 1 if any blocker failed, so this can gate publishing.
 
-const { spawn } = require("child_process");
 const fs = require("fs");
+const os = require("os");
 const path = require("path");
+const express = require("express");
 const { Recorder } = require("./lib/harness");
 const { Browser, findBrowser, sleep } = require("./lib/browser");
 
@@ -28,29 +33,18 @@ const option = (name) => {
   return hit ? hit.slice(name.length + 3) : null;
 };
 
-function startServer(port, extraEnv = {}) {
-  const proc = spawn(process.execPath, ["server.js"], { cwd: ROOT, env: { ...process.env, PORT: String(port), ...extraEnv }, stdio: ["ignore", "pipe", "pipe"] });
-  let log = "";
-  proc.stdout.on("data", (d) => (log += d));
-  proc.stderr.on("data", (d) => (log += d));
-  return { proc, url: `http://localhost:${port}`, log: () => log };
+// Serves a built site folder the way GitHub Pages does: plain files, nothing else.
+function serveSite(dir, port) {
+  const app = express();
+  app.disable("x-powered-by");
+  app.use(express.static(dir));
+  return new Promise((resolve) => {
+    const server = app.listen(port, () => resolve({ url: `http://localhost:${port}`, close: () => server.close() }));
+  });
 }
 
-async function waitForServer(url, timeoutMs = 60000) {
-  const end = Date.now() + timeoutMs;
-  while (Date.now() < end) {
-    try {
-      const res = await fetch(`${url}/api/resources`);
-      if (res.ok) return;
-    } catch {
-      /* not listening yet */
-    }
-    await sleep(400);
-  }
-  throw new Error(`The server did not start at ${url}`);
-}
-
-// GET a path on the app and return status, headers, parsed JSON (if any) and time taken.
+// GET a path on the site and return status, headers, parsed JSON (if any) and time taken.
+// Paths are relative to the site's address, which on GitHub Pages includes the repository name.
 function makeApi(baseUrl) {
   return async (p, init) => {
     const started = Date.now();
@@ -144,17 +138,27 @@ async function main() {
 
   let server = null;
   let browser = null;
-  const ctx = { root: ROOT, remote: Boolean(remoteUrl), baseUrl: null, api: null, startServer, waitForServer, makeApi, sleep };
+  let tempSite = null;
+  const ctx = { root: ROOT, remote: Boolean(remoteUrl), baseUrl: null, siteDir: null, api: null, makeApi, sleep };
 
   try {
-    if (needs("server")) {
+    if (needs("site")) {
       if (remoteUrl) {
         ctx.baseUrl = remoteUrl.replace(/\/$/, "");
       } else {
-        console.log("Starting a private copy of the server for the checks…");
-        server = startServer(PORT);
+        let siteDir = option("site") ? path.resolve(option("site")) : null;
+        if (!siteDir) {
+          console.log("Building a fresh copy of the site for the checks (fetching today's data)…");
+          tempSite = fs.mkdtempSync(path.join(os.tmpdir(), "hi-site-"));
+          const { buildSite } = require("../scripts/build-site");
+          const local = path.join(ROOT, "site");
+          await buildSite({ outDir: tempSite, previousDir: fs.existsSync(path.join(local, "data")) ? local : null, log: () => {} });
+          siteDir = tempSite;
+        }
+        if (!fs.existsSync(path.join(siteDir, "index.html"))) throw new Error(`No built site in ${siteDir} (run npm run build)`);
+        ctx.siteDir = siteDir;
+        server = await serveSite(siteDir, PORT);
         ctx.baseUrl = server.url;
-        await waitForServer(server.url);
       }
       ctx.api = makeApi(ctx.baseUrl);
     }
@@ -188,7 +192,8 @@ async function main() {
     process.exitCode = fail ? 1 : 0;
   } finally {
     if (browser) await browser.close();
-    if (server) server.proc.kill();
+    if (server) server.close();
+    if (tempSite) fs.rmSync(tempSite, { recursive: true, force: true });
   }
 }
 

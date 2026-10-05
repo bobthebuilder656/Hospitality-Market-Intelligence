@@ -40,7 +40,7 @@ const BUGS = [
   { group: "quick", what: "Sponsored stories are no longer filtered out", file: "lib/fetchNews.js", find: 'if (looksSponsored(item.link, item.title, item._text)) return "sponsored";', replace: "" },
   { group: "quick", what: "Analyst-rating headlines are no longer recognised", file: "lib/stockChatter.js", find: "const isStockChatter = (title) => STOCK_CHATTER_RE.test(title || \"\");", replace: "const isStockChatter = () => false;" },
   { group: "quick", what: "HTML codes in feed text are no longer decoded", file: "lib/fetchNews.js", find: "const decoded = decodeEntities(noTags)", replace: "const decoded = noTags" },
-  { group: "quick", what: "The refresh job waits for the wrong hour", file: "lib/dates.js", find: "let next = Math.floor(istNow / DAY_MS) * DAY_MS + hour * 60 * 60 * 1000;", replace: "let next = Math.floor(istNow / DAY_MS) * DAY_MS + (hour + 3) * 60 * 60 * 1000;" },
+  { group: "quick", what: "India's date rolls over at the wrong time", file: "lib/dates.js", find: "const todayIst = (now = new Date()) => fromTime(now.getTime() + IST_OFFSET_MS);", replace: "const todayIst = (now = new Date()) => fromTime(now.getTime());" },
   { group: "quick", what: "An article is scheduled on a Monday", file: "content/briefs.json", mutate: json((d) => (d.articles[2].publishDate = "2026-10-05")) },
   { group: "quick", what: "A case study loses its limitations note", file: "content/case-studies.json", mutate: json((d) => delete d.cases[4].limitations) },
   { group: "quick", what: "A glossary term loses its one-line summary", file: "data/glossary.json", mutate: json((d) => delete d.terms[3].short) },
@@ -66,10 +66,11 @@ const BUGS = [
   { group: "app", what: "The term of the day is a day behind", file: "public/resources.js", find: "return terms[istDay % terms.length];", replace: "return terms[(istDay + 1) % terms.length];" },
 
   // ---- deploy: caught (or not) by the deployment suite ----
-  { group: "deploy", what: "The anti-framing security header is dropped", file: "server.js", find: '  res.setHeader("X-Frame-Options", "SAMEORIGIN");', replace: "" },
-  { group: "deploy", what: "Preview mode is open to everyone on the live site", file: "server.js", find: "const allowed = !IS_PRODUCTION || (PREVIEW_KEY && req.query.key === PREVIEW_KEY);", replace: "const allowed = true;" },
-  { group: "deploy", what: "A failed news refresh wipes the saved stories again", file: "lib/fetchNews.js", find: "if (daily.length < MIN_USABLE_ITEMS && previous", replace: "if (false && previous" },
-  { group: "deploy", what: "The data folder is served to the public", file: "server.js", find: 'app.use(express.static(path.join(__dirname, "public")));', replace: 'app.use(express.static(path.join(__dirname, "public")));\napp.use("/data", express.static(path.join(__dirname, "data")));' },
+  { group: "deploy", what: "The page's security policy is dropped", file: "public/index.html", find: '<meta http-equiv="Content-Security-Policy"', replace: '<meta name="removed-policy"' },
+  { group: "deploy", what: "The published site includes articles that are not due yet", file: "scripts/build-site.js", find: "const resources = getResources({ now, preview });", replace: 'const resources = getResources({ now, preview: "2099-12-31" });' },
+  { group: "deploy", what: "A failed source empties its part of the page instead of keeping the previous data", file: "scripts/build-site.js", find: "      if (old) return old;\n", replace: "" },
+  { group: "deploy", what: "The private articles file is copied into the published site", file: "scripts/build-site.js", find: '  write("resources.json", resources);', replace: '  write("resources.json", resources);\n  fs.copyFileSync(path.join(CONTENT_DIR, "briefs.json"), path.join(dataDir, "briefs.json"));' },
+  { group: "deploy", what: "A page address starts with / and breaks under the GitHub Pages folder", file: "public/app.js", find: "const res = await fetch(`data/${file}`", replace: "const res = await fetch(`/data/${file}`" },
 ];
 
 const SUITES = { quick: "rules,content", app: "app", deploy: "deploy" };
