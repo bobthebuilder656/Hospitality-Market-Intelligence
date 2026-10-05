@@ -76,6 +76,7 @@ function dashHeader() {
       <div class="dash-prefs">
         <label class="dash-pref"><span>City</span>${dashCitySelect("All India")}</label>
         <button class="dash-pref" data-dash-tab="stocks"><span>Watchlist</span>${starred ? `${starred} stock${starred === 1 ? "" : "s"}` : "Not set"}</button>
+        ${dashCity || watchlist.length ? `<button class="dash-pref" data-dash-share title="Open this link on another device to use the same city and watchlist">Copy settings link</button>` : ""}
       </div>
     </div>`;
 }
@@ -312,7 +313,24 @@ function dashOpenTab(id) {
   window.scrollTo({ top: 0 });
 }
 
+// Settings live in this browser only; this link carries them to another device (read by app.js).
+function dashShareSettings(button) {
+  const params = new URLSearchParams();
+  if (dashCity) params.set("city", dashCity);
+  params.set("watch", watchlist.join(","));
+  const url = `${location.origin}${location.pathname}?${params.toString().replace(/%2C/g, ",")}#dashboard`;
+  const done = () => {
+    button.textContent = "Link copied";
+    setTimeout(() => (button.textContent = "Copy settings link"), 2500);
+  };
+  if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, () => window.prompt("Copy this link and open it on your other device:", url));
+  else window.prompt("Copy this link and open it on your other device:", url);
+}
+
 dashPanel.addEventListener("click", (e) => {
+  const share = e.target.closest("[data-dash-share]");
+  if (share) return dashShareSettings(share);
+
   const stock = e.target.closest("[data-dash-stock]");
   if (stock) return openStockDetail(stock.dataset.dashStock);
 

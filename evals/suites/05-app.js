@@ -127,6 +127,23 @@ module.exports = {
       expectNone(d.goaOnly.filter((n) => !d.goaEvents.includes(n)).map((n) => `"${n}" is not a Goa event`));
     });
 
+    await t.check("Settings link carries the city and watchlist to another device", async () => {
+      // Capture the copied link instead of using the real clipboard.
+      const link = await b.run(`
+        let copied = '';
+        Object.defineProperty(navigator, 'clipboard', { configurable: true, value: { writeText: (s) => { copied = s; return Promise.resolve(); } } });
+        document.querySelector('#dashboard [data-dash-share]').click();
+        await new Promise((r) => setTimeout(r, 100));
+        return { copied, label: document.querySelector('#dashboard [data-dash-share]').textContent };`);
+      expectEqual(link.label, "Link copied", "button confirms the copy");
+      // A browser with nothing saved opens the link.
+      await b.run(`localStorage.clear();`);
+      await b.open(link.copied, 800);
+      await b.waitFor(DATA_READY, 90000);
+      const d = await b.run(`return { city: dashCity, watch: watchlist, search: location.search, tab: document.querySelector('.tab.active').dataset.tab };`);
+      expectEqual(d, { city: "goa", watch: ["indian-hotels", "itc-hotels", "lemon-tree", "eih"], search: "", tab: "dashboard" }, "settings after opening the link");
+    });
+
     await t.check("Every dashboard row leads to the right place", async () => {
       const steps = [
         ["a stock row opens its popup", `document.querySelector('#dashboard [data-dash-stock]').click(); await new Promise((r) => setTimeout(r, 300)); const open = !document.getElementById('stock-modal').classList.contains('hidden'); closeStockDetail(); return open;`, true],

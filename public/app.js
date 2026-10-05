@@ -1,3 +1,24 @@
+// A settings link from another device ("?city=mumbai&watch=ihcl,chalet") saves that
+// city and watchlist here, then the address is tidied so a reload does not reapply it.
+// It runs first, before the watchlist and city are read from this browser's storage.
+(function applySettingsLink() {
+  const params = new URLSearchParams(location.search);
+  if (!params.has("city") && !params.has("watch")) return;
+  const id = /^[a-z0-9-]{1,40}$/;
+  try {
+    const city = params.get("city") || "";
+    if (id.test(city)) localStorage.setItem("hospitalityIntel.city", city);
+    else if (params.has("city")) localStorage.removeItem("hospitalityIntel.city");
+    if (params.has("watch")) {
+      const ids = (params.get("watch") || "").split(",").filter((s) => id.test(s)).slice(0, 6);
+      localStorage.setItem("hospitalityIntel.watchlist", JSON.stringify(ids));
+    }
+  } catch (err) {
+    /* localStorage unavailable (private browsing, etc.) — the defaults are used */
+  }
+  history.replaceState(null, "", location.pathname + location.hash);
+})();
+
 const tabs = document.querySelectorAll(".tab");
 const panels = document.querySelectorAll(".tab-panel");
 

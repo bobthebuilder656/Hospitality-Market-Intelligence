@@ -59,8 +59,9 @@ async function checkAll(links) {
   return results;
 }
 
-// 401/403/429 usually mean the site blocks automated visitors, not that the page is gone.
-const isBlocked = (s) => [401, 403, 405, 406, 429, 999].includes(s) || ["timeout", "blocked", "certificate"].includes(s);
+// 401/402/403/429 usually mean the site blocks automated visitors, not that the page is gone
+// (GlobalSecurity answers 402 to GitHub's servers but opens normally in a browser).
+const isBlocked = (s) => [401, 402, 403, 405, 406, 429, 999].includes(s) || ["timeout", "blocked", "certificate"].includes(s);
 const isBroken = (s) => !(typeof s === "number" && s < 400) && !isBlocked(s);
 
 module.exports = {
