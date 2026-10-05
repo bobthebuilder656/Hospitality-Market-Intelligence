@@ -1,7 +1,6 @@
 # Hospitality Market Intelligence
 
-A free daily market briefing for hotel sales and revenue teams in India. It gathers the day's hospitality news, hotel and travel share prices, upcoming demand dates for 15 Indian cities, and practical reading, and shows them in one place on a laptop or a phone.
-
+Free daily briefing for Indian hotel teams. Hospitality news, stock prices, city demand dates and practical reading — all in one place, on laptop or phone.
 **Live site:** https://bobthebuilder656.github.io/Hospitality-Market-Intelligence/
 
 ## What is in it
