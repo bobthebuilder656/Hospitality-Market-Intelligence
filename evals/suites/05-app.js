@@ -462,6 +462,12 @@ module.exports = {
       await b.open(`${base}/#nonsense`, 800);
       await b.waitFor(DATA_READY, 60000);
       const unknown = await b.run(`return document.querySelector('.tab.active').dataset.tab;`);
+      // The name and logo in the header lead back to the Dashboard.
+      await b.clickTab("stocks", 200);
+      await b.run(`document.querySelector('.brand').click();`);
+      await sleep(400);
+      const brand = await b.run(`return document.querySelector('.tab.active').dataset.tab;`);
+      expectEqual(brand, "dashboard", "tab after clicking the site name");
       expectEqual(forward, "#events", "address after opening City Events");
       expectEqual(back, "#stocks stocks stocks", "after the browser's Back button");
       expectEqual(deep, "resources glossary true", "opening a link to the glossary");

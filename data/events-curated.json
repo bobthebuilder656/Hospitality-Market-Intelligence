@@ -49,6 +49,23 @@
       "image": "https://cdn.indiamobilecongress.com/10-years-theme.webp"
     },
     {
+      "id": "windergy-2026",
+      "name": "Windergy India 2026",
+      "category": "expo",
+      "start": "2026-10-07",
+      "end": "2026-10-09",
+      "venue": "Chennai Trade Centre, Nandambakkam",
+      "note": "India's largest wind-energy trade fair and conference, with international exhibitors. Demand for business hotels near Guindy and the airport.",
+      "cities": [
+        "chennai"
+      ],
+      "source": "https://windergy.in/",
+      "newsKeywords": [
+        "Windergy India",
+        "Windergy"
+      ]
+    },
+    {
       "id": "wi-t20i-indore-2026",
       "name": "India vs West Indies, 3rd T20I",
       "category": "sports",
@@ -172,6 +189,23 @@
       ]
     },
     {
+      "id": "maritime-india-2026",
+      "name": "Maritime India Conference & Expo 2026",
+      "category": "expo",
+      "start": "2026-11-02",
+      "end": "2026-11-04",
+      "venue": "Bombay Exhibition Centre, Goregaon",
+      "note": "FICCI's maritime trade conference and exhibition, publicised abroad through India's embassies. Shipping and port delegates; demand for Goregaon and western-suburb business hotels.",
+      "cities": [
+        "mumbai"
+      ],
+      "source": "https://www.indianembassynetherlands.gov.in/section/forthcomming/4th-maritime-india-conference-and-exhibition-2026-2-4-november-2026-bombay-exhibition-centre-mumbai/",
+      "newsKeywords": [
+        "Maritime India Conference",
+        "Maritime India Expo"
+      ]
+    },
+    {
       "id": "iitf-2026",
       "name": "India International Trade Fair (IITF)",
       "category": "expo",
@@ -284,6 +318,22 @@
       "newsKeywords": [
         "India ITME",
         "ITME 2026"
+      ]
+    },
+    {
+      "id": "pune-marathon-2026",
+      "name": "Pune International Marathon 2026",
+      "category": "sports",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "venue": "Baburao Sanas Ground",
+      "note": "40th edition of India's first AIMS-certified marathon. Out-of-town runners arrive on the Saturday; one-night stays in central Pune.",
+      "cities": [
+        "pune"
+      ],
+      "source": "https://www.marathonpune.com/",
+      "newsKeywords": [
+        "Pune International Marathon"
       ]
     },
     {
@@ -476,6 +526,87 @@
         "T20I",
         "T20",
         "Test"
+      ],
+      "newsExclude": [
+        "hockey",
+        "U-?19",
+        "under-19",
+        "women"
+      ]
+    },
+    {
+      "id": "zim-odi-kolkata-2027",
+      "name": "India vs Zimbabwe, 1st ODI",
+      "category": "sports",
+      "start": "2027-01-03",
+      "end": "2027-01-03",
+      "venue": "Eden Gardens",
+      "note": "Day-night match on a Sunday, during Kolkata's winter peak. Visiting fans, teams and broadcast crews book one or two nights.",
+      "cities": [
+        "kolkata"
+      ],
+      "source": "https://www.bcci.tv/articles/2026/news/55556333/fixtures-unveiled-for-team-india-s-international-home-season-2026-27",
+      "newsKeywords": [
+        "India vs Zimbabwe",
+        "IND vs ZIM"
+      ],
+      "newsAlso": [
+        "cricket",
+        "ODI"
+      ],
+      "newsExclude": [
+        "hockey",
+        "U-?19",
+        "under-19",
+        "women"
+      ]
+    },
+    {
+      "id": "zim-odi-hyderabad-2027",
+      "name": "India vs Zimbabwe, 2nd ODI",
+      "category": "sports",
+      "start": "2027-01-06",
+      "end": "2027-01-06",
+      "venue": "Rajiv Gandhi International Cricket Stadium",
+      "note": "Midweek day-night match. Visiting fans, teams and broadcast crews book one or two nights.",
+      "cities": [
+        "hyderabad"
+      ],
+      "source": "https://www.bcci.tv/articles/2026/news/55556333/fixtures-unveiled-for-team-india-s-international-home-season-2026-27",
+      "newsKeywords": [
+        "India vs Zimbabwe",
+        "IND vs ZIM"
+      ],
+      "newsAlso": [
+        "cricket",
+        "ODI"
+      ],
+      "newsExclude": [
+        "hockey",
+        "U-?19",
+        "under-19",
+        "women"
+      ]
+    },
+    {
+      "id": "zim-odi-mumbai-2027",
+      "name": "India vs Zimbabwe, 3rd ODI",
+      "category": "sports",
+      "start": "2027-01-09",
+      "end": "2027-01-09",
+      "venue": "Wankhede Stadium",
+      "note": "Saturday day-night match in south Mumbai. Visiting fans, teams and broadcast crews book one or two nights.",
+      "cities": [
+        "mumbai"
+      ],
+      "source": "https://www.bcci.tv/articles/2026/news/55556333/fixtures-unveiled-for-team-india-s-international-home-season-2026-27",
+      "newsKeywords": [
+        "India vs Zimbabwe",
+        "IND vs ZIM"
+      ],
+      "newsAlso": [
+        "cricket",
+        "ODI"
       ],
       "newsExclude": [
         "hockey",

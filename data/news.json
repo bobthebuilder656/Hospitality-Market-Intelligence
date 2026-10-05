@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T08:27:29.804Z",
+  "generatedAt": "2026-10-05T10:38:56.594Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -106,7 +106,7 @@
       "kept": 4,
       "dropped": {
         "staff appointment": 2,
-        "too old": 2
+        "too old": 3
       },
       "error": null
     },
@@ -115,10 +115,10 @@
       "name": "Hospitality ON",
       "ok": true,
       "fetched": 100,
-      "kept": 4,
+      "kept": 3,
       "dropped": {
         "award announcement with no real content": 2,
-        "too old": 8
+        "too old": 10
       },
       "error": null
     },
@@ -129,7 +129,7 @@
       "fetched": 20,
       "kept": 4,
       "dropped": {
-        "several headlines in one title": 1
+        "award announcement with no real content": 1
       },
       "error": null
     },
@@ -199,8 +199,8 @@
     },
     {
       "source": "Hospitality Net",
-      "title": "70% of Consumers Abandon AI Because It Forgot Them, Milan GOPPAR Up 34% on the Winter Olympics, What Tech Vendors Actually Want from Hotel Clients",
-      "reason": "several headlines in one title"
+      "title": "Lobby and Crewfare win Global Startup Pitch People’s Choice Awards at WiT Singapore 2026",
+      "reason": "award announcement with no real content"
     },
     {
       "source": "Business Traveller",
@@ -250,60 +250,76 @@
   ],
   "items": [
     {
-      "title": "Kaziranga Heritage opens with 28 keys in Assam",
-      "link": "https://travelbizmonitor.com/top-stories/kaziranga-heritage-opens-with-28-keys-in-assam/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-05T08:23:00.000Z",
-      "snippet": "Kaziranga Heritage, a 28-key retreat in Assam, has opened with a focus on heritage, wilderness and destination-led hospitality. Launched in March 2026, the property brings together the historic Bonani bungalow, Assamese architecture and cuisine, local craftsmanship and curated experiences around Kaziranga. The property has been developed around the Bonani bungalow, which has guest records dating back to 1938."
+      "title": "The Hidden Cost of Disconnected Hotel Operations",
+      "link": "https://www.hospitalitynet.org/opinion/4134361/the-hidden-cost-of-disconnected-hotel-operations",
+      "source": "Hospitality Net",
+      "region": "Global",
+      "pubDate": "2026-10-05T10:35:00.000Z",
+      "snippet": "Fragmented hotel tech forces staff to manually bridge system gaps, creating a hidden labor cost that connected platforms like FCS1 claim can cut task response times by up to 40%."
     },
     {
-      "title": "R2 expands Mallorca portfolio",
-      "link": "https://www.traveldailynews.com/tour-operators/r2-expands-mallorca-portfolio-paguera-hotels/",
+      "title": "Hotel Operis debuts in Charleston",
+      "link": "https://www.traveldailynews.com/hotels-lodging/hotel-operis-replaces-grand-bohemian-charleston/",
       "source": "Travel Daily News",
       "region": "Global",
-      "pubDate": "2026-10-05T08:22:23.000Z",
-      "snippet": "DUISBURG – R2 , the hotel brand of Schauinsland-Reisen , will manage and operate two additional properties in Mallorca . The new portfolio additions are the R2 Paguera Park and the R2 Ponent in the resort of Paguera. The expansion adds a family-oriented resort and a seafront apartment property to the group’s Mallorca portfolio."
+      "pubDate": "2026-10-05T10:01:50.000Z",
+      "snippet": "Guests went to sleep at Grand Bohemian Charleston on September 30 and woke up at Hotel Operis the following day. Beginning October 1, 2026, the 50-room boutique property in Charleston ‘s Historic District adopted the Hotel Operis name. The hotel remains part of Marriott ‘s Autograph Collection while introducing updated branding, redesigned spaces and new guest experiences."
     },
     {
-      "title": "PolyU scholar Prof. Kaye Chon conferred honorary doctorate",
-      "link": "https://www.hospitalitynet.org/news/4134716/polyu-scholar-prof-kaye-chon-conferred-honorary-doctorate",
-      "source": "Hospitality Net",
-      "region": "Global",
-      "pubDate": "2026-10-05T08:20:34.000Z",
-      "snippet": "PolyU's SHTM Dean Prof. Kaye Chon received an honorary doctorate from Prince of Songkla University, Thailand, honoring his lifelong contributions to hospitality and tourism education."
+      "title": "Why India matters to Europe’s food industry",
+      "link": "https://www.hotelierindia.com/business/why-india-matters-to-europes-food-industry",
+      "source": "Hotelier India",
+      "region": "India",
+      "pubDate": "2026-10-05T09:59:57.000Z",
+      "snippet": ""
     },
     {
-      "title": "Soul Community Planet, Inc. Launches Public Investment Campaign to Expand Its Holistic Hospitality® Reach",
-      "link": "https://www.hospitalitynet.org/news/4134715/soul-community-planet-inc-launches-public-investment-campaign-to-expand-its-holistic-hospitality-reach",
-      "source": "Hospitality Net",
-      "region": "Global",
-      "pubDate": "2026-10-05T08:15:59.000Z",
-      "snippet": "SCP, a 10-property wellness-focused boutique hotel brand, has launched a Regulation CF public investment campaign targeting $300M in equity to grow beyond 2,000 rooms."
-    },
-    {
-      "title": "Landing at Western Sydney Airport? Where to Stay and Go Next",
-      "link": "https://www.businesstraveller.com/destinations/western-sydney-airport-where-to-stay-parramatta/",
+      "title": "Starlux Launches Direct Taipei-Bali Flights, Giving Travellers a Boutique Airline Option",
+      "link": "https://www.businesstraveller.com/news/starlux-taipei-bali-flights-compared/",
       "source": "Business Traveller",
       "region": "Global",
-      "pubDate": "2026-10-05T04:00:00.000Z",
-      "snippet": "The opening of Western Sydney International Airport is reshaping how travellers experience Australia’s financial capital – starting in the city’s west."
+      "pubDate": "2026-10-05T09:53:43.000Z",
+      "snippet": "Five weekly flights, eight lie-flat business seats and a late-afternoon return: how Starlux's new Taipei to Bali flights compare with EVA Air and China Airlines."
     },
     {
-      "title": "Geneva Tourism targets Indian leisure travellers",
-      "link": "https://travelbizmonitor.com/top-stories/geneva-tourism-targets-indian-leisure-travellers/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-05T03:54:04.000Z",
-      "snippet": "Geneva Tourism, along with Manotel Hotel Group Geneva and Initium, is stepping up efforts to attract Indian leisure travellers and position Geneva as a holiday destination in the Indian market. The partners recently hosted a select group of media representatives at a luncheon at Kathiwada House in Worli, Mumbai."
-    },
-    {
-      "title": "How This Airline Is Growing Its Network Without Adding a Single Plane",
-      "link": "https://skift.com/2026/10/04/how-this-airline-is-growing-its-network-without-adding-a-single-plane/",
+      "title": "Gulf Hotel Deals Stall as U.S.-Iran War Scrambles Valuations",
+      "link": "https://skift.com/2026/10/05/gulf-hotel-deals-stall-as-u-s-iran-war-scrambles-valuations/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-10-04T22:00:00.000Z",
-      "snippet": "Skift Take: Who said airlines have to fly every route they sell? Low-cost-carrier Tigerair Taiwan is testing a way to tap another carrier’s network, sell the journey itself, and skip the traditional interline setup. Airlines have traditionally grown their networks by adding flights or partnering with other carriers through interline and codeshare agreements."
+      "pubDate": "2026-10-05T09:00:00.000Z",
+      "snippet": "Skift Take: There's no evidence of distressed sales in the Gulf hotel market. But the war clearly changed the math buyers need to close deals. The U.S.-Iran war hasn’t forced Gulf hotel owners to sell. But it has stalled deals as buyers and sellers can’t agree on price now that pre-war valuations no longer hold."
+    },
+    {
+      "title": "India tourism faces 11 million worker shortfall: CBRE Report",
+      "link": "https://travelbizmonitor.com/top-stories/india-tourism-faces-11-million-worker-shortfall/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-05T08:48:14.000Z",
+      "snippet": "India’s expanding tourism industry could face a workforce shortage of around 11 million workers by 2035, as demand for trained professionals struggles to keep pace with the growth of hotels and emerging tourism segments, according to a September 2026 report by CBRE Research."
+    },
+    {
+      "title": "New travel industry coalition calls for EU digital omnibus to enable secure, seamless biometric journey",
+      "link": "https://travelbizmonitor.com/top-stories/new-travel-industry-coalition-calls-for-eu-digital-omnibus-to-enable-secure-seamless-biometric-journey/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-05T08:31:20.000Z",
+      "snippet": "ACI EUROPE, Amadeus, IATA, IDEMIA Public Security and SITA today announced the formation of the Responsible Biometrics Travel Industry Coalition, calling on EU policymakers to ensure the Digital Omnibus actively supports the voluntary and secure use of biometrics in travel while protecting passenger choice and privacy."
+    },
+    {
+      "title": "Ramee Group of Hotels targets 100 properties by 2032, eyes management contracts across India, GCC",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/ramee-group-of-hotels-targets-100-properties-by-2032-eyes-management-contracts-across-india-gcc/134687449",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-10-05T06:30:00.000Z",
+      "snippet": "Ramee Group of Hotels is accelerating its India expansion, targeting 100 properties by 2032 after growing from nine to 25 hotels since 2022. Senior vice president Saurabh Gahoi says the group is prioritising management contracts over lease or revenue-share models, leveraging its F&B strength and improving direct distribution."
+    },
+    {
+      "title": "How new T3 pier will boost IGI's international capacity by over 50%",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/travel/how-new-t3-pier-will-boost-igis-international-capacity-by-over-50/134685347",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-10-05T04:30:00.000Z",
+      "snippet": "Indira Gandhi International Airport in Delhi is planning to enhance its international traffic capacity significantly. The addition of a new Pier E at Terminal 3 will increase capacity by 1.6 crore passengers annually. Modifications at Terminal 1 will also allow for a marginal rise in domestic capacity over the next few years."
     },
     {
       "title": "300+ objections filed against Maidstone hotel conversion plan",
@@ -312,22 +328,6 @@
       "region": "India",
       "pubDate": "2026-10-04T19:33:25.000Z",
       "snippet": "More than 300 objections have been filed against plans to convert the former Grange Moor Hotel and wedding venue in Maidstone, Kent, into a 42-unit co-living development that could accommodate around 65 people. Residents have raised concerns over parking, pressure on local infrastructure, the scale of the proposed development and its potential impact on the character of the neighbourhood."
-    },
-    {
-      "title": "Royal Caribbean expands Alaska Cruises with new experiences",
-      "link": "https://travelbizmonitor.com/top-stories/royal-caribbean-expands-alaska-cruises-with-new-experiences/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-04T05:30:03.000Z",
-      "snippet": "Royal Caribbean is offering a range of Alaska cruise experiences for the upcoming season, combining scenic coastal voyages with inland adventures and immersive destination experiences. Operating between April and September, the itineraries feature seven-night cruises and extended Cruisetours ranging from two to six nights, including opportunities to explore Denali National Park and other iconic Alaskan destinations."
-    },
-    {
-      "title": "Malaysia Aviation Group signs deal to acquire Airbus SAE",
-      "link": "https://travelbizmonitor.com/top-stories/malaysia-aviation-group-signs-deal-to-acquire-airbus-sae/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-04T04:30:55.000Z",
-      "snippet": "Malaysia Aviation Group (MAG) has signed a Sale and Purchase Agreement (SPA) with Airbus to acquire Sepang Aircraft Engineering (SAE), a wholly owned subsidiary of Airbus Group."
     }
   ]
 }
