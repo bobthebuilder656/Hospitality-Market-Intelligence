@@ -1,7 +1,7 @@
 // How far ahead the articles and case studies are written. Prints JSON:
 // { lastBrief, lastCase, daysLeft } where daysLeft counts from today (India time)
 // to the earlier of the two last publish dates. Used by the reminder in the
-// private content repository, which opens an issue when this falls to 30 days.
+// private content repository, which opens an issue when this falls to 7 days.
 
 const { read } = require("../evals/lib/files");
 
