@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T10:38:56.594Z",
+  "generatedAt": "2026-10-06T22:47:26.300Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -54,11 +54,11 @@
     {
       "id": "hotelier-india",
       "name": "Hotelier India",
-      "ok": true,
-      "fetched": 60,
-      "kept": 4,
+      "ok": false,
+      "fetched": 0,
+      "kept": 0,
       "dropped": {},
-      "error": null
+      "error": "Status code 403"
     },
     {
       "id": "et-hospitality",
@@ -66,7 +66,9 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "several headlines in one title": 1
+      },
       "error": null
     },
     {
@@ -105,8 +107,8 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "staff appointment": 2,
-        "too old": 3
+        "staff appointment": 1,
+        "too old": 5
       },
       "error": null
     },
@@ -115,10 +117,9 @@
       "name": "Hospitality ON",
       "ok": true,
       "fetched": 100,
-      "kept": 3,
+      "kept": 4,
       "dropped": {
-        "award announcement with no real content": 2,
-        "too old": 10
+        "too old": 11
       },
       "error": null
     },
@@ -129,6 +130,7 @@
       "fetched": 20,
       "kept": 4,
       "dropped": {
+        "several headlines in one title": 1,
         "award announcement with no real content": 1
       },
       "error": null
@@ -158,9 +160,8 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 4,
-        "no usable body text": 1,
-        "sponsored": 3
+        "non-English": 3,
+        "sponsored": 2
       },
       "error": null
     },
@@ -178,48 +179,38 @@
   ],
   "droppedItems": [
     {
+      "source": "ET HospitalityWorld",
+      "title": "'22 five-star hotels, 141 Airbnb': Ahmedabad, Gandhinagar need 22,000 more rooms to host CWG 2030",
+      "reason": "several headlines in one title"
+    },
+    {
       "source": "Travel Trade Journal",
       "title": "The Leela appoints Rajesh Namby as General Manager of The Leela Coorg Forest Sanctuary",
       "reason": "staff appointment"
     },
     {
-      "source": "Travel Trade Journal",
-      "title": "Atmosphere Core appoints Neeraj Seth as Assistant Vice President – Communication",
-      "reason": "staff appointment"
-    },
-    {
-      "source": "Hospitality ON",
-      "title": "Hospitality Awards 2026: the nominees for the Best Operational Transformation award",
-      "reason": "award announcement with no real content"
-    },
-    {
-      "source": "Hospitality ON",
-      "title": "Hospitality Awards 2026: the nominees for the Best Concept On The Move award",
-      "reason": "award announcement with no real content"
+      "source": "Hospitality Net",
+      "title": "The AI Booking Protocol Has No Field for Your Travel Agent, Will Agentic Bookings Flourish or Fizzle?, Inaccurate Hotel Content Costs Travelers $1,900 on Average",
+      "reason": "several headlines in one title"
     },
     {
       "source": "Hospitality Net",
-      "title": "Lobby and Crewfare win Global Startup Pitch People’s Choice Awards at WiT Singapore 2026",
+      "title": "UrVenue Honors Hospitality Leaders at Inaugural Hospitality Innovation Awards",
       "reason": "award announcement with no real content"
     },
     {
       "source": "Business Traveller",
-      "title": "Minuten statt Stunden: Wie KI Krisen auf Reisen entschärft",
+      "title": "British Airways gewinnt endlich wieder seine Strahlkraft zurück",
       "reason": "non-English"
     },
     {
       "source": "Business Traveller",
-      "title": "Into the Unknown: Explorer Lucy Shepherd on Expeditions, Obstacles and Travel Essentials",
-      "reason": "no usable body text"
+      "title": "JAZ Elite Hotels: A Collection Shaped by Coastal Living",
+      "reason": "sponsored"
     },
     {
       "source": "Business Traveller",
-      "title": "Wie sicher sind Geschäftsreisen? Experten über geopolitische Risiken für Unternehmen",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Nachtzüge: European Sleeper baut Netz nach Skandinavien aus",
+      "title": "Kumo: Neue Hotelmarke startet in Hamburg und Köln",
       "reason": "non-English"
     },
     {
@@ -229,17 +220,7 @@
     },
     {
       "source": "Business Traveller",
-      "title": "The Japan Effect: How A Global Travel Destination is Creating New Opportunities",
-      "reason": "sponsored"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "O’Two Hotels Terra: A New Chapter for Cape Town’s Mouille Point",
-      "reason": "sponsored"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Sunda New Asian Debuts Culinary Specials for Filipino American History Month",
+      "title": "“Good Hospitality Remains Personal”: Radisson’s Stephanie Aboujaoude On Why Local Teams Drive Authentic Brand Success",
       "reason": "sponsored"
     },
     {
@@ -250,84 +231,84 @@
   ],
   "items": [
     {
-      "title": "The Hidden Cost of Disconnected Hotel Operations",
-      "link": "https://www.hospitalitynet.org/opinion/4134361/the-hidden-cost-of-disconnected-hotel-operations",
-      "source": "Hospitality Net",
+      "title": "Hilton taps former Uber exec as CTO",
+      "link": "https://www.hoteldive.com/news/hilton-taps-cto-former-uber-exec/832312/",
+      "source": "Hotel Dive",
       "region": "Global",
-      "pubDate": "2026-10-05T10:35:00.000Z",
-      "snippet": "Fragmented hotel tech forces staff to manually bridge system gaps, creating a hidden labor cost that connected platforms like FCS1 claim can cut task response times by up to 40%."
+      "pubDate": "2026-10-06T19:01:02.000Z",
+      "snippet": "Jeff Moore brings 20 years of experience in software engineering and operations to the role as Hilton looks to advance its AI goals. Hilton's addition of a CTO role to the leadership team comes as the hospitality company looks to enhance its AI-related capabilities. The company began looking for a CTO in May as Nassetta pointed to significant AI opportunities ahead for the company."
     },
     {
-      "title": "Hotel Operis debuts in Charleston",
-      "link": "https://www.traveldailynews.com/hotels-lodging/hotel-operis-replaces-grand-bohemian-charleston/",
-      "source": "Travel Daily News",
-      "region": "Global",
-      "pubDate": "2026-10-05T10:01:50.000Z",
-      "snippet": "Guests went to sleep at Grand Bohemian Charleston on September 30 and woke up at Hotel Operis the following day. Beginning October 1, 2026, the 50-room boutique property in Charleston ‘s Historic District adopted the Hotel Operis name. The hotel remains part of Marriott ‘s Autograph Collection while introducing updated branding, redesigned spaces and new guest experiences."
-    },
-    {
-      "title": "Why India matters to Europe’s food industry",
-      "link": "https://www.hotelierindia.com/business/why-india-matters-to-europes-food-industry",
-      "source": "Hotelier India",
-      "region": "India",
-      "pubDate": "2026-10-05T09:59:57.000Z",
-      "snippet": ""
-    },
-    {
-      "title": "Starlux Launches Direct Taipei-Bali Flights, Giving Travellers a Boutique Airline Option",
-      "link": "https://www.businesstraveller.com/news/starlux-taipei-bali-flights-compared/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-10-05T09:53:43.000Z",
-      "snippet": "Five weekly flights, eight lie-flat business seats and a late-afternoon return: how Starlux's new Taipei to Bali flights compare with EVA Air and China Airlines."
-    },
-    {
-      "title": "Gulf Hotel Deals Stall as U.S.-Iran War Scrambles Valuations",
-      "link": "https://skift.com/2026/10/05/gulf-hotel-deals-stall-as-u-s-iran-war-scrambles-valuations/",
-      "source": "Skift",
-      "region": "Global",
-      "pubDate": "2026-10-05T09:00:00.000Z",
-      "snippet": "Skift Take: There's no evidence of distressed sales in the Gulf hotel market. But the war clearly changed the math buyers need to close deals. The U.S.-Iran war hasn’t forced Gulf hotel owners to sell. But it has stalled deals as buyers and sellers can’t agree on price now that pre-war valuations no longer hold."
-    },
-    {
-      "title": "India tourism faces 11 million worker shortfall: CBRE Report",
-      "link": "https://travelbizmonitor.com/top-stories/india-tourism-faces-11-million-worker-shortfall/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-05T08:48:14.000Z",
-      "snippet": "India’s expanding tourism industry could face a workforce shortage of around 11 million workers by 2035, as demand for trained professionals struggles to keep pace with the growth of hotels and emerging tourism segments, according to a September 2026 report by CBRE Research."
-    },
-    {
-      "title": "New travel industry coalition calls for EU digital omnibus to enable secure, seamless biometric journey",
-      "link": "https://travelbizmonitor.com/top-stories/new-travel-industry-coalition-calls-for-eu-digital-omnibus-to-enable-secure-seamless-biometric-journey/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-05T08:31:20.000Z",
-      "snippet": "ACI EUROPE, Amadeus, IATA, IDEMIA Public Security and SITA today announced the formation of the Responsible Biometrics Travel Industry Coalition, calling on EU policymakers to ensure the Digital Omnibus actively supports the voluntary and secure use of biometrics in travel while protecting passenger choice and privacy."
-    },
-    {
-      "title": "Ramee Group of Hotels targets 100 properties by 2032, eyes management contracts across India, GCC",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/ramee-group-of-hotels-targets-100-properties-by-2032-eyes-management-contracts-across-india-gcc/134687449",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-10-05T06:30:00.000Z",
-      "snippet": "Ramee Group of Hotels is accelerating its India expansion, targeting 100 properties by 2032 after growing from nine to 25 hotels since 2022. Senior vice president Saurabh Gahoi says the group is prioritising management contracts over lease or revenue-share models, leveraging its F&B strength and improving direct distribution."
-    },
-    {
-      "title": "How new T3 pier will boost IGI's international capacity by over 50%",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/travel/how-new-t3-pier-will-boost-igis-international-capacity-by-over-50/134685347",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-10-05T04:30:00.000Z",
-      "snippet": "Indira Gandhi International Airport in Delhi is planning to enhance its international traffic capacity significantly. The addition of a new Pier E at Terminal 3 will increase capacity by 1.6 crore passengers annually. Modifications at Terminal 1 will also allow for a marginal rise in domestic capacity over the next few years."
-    },
-    {
-      "title": "300+ objections filed against Maidstone hotel conversion plan",
-      "link": "https://hospitalitybizindia.com/news-track/300-objections-filed-against-maidstone-hotel-conversion-plan/",
+      "title": "Adani Airports launches Swirl Transit Hotel at Navi Mumbai airport",
+      "link": "https://hospitalitybizindia.com/news-track/adani-airports-launches-swirl-transit-hotel-at-navi-mumbai-airport/",
       "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-10-04T19:33:25.000Z",
-      "snippet": "More than 300 objections have been filed against plans to convert the former Grange Moor Hotel and wedding venue in Maidstone, Kent, into a 42-unit co-living development that could accommodate around 65 people. Residents have raised concerns over parking, pressure on local infrastructure, the scale of the proposed development and its potential impact on the character of the neighbourhood."
+      "pubDate": "2026-10-06T18:58:04.000Z",
+      "snippet": "Adani Airport Holdings Limited (AAHL) has launched the 80-room Swirl Transit Hotel at Navi Mumbai International Airport (NMIA), introducing short-stay accommodation within Terminal 1 for transit passengers, travellers with early departures and late arrivals, and those with extended layovers."
+    },
+    {
+      "title": "Airlines Get More Time on Mumbai Airport Cuts — But the Move to Navi Mumbai Is Still Coming",
+      "link": "https://skift.com/2026/10/06/airlines-get-more-time-on-mumbai-airport-cuts-but-the-move-to-navi-mumbai-is-still-coming/",
+      "source": "Skift",
+      "region": "Global",
+      "pubDate": "2026-10-06T16:04:04.000Z",
+      "snippet": "Skift Take: Navi Mumbai says it has capacity, infrastructure, a transit hotel, a road network to reach the airport. What it needs now is international passengers."
+    },
+    {
+      "title": "Buying a PMS: lessons from an ex-hotelier who now works in hotel tech",
+      "link": "https://www.hospitalitynet.org/opinion/4134769/buying-a-pms-lessons-from-an-ex-hotelier-who-now-works-in-hotel-tech",
+      "source": "Hospitality Net",
+      "region": "Global",
+      "pubDate": "2026-10-06T15:48:30.000Z",
+      "snippet": "A former hotelier turned Mews employee shares hard-won advice on PMS procurement: start with operational pain points, involve all staff, and use the switch as a chance to rethink workflows."
+    },
+    {
+      "title": "Marriott adds eight hotels to its portfolio in the Netherlands",
+      "link": "https://hospitality-on.com/en/opening/marriott-adds-eight-hotels-its-portfolio-netherlands",
+      "source": "Hospitality ON",
+      "region": "Global",
+      "pubDate": "2026-10-06T15:46:38.000Z",
+      "snippet": "Marriott International has signed an agreement with Dutch group Townhouse Hotels covering eight hotels and more than 700 rooms. The deal introduces the Series by Marriott brand to the Netherlands. It also allows the American group to establish a presence in Maastricht and Eindhoven."
+    },
+    {
+      "title": "Cygnett signs 114-key resort near Kainchi Dham",
+      "link": "https://hospitalitybizindia.com/news-track/cygnett-signs-114-key-resort-near-kainchi-dham/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-10-06T14:02:20.000Z",
+      "snippet": "Cygnett Hotels & Resorts has signed a management agreement for a 114-key Cygnett Resort near Kainchi Dham in Nainital, Uttarakhand, expanding its presence in the state’s leisure and spiritual tourism market. The resort is being developed in partnership with Suri Developers and will be located in the Kumaon hills, with views of the Himalayan landscape."
+    },
+    {
+      "title": "Maharashtra Tourism, Agri Tourism ink MoU for skill training & entrepreneurship in Baramati",
+      "link": "https://travelbizmonitor.com/top-stories/maharashtra-tourism-agri-tourism-ink-mou-for-skill-training-entrepreneurship-in-baramati/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-06T11:39:44.000Z",
+      "snippet": "To give Maharashtra’s agri-tourism sector a more professional, skill-oriented and sustainable framework, the Maharashtra Tourism Department, and Agri Tourism Development Company Pvt. Ltd. (Agri Tourism India), led by agri-tourism expert Pandurang Taware, entered into a Memorandum of Understanding (MoU)."
+    },
+    {
+      "title": "Celebrate Diwali amid Sri Lanka’s scenic landscapes with Heritance Hotels and Resorts",
+      "link": "https://traveltradejournal.com/celebrate-diwali-amid-sri-lankas-scenic-landscapes-with-heritance-hotels-and-resorts/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-10-06T08:10:17.000Z",
+      "snippet": "Heritance Hotels and Resorts is offering a series of Diwali experiences across its properties in Sri Lanka, combining festive dining and traditional celebrations with stays across the island’s Cultural Triangle, tea country and southern coast."
+    },
+    {
+      "title": "Brand USA appoints Caroline Beteta as Interim President & CEO",
+      "link": "https://travelbizmonitor.com/top-stories/brand-usa-appoints-caroline-beteta-as-interim-president-ceo/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-06T07:31:28.000Z",
+      "snippet": "Brand USA, the destination marketing organization for the United States, today announced that its Board of Directors has appointed Caroline Beteta Interim President & CEO, effective November 9."
+    },
+    {
+      "title": "McDonald's supplier HyFun plans Rs 2000 crore India IPO",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/mcdonalds-supplier-hyfun-plans-rs-2000-crore-india-ipo/134721920",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-10-06T05:30:00.000Z",
+      "snippet": "HyFun Foods intends to raise up to 20 billion rupees through an IPO planned for late 2028. The company expects to initiate preparations for this IPO in mid-2027 as local demand increases. As frozen food becomes more popular, the firm anticipates significant revenue growth by expanding its capacity."
     }
   ]
 }
