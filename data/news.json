@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T22:47:26.300Z",
+  "generatedAt": "2026-10-07T23:18:46.465Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -94,9 +94,9 @@
       "name": "Hotelivate",
       "ok": true,
       "fetched": 10,
-      "kept": 0,
+      "kept": 1,
       "dropped": {
-        "too old": 10
+        "too old": 9
       },
       "error": null
     },
@@ -107,7 +107,6 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "staff appointment": 1,
         "too old": 5
       },
       "error": null
@@ -119,7 +118,8 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
-        "too old": 11
+        "too old": 3,
+        "non-English": 1
       },
       "error": null
     },
@@ -129,10 +129,7 @@
       "ok": true,
       "fetched": 20,
       "kept": 4,
-      "dropped": {
-        "several headlines in one title": 1,
-        "award announcement with no real content": 1
-      },
+      "dropped": {},
       "error": null
     },
     {
@@ -141,7 +138,9 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "several headlines in one title": 1
+      },
       "error": null
     },
     {
@@ -160,7 +159,7 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 3,
+        "non-English": 5,
         "sponsored": 2
       },
       "error": null
@@ -184,19 +183,34 @@
       "reason": "several headlines in one title"
     },
     {
-      "source": "Travel Trade Journal",
-      "title": "The Leela appoints Rajesh Namby as General Manager of The Leela Coorg Forest Sanctuary",
-      "reason": "staff appointment"
+      "source": "Hospitality ON",
+      "title": "In Île-de-France, the tourist-tax surcharge changes beneficiary",
+      "reason": "non-English"
     },
     {
-      "source": "Hospitality Net",
-      "title": "The AI Booking Protocol Has No Field for Your Travel Agent, Will Agentic Bookings Flourish or Fizzle?, Inaccurate Hotel Content Costs Travelers $1,900 on Average",
+      "source": "Skift",
+      "title": "Skift Commerce Summit, A New Event for Travel Commerce Leaders, November 11 in New York",
       "reason": "several headlines in one title"
     },
     {
-      "source": "Hospitality Net",
-      "title": "UrVenue Honors Hospitality Leaders at Inaugural Hospitality Innovation Awards",
-      "reason": "award announcement with no real content"
+      "source": "Business Traveller",
+      "title": "Briefing: Die Wahrheit über die CO₂-Kompensation – und wie Sie umweltfreundlicher fliegen",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Setting the Scene on the Shores of Kiawah Island",
+      "reason": "sponsored"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "First Look: Hyde & Seek, London – Ein stilvoller Boho-Rückzugsort direkt am Park",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Weniger Bürokratie: EU-Rat beschließt Vereinfachung der A1-Bescheinigung",
+      "reason": "non-English"
     },
     {
       "source": "Business Traveller",
@@ -214,16 +228,6 @@
       "reason": "non-English"
     },
     {
-      "source": "Business Traveller",
-      "title": "Streiks: Wir navigieren Sie durch die geplanten Ausstände",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "“Good Hospitality Remains Personal”: Radisson’s Stephanie Aboujaoude On Why Local Teams Drive Authentic Brand Success",
-      "reason": "sponsored"
-    },
-    {
       "source": "Hotel Dive",
       "title": "Lodging Lowdown: Nobu Hospitality expands to Puerto Rico, Accor taps Mews to standardize F&B operations",
       "reason": "roundup/digest (title)"
@@ -231,84 +235,84 @@
   ],
   "items": [
     {
-      "title": "Hilton taps former Uber exec as CTO",
-      "link": "https://www.hoteldive.com/news/hilton-taps-cto-former-uber-exec/832312/",
-      "source": "Hotel Dive",
-      "region": "Global",
-      "pubDate": "2026-10-06T19:01:02.000Z",
-      "snippet": "Jeff Moore brings 20 years of experience in software engineering and operations to the role as Hilton looks to advance its AI goals. Hilton's addition of a CTO role to the leadership team comes as the hospitality company looks to enhance its AI-related capabilities. The company began looking for a CTO in May as Nassetta pointed to significant AI opportunities ahead for the company."
-    },
-    {
-      "title": "Adani Airports launches Swirl Transit Hotel at Navi Mumbai airport",
-      "link": "https://hospitalitybizindia.com/news-track/adani-airports-launches-swirl-transit-hotel-at-navi-mumbai-airport/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-10-06T18:58:04.000Z",
-      "snippet": "Adani Airport Holdings Limited (AAHL) has launched the 80-room Swirl Transit Hotel at Navi Mumbai International Airport (NMIA), introducing short-stay accommodation within Terminal 1 for transit passengers, travellers with early departures and late arrivals, and those with extended layovers."
-    },
-    {
-      "title": "Airlines Get More Time on Mumbai Airport Cuts — But the Move to Navi Mumbai Is Still Coming",
-      "link": "https://skift.com/2026/10/06/airlines-get-more-time-on-mumbai-airport-cuts-but-the-move-to-navi-mumbai-is-still-coming/",
+      "title": "Disney Keeps Cheapest Tickets Flat as Add-On Prices Climb",
+      "link": "https://skift.com/2026/10/07/disney-october-ticket-price-increase/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-10-06T16:04:04.000Z",
-      "snippet": "Skift Take: Navi Mumbai says it has capacity, infrastructure, a transit hotel, a road network to reach the airport. What it needs now is international passengers."
+      "pubDate": "2026-10-07T21:29:14.000Z",
+      "snippet": "Skift Take: Lower priced tickets can help build loyal visitors while premium add-ons drive more spending at the parks. Disney’s latest round of price hikes targets premium add-ons while keeping lower-tier tickets stable, part of Disney’s bet that budget-conscious first-timers will become bigger spenders down the line."
     },
     {
-      "title": "Buying a PMS: lessons from an ex-hotelier who now works in hotel tech",
-      "link": "https://www.hospitalitynet.org/opinion/4134769/buying-a-pms-lessons-from-an-ex-hotelier-who-now-works-in-hotel-tech",
-      "source": "Hospitality Net",
-      "region": "Global",
-      "pubDate": "2026-10-06T15:48:30.000Z",
-      "snippet": "A former hotelier turned Mews employee shares hard-won advice on PMS procurement: start with operational pain points, involve all staff, and use the switch as a chance to rethink workflows."
-    },
-    {
-      "title": "Marriott adds eight hotels to its portfolio in the Netherlands",
-      "link": "https://hospitality-on.com/en/opening/marriott-adds-eight-hotels-its-portfolio-netherlands",
-      "source": "Hospitality ON",
-      "region": "Global",
-      "pubDate": "2026-10-06T15:46:38.000Z",
-      "snippet": "Marriott International has signed an agreement with Dutch group Townhouse Hotels covering eight hotels and more than 700 rooms. The deal introduces the Series by Marriott brand to the Netherlands. It also allows the American group to establish a presence in Maastricht and Eindhoven."
-    },
-    {
-      "title": "Cygnett signs 114-key resort near Kainchi Dham",
-      "link": "https://hospitalitybizindia.com/news-track/cygnett-signs-114-key-resort-near-kainchi-dham/",
+      "title": "Marriott Sees Local Cuisine Driving Asia Pacific F&B Trends",
+      "link": "https://hospitalitybizindia.com/news-track/marriott-sees-local-cuisine-driving-asia-pacific-fb-trends/",
       "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-10-06T14:02:20.000Z",
-      "snippet": "Cygnett Hotels & Resorts has signed a management agreement for a 114-key Cygnett Resort near Kainchi Dham in Nainital, Uttarakhand, expanding its presence in the state’s leisure and spiritual tourism market. The resort is being developed in partnership with Suri Developers and will be located in the Kumaon hills, with views of the Himalayan landscape."
+      "pubDate": "2026-10-07T19:38:11.000Z",
+      "snippet": "95% of surveyed properties identify authentic local dishes as the region’s strongest dining trend Local cuisine is emerging as the strongest force shaping food and beverage trends across Asia Pacific excluding China, with 95% of Marriott International’s surveyed properties identifying demand for authentic local signature dishes as the biggest trend in their markets."
     },
     {
-      "title": "Maharashtra Tourism, Agri Tourism ink MoU for skill training & entrepreneurship in Baramati",
-      "link": "https://travelbizmonitor.com/top-stories/maharashtra-tourism-agri-tourism-ink-mou-for-skill-training-entrepreneurship-in-baramati/",
-      "source": "TravelBiz Monitor",
+      "title": "How Flanigan's Resort & Spa Boosted Ancillary Revenue by 57% With Canary's GMS",
+      "link": "https://www.hospitalitynet.org/casestudy/4134800/how-flanigans-resort-spa-boosted-ancillary-revenue-by-57-with-canarys-gms",
+      "source": "Hospitality Net",
+      "region": "Global",
+      "pubDate": "2026-10-07T19:04:31.000Z",
+      "snippet": "Flanigan's Resort & Spa near Zion National Park achieved a 57% ancillary revenue uplift in its first year using Canary's GMS, with mobile check-in, digital upsells, and smart checkout cutting front desk friction."
+    },
+    {
+      "title": "EL AL Hotel Platform Records 35,000 Nights in First Month",
+      "link": "https://hospitalitybizindia.com/news-track/el-al-hotel-platform-records-35000-nights-in-first-month/",
+      "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-10-06T11:39:44.000Z",
-      "snippet": "To give Maharashtra’s agri-tourism sector a more professional, skill-oriented and sustainable framework, the Maharashtra Tourism Department, and Agri Tourism Development Company Pvt. Ltd. (Agri Tourism India), led by agri-tourism expert Pandurang Taware, entered into a Memorandum of Understanding (MoU)."
+      "pubDate": "2026-10-07T18:35:13.000Z",
+      "snippet": "Airline’s Arbitrip-powered platform sees 130 million loyalty points redeemed for hotel stays EL AL Airlines’ hotel booking platform, powered by travel technology company Arbitrip, recorded more than 35,000 hotel nights booked in its first month , while customers redeemed more than 130 million frequent flyer points for hotel stays."
     },
     {
-      "title": "Celebrate Diwali amid Sri Lanka’s scenic landscapes with Heritance Hotels and Resorts",
-      "link": "https://traveltradejournal.com/celebrate-diwali-amid-sri-lankas-scenic-landscapes-with-heritance-hotels-and-resorts/",
-      "source": "Travel Trade Journal",
+      "title": "Fairmont enters Greece with a resort in Crete",
+      "link": "https://hospitality-on.com/en/opening/fairmont-enters-greece-resort-crete",
+      "source": "Hospitality ON",
+      "region": "Global",
+      "pubDate": "2026-10-07T16:02:27.000Z",
+      "snippet": "Accor announced on 24 September the signing of the Fairmont Chania Resort, in Chania, on the north-west coast of Crete. The project is being carried out with Hersonissos Group Hotels. The resort comprises 104 keys and is due to open in 2029. It will be the Fairmont brand's first address in Greece."
+    },
+    {
+      "title": "Hyatt updates Hyatt Place, Hyatt Studios prototypes",
+      "link": "https://www.hoteldive.com/news/hyatt-updates-brand-prototypes/832354/",
+      "source": "Hotel Dive",
+      "region": "Global",
+      "pubDate": "2026-10-07T13:29:56.000Z",
+      "snippet": "Hyatt reduced key counts for both models, along with other changes, as it aims to “improve development economics” for owners. To create a “more efficient new-build model intended to improve profitability and return on investment,” Hyatt has reduced the key count on the Hyatt Place prototype from 140 to 127, per the release. The move decreases the overall building area by nearly 20%."
+    },
+    {
+      "title": "Sri Lanka: An Island of Opportunities",
+      "link": "https://www.hotelivate.com/hotel-development/sri-lanka-an-island-of-opportunities/",
+      "source": "Hotelivate",
       "region": "India",
-      "pubDate": "2026-10-06T08:10:17.000Z",
-      "snippet": "Heritance Hotels and Resorts is offering a series of Diwali experiences across its properties in Sri Lanka, combining festive dining and traditional celebrations with stays across the island’s Cultural Triangle, tea country and southern coast."
+      "pubDate": "2026-10-07T11:36:45.000Z",
+      "snippet": "Sri Lanka: An Island of Opportunities by Hotelivate | Oct 7, 2026 Sri Lanka has long been one of Asia’s most distinctive tourism destinations. Few markets offer the same combination of beaches, wildlife, mountains, culture and religious heritage within such a compact geography. This diversity has helped the country attract a broad range of travellers and made tourism an important contributor to the national economy."
     },
     {
-      "title": "Brand USA appoints Caroline Beteta as Interim President & CEO",
-      "link": "https://travelbizmonitor.com/top-stories/brand-usa-appoints-caroline-beteta-as-interim-president-ceo/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-06T07:31:28.000Z",
-      "snippet": "Brand USA, the destination marketing organization for the United States, today announced that its Board of Directors has appointed Caroline Beteta Interim President & CEO, effective November 9."
-    },
-    {
-      "title": "McDonald's supplier HyFun plans Rs 2000 crore India IPO",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/mcdonalds-supplier-hyfun-plans-rs-2000-crore-india-ipo/134721920",
+      "title": "The Dough Therapy secures Rs 5.25 crore seed funding at Rs 35 crore valuation, sets sight on rapid expansion",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/the-dough-therapy-secures-rs-5-25-crore-seed-funding-at-rs-35-crore-valuation-sets-sight-on-rapid-expansion/134760132",
       "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-10-06T05:30:00.000Z",
-      "snippet": "HyFun Foods intends to raise up to 20 billion rupees through an IPO planned for late 2028. The company expects to initiate preparations for this IPO in mid-2027 as local demand increases. As frozen food becomes more popular, the firm anticipates significant revenue growth by expanding its capacity."
+      "pubDate": "2026-10-07T10:30:00.000Z",
+      "snippet": ""
+    },
+    {
+      "title": "BeKind Hotels and Resorts introduces Diwali experiences at Meyyafushi and Fushifaru Maldives",
+      "link": "https://traveltradejournal.com/bekind-hotels-and-resorts-introduces-diwali-experiences-at-meyyafushi-and-fushifaru-maldives/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-10-07T07:10:45.000Z",
+      "snippet": "BeKind Hotels and Resorts has introduced a series of Diwali experiences at Meyyafushi Maldives and Fushifaru Maldives, offering Indian travellers festive dining and private celebrations across its island resorts. At Meyyafushi Maldives, guests will have the option to exclusively hire a secluded sandbank for a private Diwali celebration with family and friends."
+    },
+    {
+      "title": "TAFI@40: Indian travel trade come together in Greece for landmark Convention",
+      "link": "https://travelbizmonitor.com/top-stories/tafi40-indian-travel-trade-come-together-in-greece-for-landmark-convention/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-07T05:35:45.000Z",
+      "snippet": "Indian travel trade leaders converged in Greece on Rhodes Island as the Travel Agents Federation of India (TAFI) marked its 40th anniversary with its landmark Convention, putting destination engagement, trade networking and stronger India-Greece tourism ties at the centre of discussions."
     }
   ]
 }
