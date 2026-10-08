@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T23:18:46.465Z",
+  "generatedAt": "2026-10-08T23:33:06.225Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -107,6 +107,7 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
+        "staff appointment": 1,
         "too old": 5
       },
       "error": null
@@ -118,7 +119,7 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
-        "too old": 3,
+        "too old": 1,
         "non-English": 1
       },
       "error": null
@@ -129,7 +130,9 @@
       "ok": true,
       "fetched": 20,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "several headlines in one title": 1
+      },
       "error": null
     },
     {
@@ -139,7 +142,7 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "several headlines in one title": 1
+        "no usable body text": 1
       },
       "error": null
     },
@@ -160,7 +163,8 @@
       "kept": 4,
       "dropped": {
         "non-English": 5,
-        "sponsored": 2
+        "sponsored": 2,
+        "no usable body text": 1
       },
       "error": null
     },
@@ -183,48 +187,63 @@
       "reason": "several headlines in one title"
     },
     {
+      "source": "Travel Trade Journal",
+      "title": "IHG Hotels and Resorts appoints Leanne Harwood as Senior Vice President, Global Sales",
+      "reason": "staff appointment"
+    },
+    {
       "source": "Hospitality ON",
       "title": "In Île-de-France, the tourist-tax surcharge changes beneficiary",
       "reason": "non-English"
     },
     {
-      "source": "Skift",
-      "title": "Skift Commerce Summit, A New Event for Travel Commerce Leaders, November 11 in New York",
+      "source": "Hospitality Net",
+      "title": "Duetto Acquires FLYR Hospitality, Is AI-Generated Data Evidence or Fluff at Scale?, Agentic AI Books Trips Fine Until Something Goes Wrong",
       "reason": "several headlines in one title"
+    },
+    {
+      "source": "Skift",
+      "title": "She Started as the Receptionist. Now She’s the CEO.",
+      "reason": "no usable body text"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Vom Kongresssaal zum Dresden-Erlebnis",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Europa: Hiltons Lifestyle-Marke Tempo debütiert in München",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Discover InterContinental Riyadh – Where Business Meets Timeless Luxury",
+      "reason": "sponsored"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Streiks: Wir navigieren Sie durch die geplanten Ausstände",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Festival of Lights in Berlin: Fast 40 Orte leuchten für Zusammenhalt und Respekt",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "BWH Hotels Targets 70 Properties Across the Middle East Amid Regional Expansion",
+      "reason": "no usable body text"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Managing Cash Flow Gaps When You Travel for Business",
+      "reason": "sponsored"
     },
     {
       "source": "Business Traveller",
       "title": "Briefing: Die Wahrheit über die CO₂-Kompensation – und wie Sie umweltfreundlicher fliegen",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Setting the Scene on the Shores of Kiawah Island",
-      "reason": "sponsored"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "First Look: Hyde & Seek, London – Ein stilvoller Boho-Rückzugsort direkt am Park",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Weniger Bürokratie: EU-Rat beschließt Vereinfachung der A1-Bescheinigung",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "British Airways gewinnt endlich wieder seine Strahlkraft zurück",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "JAZ Elite Hotels: A Collection Shaped by Coastal Living",
-      "reason": "sponsored"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Kumo: Neue Hotelmarke startet in Hamburg und Köln",
       "reason": "non-English"
     },
     {
@@ -235,52 +254,68 @@
   ],
   "items": [
     {
-      "title": "Disney Keeps Cheapest Tickets Flat as Add-On Prices Climb",
-      "link": "https://skift.com/2026/10/07/disney-october-ticket-price-increase/",
+      "title": "Skift Transatlantic Summit: Five Decisions in the Room",
+      "link": "https://skift.com/2026/10/08/skift-transatlantic-summit-five-decisions-in-the-room/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-10-07T21:29:14.000Z",
-      "snippet": "Skift Take: Lower priced tickets can help build loyal visitors while premium add-ons drive more spending at the parks. Disney’s latest round of price hikes targets premium add-ons while keeping lower-tier tickets stable, part of Disney’s bet that budget-conscious first-timers will become bigger spenders down the line."
+      "pubDate": "2026-10-08T21:01:39.000Z",
+      "snippet": "Skift Take: The transatlantic corridor remains one of travel’s most important markets — and also one of the most exposed to global disruption. Geopolitics, rising costs, changing traveler behavior, and new technology are forcing companies to rethink where new growth will come from. Europe’s international arrivals were up 5.0% year-to-date in 2026, but performance varies sharply by market and region."
     },
     {
-      "title": "Marriott Sees Local Cuisine Driving Asia Pacific F&B Trends",
-      "link": "https://hospitalitybizindia.com/news-track/marriott-sees-local-cuisine-driving-asia-pacific-fb-trends/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-10-07T19:38:11.000Z",
-      "snippet": "95% of surveyed properties identify authentic local dishes as the region’s strongest dining trend Local cuisine is emerging as the strongest force shaping food and beverage trends across Asia Pacific excluding China, with 95% of Marriott International’s surveyed properties identifying demand for authentic local signature dishes as the biggest trend in their markets."
-    },
-    {
-      "title": "How Flanigan's Resort & Spa Boosted Ancillary Revenue by 57% With Canary's GMS",
-      "link": "https://www.hospitalitynet.org/casestudy/4134800/how-flanigans-resort-spa-boosted-ancillary-revenue-by-57-with-canarys-gms",
+      "title": "What RevPAR misses about hotel revenue",
+      "link": "https://www.hospitalitynet.org/opinion/4134821/what-revpar-misses-about-hotel-revenue",
       "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-10-07T19:04:31.000Z",
-      "snippet": "Flanigan's Resort & Spa near Zion National Park achieved a 57% ancillary revenue uplift in its first year using Canary's GMS, with mobile check-in, digital upsells, and smart checkout cutting front desk friction."
+      "pubDate": "2026-10-08T20:24:13.000Z",
+      "snippet": "TRevPAR declined 8.8% vs RevPAR's 6.3% in HotelData's 2025 U.S. sample, illustrating how room-only metrics obscure F&B, spa, parking, and other in-stay revenue trends."
     },
     {
-      "title": "EL AL Hotel Platform Records 35,000 Nights in First Month",
-      "link": "https://hospitalitybizindia.com/news-track/el-al-hotel-platform-records-35000-nights-in-first-month/",
+      "title": "American Express Announces Its Largest Centurion Lounge Expansion Yet",
+      "link": "https://www.businesstraveller.com/news/american-express-centurion-lounge-expansion-global/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-10-08T20:05:15.000Z",
+      "snippet": "American Express is launching its largest Centurion expansion yet, adding lounges at Newark and Heathrow while dramatically enlarging Philadelphia and Houston as premium airport competition intensifies."
+    },
+    {
+      "title": "IHCL Signs 232-Key Gateway Hotel in Agra",
+      "link": "https://hospitalitybizindia.com/news-track/ihcl-signs-232-key-gateway-hotel-in-agra/",
       "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-10-07T18:35:13.000Z",
-      "snippet": "Airline’s Arbitrip-powered platform sees 130 million loyalty points redeemed for hotel stays EL AL Airlines’ hotel booking platform, powered by travel technology company Arbitrip, recorded more than 35,000 hotel nights booked in its first month , while customers redeemed more than 130 million frequent flyer points for hotel stays."
+      "pubDate": "2026-10-08T18:30:46.000Z",
+      "snippet": "Indian Hotels Company (IHCL) has signed a greenfield project for a 232-key Gateway hotel in Agra, Uttar Pradesh , in partnership with Raj Kailash Hospitality LLP. Located along the Yamuna Expressway, Gateway Agra will feature an all-day dining restaurant, specialty restaurant and bar, along with a gym and swimming pool."
     },
     {
-      "title": "Fairmont enters Greece with a resort in Crete",
-      "link": "https://hospitality-on.com/en/opening/fairmont-enters-greece-resort-crete",
-      "source": "Hospitality ON",
-      "region": "Global",
-      "pubDate": "2026-10-07T16:02:27.000Z",
-      "snippet": "Accor announced on 24 September the signing of the Fairmont Chania Resort, in Chania, on the north-west coast of Crete. The project is being carried out with Hersonissos Group Hotels. The resort comprises 104 keys and is due to open in 2029. It will be the Fairmont brand's first address in Greece."
+      "title": "Non-hotel brands dominate India’s branded residences market but hotel brands are gaining ground, says report",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/non-hotel-brands-dominate-indias-branded-residences-market-but-hotel-brands-are-gaining-ground-says-report/134791824",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-10-08T15:30:00.000Z",
+      "snippet": "India has 61 branded residential schemes, comprising 24 completed developments and 37 in the pipeline, making it the third largest market in Asia-Pacific behind Thailand and Vietnam. Unlike the wider region, however, where hotel brands continue to dominate, 61 percent of India's schemes carry non-hotel brands, against 22 percent across Asia-Pacific and 24 percent globally, said a report by GBR."
     },
     {
-      "title": "Hyatt updates Hyatt Place, Hyatt Studios prototypes",
-      "link": "https://www.hoteldive.com/news/hyatt-updates-brand-prototypes/832354/",
+      "title": "FHS World 2027 returns to Ras Al Khaimah in 2027",
+      "link": "https://travelbizmonitor.com/top-stories/fhs-world-2027-returns-to-ras-al-khaimah-in-2027/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-08T14:18:10.000Z",
+      "snippet": "FHS World, a leading global hospitality investment summit, will return to Ras Al Khaimah in November 2027, bringing investors, developers, hotel operators and industry leaders from around the world to Wynn Al Marjan Island. The event is being jointly announced by Ras Al Khaimah Tourism Development Authority (RAKTDA), Marjan and The Bench, organiser of FHS World."
+    },
+    {
+      "title": "Execs at Lodging Conference discuss hotel development opportunities",
+      "link": "https://www.hoteldive.com/news/hotel-development-trends-lodging-conference-2026/832426/",
       "source": "Hotel Dive",
       "region": "Global",
-      "pubDate": "2026-10-07T13:29:56.000Z",
-      "snippet": "Hyatt reduced key counts for both models, along with other changes, as it aims to “improve development economics” for owners. To create a “more efficient new-build model intended to improve profitability and return on investment,” Hyatt has reduced the key count on the Hyatt Place prototype from 140 to 127, per the release. The move decreases the overall building area by nearly 20%."
+      "pubDate": "2026-10-08T13:40:39.000Z",
+      "snippet": "Chief development officers from Wyndham, IHG, Choice and more shared the growth prospects behind conversions and extended stay amid an unfavorable backdrop for owners. PHOENIX — Although hotel developers are concerned about owner profitability, deals are still being made in 2026, with some executives sharing optimism for the year ahead, including for new builds."
+    },
+    {
+      "title": "GST Council widens ITC scope, eases refund norms",
+      "link": "https://hospitalitybizindia.com/news/gst-council-widens-itc-scope-eases-refund-norms/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-10-08T12:22:56.000Z",
+      "snippet": "The GST Council has approved a series of measures to widen input tax credit (ITC) eligibility and ease refund rules, with potential implications for businesses across sectors. At its 57th meeting, the Council allowed ITC on health and life insurance purchased for employees, as well as on telecommunication towers and pipelines installed outside factory premises."
     },
     {
       "title": "Sri Lanka: An Island of Opportunities",
@@ -291,28 +326,12 @@
       "snippet": "Sri Lanka: An Island of Opportunities by Hotelivate | Oct 7, 2026 Sri Lanka has long been one of Asia’s most distinctive tourism destinations. Few markets offer the same combination of beaches, wildlife, mountains, culture and religious heritage within such a compact geography. This diversity has helped the country attract a broad range of travellers and made tourism an important contributor to the national economy."
     },
     {
-      "title": "The Dough Therapy secures Rs 5.25 crore seed funding at Rs 35 crore valuation, sets sight on rapid expansion",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/the-dough-therapy-secures-rs-5-25-crore-seed-funding-at-rs-35-crore-valuation-sets-sight-on-rapid-expansion/134760132",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-10-07T10:30:00.000Z",
-      "snippet": ""
-    },
-    {
       "title": "BeKind Hotels and Resorts introduces Diwali experiences at Meyyafushi and Fushifaru Maldives",
       "link": "https://traveltradejournal.com/bekind-hotels-and-resorts-introduces-diwali-experiences-at-meyyafushi-and-fushifaru-maldives/",
       "source": "Travel Trade Journal",
       "region": "India",
       "pubDate": "2026-10-07T07:10:45.000Z",
       "snippet": "BeKind Hotels and Resorts has introduced a series of Diwali experiences at Meyyafushi Maldives and Fushifaru Maldives, offering Indian travellers festive dining and private celebrations across its island resorts. At Meyyafushi Maldives, guests will have the option to exclusively hire a secluded sandbank for a private Diwali celebration with family and friends."
-    },
-    {
-      "title": "TAFI@40: Indian travel trade come together in Greece for landmark Convention",
-      "link": "https://travelbizmonitor.com/top-stories/tafi40-indian-travel-trade-come-together-in-greece-for-landmark-convention/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-07T05:35:45.000Z",
-      "snippet": "Indian travel trade leaders converged in Greece on Rhodes Island as the Travel Agents Federation of India (TAFI) marked its 40th anniversary with its landmark Convention, putting destination engagement, trade networking and stronger India-Greece tourism ties at the centre of discussions."
     }
   ]
 }
