@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T22:53:25.938Z",
+  "generatedAt": "2026-10-10T21:58:46.688Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -105,8 +105,8 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "staff appointment": 1,
-        "too old": 4
+        "staff appointment": 2,
+        "too old": 2
       },
       "error": null
     },
@@ -174,12 +174,17 @@
   "droppedItems": [
     {
       "source": "Travel Trade Journal",
+      "title": "SIX & SIX PRIVATE ISLANDS appoints Gaurav Makhijani as Director of Sales – India",
+      "reason": "staff appointment"
+    },
+    {
+      "source": "Travel Trade Journal",
       "title": "IHG Hotels and Resorts appoints Leanne Harwood as Senior Vice President, Global Sales",
       "reason": "staff appointment"
     },
     {
       "source": "Business Traveller",
-      "title": "EU: Reform der Fluggastrechte treten im Oktober 2027 in Kraft",
+      "title": "EU: Reform der Fluggastrechte tritt im Oktober 2027 in Kraft",
       "reason": "non-English"
     },
     {
@@ -200,20 +205,52 @@
   ],
   "items": [
     {
-      "title": "Chicago Hotel Strike Hits Marriott and Hilton Hotels During Marathon Weekend",
-      "link": "https://skift.com/2026/10/09/chicago-hotel-strike-hits-marriott-and-hilton-hotels-during-marathon-weekend/",
-      "source": "Skift",
-      "region": "Global",
-      "pubDate": "2026-10-09T22:44:38.000Z",
-      "snippet": "Skift Take: Owners, not brands, carry most of the payroll burden. \" But owners see things differently. Hundreds of union workers walked out of six downtown Chicago hotels Friday, two days before the Chicago Marathon, and their union warned that 40 more hotels could follow."
+      "title": "Bengaluru police conduct late night raids on 400-500 pubs, bars across city",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/bengaluru-police-conduct-late-night-raids-on-400-500-pubs-bars-across-city/134855603",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-10-10T13:37:25.000Z",
+      "snippet": "Bengaluru Police Commissioner Seemanth Kumar Singh led a late-night crackdown on pubs and bars across the city, with around 1,500 police personnel conducting raids and inspections at 400 to 500 locations to check violations of operating hours, underage drinking, and other alleged irregularities, he said on Saturday."
     },
     {
-      "title": "Rwanda gears up to host Formula 1 Grand Prix",
-      "link": "https://www.businesstraveller.com/news/rwanda-f1-grand-prix-2030-africa/",
+      "title": "Hilton’s Tempo Set For Europe Debut in Munich, with Rooftop Bar and Arena Next Door",
+      "link": "https://www.businesstraveller.com/news/hiltons-tempo-makes-european-debut-in-munich-with-a-rooftop-bar-and-arena-next-door/",
       "source": "Business Traveller",
       "region": "Global",
-      "pubDate": "2026-10-09T19:47:35.000Z",
-      "snippet": "Rwanda reportedly lined up to host the F1 Grand Prix in 2030."
+      "pubDate": "2026-10-10T12:06:55.000Z",
+      "snippet": "Hilton’s lifestyle brand is expanding into Europe, with its 199-room property set to bring a rooftop bar, gym and café to Munich’s growing entertainment district near the airport."
+    },
+    {
+      "title": "WTTC & ICCA sign MoU to boost business events",
+      "link": "https://travelbizmonitor.com/top-stories/wttc-icca-sign-mou-to-boost-business-events/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-10T09:23:56.000Z",
+      "snippet": "The World Travel & Tourism Council (WTTC) and the International Congress and Convention Association (ICCA) have signed a Memorandum of Understanding (MoU) to strengthen collaboration between the global Travel & Tourism sector and the international meetings and business events industry. The agreement was signed during WTTC’s 26th Global Summit in Valletta, Malta."
+    },
+    {
+      "title": "TAWI LUSH joins Skål International to strengthen global hospitality connections",
+      "link": "https://travelbizmonitor.com/top-stories/tawi-lush-joins-skal-international-to-strengthen-global-hospitality-connections/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-10T09:20:27.000Z",
+      "snippet": "TAWI LUSH Pvt. Ltd., a founder-led hospitality advisory and commercial representation company, has joined Skål International, expanding its engagement with the global network of travel and tourism professionals."
+    },
+    {
+      "title": "India’s Foreign Arrivals Are Falling — but the 2047 Tourism Target Is Now 100 Million",
+      "link": "https://skift.com/2026/10/10/indias-foreign-arrivals-are-falling-but-the-2047-tourism-target-is-now-100-million/",
+      "source": "Skift",
+      "region": "Global",
+      "pubDate": "2026-10-10T04:30:00.000Z",
+      "snippet": "Skift Take: India has listed out four Ps for hitting 100 million visitors. It lacks a fifth: a published path. With arrivals falling, the hope is there’s a plan behind the promise, before this turns into a pipe dream."
+    },
+    {
+      "title": "Accor signs Pullman Udaipur, scheduled to open in 2030",
+      "link": "https://traveltradejournal.com/accor-signs-pullman-udaipur-scheduled-to-open-in-2030/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-10-10T03:15:03.000Z",
+      "snippet": "Accor has signed Pullman Udaipur, marking the brand’s entry into the city. Developed in partnership with Kings Luxury Resorts Pvt. Ltd., the 200-key property is scheduled to open in 2030, further expanding Accor’s presence in Rajasthan. The hotel will be located on Airport Road, within the Maharana Pratap Airport corridor, an emerging hospitality and commercial district in Udaipur."
     },
     {
       "title": "Braemar advances Ashford spinout with $372M Four Seasons sale",
@@ -232,44 +269,12 @@
       "snippet": "German hotel investment volume fell to €600M in H1 2026 from €1.1B a year earlier, while operating metrics held steady with RevPAR flat at €74 and prime yields stable at 6.5%."
     },
     {
-      "title": "Scapia, Tourism Malaysia launch campaign to explore newer destinations",
-      "link": "https://travelbizmonitor.com/top-stories/scapia-tourism-malaysia-launch-campaign-to-explore-newer-destinations/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-09T13:34:34.000Z",
-      "snippet": "Scapia and Tourism Malaysia have partnered to launch ‘Malaysia Calling’, a four-month campaign encouraging Indian travellers to explore destinations beyond popular holiday hubs such as Kuala Lumpur and Genting Highlands. The initiative will showcase Malaysia’s diverse tourism offerings while providing promotional benefits on eligible travel bookings."
-    },
-    {
-      "title": "WTTC study finds SME productivity could unlock USD 63 billion",
-      "link": "https://travelbizmonitor.com/top-stories/wttc-study-finds-sme-productivity-could-unlock-usd-63-billion/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-09T13:31:16.000Z",
-      "snippet": "The World Travel & Tourism Council (WTTC) has highlighted the economic potential of small and medium-sized enterprises (SMEs), with new research indicating that a 10% productivity improvement could generate an additional US$63 billion in direct Travel & Tourism GDP across eight major economies."
-    },
-    {
       "title": "Tivoli to Open 71-Key Aarunya Club & Convention in Greater Noida",
       "link": "https://hospitalitybizindia.com/news-track/tivoli-to-open-71-key-aarunya-club-convention-in-greater-noida/",
       "source": "HospitalityBiz India",
       "region": "India",
       "pubDate": "2026-10-09T11:37:13.000Z",
       "snippet": "Tivoli Hospitality Group will open Aarunya Club & Convention by Tivoli in Greater Noida on November 15, 2026, with 71 rooms and an expanded portfolio of indoor and outdoor event venues targeting weddings, social celebrations, leisure stays and the Meetings, Incentives, Conferences and Exhibitions (MICE) segment."
-    },
-    {
-      "title": "We really try to bring reliability and quality within the leisure market: Caroline Mulliez of The Blue Kite by Vianaar",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/we-really-try-to-bring-reliability-and-quality-within-the-leisure-market-caroline-mulliez-of-the-blue-kite-by-vianaar/134829315",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-10-09T11:30:00.000Z",
-      "snippet": "The Blue Kite, the holiday-villa management and marketing arm of Vianaar developers, has expanded rapidly since the pandemic, growing from its Goa base into major Indian cities. With 320 properties under management, the company emphasises reliability, quality and curated “wow moments” for leisure travellers."
-    },
-    {
-      "title": "Pride Hotels Group Broadens its Ambition Across India’s Diverse Hospitality Landscape",
-      "link": "https://traveltradejournal.com/pride-hotels-group-broadens-its-ambition-across-indias-diverse-hospitality-landscape/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-10-09T06:31:01.000Z",
-      "snippet": "In an exclusive interview with Satyen Jain, Chief Executive Officer, Pride Hotels Limited, the conversation goes beyond the numbers driving the company’s expansion to examine the opportunities and challenges shaping Indian hospitality today. With an IPO planned, Pride is expanding its footprint while responding to changing travel patterns. Excerpts from the interview."
     },
     {
       "title": "It’s a wrap! THINC Indonesia 2026",
