@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T22:27:15.609Z",
+  "generatedAt": "2026-10-13T23:06:59.360Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -105,8 +105,8 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "staff appointment": 2,
-        "too old": 2
+        "staff appointment": 3,
+        "too old": 3
       },
       "error": null
     },
@@ -155,7 +155,7 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 3
+        "non-English": 5
       },
       "error": null
     },
@@ -174,6 +174,11 @@
   "droppedItems": [
     {
       "source": "Travel Trade Journal",
+      "title": "Renaissance Ahmedabad Hotel appoints Rabindra Rai as General Manager",
+      "reason": "staff appointment"
+    },
+    {
+      "source": "Travel Trade Journal",
       "title": "SIX & SIX PRIVATE ISLANDS appoints Gaurav Makhijani as Director of Sales – India",
       "reason": "staff appointment"
     },
@@ -184,17 +189,27 @@
     },
     {
       "source": "Business Traveller",
-      "title": "EU: Reform der Fluggastrechte tritt im Oktober 2027 in Kraft",
+      "title": "Wie Marken wie Ibis unsere Vorstellung von Airport-Hotels unauffällig beeinflussen",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Streiks: Wir navigieren Sie durch die geplanten Ausstände",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "John Malkovich über seinen neuen Film, die Dreharbeiten auf der Osterinsel und das Schauspielgeschäft",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "American Express kündigt die bislang größte Erweiterung ihrer Centurion Lounges an",
       "reason": "non-English"
     },
     {
       "source": "Business Traveller",
       "title": "Naher Osten: Airlines setzen Flüge nach Riad aus",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Nagoya wird wieder aufgenommen – die Lufthansa-Gruppe erhöht die Flüge nach Japan 2027 auf 50 pro Woche",
       "reason": "non-English"
     },
     {
@@ -205,84 +220,84 @@
   ],
   "items": [
     {
-      "title": "Travel AI’s Prove-It Phase, Visibility, and the Booking Gap",
-      "link": "https://skift.com/2026/10/11/travel-ais-prove-it-phase-visibility-and-the-booking-gap/",
+      "title": "Strengthening the Guest Experience: How Bespoke Hotels is Using Canary Across its UK Portfolio",
+      "link": "https://www.hospitalitynet.org/casestudy/4134889/strengthening-the-guest-experience-how-bespoke-hotels-is-using-canary-across-its-uk-portfolio",
+      "source": "Hospitality Net",
+      "region": "Global",
+      "pubDate": "2026-10-13T20:33:29.000Z",
+      "snippet": "Bespoke Hotels deployed Canary Technologies across its 57-property UK portfolio, recovering implementation costs within weeks and gaining consolidated reporting, upsell revenue, and guest data from OTA bookings."
+    },
+    {
+      "title": "Keralam Hotels to Stop UPI Payments Above INR 2,000",
+      "link": "https://hospitalitybizindia.com/news-track/keralam-hotels-to-stop-upi-payments-above-inr-2000/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-10-13T18:30:49.000Z",
+      "snippet": "The Kerala Hotel and Restaurant Association (KHRA) has announced that its members will stop accepting UPI payments exceeding INR 2,000 from October 15, protesting the introduction of a 0.4% merchant discount rate (MDR) on eligible UPI transactions. The association said the additional charge would increase operating costs for hotels, restaurants and lodges already facing rising raw material prices. KHRA president G."
+    },
+    {
+      "title": "Radisson Targets 500 Hotels in India, Sharpens Focus on Metros",
+      "link": "https://hospitalitybizindia.com/news-track/radisson-targets-500-hotels-in-india-sharpens-focus-on-metros/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-10-13T17:17:32.000Z",
+      "snippet": "Radisson Hotel Group is redirecting a larger share of its India expansion towards metropolitan and other major cities while continuing to explore smaller markets, as it works towards a portfolio of 500 hotels by 2030. The strategy marks a shift in emphasis for the group, which built an early presence in India’s tier-two and tier-three cities and is now looking to capture further opportunities in larger urban markets."
+    },
+    {
+      "title": "Canadian Trips to U.S. Rise for Sixth Straight Month — but Remain Far Below 2024 Levels",
+      "link": "https://skift.com/2026/10/13/canadian-trips-to-u-s-rise-for-sixth-straight-month-but-remain-far-below-2024-levels/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-10-11T12:00:00.000Z",
-      "snippet": "Skift Take: Skift's Data + AI Summit in Europe this week just showed that AI may be changing travel distribution and internal operations, but booking volume is another story. Europe's independent hotels face a new AI visibility problem: travelers are using AI to plan but few are booking through it, and the clearest measurable returns are showing up in operational uses rather than autonomous trip planning."
+      "pubDate": "2026-10-13T16:40:47.000Z",
+      "snippet": "Skift Take: Six months of growth sounds like momentum until you check the baseline. Climbing out of an unusually soft 2025 isn’t the same as getting back to normal. Canadian travelers are gradually returning to the U.S. — but the road back to 2024 levels remains a long one."
     },
     {
-      "title": "Goa CM Pramod Sawant says foreign tourist arrivals will return to pre-COVID levels within a year",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/travel/goa-cm-pramod-sawant-says-foreign-tourist-arrivals-will-return-to-pre-covid-levels-within-a-year/134855854",
+      "title": "Winter in the Making: What’s New in Mammoth Lakes for Winter 2026-2027",
+      "link": "https://travelbizmonitor.com/top-stories/winter-in-the-making-whats-new-in-mammoth-lakes-for-winter-2026-2027/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-13T15:31:12.000Z",
+      "snippet": "Mammoth Lakes is gearing up for an unforgettable winter season, with new dining and event spaces, expanded flight service, new lodging options, openings, and much more. The winter season officially kicks off with Mammoth Mountain’s scheduled opening day on November 13, 2026, rolling out an exciting lineup of anniversaries, events, and new experiences. New at Mammoth Resorts Kids Ski Free Week: Dec."
+    },
+    {
+      "title": "Tathastu Pench expands to 84 rooms, strengthens group business",
+      "link": "https://travelbizmonitor.com/top-stories/tathastu-pench-expands-to-84-rooms-strengthens-group-business/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-13T15:29:04.000Z",
+      "snippet": "Tathastu Resorts has expanded Tathastu Pench to 84 rooms, adding 23 keys and increasing its dining capacity to attract a wider mix of corporate groups, social gatherings, family holidays and experiential leisure travellers. The expansion aims to strengthen the property’s positioning beyond its established wildlife tourism business and promote Pench as a destination in its own right."
+    },
+    {
+      "title": "Ruby makes its France debut with the Ruby Lilou in Marseille",
+      "link": "https://hospitality-on.com/en/opening/ruby-makes-its-france-debut-ruby-lilou-marseille",
+      "source": "Hospitality ON",
+      "region": "Global",
+      "pubDate": "2026-10-13T15:19:56.000Z",
+      "snippet": "IHG Hotels & Resorts' lifestyle brand is opening its first French hotel in the La Joliette district of Marseille. The Ruby Lilou has 237 rooms and comes with a shared workspace, Ruby Yani, a first for the brand in France."
+    },
+    {
+      "title": "What hotel owners should consider when converting to a soft brand",
+      "link": "https://www.hoteldive.com/news/hotel-owners-consider-converting-to-soft-brand/832840/",
+      "source": "Hotel Dive",
+      "region": "Global",
+      "pubDate": "2026-10-13T13:52:45.000Z",
+      "snippet": "Hoteliers should assess the unique opportunities and challenges of soft brands, while striving to maintain their individuality, experts shared at this year’s Lodging Conference. PHOENIX — Faced with rising costs and other operational challenges, hoteliers are evaluating different ways to drive returns at their properties."
+    },
+    {
+      "title": "Delhi HC bench asks single judge to explain curbs on PepsiCo",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/delhi-hc-bench-asks-single-judge-to-explain-curbs-on-pepsico/134907030",
       "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-10-11T09:30:00.000Z",
-      "snippet": "Goa officials are optimistic that international tourist arrivals will bounce back to pre-COVID levels within a year. Chief Minister Pramod Sawant highlighted initiatives aimed at boosting high-end tourism and enhancing infrastructure."
+      "pubDate": "2026-10-13T05:30:00.000Z",
+      "snippet": "The company approached the HC against the Food Safety and Standards Authority of India's (FSSAI) order asking manufacturers of high-caffeine beverages to stop using the \"energy drink\" descriptor on their products, terming it a misleading claim."
     },
     {
-      "title": "WTTC honours Gajendra Shekhawat as India tourism growth accelerates",
-      "link": "https://travelbizmonitor.com/top-stories/wttc-honours-gajendra-shekhawat-as-india-tourism-growth-accelerates/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-11T05:30:22.000Z",
-      "snippet": "The World Travel & Tourism Council (WTTC) has presented Union Tourism Minister Gajendra Singh Shekhawat with its Global Champion Award, recognising his leadership in supporting the growth, competitiveness and long-term development of India’s tourism sector."
-    },
-    {
-      "title": "UP to name Jewar Airport after Narendra Modi",
-      "link": "https://travelbizmonitor.com/top-stories/up-to-name-jewar-airport-after-narendra-modi/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-11T05:00:09.000Z",
-      "snippet": "The Uttar Pradesh Cabinet on Friday, October 9, 2026, approved a proposal to rename Noida International Airport at Jewar as ‘Narendra Modi International Airport, Noida-Jewar’. Chief Minister Yogi Adityanath announced the decision following the Cabinet meeting, stating that the Council of Ministers had passed a resolution supporting the renaming."
-    },
-    {
-      "title": "The War Is Changing the Economics of Saudi Tourism",
-      "link": "https://skift.com/2026/10/10/the-war-is-changing-the-economics-of-saudi-tourism/",
-      "source": "Skift",
-      "region": "Global",
-      "pubDate": "2026-10-11T01:21:16.000Z",
-      "snippet": "Skift Take: The war is raising the cost of attracting the international travelers Saudi Arabia needs to meet its tourism ambitions. Photo Caption: Edge of the world, outside Riyadh, Saudi Arabia. Delta Air Lines is scheduled to begin nonstop flights from Atlanta to Riyadh on October 23, the first such service by a U.S. airline."
-    },
-    {
-      "title": "Bengaluru police conduct late night raids on 400-500 pubs, bars across city",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/bengaluru-police-conduct-late-night-raids-on-400-500-pubs-bars-across-city/134855603",
+      "title": "Protests, traffic curbs in Delhi hit hotel business",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/protests-traffic-curbs-in-delhi-hit-hotel-business/134906992",
       "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-10-10T13:37:25.000Z",
-      "snippet": "Bengaluru Police Commissioner Seemanth Kumar Singh led a late-night crackdown on pubs and bars across the city, with around 1,500 police personnel conducting raids and inspections at 400 to 500 locations to check violations of operating hours, underage drinking, and other alleged irregularities, he said on Saturday."
-    },
-    {
-      "title": "Hilton’s Tempo Set For Europe Debut in Munich, with Rooftop Bar and Arena Next Door",
-      "link": "https://www.businesstraveller.com/news/hiltons-tempo-makes-european-debut-in-munich-with-a-rooftop-bar-and-arena-next-door/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-10-10T12:06:55.000Z",
-      "snippet": "Hilton’s lifestyle brand is expanding into Europe, with its 199-room property set to bring a rooftop bar, gym and café to Munich’s growing entertainment district near the airport."
-    },
-    {
-      "title": "Hotel Review: Ark Shoreditch – Co-Working and Karaoke in East London",
-      "link": "https://www.businesstraveller.com/tried-tested/hotels-tried-tested/hotel-review-ark-shoreditch/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-10-10T11:50:28.000Z",
-      "snippet": "Recently opened serviced apartment property Ark Shoreditch brings trendy interiors, impressive entertainment facilities, and a brimming events calendar to East London's hospitality scene."
-    },
-    {
-      "title": "WTTC & ICCA sign MoU to boost business events",
-      "link": "https://travelbizmonitor.com/top-stories/wttc-icca-sign-mou-to-boost-business-events/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-10T09:23:56.000Z",
-      "snippet": "The World Travel & Tourism Council (WTTC) and the International Congress and Convention Association (ICCA) have signed a Memorandum of Understanding (MoU) to strengthen collaboration between the global Travel & Tourism sector and the international meetings and business events industry. The agreement was signed during WTTC’s 26th Global Summit in Valletta, Malta."
-    },
-    {
-      "title": "Accor signs Pullman Udaipur, scheduled to open in 2030",
-      "link": "https://traveltradejournal.com/accor-signs-pullman-udaipur-scheduled-to-open-in-2030/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-10-10T03:15:03.000Z",
-      "snippet": "Accor has signed Pullman Udaipur, marking the brand’s entry into the city. Developed in partnership with Kings Luxury Resorts Pvt. Ltd., the 200-key property is scheduled to open in 2030, further expanding Accor’s presence in Rajasthan. The hotel will be located on Airport Road, within the Maharana Pratap Airport corridor, an emerging hospitality and commercial district in Udaipur."
+      "pubDate": "2026-10-13T04:30:00.000Z",
+      "snippet": "Protests in Delhi are causing significant disruptions, leading to a notable decline in hotel occupancies across the city. Companies have chosen to cancel events and meetings to avoid travel difficulties amid ongoing unrest. Many hotels report F&B sales dropping significantly because of reduced guest activity and restricted access."
     }
   ]
 }
