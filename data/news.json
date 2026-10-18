@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T23:06:59.360Z",
+  "generatedAt": "2026-10-18T21:01:19.258Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -66,7 +66,9 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "body reads as a list of headlines": 1
+      },
       "error": null
     },
     {
@@ -92,9 +94,9 @@
       "name": "Hotelivate",
       "ok": true,
       "fetched": 10,
-      "kept": 2,
+      "kept": 1,
       "dropped": {
-        "too old": 8
+        "too old": 9
       },
       "error": null
     },
@@ -103,10 +105,10 @@
       "name": "Travel Trade Journal",
       "ok": true,
       "fetched": 10,
-      "kept": 4,
+      "kept": 3,
       "dropped": {
-        "staff appointment": 3,
-        "too old": 3
+        "staff appointment": 2,
+        "too old": 5
       },
       "error": null
     },
@@ -117,7 +119,7 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
-        "too old": 7
+        "too old": 3
       },
       "error": null
     },
@@ -127,7 +129,9 @@
       "ok": true,
       "fetched": 20,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "several headlines in one title": 1
+      },
       "error": null
     },
     {
@@ -155,7 +159,7 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 5
+        "non-English": 3
       },
       "error": null
     },
@@ -166,138 +170,126 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "roundup/digest (title)": 1
+        "roundup/digest (title)": 1,
+        "too old": 1
       },
       "error": null
     }
   ],
   "droppedItems": [
     {
+      "source": "ET HospitalityWorld",
+      "title": "The Oberoi Group announces recipients of The Oberoi Group Scholarship Program",
+      "reason": "body reads as a list of headlines"
+    },
+    {
+      "source": "Travel Trade Journal",
+      "title": "Accor appoints Deeppreet Bindra as Director – ibis & ibis Styles India",
+      "reason": "staff appointment"
+    },
+    {
       "source": "Travel Trade Journal",
       "title": "Renaissance Ahmedabad Hotel appoints Rabindra Rai as General Manager",
       "reason": "staff appointment"
     },
     {
-      "source": "Travel Trade Journal",
-      "title": "SIX & SIX PRIVATE ISLANDS appoints Gaurav Makhijani as Director of Sales – India",
-      "reason": "staff appointment"
-    },
-    {
-      "source": "Travel Trade Journal",
-      "title": "IHG Hotels and Resorts appoints Leanne Harwood as Senior Vice President, Global Sales",
-      "reason": "staff appointment"
+      "source": "Hospitality Net",
+      "title": "Terence Ronson's Q4 Playbook: Four Things That Matter Now, The New Luxury Is Certainty, 500 Leaders Signal AI Has Moved from Experiment to Operation",
+      "reason": "several headlines in one title"
     },
     {
       "source": "Business Traveller",
-      "title": "Wie Marken wie Ibis unsere Vorstellung von Airport-Hotels unauffällig beeinflussen",
+      "title": "Vom Meeting zur Me Time",
       "reason": "non-English"
     },
     {
       "source": "Business Traveller",
-      "title": "Streiks: Wir navigieren Sie durch die geplanten Ausstände",
+      "title": "Neue Einreiseregeln weltweit: Das hat sich aktuell geändert",
       "reason": "non-English"
     },
     {
       "source": "Business Traveller",
-      "title": "John Malkovich über seinen neuen Film, die Dreharbeiten auf der Osterinsel und das Schauspielgeschäft",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "American Express kündigt die bislang größte Erweiterung ihrer Centurion Lounges an",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Naher Osten: Airlines setzen Flüge nach Riad aus",
+      "title": "Vier Szenarios, wie KI das Travel Management verändern könnte",
       "reason": "non-English"
     },
     {
       "source": "Hotel Dive",
-      "title": "Lodging Lowdown: IHG names global sales leader, Series by Marriott expands",
+      "title": "Lodging Lowdown: Hotel Equities, Indigo Road Hospitality make leadership appointments",
       "reason": "roundup/digest (title)"
     }
   ],
   "items": [
     {
-      "title": "Strengthening the Guest Experience: How Bespoke Hotels is Using Canary Across its UK Portfolio",
-      "link": "https://www.hospitalitynet.org/casestudy/4134889/strengthening-the-guest-experience-how-bespoke-hotels-is-using-canary-across-its-uk-portfolio",
-      "source": "Hospitality Net",
-      "region": "Global",
-      "pubDate": "2026-10-13T20:33:29.000Z",
-      "snippet": "Bespoke Hotels deployed Canary Technologies across its 57-property UK portfolio, recovering implementation costs within weeks and gaining consolidated reporting, upsell revenue, and guest data from OTA bookings."
-    },
-    {
-      "title": "Keralam Hotels to Stop UPI Payments Above INR 2,000",
-      "link": "https://hospitalitybizindia.com/news-track/keralam-hotels-to-stop-upi-payments-above-inr-2000/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-10-13T18:30:49.000Z",
-      "snippet": "The Kerala Hotel and Restaurant Association (KHRA) has announced that its members will stop accepting UPI payments exceeding INR 2,000 from October 15, protesting the introduction of a 0.4% merchant discount rate (MDR) on eligible UPI transactions. The association said the additional charge would increase operating costs for hotels, restaurants and lodges already facing rising raw material prices. KHRA president G."
-    },
-    {
-      "title": "Radisson Targets 500 Hotels in India, Sharpens Focus on Metros",
-      "link": "https://hospitalitybizindia.com/news-track/radisson-targets-500-hotels-in-india-sharpens-focus-on-metros/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-10-13T17:17:32.000Z",
-      "snippet": "Radisson Hotel Group is redirecting a larger share of its India expansion towards metropolitan and other major cities while continuing to explore smaller markets, as it works towards a portfolio of 500 hotels by 2030. The strategy marks a shift in emphasis for the group, which built an early presence in India’s tier-two and tier-three cities and is now looking to capture further opportunities in larger urban markets."
-    },
-    {
-      "title": "Canadian Trips to U.S. Rise for Sixth Straight Month — but Remain Far Below 2024 Levels",
-      "link": "https://skift.com/2026/10/13/canadian-trips-to-u-s-rise-for-sixth-straight-month-but-remain-far-below-2024-levels/",
+      "title": "Airlines Can’t Upgrade Every Plane – So They’re Upgrading the Menu",
+      "link": "https://skift.com/2026/10/17/airlines-cant-upgrade-every-plane-so-theyre-upgrading-the-menu/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-10-13T16:40:47.000Z",
-      "snippet": "Skift Take: Six months of growth sounds like momentum until you check the baseline. Climbing out of an unusually soft 2025 isn’t the same as getting back to normal. Canadian travelers are gradually returning to the U.S. — but the road back to 2024 levels remains a long one."
+      "pubDate": "2026-10-17T12:00:00.000Z",
+      "snippet": "Skift Take: New cabins are expensive, complicated, and slow to arrive. Celebrity chefs? A faster way to serve up an upscale experience — and help justify the premium fare. Airlines are turning to celebrity chefs to give their premium cabins a makeover without having to replace a single seat."
     },
     {
-      "title": "Winter in the Making: What’s New in Mammoth Lakes for Winter 2026-2027",
-      "link": "https://travelbizmonitor.com/top-stories/winter-in-the-making-whats-new-in-mammoth-lakes-for-winter-2026-2027/",
+      "title": "OTOAI and Israel Tourism Ministry sign MoU in Mumbai",
+      "link": "https://travelbizmonitor.com/top-stories/otoai-and-israel-tourism-ministry-sign-mou-in-mumbai/",
       "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-10-13T15:31:12.000Z",
-      "snippet": "Mammoth Lakes is gearing up for an unforgettable winter season, with new dining and event spaces, expanded flight service, new lodging options, openings, and much more. The winter season officially kicks off with Mammoth Mountain’s scheduled opening day on November 13, 2026, rolling out an exciting lineup of anniversaries, events, and new experiences. New at Mammoth Resorts Kids Ski Free Week: Dec."
+      "pubDate": "2026-10-17T08:30:36.000Z",
+      "snippet": "The Outbound Tour Operators Association of India (OTOAI) and the Israel Ministry of Tourism (IMOT) have signed a Memorandum of Understanding (MoU) in Mumbai to strengthen tourism cooperation, increase destination awareness and explore new collaboration opportunities between Israel and India’s outbound travel industry. The agreement was signed on October 16, 2026."
     },
     {
-      "title": "Tathastu Pench expands to 84 rooms, strengthens group business",
-      "link": "https://travelbizmonitor.com/top-stories/tathastu-pench-expands-to-84-rooms-strengthens-group-business/",
+      "title": "Connaught Place restaurant owner moves Delhi HC against protests; seeks compensation",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/connaught-place-restaurant-owner-moves-delhi-hc-against-protests-seeks-compensation/135007327",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-10-17T08:30:00.000Z",
+      "snippet": "A restaurant owner in Connaught Place has approached the Delhi High Court seeking directions to the authorities not to grant permission for unauthorised protests, demonstrations or assemblies in the commercial hub that could cause financial losses to traders."
+    },
+    {
+      "title": "redBus launches new campaign showcasing changing bus travel experiences",
+      "link": "https://travelbizmonitor.com/top-stories/redbus-launches-new-campaign-showcasing-changing-bus-travel-experiences/",
       "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-10-13T15:29:04.000Z",
-      "snippet": "Tathastu Resorts has expanded Tathastu Pench to 84 rooms, adding 23 keys and increasing its dining capacity to attract a wider mix of corporate groups, social gatherings, family holidays and experiential leisure travellers. The expansion aims to strengthen the property’s positioning beyond its established wildlife tourism business and promote Pench as a destination in its own right."
+      "pubDate": "2026-10-17T08:00:43.000Z",
+      "snippet": "Online bus ticketing platform redBus has launched a new brand campaign, ‘Bus Travel Ka Tareeka Badal Raha Hai’, highlighting how evolving travel features are transforming the bus journey experience. The campaign focuses on changing expectations among younger travellers, particularly Gen Z, who increasingly seek greater choice, convenience, control and confidence when planning their journeys."
     },
     {
-      "title": "Ruby makes its France debut with the Ruby Lilou in Marseille",
-      "link": "https://hospitality-on.com/en/opening/ruby-makes-its-france-debut-ruby-lilou-marseille",
-      "source": "Hospitality ON",
-      "region": "Global",
-      "pubDate": "2026-10-13T15:19:56.000Z",
-      "snippet": "IHG Hotels & Resorts' lifestyle brand is opening its first French hotel in the La Joliette district of Marseille. The Ruby Lilou has 237 rooms and comes with a shared workspace, Ruby Yani, a first for the brand in France."
+      "title": "India’s MICE sector poised for significant growth",
+      "link": "https://travelbizmonitor.com/top-stories/indias-mice-sector-poised-for-significant-growth/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-17T07:30:15.000Z",
+      "snippet": "India’s Meetings, Incentives, Conferences and Exhibitions (MICE) sector has significant headroom for expansion, with Maharashtra emerging as the first state in the country to establish a dedicated MICE convention promotion bureau. Mumbai is also positioning itself as a global MICE destination, supported by growing infrastructure and stronger government-industry collaboration."
     },
     {
-      "title": "What hotel owners should consider when converting to a soft brand",
-      "link": "https://www.hoteldive.com/news/hotel-owners-consider-converting-to-soft-brand/832840/",
-      "source": "Hotel Dive",
-      "region": "Global",
-      "pubDate": "2026-10-13T13:52:45.000Z",
-      "snippet": "Hoteliers should assess the unique opportunities and challenges of soft brands, while striving to maintain their individuality, experts shared at this year’s Lodging Conference. PHOENIX — Faced with rising costs and other operational challenges, hoteliers are evaluating different ways to drive returns at their properties."
-    },
-    {
-      "title": "Delhi HC bench asks single judge to explain curbs on PepsiCo",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/delhi-hc-bench-asks-single-judge-to-explain-curbs-on-pepsico/134907030",
+      "title": "Spree Hospitality achieves net promoter score of 96 in Q2 and 95 in H1 FY27",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/spree-hospitality-achieves-net-promoter-score-of-96-in-q2-and-95-in-h1-fy27/135008535",
       "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-10-13T05:30:00.000Z",
-      "snippet": "The company approached the HC against the Food Safety and Standards Authority of India's (FSSAI) order asking manufacturers of high-caffeine beverages to stop using the \"energy drink\" descriptor on their products, terming it a misleading claim."
+      "pubDate": "2026-10-17T07:30:00.000Z",
+      "snippet": "The achievement reinforces Spree’s belief that growth goes beyond adding properties. As its footprint expands, the company remains focused on excelling in operations, ensuring guest happiness and living its philosophy of DO MORE through meaningful moments of truth at every stage of a guest’s stay, said a release."
     },
     {
-      "title": "Protests, traffic curbs in Delhi hit hotel business",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/protests-traffic-curbs-in-delhi-hit-hotel-business/134906992",
+      "title": "IRCTC launches wildlife tour packages in Maharashtra",
+      "link": "https://travelbizmonitor.com/top-stories/irctc-launches-wildlife-tour-packages-in-maharashtra/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-17T07:06:07.000Z",
+      "snippet": "The Indian Railway Catering and Tourism Corporation (IRCTC) has partnered with the Maharashtra Forest Department to introduce wildlife tour packages covering Tadoba-Andhari Tiger Reserve and Pench Tiger Reserve. The initiative aims to make wildlife tourism more convenient by combining rail travel, accommodation, local transport and safari permits into a single package."
+    },
+    {
+      "title": "Hunger Pangs Limited who own Burma Burma Restaurants files DRHP with SEBI",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/hunger-pangs-limited-who-own-burma-burma-restaurants-files-drhp-with-sebi/135008314",
       "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-10-13T04:30:00.000Z",
-      "snippet": "Protests in Delhi are causing significant disruptions, leading to a notable decline in hotel occupancies across the city. Companies have chosen to cancel events and meetings to avoid travel difficulties amid ongoing unrest. Many hotels report F&B sales dropping significantly because of reduced guest activity and restricted access."
+      "pubDate": "2026-10-17T06:30:00.000Z",
+      "snippet": "The offer comprises a fresh issue of equity shares of face value of Rs 2 each aggregating up to Rs 150 crore (the fresh issue) and an offer for sale of up to 27,929,760 equity shares of face value of Rs 2 each by the Selling Shareholders."
+    },
+    {
+      "title": "FSSAI issues notices to Radisson Blu Delhi operator, Flipkart and BigBasket over food safety violations",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/fssai-issues-notices-to-radisson-blu-delhi-operator-flipkart-and-bigbasket-over-food-safety-violations/135007310",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-10-17T05:00:00.000Z",
+      "snippet": "Food regulator Food Safety and Standards Authority of India (FSSAI) on Friday said that it has issued notices to the operator of Radisson Blu Hotel here and e-commerce majors Flipkart and BigBasket over misleading claims for an edible oil, among other enforcement actions this week."
     }
   ]
 }
