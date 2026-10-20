@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T21:01:19.258Z",
+  "generatedAt": "2026-10-20T21:51:49.714Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -105,10 +105,10 @@
       "name": "Travel Trade Journal",
       "ok": true,
       "fetched": 10,
-      "kept": 3,
+      "kept": 4,
       "dropped": {
-        "staff appointment": 2,
-        "too old": 5
+        "staff appointment": 1,
+        "too old": 3
       },
       "error": null
     },
@@ -119,6 +119,7 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
+        "several headlines in one title": 1,
         "too old": 3
       },
       "error": null
@@ -140,7 +141,9 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "no usable body text": 2
+      },
       "error": null
     },
     {
@@ -159,7 +162,7 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 3
+        "non-English": 7
       },
       "error": null
     },
@@ -170,8 +173,7 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "roundup/digest (title)": 1,
-        "too old": 1
+        "roundup/digest (title)": 1
       },
       "error": null
     }
@@ -188,18 +190,33 @@
       "reason": "staff appointment"
     },
     {
-      "source": "Travel Trade Journal",
-      "title": "Renaissance Ahmedabad Hotel appoints Rabindra Rai as General Manager",
-      "reason": "staff appointment"
-    },
-    {
-      "source": "Hospitality Net",
-      "title": "Terence Ronson's Q4 Playbook: Four Things That Matter Now, The New Luxury Is Certainty, 500 Leaders Signal AI Has Moved from Experiment to Operation",
+      "source": "Hospitality ON",
+      "title": "Chronicle of a Foretold Exit: Barbara Muckermann, Former Kempinski CEO, Loses Her Bet",
       "reason": "several headlines in one title"
     },
     {
+      "source": "Hospitality Net",
+      "title": "Kempinski CEO and Six C-Suite Executives Depart as Shareholders Explore a Sale, Hotels Are Ready for AI — Now Comes the How, Budget the Meter Not the Machine",
+      "reason": "several headlines in one title"
+    },
+    {
+      "source": "Skift",
+      "title": "GMH Bonus: Sam Shank on How AI Could Reshape Online Travel",
+      "reason": "no usable body text"
+    },
+    {
+      "source": "Skift",
+      "title": "How First Class Jerk Is Building a Travel Media Brand",
+      "reason": "no usable body text"
+    },
+    {
       "source": "Business Traveller",
-      "title": "Vom Meeting zur Me Time",
+      "title": "USA: Columbus erhält erste Nonstop-Verbindung nach Europa mit Lufthansa",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Wie der VIP-Service des Flughafens Zürich das Reisen neu erfindet",
       "reason": "non-English"
     },
     {
@@ -209,7 +226,22 @@
     },
     {
       "source": "Business Traveller",
-      "title": "Vier Szenarios, wie KI das Travel Management verändern könnte",
+      "title": "Naher Osten: Airlines setzen Flüge nach Riad weiter aus",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Was bringt der Lufthansa der Einstieg bei TAP?",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Eurotunnel: Der Eurostar bekommt Konkurrenz von Virgin",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Vom Meeting zur Me Time",
       "reason": "non-English"
     },
     {
@@ -220,76 +252,84 @@
   ],
   "items": [
     {
-      "title": "Airlines Can’t Upgrade Every Plane – So They’re Upgrading the Menu",
-      "link": "https://skift.com/2026/10/17/airlines-cant-upgrade-every-plane-so-theyre-upgrading-the-menu/",
+      "title": "Sonesta Cuts Jobs as a $2 Billion Bid Puts Many of Its Best Hotels in Play",
+      "link": "https://skift.com/2026/10/20/sonesta-cuts-jobs-as-a-2-billion-bid-puts-many-of-its-best-hotels-in-play/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-10-17T12:00:00.000Z",
-      "snippet": "Skift Take: New cabins are expensive, complicated, and slow to arrive. Celebrity chefs? A faster way to serve up an upscale experience — and help justify the premium fare. Airlines are turning to celebrity chefs to give their premium cabins a makeover without having to replace a single seat."
+      "pubDate": "2026-10-20T21:08:53.000Z",
+      "snippet": "Skift Take: Service Properties Trust hired Sonesta to operate 68 of the hotels it owns. But an unsolicited offer for those hotels has created uncertainty. Meanwhile, Sonesta has cut corporate staff. Sonesta began laying off employees last Friday, according to an employee who spoke anonymously to Skift and at least nine LinkedIn posts."
     },
     {
-      "title": "OTOAI and Israel Tourism Ministry sign MoU in Mumbai",
-      "link": "https://travelbizmonitor.com/top-stories/otoai-and-israel-tourism-ministry-sign-mou-in-mumbai/",
+      "title": "Handling 800+ Calls a Month With Canary's AI Voice at Hotel Zephyr",
+      "link": "https://www.hospitalitynet.org/casestudy/4134923/handling-800-calls-a-month-with-canarys-ai-voice-at-hotel-zephyr",
+      "source": "Hospitality Net",
+      "region": "Global",
+      "pubDate": "2026-10-20T18:00:00.000Z",
+      "snippet": "Hotel Zephyr's GM details how Canary's AI Voice handled 800+ calls in a single month, cutting hold times and freeing staff, while Dynamic Upsells generate $130K in annual ancillary revenue."
+    },
+    {
+      "title": "Alaska Airlines Expands Seattle Long-Haul Network With Osaka and Tahiti",
+      "link": "https://www.businesstraveller.com/news/alaska-airlines-expands-seattle-long-haul-network-with-osaka-and-tahiti/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-10-20T16:00:29.000Z",
+      "snippet": "Alaska is adding Osaka and Tahiti from Seattle in 2027, using Hawaiian A330s to extend its Pacific reach while reviving a Tahiti market another carrier recently abandoned."
+    },
+    {
+      "title": "Richard Cooke joins Dorchester Collection to head the Hotel Bel-Air",
+      "link": "https://hospitality-on.com/en/hospitality/richard-cooke-joins-dorchester-collection-head-hotel-bel-air",
+      "source": "Hospitality ON",
+      "region": "Global",
+      "pubDate": "2026-10-20T13:59:33.000Z",
+      "snippet": "Dorchester Collection appoints Richard Cooke as general manager of the Hotel Bel-Air in Los Angeles, effective 1 January 2027. He comes from Rocco Forte Hotels, where he led operations in the UK and Northern Europe."
+    },
+    {
+      "title": "India hotel sector records growth amid rising supply pipeline",
+      "link": "https://travelbizmonitor.com/top-stories/india-hotel-sector-records-growth-amid-rising-supply-pipeline/",
       "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-10-17T08:30:36.000Z",
-      "snippet": "The Outbound Tour Operators Association of India (OTOAI) and the Israel Ministry of Tourism (IMOT) have signed a Memorandum of Understanding (MoU) in Mumbai to strengthen tourism cooperation, increase destination awareness and explore new collaboration opportunities between Israel and India’s outbound travel industry. The agreement was signed on October 16, 2026."
+      "pubDate": "2026-10-20T10:30:35.000Z",
+      "snippet": "India’s hospitality sector recorded growth in occupancy, room rates and revenue during 2025/26, even as performance varied across cities and a substantial development pipeline raised questions about future supply absorption. These findings are from the 2026 Indian Hospitality Trends & Opportunities Report by Hotelivate-Savills, which examines the country’s hotel market and emerging investment opportunities."
     },
     {
-      "title": "Connaught Place restaurant owner moves Delhi HC against protests; seeks compensation",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/connaught-place-restaurant-owner-moves-delhi-hc-against-protests-seeks-compensation/135007327",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-10-17T08:30:00.000Z",
-      "snippet": "A restaurant owner in Connaught Place has approached the Delhi High Court seeking directions to the authorities not to grant permission for unauthorised protests, demonstrations or assemblies in the commercial hub that could cause financial losses to traders."
-    },
-    {
-      "title": "redBus launches new campaign showcasing changing bus travel experiences",
-      "link": "https://travelbizmonitor.com/top-stories/redbus-launches-new-campaign-showcasing-changing-bus-travel-experiences/",
+      "title": "India plans airfare caps only during extraordinary situations",
+      "link": "https://travelbizmonitor.com/top-stories/india-plans-airfare-caps-only-during-extraordinary-situations/",
       "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-10-17T08:00:43.000Z",
-      "snippet": "Online bus ticketing platform redBus has launched a new brand campaign, ‘Bus Travel Ka Tareeka Badal Raha Hai’, highlighting how evolving travel features are transforming the bus journey experience. The campaign focuses on changing expectations among younger travellers, particularly Gen Z, who increasingly seek greater choice, convenience, control and confidence when planning their journeys."
+      "pubDate": "2026-10-20T10:15:51.000Z",
+      "snippet": "The Centre has clarified that it does not intend to interfere with market-driven airfare pricing, despite upcoming rules under the Bharatiya Vayuyan Adhiniyam, 2024. A government official told The Economic Times that airfares would continue to be determined by demand and supply, with intervention reserved for extraordinary circumstances such as natural calamities or major disruptions."
     },
     {
-      "title": "India’s MICE sector poised for significant growth",
-      "link": "https://travelbizmonitor.com/top-stories/indias-mice-sector-poised-for-significant-growth/",
-      "source": "TravelBiz Monitor",
+      "title": "Batam’s first integrated resort, Opus Bay, to open in December 2026",
+      "link": "https://traveltradejournal.com/batams-first-integrated-resort-opus-bay-to-open-in-december-2026/",
+      "source": "Travel Trade Journal",
       "region": "India",
-      "pubDate": "2026-10-17T07:30:15.000Z",
-      "snippet": "India’s Meetings, Incentives, Conferences and Exhibitions (MICE) sector has significant headroom for expansion, with Maharashtra emerging as the first state in the country to establish a dedicated MICE convention promotion bureau. Mumbai is also positioning itself as a global MICE destination, supported by growing infrastructure and stronger government-industry collaboration."
+      "pubDate": "2026-10-19T19:15:18.000Z",
+      "snippet": "Opus Bay, Batam’s first integrated resort estate, is scheduled to begin phased operations in December 2026, introducing a new hospitality, leisure and lifestyle destination approximately 45 minutes by ferry from Singapore. Developed around the concept of ‘A City within a City’, the waterfront development will combine accommodation, retail, dining and recreational facilities within a single destination."
     },
     {
-      "title": "Spree Hospitality achieves net promoter score of 96 in Q2 and 95 in H1 FY27",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/spree-hospitality-achieves-net-promoter-score-of-96-in-q2-and-95-in-h1-fy27/135008535",
+      "title": "Minor Hotels to bring Anantara Retreats to India with luxury wellness resort in Darjeeling",
+      "link": "https://traveltradejournal.com/minor-hotels-to-bring-anantara-retreats-to-india-with-anantara-retreat-darjeeling-hills/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-10-19T11:34:35.000Z",
+      "snippet": "Minor Hotels has partnered with JK Urbanscapes Developers Limited (JKUDL), part of the JK Organisation, to develop Anantara Retreat Darjeeling Hills, a 70-key luxury wellness retreat at Tindharia Tea Estate in West Bengal. Scheduled to open in 2031, the property will mark the debut of Anantara Retreats in India."
+    },
+    {
+      "title": "NHCC serves up a taste of Bengal with Bhuri Bhoj",
+      "link": "https://hospitalitybizindia.com/news-track/nhcc-serves-up-a-taste-of-bengal-with-bhuri-bhoj/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-10-19T07:16:10.000Z",
+      "snippet": "For Bengalis, Durga Puja is a celebration of food and festivity, with traditional delicacies holding a place of pride alongside the rituals and pandal-hopping. From Luchi and Chholar Dal to Kosha Mangsho, Basanti Polao and Daab Chingri, food is central to the celebrations."
+    },
+    {
+      "title": "ixigo delivers PAT of Rs 63.42 crore in Q2 FY27 as hotels business emerges as significant growth driver",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/travel/ixigo-delivers-pat-of-rs-63-42-crore-in-q2-fy27-as-hotels-business-emerges-as-significant-growth-driver/135039240",
       "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-10-17T07:30:00.000Z",
-      "snippet": "The achievement reinforces Spree’s belief that growth goes beyond adding properties. As its footprint expands, the company remains focused on excelling in operations, ensuring guest happiness and living its philosophy of DO MORE through meaningful moments of truth at every stage of a guest’s stay, said a release."
-    },
-    {
-      "title": "IRCTC launches wildlife tour packages in Maharashtra",
-      "link": "https://travelbizmonitor.com/top-stories/irctc-launches-wildlife-tour-packages-in-maharashtra/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-17T07:06:07.000Z",
-      "snippet": "The Indian Railway Catering and Tourism Corporation (IRCTC) has partnered with the Maharashtra Forest Department to introduce wildlife tour packages covering Tadoba-Andhari Tiger Reserve and Pench Tiger Reserve. The initiative aims to make wildlife tourism more convenient by combining rail travel, accommodation, local transport and safari permits into a single package."
-    },
-    {
-      "title": "Hunger Pangs Limited who own Burma Burma Restaurants files DRHP with SEBI",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/hunger-pangs-limited-who-own-burma-burma-restaurants-files-drhp-with-sebi/135008314",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-10-17T06:30:00.000Z",
-      "snippet": "The offer comprises a fresh issue of equity shares of face value of Rs 2 each aggregating up to Rs 150 crore (the fresh issue) and an offer for sale of up to 27,929,760 equity shares of face value of Rs 2 each by the Selling Shareholders."
-    },
-    {
-      "title": "FSSAI issues notices to Radisson Blu Delhi operator, Flipkart and BigBasket over food safety violations",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/fssai-issues-notices-to-radisson-blu-delhi-operator-flipkart-and-bigbasket-over-food-safety-violations/135007310",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-10-17T05:00:00.000Z",
-      "snippet": "Food regulator Food Safety and Standards Authority of India (FSSAI) on Friday said that it has issued notices to the operator of Radisson Blu Hotel here and e-commerce majors Flipkart and BigBasket over misleading claims for an edible oil, among other enforcement actions this week."
+      "pubDate": "2026-10-19T06:30:00.000Z",
+      "snippet": "This is the first quarter ixigo has started disclosing hotels as a separate line of business. Hotels has emerged as ixigo’s fastest-growing line of business with GTV growth of +159 percent YoY, Revenue growth of +528 percent, with a 12 percent + gross take rate. 86 percent + of bookings came from ixigo’s own captive users."
     }
   ]
 }
