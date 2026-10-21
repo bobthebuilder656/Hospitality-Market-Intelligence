@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T21:51:49.714Z",
+  "generatedAt": "2026-10-21T21:58:30.745Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -66,9 +66,7 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {
-        "body reads as a list of headlines": 1
-      },
+      "dropped": {},
       "error": null
     },
     {
@@ -107,8 +105,7 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "staff appointment": 1,
-        "too old": 3
+        "too old": 2
       },
       "error": null
     },
@@ -119,8 +116,7 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
-        "several headlines in one title": 1,
-        "too old": 3
+        "several headlines in one title": 1
       },
       "error": null
     },
@@ -141,9 +137,7 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {
-        "no usable body text": 2
-      },
+      "dropped": {},
       "error": null
     },
     {
@@ -162,7 +156,8 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 7
+        "award announcement with no real content": 5,
+        "non-English": 1
       },
       "error": null
     },
@@ -180,69 +175,44 @@
   ],
   "droppedItems": [
     {
-      "source": "ET HospitalityWorld",
-      "title": "The Oberoi Group announces recipients of The Oberoi Group Scholarship Program",
-      "reason": "body reads as a list of headlines"
-    },
-    {
-      "source": "Travel Trade Journal",
-      "title": "Accor appoints Deeppreet Bindra as Director – ibis & ibis Styles India",
-      "reason": "staff appointment"
-    },
-    {
       "source": "Hospitality ON",
       "title": "Chronicle of a Foretold Exit: Barbara Muckermann, Former Kempinski CEO, Loses Her Bet",
       "reason": "several headlines in one title"
     },
     {
       "source": "Hospitality Net",
-      "title": "Kempinski CEO and Six C-Suite Executives Depart as Shareholders Explore a Sale, Hotels Are Ready for AI — Now Comes the How, Budget the Meter Not the Machine",
+      "title": "Booking Holdings Now Collects Payment on 73% of Sales, Charlotte Weatherall of Corinthia London on Leading from the Heart, Paathz Rebuilds Hospitality Hiring Without CVs",
       "reason": "several headlines in one title"
     },
     {
-      "source": "Skift",
-      "title": "GMH Bonus: Sam Shank on How AI Could Reshape Online Travel",
-      "reason": "no usable body text"
-    },
-    {
-      "source": "Skift",
-      "title": "How First Class Jerk Is Building a Travel Media Brand",
-      "reason": "no usable body text"
+      "source": "Business Traveller",
+      "title": "Highlights From the Business Traveller Awards Event 2026",
+      "reason": "award announcement with no real content"
     },
     {
       "source": "Business Traveller",
-      "title": "USA: Columbus erhält erste Nonstop-Verbindung nach Europa mit Lufthansa",
+      "title": "Streiks: Wir navigieren Sie durch die geplanten Ausstände",
       "reason": "non-English"
     },
     {
       "source": "Business Traveller",
-      "title": "Wie der VIP-Service des Flughafens Zürich das Reisen neu erfindet",
-      "reason": "non-English"
+      "title": "British Airways Wins Big in European Awards",
+      "reason": "award announcement with no real content"
     },
     {
       "source": "Business Traveller",
-      "title": "Neue Einreiseregeln weltweit: Das hat sich aktuell geändert",
-      "reason": "non-English"
+      "title": "The Winners of the 2026 Business Traveller Awards Have Been Announced",
+      "reason": "award announcement with no real content"
     },
     {
       "source": "Business Traveller",
-      "title": "Naher Osten: Airlines setzen Flüge nach Riad weiter aus",
-      "reason": "non-English"
+      "title": "Crowne Plaza Changi Wins Best Airport Hotel Award",
+      "reason": "award announcement with no real content"
     },
     {
       "source": "Business Traveller",
-      "title": "Was bringt der Lufthansa der Einstieg bei TAP?",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Eurotunnel: Der Eurostar bekommt Konkurrenz von Virgin",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Vom Meeting zur Me Time",
-      "reason": "non-English"
+      "title": "Digital Transformation Paves the Way for Harbour Plaza’s APAC Award Win",
+      "reason": "award announcement with no real content"
     },
     {
       "source": "Hotel Dive",
@@ -252,84 +222,84 @@
   ],
   "items": [
     {
-      "title": "Sonesta Cuts Jobs as a $2 Billion Bid Puts Many of Its Best Hotels in Play",
-      "link": "https://skift.com/2026/10/20/sonesta-cuts-jobs-as-a-2-billion-bid-puts-many-of-its-best-hotels-in-play/",
+      "title": "EU investigates Booking.com over fraud risks",
+      "link": "https://www.traveldailynews.com/tour-operators/booking-com-eu-investigation-fraudulent-listings-phishing/",
+      "source": "Travel Daily News",
+      "region": "Global",
+      "pubDate": "2026-10-21T21:01:34.000Z",
+      "snippet": "The European Commission has opened an investigation into Booking.com to assess its handling of fraudulent accommodation listings and phishing scams. The inquiry will examine whether the online booking platform complies with the European Union ’s Digital Services Act (DSA). The Commission announced the investigation on Wednesday, following a preliminary assessment."
+    },
+    {
+      "title": "Southwest Airlines Slashes 2026 Profit Guidance on Higher Fuel Bills",
+      "link": "https://skift.com/2026/10/21/southwest-slashes-2026-profit-guidance-on-higher-fuel-bills/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-10-20T21:08:53.000Z",
-      "snippet": "Skift Take: Service Properties Trust hired Sonesta to operate 68 of the hotels it owns. But an unsolicited offer for those hotels has created uncertainty. Meanwhile, Sonesta has cut corporate staff. Sonesta began laying off employees last Friday, according to an employee who spoke anonymously to Skift and at least nine LinkedIn posts."
+      "pubDate": "2026-10-21T21:00:32.000Z",
+      "snippet": "Skift Take: Southwest is the latest airline to slash its profit outlook for the year as surging fuel costs bite into record revenues. Southwest Airlines is cutting its profit outlook for 2026 as it anticipates paying as much as $4.55 a gallon for jet fuel in the fourth quarter. The carrier now expects adjusted earnings per share this year to range between $2.60 and $2.85."
     },
     {
-      "title": "Handling 800+ Calls a Month With Canary's AI Voice at Hotel Zephyr",
-      "link": "https://www.hospitalitynet.org/casestudy/4134923/handling-800-calls-a-month-with-canarys-ai-voice-at-hotel-zephyr",
-      "source": "Hospitality Net",
-      "region": "Global",
-      "pubDate": "2026-10-20T18:00:00.000Z",
-      "snippet": "Hotel Zephyr's GM details how Canary's AI Voice handled 800+ calls in a single month, cutting hold times and freeing staff, while Dynamic Upsells generate $130K in annual ancillary revenue."
-    },
-    {
-      "title": "Alaska Airlines Expands Seattle Long-Haul Network With Osaka and Tahiti",
-      "link": "https://www.businesstraveller.com/news/alaska-airlines-expands-seattle-long-haul-network-with-osaka-and-tahiti/",
+      "title": "JOALI Maldives: Holidays Come with an Island – and a Clock – of Their Own",
+      "link": "https://www.businesstraveller.com/destinations/joali-maldives-holidays-come-with-an-island-and-a-clock-of-their-own/",
       "source": "Business Traveller",
       "region": "Global",
-      "pubDate": "2026-10-20T16:00:29.000Z",
-      "snippet": "Alaska is adding Osaka and Tahiti from Seattle in 2027, using Hawaiian A330s to extend its Pacific reach while reviving a Tahiti market another carrier recently abandoned."
+      "pubDate": "2026-10-21T20:08:24.000Z",
+      "snippet": "The island runs on Island Time, a time that feels entirely independent from the typical demands of your life."
     },
     {
-      "title": "Richard Cooke joins Dorchester Collection to head the Hotel Bel-Air",
-      "link": "https://hospitality-on.com/en/hospitality/richard-cooke-joins-dorchester-collection-head-hotel-bel-air",
-      "source": "Hospitality ON",
-      "region": "Global",
-      "pubDate": "2026-10-20T13:59:33.000Z",
-      "snippet": "Dorchester Collection appoints Richard Cooke as general manager of the Hotel Bel-Air in Los Angeles, effective 1 January 2027. He comes from Rocco Forte Hotels, where he led operations in the UK and Northern Europe."
-    },
-    {
-      "title": "India hotel sector records growth amid rising supply pipeline",
-      "link": "https://travelbizmonitor.com/top-stories/india-hotel-sector-records-growth-amid-rising-supply-pipeline/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-20T10:30:35.000Z",
-      "snippet": "India’s hospitality sector recorded growth in occupancy, room rates and revenue during 2025/26, even as performance varied across cities and a substantial development pipeline raised questions about future supply absorption. These findings are from the 2026 Indian Hospitality Trends & Opportunities Report by Hotelivate-Savills, which examines the country’s hotel market and emerging investment opportunities."
-    },
-    {
-      "title": "India plans airfare caps only during extraordinary situations",
-      "link": "https://travelbizmonitor.com/top-stories/india-plans-airfare-caps-only-during-extraordinary-situations/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-20T10:15:51.000Z",
-      "snippet": "The Centre has clarified that it does not intend to interfere with market-driven airfare pricing, despite upcoming rules under the Bharatiya Vayuyan Adhiniyam, 2024. A government official told The Economic Times that airfares would continue to be determined by demand and supply, with intervention reserved for extraordinary circumstances such as natural calamities or major disruptions."
-    },
-    {
-      "title": "Batam’s first integrated resort, Opus Bay, to open in December 2026",
-      "link": "https://traveltradejournal.com/batams-first-integrated-resort-opus-bay-to-open-in-december-2026/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-10-19T19:15:18.000Z",
-      "snippet": "Opus Bay, Batam’s first integrated resort estate, is scheduled to begin phased operations in December 2026, introducing a new hospitality, leisure and lifestyle destination approximately 45 minutes by ferry from Singapore. Developed around the concept of ‘A City within a City’, the waterfront development will combine accommodation, retail, dining and recreational facilities within a single destination."
-    },
-    {
-      "title": "Minor Hotels to bring Anantara Retreats to India with luxury wellness resort in Darjeeling",
-      "link": "https://traveltradejournal.com/minor-hotels-to-bring-anantara-retreats-to-india-with-anantara-retreat-darjeeling-hills/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-10-19T11:34:35.000Z",
-      "snippet": "Minor Hotels has partnered with JK Urbanscapes Developers Limited (JKUDL), part of the JK Organisation, to develop Anantara Retreat Darjeeling Hills, a 70-key luxury wellness retreat at Tindharia Tea Estate in West Bengal. Scheduled to open in 2031, the property will mark the debut of Anantara Retreats in India."
-    },
-    {
-      "title": "NHCC serves up a taste of Bengal with Bhuri Bhoj",
-      "link": "https://hospitalitybizindia.com/news-track/nhcc-serves-up-a-taste-of-bengal-with-bhuri-bhoj/",
+      "title": "Accor Signs 120-Key Novotel Hotel in Himachal Pradesh",
+      "link": "https://hospitalitybizindia.com/news-track/accor-signs-120-key-novotel-hotel-in-himachal-pradesh/",
       "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-10-19T07:16:10.000Z",
-      "snippet": "For Bengalis, Durga Puja is a celebration of food and festivity, with traditional delicacies holding a place of pride alongside the rituals and pandal-hopping. From Luchi and Chholar Dal to Kosha Mangsho, Basanti Polao and Daab Chingri, food is central to the celebrations."
+      "pubDate": "2026-10-21T18:32:13.000Z",
+      "snippet": "Novotel Solan Kumarhatti is scheduled to open in 2031, marking Accor’s entry into the state and targeting leisure, weddings and MICE demand. Accor has signed a 120-key Novotel hotel in Kumarhatti, Himachal Pradesh, marking the hospitality group’s entry into the state as it expands its presence in emerging leisure destinations across India."
     },
     {
-      "title": "ixigo delivers PAT of Rs 63.42 crore in Q2 FY27 as hotels business emerges as significant growth driver",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/travel/ixigo-delivers-pat-of-rs-63-42-crore-in-q2-fy27-as-hotels-business-emerges-as-significant-growth-driver/135039240",
+      "title": "IHCL Raises FY27 Revenue Guidance to 15-17% as Q2 Revenue Rises 21%",
+      "link": "https://hospitalitybizindia.com/news-track/ihcl-raises-fy27-revenue-guidance-to-15-17-as-q2-revenue-rises-21/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-10-21T18:27:33.000Z",
+      "snippet": "The hospitality group reports INR 2,566 crore consolidated revenue and expands its portfolio to 670 hotels, with 280 properties in the pipeline. The Indian Hotels Company Ltd. (IHCL) has raised its consolidated revenue growth guidance for FY2027 to 15-17% from 12-14%, following a record second quarter in which revenue rose 21% year-on-year to INR 2,566 crore."
+    },
+    {
+      "title": "Hotel Covington Increases Average Check Size by 15% With Canary's F&B Mobile Ordering",
+      "link": "https://www.hospitalitynet.org/casestudy/4134926/hotel-covington-increases-average-check-size-by-15-with-canarys-f-b-mobile-ordering",
+      "source": "Hospitality Net",
+      "region": "Global",
+      "pubDate": "2026-10-21T18:00:00.000Z",
+      "snippet": "Hotel Covington deployed Canary Technologies' F&B mobile ordering, AI messaging, and dynamic upsells, achieving a 15% increase in average check size at its 114-room Kentucky property."
+    },
+    {
+      "title": "Accor signs Novotel Solan Kumarhatti, marking its entry into Himachal Pradesh",
+      "link": "https://traveltradejournal.com/accor-signs-novotel-solan-kumarhatti-marking-its-entry-into-himachal-pradesh/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-10-21T16:50:18.000Z",
+      "snippet": "Accor has signed Novotel Solan Kumarhatti, marking the hospitality group’s entry into Himachal Pradesh. Scheduled to open in 2031, the 120-key hotel will strengthen Accor’s presence in India’s emerging leisure destinations, with a focus on wellness, family travel, destination weddings and MICE. Located along the Kalka–Shimla Highway, the property will offer convenient access to Kasauli, Chail and Shimla."
+    },
+    {
+      "title": "Royal Caribbean offers Mastercard savings on select cruises",
+      "link": "https://travelbizmonitor.com/top-stories/royal-caribbean-offers-mastercard-savings-on-select-cruises/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-21T15:31:24.000Z",
+      "snippet": "Royal Caribbean has announced a Mastercard promotion offering savings of up to 10% on select sailings aboard Quantum, Spectrum, Navigator and Voyager of the Seas. The offer applies to eligible bookings made between October 19, 2026, and September 30, 2027, giving travellers another opportunity to plan a cruise holiday while accessing promotional fares."
+    },
+    {
+      "title": "Axis Bank, Visa launch ‘Dil Se Open’ Festive Campaign",
+      "link": "https://travelbizmonitor.com/top-stories/axis-bank-visa-launch-dil-se-open-festive-campaign/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-21T15:29:34.000Z",
+      "snippet": "Axis Bank, in partnership with Visa, has launched its festive campaign, ‘Dil Se Open Celebrations 2026’, under the tagline ‘Iss festive season, har khushi ko banao badi’. Featuring actor Shahid Kapoor, the campaign celebrates the desire to make festive moments more special through imaginative storytelling and rewards on eligible Axis Bank Visa Credit Cards."
+    },
+    {
+      "title": "IHCL announces record Q2 FY27 results, upgrades revenue guidance by 300 basis points",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/ihcl-announces-record-q2-fy27-results-upgrades-revenue-guidance-by-300-basis-points/135093586",
       "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-10-19T06:30:00.000Z",
-      "snippet": "This is the first quarter ixigo has started disclosing hotels as a separate line of business. Hotels has emerged as ixigo’s fastest-growing line of business with GTV growth of +159 percent YoY, Revenue growth of +528 percent, with a 12 percent + gross take rate. 86 percent + of bookings came from ixigo’s own captive users."
+      "pubDate": "2026-10-21T13:31:34.000Z",
+      "snippet": "In its 18th consecutive record quarter, the company reported a 21 percent rise in revenue to Rs 2,566 crore, while hotel-segment revenue increased 24 percent. EBITDA grew 21 percent to Rs 788 crore and profit after tax rose 23 percent to Rs 349 crore, with a diversified brandscape expanding the portfolio to 670 hotels, stated a release."
     }
   ]
 }
