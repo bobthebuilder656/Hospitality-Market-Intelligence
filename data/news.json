@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T21:58:30.745Z",
+  "generatedAt": "2026-10-22T21:55:06.045Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -105,7 +105,7 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "too old": 2
+        "too old": 3
       },
       "error": null
     },
@@ -116,6 +116,7 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
+        "too old": 3,
         "several headlines in one title": 1
       },
       "error": null
@@ -156,7 +157,7 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "award announcement with no real content": 5,
+        "award announcement with no real content": 2,
         "non-English": 1
       },
       "error": null
@@ -167,9 +168,7 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {
-        "roundup/digest (title)": 1
-      },
+      "dropped": {},
       "error": null
     }
   ],
@@ -181,93 +180,97 @@
     },
     {
       "source": "Hospitality Net",
-      "title": "Booking Holdings Now Collects Payment on 73% of Sales, Charlotte Weatherall of Corinthia London on Leading from the Heart, Paathz Rebuilds Hospitality Hiring Without CVs",
+      "title": "How Hotel Work Changes as Software Becomes an AI Teammate, AI Travel Agents Carry a Hidden Token Cost, 40 AI Trip Planners Mapped",
       "reason": "several headlines in one title"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Meet the Judges: Business Traveller Awards 2026",
+      "reason": "award announcement with no real content"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Die besten Wein-Events im Rheingau",
+      "reason": "non-English"
     },
     {
       "source": "Business Traveller",
       "title": "Highlights From the Business Traveller Awards Event 2026",
       "reason": "award announcement with no real content"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Streiks: Wir navigieren Sie durch die geplanten Ausstände",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "British Airways Wins Big in European Awards",
-      "reason": "award announcement with no real content"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "The Winners of the 2026 Business Traveller Awards Have Been Announced",
-      "reason": "award announcement with no real content"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Crowne Plaza Changi Wins Best Airport Hotel Award",
-      "reason": "award announcement with no real content"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Digital Transformation Paves the Way for Harbour Plaza’s APAC Award Win",
-      "reason": "award announcement with no real content"
-    },
-    {
-      "source": "Hotel Dive",
-      "title": "Lodging Lowdown: Hotel Equities, Indigo Road Hospitality make leadership appointments",
-      "reason": "roundup/digest (title)"
     }
   ],
   "items": [
     {
-      "title": "EU investigates Booking.com over fraud risks",
-      "link": "https://www.traveldailynews.com/tour-operators/booking-com-eu-investigation-fraudulent-listings-phishing/",
-      "source": "Travel Daily News",
-      "region": "Global",
-      "pubDate": "2026-10-21T21:01:34.000Z",
-      "snippet": "The European Commission has opened an investigation into Booking.com to assess its handling of fraudulent accommodation listings and phishing scams. The inquiry will examine whether the online booking platform complies with the European Union ’s Digital Services Act (DSA). The Commission announced the investigation on Wednesday, following a preliminary assessment."
-    },
-    {
-      "title": "Southwest Airlines Slashes 2026 Profit Guidance on Higher Fuel Bills",
-      "link": "https://skift.com/2026/10/21/southwest-slashes-2026-profit-guidance-on-higher-fuel-bills/",
+      "title": "Accor Builds Caution Into Outlook Over France Unrest and Middle East",
+      "link": "https://skift.com/2026/10/22/accor-builds-caution-into-outlook-over-france-unrest-and-middle-east/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-10-21T21:00:32.000Z",
-      "snippet": "Skift Take: Southwest is the latest airline to slash its profit outlook for the year as surging fuel costs bite into record revenues. Southwest Airlines is cutting its profit outlook for 2026 as it anticipates paying as much as $4.55 a gallon for jet fuel in the fourth quarter. The carrier now expects adjusted earnings per share this year to range between $2.60 and $2.85."
+      "pubDate": "2026-10-22T21:54:43.000Z",
+      "snippet": "Skift Take: Accor is guiding to a flat fourth quarter globally, partly out of caution after France's recent riots and uncertainty about wars in the Middle East. Accor is bracing for a bumpy end to the year because of uncertainty in two of its key markets."
     },
     {
-      "title": "JOALI Maldives: Holidays Come with an Island – and a Clock – of Their Own",
-      "link": "https://www.businesstraveller.com/destinations/joali-maldives-holidays-come-with-an-island-and-a-clock-of-their-own/",
+      "title": "IHG reports Q3 RevPAR growth driven by ‘strength of US economy’",
+      "link": "https://www.hoteldive.com/news/ihg-q3-revpar-growth-strong-us-economy/833773/",
+      "source": "Hotel Dive",
+      "region": "Global",
+      "pubDate": "2026-10-22T19:11:26.000Z",
+      "snippet": "” Q3 performance was also driven by “growth in all three demand drivers,” across the Americas, with group room revenue up by 12% YOY, leisure up 7% and business up 6%. The “tail end of the World Cup” added 40 basis points to IHG’s U.S. RevPAR growth in Q3, according to Glover."
+    },
+    {
+      "title": "Hotel Review: Mount Juliet Estate, County Kilkenny",
+      "link": "https://www.businesstraveller.com/tried-tested/hotel-review-mount-juliet-estate-county-kilkenny/",
       "source": "Business Traveller",
       "region": "Global",
-      "pubDate": "2026-10-21T20:08:24.000Z",
-      "snippet": "The island runs on Island Time, a time that feels entirely independent from the typical demands of your life."
+      "pubDate": "2026-10-22T19:00:26.000Z",
+      "snippet": "Fresh from an extensive refurbishment, Mount Juliet Estate pairs Georgian character with Michelin-starred dining, championship golf, attentive service and an extraordinary roster of country pursuits across 500 acres in Kilkenny."
     },
     {
-      "title": "Accor Signs 120-Key Novotel Hotel in Himachal Pradesh",
-      "link": "https://hospitalitybizindia.com/news-track/accor-signs-120-key-novotel-hotel-in-himachal-pradesh/",
+      "title": "Hotel Industry Growth May Moderate in Q3 as Base Normalises: Jefferies Report",
+      "link": "https://hospitalitybizindia.com/news-track/hotel-industry-growth-may-moderate-in-q3-as-base-normalises-jefferies-report/",
       "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-10-21T18:32:13.000Z",
-      "snippet": "Novotel Solan Kumarhatti is scheduled to open in 2031, marking Accor’s entry into the state and targeting leisure, weddings and MICE demand. Accor has signed a 120-key Novotel hotel in Kumarhatti, Himachal Pradesh, marking the hospitality group’s entry into the state as it expands its presence in emerging leisure destinations across India."
+      "pubDate": "2026-10-22T18:52:23.000Z",
+      "snippet": "India’s hotel industry may witness a moderation in revenue per available room (RevPAR) growth in the third quarter of FY27 as the base effect normalises. However, a strong wedding calendar in 2027 is expected to support demand and sustain healthy growth into FY28, according to a report by brokerage firm Jefferies."
     },
     {
-      "title": "IHCL Raises FY27 Revenue Guidance to 15-17% as Q2 Revenue Rises 21%",
-      "link": "https://hospitalitybizindia.com/news-track/ihcl-raises-fy27-revenue-guidance-to-15-17-as-q2-revenue-rises-21/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-10-21T18:27:33.000Z",
-      "snippet": "The hospitality group reports INR 2,566 crore consolidated revenue and expands its portfolio to 670 hotels, with 280 properties in the pipeline. The Indian Hotels Company Ltd. (IHCL) has raised its consolidated revenue growth guidance for FY2027 to 15-17% from 12-14%, following a record second quarter in which revenue rose 21% year-on-year to INR 2,566 crore."
-    },
-    {
-      "title": "Hotel Covington Increases Average Check Size by 15% With Canary's F&B Mobile Ordering",
-      "link": "https://www.hospitalitynet.org/casestudy/4134926/hotel-covington-increases-average-check-size-by-15-with-canarys-f-b-mobile-ordering",
+      "title": "Speedy Arrivals, Seamless Stays: How Hotel June Malibu Eliminated Wait Times With Canary's Mobile Key",
+      "link": "https://www.hospitalitynet.org/casestudy/4134927/speedy-arrivals-seamless-stays-how-hotel-june-malibu-eliminated-wait-times-with-canarys-mobile-key",
       "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-10-21T18:00:00.000Z",
-      "snippet": "Hotel Covington deployed Canary Technologies' F&B mobile ordering, AI messaging, and dynamic upsells, achieving a 15% increase in average check size at its 114-room Kentucky property."
+      "pubDate": "2026-10-22T18:00:00.000Z",
+      "snippet": "Hotel June Malibu cut check-in wait times from 7 minutes to zero using Canary Technologies' Mobile Key and Mobile Check-In, with over half of mobile check-ins now opting for a mobile key."
+    },
+    {
+      "title": "Singapore Airlines upgrades KrisWorld with 4K Entertainment",
+      "link": "https://travelbizmonitor.com/top-stories/singapore-airlines-upgrades-krisworld-with-4k-entertainment/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-22T15:00:05.000Z",
+      "snippet": "Singapore Airlines (SIA) is enhancing its in-flight entertainment experience with next-generation KrisWorld and high-speed connectivity, offering passengers greater choice, control and flexibility during their journeys."
+    },
+    {
+      "title": "Madame Tussauds, MakeMyTrip launch Icons of India Campaign",
+      "link": "https://travelbizmonitor.com/top-stories/madame-tussauds-makemytrip-launch-icons-of-india-campaign/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-22T14:47:47.000Z",
+      "snippet": "Madame Tussauds Singapore and MakeMyTrip have partnered to launch the ‘Icons of India’ campaign, a limited-period experience celebrating Diwali and the global appeal of Indian cinema. The initiative highlights the glamour and cultural influence of Bollywood while offering visitors new opportunities to engage with celebrated Indian film stars at the Singapore attraction."
+    },
+    {
+      "title": "Swiggy’s India ownership shift could lift Instamart margins; Q2 loss widens to Rs 922 crore",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/technology/swiggys-india-ownership-shift-could-lift-instamart-margins-q2-loss-widens-to-rs-922-crore/135118494",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-10-22T13:30:00.000Z",
+      "snippet": "Swiggy is transitioning to an India-owned structure to gain greater control over its Instamart operations and improve margins. The company aims to enhance profitability while managing competition from rival services like Blinkit and Zepto. Instamart's contribution margin is projected to improve, and overall growth is anticipated over the coming quarters."
+    },
+    {
+      "title": "Harajuku Tokyo Cafe raises $3 million in Pre-Series A funding round",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/harajuku-tokyo-cafe-raises-3-million-in-pre-series-a-funding-round/135113462",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-10-22T10:30:00.000Z",
+      "snippet": "Over the next two quarters, Harajuku plans to open ten outlets across new neighbourhoods in Delhi NCR and Mumbai, while entering Bengaluru and Chandigarh for the first time. The company also plans to operationalise central kitchens in Mumbai and Bengaluru by December 2026."
     },
     {
       "title": "Accor signs Novotel Solan Kumarhatti, marking its entry into Himachal Pradesh",
@@ -276,30 +279,6 @@
       "region": "India",
       "pubDate": "2026-10-21T16:50:18.000Z",
       "snippet": "Accor has signed Novotel Solan Kumarhatti, marking the hospitality group’s entry into Himachal Pradesh. Scheduled to open in 2031, the 120-key hotel will strengthen Accor’s presence in India’s emerging leisure destinations, with a focus on wellness, family travel, destination weddings and MICE. Located along the Kalka–Shimla Highway, the property will offer convenient access to Kasauli, Chail and Shimla."
-    },
-    {
-      "title": "Royal Caribbean offers Mastercard savings on select cruises",
-      "link": "https://travelbizmonitor.com/top-stories/royal-caribbean-offers-mastercard-savings-on-select-cruises/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-21T15:31:24.000Z",
-      "snippet": "Royal Caribbean has announced a Mastercard promotion offering savings of up to 10% on select sailings aboard Quantum, Spectrum, Navigator and Voyager of the Seas. The offer applies to eligible bookings made between October 19, 2026, and September 30, 2027, giving travellers another opportunity to plan a cruise holiday while accessing promotional fares."
-    },
-    {
-      "title": "Axis Bank, Visa launch ‘Dil Se Open’ Festive Campaign",
-      "link": "https://travelbizmonitor.com/top-stories/axis-bank-visa-launch-dil-se-open-festive-campaign/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-21T15:29:34.000Z",
-      "snippet": "Axis Bank, in partnership with Visa, has launched its festive campaign, ‘Dil Se Open Celebrations 2026’, under the tagline ‘Iss festive season, har khushi ko banao badi’. Featuring actor Shahid Kapoor, the campaign celebrates the desire to make festive moments more special through imaginative storytelling and rewards on eligible Axis Bank Visa Credit Cards."
-    },
-    {
-      "title": "IHCL announces record Q2 FY27 results, upgrades revenue guidance by 300 basis points",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/ihcl-announces-record-q2-fy27-results-upgrades-revenue-guidance-by-300-basis-points/135093586",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-10-21T13:31:34.000Z",
-      "snippet": "In its 18th consecutive record quarter, the company reported a 21 percent rise in revenue to Rs 2,566 crore, while hotel-segment revenue increased 24 percent. EBITDA grew 21 percent to Rs 788 crore and profit after tax rose 23 percent to Rs 349 crore, with a diversified brandscape expanding the portfolio to 670 hotels, stated a release."
     }
   ]
 }
