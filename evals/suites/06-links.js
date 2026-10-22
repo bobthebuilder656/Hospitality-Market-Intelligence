@@ -29,7 +29,17 @@ function collect(node, where, found) {
 // script but open normally in a browser), so a failure proves nothing.
 const BLOCKS_AUTOMATED_VISITS = ["pib.gov.in"];
 
+// A link that fails once is tried again after a pause before it counts as
+// dead: on 2026-10-12 a single network hiccup on a working Springer page
+// failed the whole weekly check.
 async function check(url) {
+  const first = await checkOnce(url);
+  if (first !== "unreachable" && !(typeof first === "number" && first >= 500)) return first;
+  await new Promise((resolve) => setTimeout(resolve, 10000));
+  return checkOnce(url);
+}
+
+async function checkOnce(url) {
   try {
     const res = await fetch(url, { headers: { "User-Agent": USER_AGENT, Accept: "text/html,application/xhtml+xml,application/pdf,*/*" }, signal: AbortSignal.timeout(25000), redirect: "follow" });
     await res.body?.cancel();
