@@ -1,0 +1,66 @@
+# Weekly quality report, every Monday at 09:30 India time (after the 08:00 link
+# check). The evals check the site works before each publish; this estimates
+# whether what it shows is useful and true (see evals/quality-report.js) and
+# lists a few items for a person to check against their sources.
+#
+# It is opened as a GitHub issue that @mentions the owner, so GitHub emails it.
+# Last week's report is closed automatically. It never blocks publishing.
+
+name: Weekly quality report
+
+on:
+  schedule:
+    - cron: "0 4 * * 1" # Mondays, 09:30 India time
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+  issues: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0 # the past week's data snapshots live in git history
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Count this week's publishing runs
+        id: runs
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const since = new Date(Date.now() - 7 * 24 * 3600 * 1000).toISOString().slice(0, 10);
+            const runs = await github.paginate(github.rest.actions.listWorkflowRuns, {
+              owner: context.repo.owner, repo: context.repo.repo, workflow_id: "site.yml",
+              created: `>=${since}`, per_page: 100,
+            });
+            core.setOutput("json", JSON.stringify(runs.map((r) => ({ conclusion: r.conclusion }))));
+
+      - name: Build the report
+        env:
+          RUNS_JSON: ${{ steps.runs.outputs.json }}
+        run: |
+          node evals/quality-report.js > report.md
+          cat report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Email it as a GitHub issue
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const body = require("fs").readFileSync("report.md", "utf8");
+            const label = "quality-report";
+            const { owner, repo } = context.repo;
+            const open = await github.rest.issues.listForRepo({ owner, repo, state: "open", labels: label });
+            for (const old of open.data) {
+              await github.rest.issues.update({ owner, repo, issue_number: old.number, state: "closed" });
+            }
+            const date = new Date().toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric", timeZone: "Asia/Kolkata" });
+            // The @mention makes GitHub email the owner; a new issue alone may not.
+            await github.rest.issues.create({ owner, repo, labels: [label], title: `Weekly quality report: ${date}`, body: `@${owner} your weekly report is ready.\n\n${body}` });

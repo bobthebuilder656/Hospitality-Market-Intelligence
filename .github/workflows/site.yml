@@ -42,15 +42,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    outputs:
+      built_at: ${{ steps.built.outputs.built_at }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Get the private articles and case studies
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: ${{ vars.CONTENT_REPO }}
           token: ${{ secrets.CONTENT_TOKEN }}
           path: content
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
@@ -60,17 +62,21 @@ jobs:
         # A source that fails falls back on the data the live site already has.
         run: node scripts/build-site.js --out=site --previous-url=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
 
+      - name: Note when this build was made
+        id: built
+        run: echo "built_at=$(node -p "require('./site/data/build.json').builtAt")" >> "$GITHUB_OUTPUT"
+
       - name: Check it before publishing
         # The rules, the content, the built data and the site in a real browser.
         run: npm run evals -- --only=rules,content,live,deploy,app --site=site
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         if: always()
         with:
           name: evals-report
           path: evals/report.html
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
 
@@ -93,4 +99,18 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
+
+  # Opens the public site and confirms readers really get this build.
+  # If not, the run fails and GitHub emails you.
+  verify-live:
+    needs: [build, publish]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Check the live site shows this build
+        run: node evals/verify-live.js "${{ needs.build.outputs.built_at }}"

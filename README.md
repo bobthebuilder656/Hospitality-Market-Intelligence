@@ -20,6 +20,9 @@ The site is plain files on GitHub Pages; there is no server. GitHub Actions does
 1. **Fetch:** every 30 minutes while the stock market is open and every hour otherwise, `scripts/build-site.js` fetches the news feeds, share prices, price histories, headlines, weather, holidays and airport traffic, and writes them as files beside the page.
 2. **Check:** about 130 checks run on the result, including the whole site in a real browser at desktop and phone sizes (see below).
 3. **Publish:** only if every check passes does the new version replace the live site. If a check fails, the previous version stays up and the owner is emailed.
+4. **Confirm:** after publishing, `evals/verify-live.js` opens the public site and confirms it is serving the new build.
+
+Every Monday, `evals/quality-report.js` reviews the past week (news relevance and summaries, silent sources, stale prices, air-traffic age, blocked publishes, failing sources) and is opened as a GitHub issue with a short sample of news, prices and events to check by hand against their sources.
 
 If a source is down during a build (a feed, Yahoo, the weather service), its data from the previous build is kept, so one bad fetch never empties part of the page.
 
