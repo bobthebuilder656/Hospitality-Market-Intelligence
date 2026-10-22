@@ -374,6 +374,51 @@ module.exports = {
       expect(d.home, `the Back button did not return to the Resources home (${d.backState})`);
     });
 
+    await t.check("Resources: earlier articles and case studies are listed, open, and can be found in search", async () => {
+      const d = await b.run(`
+        const wait = async (test) => { for (let i = 0; i < 50 && !test(); i++) await new Promise((r) => setTimeout(r, 100)); return test(); };
+        const out = {};
+        for (const [view, past] of [['brief', 'pastBriefs'], ['case', 'pastCases']]) {
+          const list = resData[past] || [];
+          openView(view);
+          const rows = document.querySelectorAll('#res-past .past-row').length;
+          out[view] = { listed: list.length, rows, expectedRows: Math.min(list.length, PAST_PAGE) };
+          const more = document.querySelector('[data-more]');
+          if (more) { more.click(); out[view].afterMore = document.querySelectorAll('#res-past .past-row').length; out[view].expectedAfterMore = list.length; }
+          if (!list.length) continue;
+          // Open the oldest piece shown, as a reader would.
+          const rowsNow = document.querySelectorAll('#res-past .past-row');
+          rowsNow[rowsNow.length - 1].click();
+          const target = list[Math.min(list.length, resState.shown[view]) - 1];
+          out[view].opened = await wait(() => document.querySelector('.read-title') && document.querySelector('.read-title').textContent === target.title);
+          out[view].address = location.hash === '#resources/' + view + '/' + target.id;
+          out[view].latestInList = !resData[view === 'brief' ? 'brief' : 'caseStudy'] || Boolean(document.querySelector('#res-past .past-latest'));
+          document.querySelector('.res-back').click();
+          out[view].backToLatest = resState.item === null && document.querySelector('.read-title').textContent === resData[view === 'brief' ? 'brief' : 'caseStudy'].title;
+        }
+        const old = (resData.pastBriefs || [])[0];
+        if (old) {
+          openView('home');
+          const s = document.getElementById('res-search'); s.value = old.title; s.dispatchEvent(new Event('input', { bubbles: true }));
+          out.searchFinds = [...document.querySelectorAll('.search-title')].some((e) => e.textContent === old.title);
+        } else out.searchFinds = true;
+        openView('home');
+        return out;`);
+      const problems = [];
+      for (const view of ["brief", "case"]) {
+        const v = d[view];
+        if (v.rows !== v.expectedRows) problems.push(`${view}: ${v.rows} earlier pieces shown, expected ${v.expectedRows}`);
+        if (v.afterMore !== undefined && v.afterMore !== v.expectedAfterMore) problems.push(`${view}: "Show more" showed ${v.afterMore}, expected ${v.expectedAfterMore}`);
+        if (v.listed && !v.opened) problems.push(`${view}: an earlier piece did not open`);
+        if (v.listed && !v.address) problems.push(`${view}: the address does not name the earlier piece`);
+        if (v.listed && !v.latestInList) problems.push(`${view}: the latest piece is not offered in the list while reading an older one`);
+        if (v.listed && !v.backToLatest) problems.push(`${view}: Back did not return to the latest piece`);
+      }
+      if (!d.searchFinds) problems.push("search does not find an earlier article by its title");
+      expectNone(problems);
+      return `${d.brief.listed} earlier articles, ${d.case.listed} earlier case studies`;
+    });
+
     await t.check("Calculators give the right answers (occupancy, GST, group quote)", async () => {
       const d = await b.run(`
         const set = (id, v) => { const el = document.getElementById(id); el.value = v; el.dispatchEvent(new Event('input', { bubbles: true })); };

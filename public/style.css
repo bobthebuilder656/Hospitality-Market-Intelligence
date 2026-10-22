@@ -1389,6 +1389,17 @@ main {
 .read-sources a { color: var(--muted); }
 .read-next { text-align: center; font-size: var(--fs-sm); color: var(--muted); margin: 12px 0 0; }
 
+/* Past articles and case studies: one card per row, under the piece being read */
+.past { margin-top: 28px; scroll-margin-top: 90px; }
+.past-list { display: flex; flex-direction: column; gap: 10px; }
+.past-row { width: 100%; }
+.past-row .res-preview-text { -webkit-line-clamp: 2; }
+.past-latest { color: var(--orange-dark); }
+.past-more { display: block; margin: 14px auto 0; padding: 9px 18px; font-weight: 700; color: var(--text); cursor: pointer; }
+.past-more:hover { border-color: var(--yellow-dark); }
+.past-jump { display: block; margin: -6px 0 14px; }
+.res-preview-past { color: var(--muted); font-weight: 600; }
+
 @media (max-width: 600px) {
   .res-cards { gap: 8px; }
   .res-card { padding: 12px; }

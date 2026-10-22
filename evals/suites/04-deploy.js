@@ -44,7 +44,7 @@ module.exports = {
       const files = listFiles(ctx.siteDir);
 
       await t.check("The site contains only the page, its data and published pictures", () => {
-        const allowed = /^(index\.html|style\.css|favicon\.svg|\.nojekyll|(app|air|events|resources|dashboard)\.js|data\/(news|stocks|stock-headlines|events|event-news|weather|resources|air-traffic|build)\.json|data\/stocks\/[a-z0-9-]+\.json|images\/(briefs|cases)\/[\w.-]+\.(jpg|jpeg|png|webp))$/;
+        const allowed = /^(index\.html|style\.css|favicon\.svg|\.nojekyll|(app|air|events|resources|dashboard)\.js|data\/(news|stocks|stock-headlines|events|event-news|weather|resources|air-traffic|build)\.json|data\/(stocks|briefs|cases)\/[a-z0-9-]+\.json|images\/(briefs|cases)\/[\w.-]+\.(jpg|jpeg|png|webp))$/;
         expectNone(files.filter((f) => !allowed.test(f)).map((f) => `unexpected file published: ${f}`));
         return `${files.length} files`;
       });
@@ -53,15 +53,34 @@ module.exports = {
         await t.check("No unpublished article or case study, or its picture, is anywhere in the site", () => {
           const built = readJson(path.join(ctx.siteDir, "data", "resources.json"));
           const today = built.today;
-          const future = [...read("briefs.json").articles, ...read("case-studies.json").cases].filter((x) => x.publishDate > today);
+          const all = [...read("briefs.json").articles, ...read("case-studies.json").cases];
+          const future = all.filter((x) => x.publishDate > today);
           const text = files.filter((f) => /\.(json|html|js)$/.test(f)).map((f) => fs.readFileSync(path.join(ctx.siteDir, f), "utf-8")).join("\n");
           const out = [];
           for (const x of future) {
             if (text.includes(x.title) || text.includes(JSON.stringify(x.title).slice(1, -1))) out.push(`"${x.title}" (due ${x.publishDate})`);
-            if (x.image && files.includes(x.image.src) && ![built.brief, built.caseStudy].some((b) => b && b.image && b.image.src === x.image.src)) out.push(`picture of "${x.id}" (due ${x.publishDate}): ${x.image.src}`);
+            // A picture may be shared with a piece that is already out; only then is it allowed.
+            if (x.image && files.includes(x.image.src) && !all.some((p) => p.publishDate <= today && p.image && p.image.src === x.image.src)) out.push(`picture of "${x.id}" (due ${x.publishDate}): ${x.image.src}`);
           }
           expectNone(out);
           return `${future.length} unpublished pieces checked`;
+        });
+
+        await t.check("Every older article and case study has its own file, and there are no others", () => {
+          const built = readJson(path.join(ctx.siteDir, "data", "resources.json"));
+          const out = [];
+          for (const [folder, list] of [["briefs", built.pastBriefs || []], ["cases", built.pastCases || []]]) {
+            const expected = list.map((x) => `data/${folder}/${x.id}.json`).sort();
+            const actual = files.filter((f) => f.startsWith(`data/${folder}/`)).sort();
+            out.push(...expected.filter((f) => !actual.includes(f)).map((f) => `missing: ${f}`), ...actual.filter((f) => !expected.includes(f)).map((f) => `not listed on the page: ${f}`));
+            for (const x of list) {
+              const p = path.join(ctx.siteDir, "data", folder, `${x.id}.json`);
+              if (fs.existsSync(p) && readJson(p).title !== x.title) out.push(`${folder}/${x.id}.json holds a different piece`);
+            }
+            if (list.some((x) => x.publishDate > built.today)) out.push(`an unpublished piece is listed under ${folder}`);
+          }
+          expectNone(out);
+          return `${(built.pastBriefs || []).length} older articles, ${(built.pastCases || []).length} older case studies`;
         });
       } else {
         t.skip("No unpublished article or case study is anywhere in the site", "the private content folder is not on this machine");

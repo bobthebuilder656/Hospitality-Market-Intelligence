@@ -23,7 +23,7 @@ const stockSymbols = require("../lib/stockSymbols");
 const { getCityEvents } = require("../lib/cityEvents");
 const { getEventNews } = require("../lib/eventNews");
 const { getWeather } = require("../lib/fetchWeather");
-const { getResources } = require("../lib/resources");
+const { getResources, getPastPieces } = require("../lib/resources");
 const { getAirTraffic, refreshAirTraffic } = require("../lib/airTraffic");
 const cities = require("../lib/cities");
 
@@ -163,8 +163,12 @@ async function buildSite({ outDir = path.join(ROOT, "site"), now = new Date(), p
   log("[build] resources");
   const resources = getResources({ now, preview });
   write("resources.json", resources);
+  // Older published pieces: one file each, read by the page only when a reader opens one.
+  const past = getPastPieces({ now, preview });
+  for (const item of past.briefs) write(`briefs/${item.id}.json`, item);
+  for (const item of past.cases) write(`cases/${item.id}.json`, item);
   // Pictures for the pieces that are included, and no others.
-  for (const item of [resources.brief, resources.caseStudy].filter(Boolean)) {
+  for (const item of [resources.brief, resources.caseStudy, ...past.briefs, ...past.cases].filter(Boolean)) {
     if (!item.image || !/^images\//.test(item.image.src)) continue;
     const from = path.join(CONTENT_DIR, item.image.src);
     if (!fs.existsSync(from)) {

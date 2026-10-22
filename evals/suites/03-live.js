@@ -372,6 +372,25 @@ module.exports = {
       expectNone(future.filter((x) => body.includes(JSON.stringify(x.title))).map((x) => `unpublished piece sent to the browser: ${x.id}`));
     });
 
+    await t.check("Resources: every earlier article and case study is listed, newest first, and opens", async () => {
+      const r = await get("/data/resources.json");
+      const { read } = require("../lib/files");
+      const out = [];
+      for (const [label, latest, past, items, folder] of [
+        ["articles", r.brief, r.pastBriefs, read("briefs.json").articles, "briefs"],
+        ["case studies", r.caseStudy, r.pastCases, read("case-studies.json").cases, "cases"],
+      ]) {
+        const expected = items.filter((x) => x.publishDate <= r.today && (!latest || x.id !== latest.id)).sort((a, b) => b.publishDate.localeCompare(a.publishDate)).map((x) => x.id);
+        if (JSON.stringify((past || []).map((x) => x.id)) !== JSON.stringify(expected)) out.push(`earlier ${label} listed: ${(past || []).length}, published: ${expected.length} (or not newest first)`);
+        for (const x of past || []) {
+          const full = await get(`/data/${folder}/${x.id}.json`).catch(() => null);
+          if (!full || full.title !== x.title || !full.sections || !full.sections.length) out.push(`${folder}/${x.id}.json does not open`);
+        }
+      }
+      expectNone(out);
+      return `${(r.pastBriefs || []).length} earlier articles, ${(r.pastCases || []).length} earlier case studies`;
+    });
+
     await t.check("Air traffic: months, cities and explanations are served", async () => {
       const a = await get("/data/air-traffic.json");
       expect(a.months.length >= 6, `only ${a.months.length} months`);

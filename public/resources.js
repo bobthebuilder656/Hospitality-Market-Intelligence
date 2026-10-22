@@ -1,13 +1,17 @@
 // Resources tab: a home view with four section cards and previews, plus one
 // detail view per section (Tools, Glossary & reports, The Hotelier's Brief,
-// Case study). Content comes from data/resources.json, built by scripts/build-site.js.
+// Case study). Content comes from data/resources.json, built by scripts/build-site.js;
+// older articles and case studies are read from data/briefs/ and data/cases/ when opened.
 
 let resData = null;
 let resLoading = false;
 let resFailed = false; // the last load failed
 // view: "home" | "tools" | "glossary" | "brief" | "case". term: a glossary term
-// opened from search (otherwise the glossary view shows today's term).
-const resState = { view: "home", calc: "occupancy", term: null };
+// opened from search (otherwise the glossary view shows today's term). item: the id
+// of an older article or case study being read (null for the latest one). shown: how
+// many older pieces each list shows; "Show more" reveals the rest.
+const PAST_PAGE = 3;
+const resState = { view: "home", calc: "occupancy", term: null, item: null, shown: { brief: PAST_PAGE, case: PAST_PAGE } };
 
 const inr = (n) => `₹${Math.round(n).toLocaleString("en-IN")}`;
 const pct = (n) => `${(Math.round(n * 10) / 10).toLocaleString("en-IN")}%`;
@@ -262,12 +266,16 @@ function homeView() {
     : "";
 
   const { brief, caseStudy } = resData;
+  const pastCount = (kind) => {
+    const n = (resData[KINDS[kind].past] || []).length;
+    return n ? ` <span class="res-preview-past">· ${n} earlier ${n === 1 ? KINDS[kind].one : KINDS[kind].many}</span>` : "";
+  };
   const briefPreview = `
     <button class="res-preview" data-view="brief">
       <span class="res-preview-label">📰 The Hotelier's Brief${brief ? ` · ${resDate(brief.publishDate)} · ${brief.minutes} min read` : ""}</span>
       ${
         brief
-          ? `<span class="res-preview-title">${escapeHtml(brief.title)}</span><span class="res-preview-text">${escapeHtml(brief.dek)}</span><span class="res-preview-more">Read →</span>`
+          ? `<span class="res-preview-title">${escapeHtml(brief.title)}</span><span class="res-preview-text">${escapeHtml(brief.dek)}</span><span class="res-preview-more">Read →${pastCount("brief")}</span>`
           : `<span class="res-preview-text">${resData.nextBriefDate ? `The first article arrives on ${resDate(resData.nextBriefDate)}.` : "No article is scheduled yet."}</span>`
       }
     </button>`;
@@ -276,7 +284,7 @@ function homeView() {
       <span class="res-preview-label">🔍 Case study${caseStudy ? ` · ${resDate(caseStudy.publishDate)} · ${caseStudy.minutes} min read` : ""}</span>
       ${
         caseStudy
-          ? `<span class="res-preview-title">${escapeHtml(caseStudy.title)}</span><span class="res-preview-text">${escapeHtml(caseStudy.dek)}</span><span class="res-preview-more">Read →</span>`
+          ? `<span class="res-preview-title">${escapeHtml(caseStudy.title)}</span><span class="res-preview-text">${escapeHtml(caseStudy.dek)}</span><span class="res-preview-more">Read →${pastCount("case")}</span>`
           : `<span class="res-preview-text">${resData.nextCaseDate ? `The first case study arrives on ${resDate(resData.nextCaseDate)}.` : "No case study is scheduled yet."}</span>`
       }
     </button>`;
@@ -444,19 +452,86 @@ function longRead(item, kind, nextDate) {
     ${nextDate ? `<p class="read-next">Next ${kind === "case" ? "case study" : "article"}: <b>${resDate(nextDate)}</b></p>` : ""}`;
 }
 
-function briefView() {
-  return `
-    ${viewHeader("brief")}
-    ${resData.brief ? longRead(resData.brief, "brief", resData.nextBriefDate) : comingSoon("article", resData.nextBriefDate)}`;
+// ---- articles and case studies: the latest, and the ones before it ------------------
+
+// Where each kind's pieces sit in resources.json, and the folder holding the full
+// text of its older pieces (one file each, read only when a reader opens one).
+const KINDS = {
+  brief: { latest: "brief", past: "pastBriefs", next: "nextBriefDate", folder: "briefs", one: "article", many: "articles" },
+  case: { latest: "caseStudy", past: "pastCases", next: "nextCaseDate", folder: "cases", one: "case study", many: "case studies" },
+};
+const resPieces = {}; // "briefs/<id>" → the full piece, "loading" or "failed"
+
+async function loadPiece(kind, id) {
+  const key = `${KINDS[kind].folder}/${id}`;
+  if (resPieces[key]) return;
+  resPieces[key] = "loading";
+  try {
+    resPieces[key] = await getData(`${key}.json`);
+  } catch {
+    resPieces[key] = "failed";
+  }
+  if (resState.view === kind && resState.item === id) renderResources();
 }
 
-function caseView() {
+// Every published piece except the one on screen, newest first, a page at a time.
+function pastList(kind) {
+  const k = KINDS[kind];
+  const latest = resData[k.latest];
+  const all = [...(latest ? [latest] : []), ...(resData[k.past] || [])];
+  const rest = all.filter((x) => x.id !== (resState.item || (latest && latest.id)));
+  if (!rest.length) return "";
+  const shown = rest.slice(0, resState.shown[kind]);
+  const rows = shown
+    .map(
+      (x) => `
+      <button class="res-preview past-row" data-piece="${escapeHtml(x.id)}">
+        <span class="res-preview-label">${resDate(x.publishDate, true)} · ${x.minutes} min read${latest && x.id === latest.id ? ` · <span class="past-latest">Latest</span>` : ""}</span>
+        <span class="res-preview-title">${escapeHtml(x.title)}</span>
+        <span class="res-preview-text">${escapeHtml(x.dek)}</span>
+      </button>`
+    )
+    .join("");
+  const left = rest.length - shown.length;
   return `
-    ${viewHeader("case")}
-    ${resData.caseStudy ? longRead(resData.caseStudy, "case", resData.nextCaseDate) : comingSoon("case study", resData.nextCaseDate)}`;
+    <section class="res-section past" id="res-past">
+      <h3 class="res-section-title">${resState.item ? `More ${k.many}` : `Past ${k.many}`}</h3>
+      <p class="res-section-sub">${rest.length} ${rest.length === 1 ? k.one : k.many}, newest first</p>
+      <div class="past-list">${rows}</div>
+      ${left ? `<button class="sort-btn past-more" data-more="${kind}">Show more (${left} ${left === 1 ? k.one : k.many})</button>` : ""}
+    </section>`;
 }
 
-const VIEWS = { home: homeView, tools: toolsView, glossary: glossaryView, "glossary-all": glossaryAllView, brief: briefView, case: caseView };
+// The latest piece, or an older one opened from the list, followed by the list.
+function longReadView(kind) {
+  const k = KINDS[kind];
+  const latest = resData[k.latest];
+  let body;
+  if (resState.item) {
+    const listed = (resData[k.past] || []).some((x) => x.id === resState.item);
+    const piece = resPieces[`${k.folder}/${resState.item}`];
+    if (!listed) body = `<p class="res-empty">This ${k.one} is not available.</p>`;
+    else if (!piece || piece === "loading") {
+      if (!piece) loadPiece(kind, resState.item);
+      body = `<p class="res-empty">Loading…</p>`;
+    } else if (piece === "failed") body = `<p class="res-empty">Couldn't load this ${k.one}. <button class="res-link" data-retry>Try again</button></p>`;
+    else body = longRead(piece, kind, null);
+  } else {
+    body = latest ? longRead(latest, kind, resData[k.next]) : comingSoon(k.one, resData[k.next]);
+  }
+  const past = pastList(kind);
+  const s = SECTIONS[kind];
+  const header = resState.item
+    ? `<button class="res-back" data-view="${kind}">← Back to the latest ${k.one}</button><h2 class="res-view-title">${s.icon} ${s.title}</h2>`
+    : viewHeader(kind);
+  return `
+    ${header}
+    ${past && (latest || resState.item) ? `<button class="res-link past-jump" data-jump>${resState.item ? `More ${k.many}` : `Past ${k.many}`} ↓</button>` : ""}
+    ${body}
+    ${past}`;
+}
+
+const VIEWS = { home: homeView, tools: toolsView, glossary: glossaryView, "glossary-all": glossaryAllView, brief: () => longReadView("brief"), case: () => longReadView("case") };
 
 // ---- search ---------------------------------------------------------------------
 
@@ -469,6 +544,10 @@ function searchIndex() {
   const longText = (x) => [x.title, x.dek, ...x.sections.flatMap((s) => [s.heading || "", ...s.body])].join(" ");
   if (resData.brief) items.push({ kind: "Article", title: resData.brief.title, text: longText(resData.brief), go: { view: "brief" } });
   if (resData.caseStudy) items.push({ kind: "Case study", title: resData.caseStudy.title, text: longText(resData.caseStudy), go: { view: "case" } });
+  // Older pieces are found by their title, summary and section headings.
+  for (const [view, label] of [["brief", "Article"], ["case", "Case study"]]) {
+    for (const x of resData[KINDS[view].past] || []) items.push({ kind: label, title: x.title, text: [x.dek, ...x.headings].join(" "), go: { view, item: x.id } });
+  }
   return items;
 }
 
@@ -521,10 +600,12 @@ function renderResources() {
 // Opens a detail view. It's also added to the browser history, so the phone or
 // browser Back button returns to the Resources home instead of leaving the app.
 function openView(view, extra = {}) {
-  Object.assign(resState, { view, term: null }, extra);
-  // The address carries the view ("#resources/brief"), so it can be reloaded, linked to
-  // and stepped through with the browser's Back and Forward buttons.
-  history.pushState({ resView: view, term: resState.term, calc: resState.calc }, "", view === "home" ? "#resources" : `#resources/${view}`);
+  Object.assign(resState, { view, term: null, item: null }, extra);
+  // The address carries the view ("#resources/brief", or "#resources/brief/<id>" for an
+  // older piece), so it can be reloaded, linked to and stepped through with the
+  // browser's Back and Forward buttons.
+  const address = view === "home" ? "#resources" : `#resources/${view}${resState.item ? `/${encodeURIComponent(resState.item)}` : ""}`;
+  history.pushState({ resView: view, term: resState.term, calc: resState.calc, item: resState.item }, "", address);
   renderResources();
   document.getElementById("resources").scrollIntoView({ block: "start" });
   window.scrollTo({ top: 0 });
@@ -536,11 +617,19 @@ function resViewFromAddress() {
   return tab === "resources" && VIEWS[view] ? view : "home";
 }
 
+// The older article or case study named in the address, e.g. "billboard-effect" for
+// "#resources/brief/billboard-effect".
+function resItemFromAddress() {
+  const [tab, view, item] = location.hash.slice(1).split("/");
+  return tab === "resources" && KINDS[view] && item ? decodeURIComponent(item) : null;
+}
+
 // Browser Back / Forward.
 window.addEventListener("popstate", (e) => {
   if (!resData) return;
   const s = e.state || {};
   resState.view = s.resView || resViewFromAddress();
+  resState.item = s.resView ? s.item || null : resItemFromAddress();
   resState.term = s.term || null;
   if (s.calc) resState.calc = s.calc;
   renderResources();
@@ -556,6 +645,7 @@ async function loadResources() {
     if (!resData.preview) resData.today = todayIst(); // "New today" and the term of the day follow the visitor's date
     resFailed = false;
     resState.view = resViewFromAddress(); // a reload or a shared link reopens the same view
+    resState.item = resItemFromAddress();
     renderResources();
   } catch {
     document.getElementById("res-content").innerHTML = `<p class="error">Couldn't load resources. Try again in a moment.</p>`;
@@ -595,8 +685,30 @@ resPanel.addEventListener("click", (e) => {
     if (go.url) window.open(go.url, "_blank", "noopener");
     else {
       const term = go.term ? resData.glossary.find((t) => t.term === go.term) : null;
-      openView(go.view, { ...(go.calc ? { calc: go.calc } : {}), ...(term ? { term } : {}) });
+      openView(go.view, { ...(go.calc ? { calc: go.calc } : {}), ...(term ? { term } : {}), ...(go.item ? { item: go.item } : {}) });
     }
+    return;
+  }
+  // Older articles and case studies.
+  const piece = e.target.closest("[data-piece]");
+  if (piece) {
+    const latest = resData[KINDS[resState.view].latest];
+    openView(resState.view, { item: latest && latest.id === piece.dataset.piece ? null : piece.dataset.piece });
+    return;
+  }
+  const more = e.target.closest("[data-more]");
+  if (more) {
+    resState.shown[more.dataset.more] = Infinity;
+    renderResources();
+    return;
+  }
+  if (e.target.closest("[data-jump]")) {
+    document.getElementById("res-past").scrollIntoView({ behavior: "smooth", block: "start" });
+    return;
+  }
+  if (e.target.closest("[data-retry]")) {
+    delete resPieces[`${KINDS[resState.view].folder}/${resState.item}`];
+    renderResources();
     return;
   }
   const openTab = e.target.closest("[data-open-tab]");
@@ -620,6 +732,7 @@ document.querySelector('.tab[data-tab="resources"]').addEventListener("click", (
   if (!resData) loadResources();
   else if (resState.view !== "home") {
     resState.view = "home";
+    resState.item = null;
     renderResources();
   }
 });
