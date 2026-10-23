@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T21:55:06.045Z",
+  "generatedAt": "2026-10-23T21:39:27.772Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -92,9 +92,9 @@
       "name": "Hotelivate",
       "ok": true,
       "fetched": 10,
-      "kept": 1,
+      "kept": 0,
       "dropped": {
-        "too old": 9
+        "too old": 10
       },
       "error": null
     },
@@ -116,8 +116,7 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
-        "too old": 3,
-        "several headlines in one title": 1
+        "too old": 3
       },
       "error": null
     },
@@ -128,7 +127,8 @@
       "fetched": 20,
       "kept": 4,
       "dropped": {
-        "several headlines in one title": 1
+        "several headlines in one title": 1,
+        "award announcement with no real content": 1
       },
       "error": null
     },
@@ -157,8 +157,8 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "award announcement with no real content": 2,
-        "non-English": 1
+        "non-English": 2,
+        "award announcement with no real content": 1
       },
       "error": null
     },
@@ -168,20 +168,27 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "roundup/digest (title)": 1
+      },
       "error": null
     }
   ],
   "droppedItems": [
     {
-      "source": "Hospitality ON",
-      "title": "Chronicle of a Foretold Exit: Barbara Muckermann, Former Kempinski CEO, Loses Her Bet",
+      "source": "Hospitality Net",
+      "title": "The GDS Still Runs the Business Trip, Are Hotels Repeating Black Hat SEO with GEO?, Where AI Should Decide, Recommend and Stop",
       "reason": "several headlines in one title"
     },
     {
       "source": "Hospitality Net",
-      "title": "How Hotel Work Changes as Software Becomes an AI Teammate, AI Travel Agents Carry a Hidden Token Cost, 40 AI Trip Planners Mapped",
-      "reason": "several headlines in one title"
+      "title": "Celebrating Hospitality Excellence: 2026 GuestRevu GREAT Awards Europe, America & APAC Winners Announced",
+      "reason": "award announcement with no real content"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Lufthansa Group: 10 neue Langstrecken im Sommer 2027",
+      "reason": "non-English"
     },
     {
       "source": "Business Traveller",
@@ -194,91 +201,91 @@
       "reason": "non-English"
     },
     {
-      "source": "Business Traveller",
-      "title": "Highlights From the Business Traveller Awards Event 2026",
-      "reason": "award announcement with no real content"
+      "source": "Hotel Dive",
+      "title": "Lodging Lowdown: Expedia Group launches autonomous onboarding, Signia Hilton Savannah tops out",
+      "reason": "roundup/digest (title)"
     }
   ],
   "items": [
     {
-      "title": "Accor Builds Caution Into Outlook Over France Unrest and Middle East",
-      "link": "https://skift.com/2026/10/22/accor-builds-caution-into-outlook-over-france-unrest-and-middle-east/",
+      "title": "What the Amex Travel-Airbnb Deal Means for Expedia",
+      "link": "https://skift.com/2026/10/23/what-the-amex-travel-airbnb-deal-means-for-expedia/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-10-22T21:54:43.000Z",
-      "snippet": "Skift Take: Accor is guiding to a flat fourth quarter globally, partly out of caution after France's recent riots and uncertainty about wars in the Middle East. Accor is bracing for a bumpy end to the year because of uncertainty in two of its key markets."
+      "pubDate": "2026-10-23T20:49:45.000Z",
+      "snippet": "Skift Take: On paper, Airbnb's exclusive short-term rental partnership with Amex Travel didn't change anything for Expedia because it wasn't supplying vacation rentals to Amex Travel. But Expedia's Vrbo has begun supplying vacation rentals to other B2B partners, and now the Airbnb deal blocks that potential expansion. Two online travel rivals are now selling side by side on American Express Travel."
     },
     {
-      "title": "IHG reports Q3 RevPAR growth driven by ‘strength of US economy’",
-      "link": "https://www.hoteldive.com/news/ihg-q3-revpar-growth-strong-us-economy/833773/",
-      "source": "Hotel Dive",
-      "region": "Global",
-      "pubDate": "2026-10-22T19:11:26.000Z",
-      "snippet": "” Q3 performance was also driven by “growth in all three demand drivers,” across the Americas, with group room revenue up by 12% YOY, leisure up 7% and business up 6%. The “tail end of the World Cup” added 40 basis points to IHG’s U.S. RevPAR growth in Q3, according to Glover."
-    },
-    {
-      "title": "Hotel Review: Mount Juliet Estate, County Kilkenny",
-      "link": "https://www.businesstraveller.com/tried-tested/hotel-review-mount-juliet-estate-county-kilkenny/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-10-22T19:00:26.000Z",
-      "snippet": "Fresh from an extensive refurbishment, Mount Juliet Estate pairs Georgian character with Michelin-starred dining, championship golf, attentive service and an extraordinary roster of country pursuits across 500 acres in Kilkenny."
-    },
-    {
-      "title": "Hotel Industry Growth May Moderate in Q3 as Base Normalises: Jefferies Report",
-      "link": "https://hospitalitybizindia.com/news-track/hotel-industry-growth-may-moderate-in-q3-as-base-normalises-jefferies-report/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-10-22T18:52:23.000Z",
-      "snippet": "India’s hotel industry may witness a moderation in revenue per available room (RevPAR) growth in the third quarter of FY27 as the base effect normalises. However, a strong wedding calendar in 2027 is expected to support demand and sustain healthy growth into FY28, according to a report by brokerage firm Jefferies."
-    },
-    {
-      "title": "Speedy Arrivals, Seamless Stays: How Hotel June Malibu Eliminated Wait Times With Canary's Mobile Key",
-      "link": "https://www.hospitalitynet.org/casestudy/4134927/speedy-arrivals-seamless-stays-how-hotel-june-malibu-eliminated-wait-times-with-canarys-mobile-key",
+      "title": "How Holiday Inn Paris — Gare de Lyon Bastille Unlocked an Extra €2K in Monthly Revenue",
+      "link": "https://www.hospitalitynet.org/casestudy/4134928/how-holiday-inn-paris-gare-de-lyon-bastille-unlocked-an-extra-2k-in-monthly-revenue",
       "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-10-22T18:00:00.000Z",
-      "snippet": "Hotel June Malibu cut check-in wait times from 7 minutes to zero using Canary Technologies' Mobile Key and Mobile Check-In, with over half of mobile check-ins now opting for a mobile key."
+      "pubDate": "2026-10-23T18:00:00.000Z",
+      "snippet": "Holiday Inn Paris Gare de Lyon Bastille generates €2K monthly in upsell revenue and reclaims significant staff time after deploying Canary Technologies' full guest management suite."
     },
     {
-      "title": "Singapore Airlines upgrades KrisWorld with 4K Entertainment",
-      "link": "https://travelbizmonitor.com/top-stories/singapore-airlines-upgrades-krisworld-with-4k-entertainment/",
-      "source": "TravelBiz Monitor",
+      "title": "IHG passes 1,000 open hotels in Europe, with more than 280 projects in development",
+      "link": "https://hospitality-on.com/en/hospitality/ihg-passes-1000-open-hotels-europe-more-280-projects-development",
+      "source": "Hospitality ON",
+      "region": "Global",
+      "pubDate": "2026-10-23T14:12:34.000Z",
+      "snippet": "IHG Hotels & Resorts has passed the milestone of 1,000 open hotels on the Old Continent. The group has added more than 210 properties there in three years and has more than 280 projects in development. Among the recent openings is the Ruby Lilou, the first hotel of the Ruby brand in France, in Marseille."
+    },
+    {
+      "title": "IHG Hotels & Resorts signs Holiday Inn Raipur",
+      "link": "https://hospitalitybizindia.com/news-track/ihg-hotels-resorts-signs-holiday-inn-raipur/",
+      "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-10-22T15:00:05.000Z",
-      "snippet": "Singapore Airlines (SIA) is enhancing its in-flight entertainment experience with next-generation KrisWorld and high-speed connectivity, offering passengers greater choice, control and flexibility during their journeys."
+      "pubDate": "2026-10-23T13:58:41.000Z",
+      "snippet": "IHG® Hotels & Resorts , one of the world’s leading hospitality companies, has signed a management agreement with Entry Point Hotels & Resorts Private Limited to develop Holiday Inn Raipur in Naya Raipur, Chhattisgarh."
     },
     {
-      "title": "Madame Tussauds, MakeMyTrip launch Icons of India Campaign",
-      "link": "https://travelbizmonitor.com/top-stories/madame-tussauds-makemytrip-launch-icons-of-india-campaign/",
-      "source": "TravelBiz Monitor",
+      "title": "Black Rock Hotels & Resorts launches 241-key Udaipur Project",
+      "link": "https://hospitalitybizindia.com/news-track/black-rock-hotels-resorts-launches-241-key-udaipur-project/",
+      "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-10-22T14:47:47.000Z",
-      "snippet": "Madame Tussauds Singapore and MakeMyTrip have partnered to launch the ‘Icons of India’ campaign, a limited-period experience celebrating Diwali and the global appeal of Indian cinema. The initiative highlights the glamour and cultural influence of Bollywood while offering visitors new opportunities to engage with celebrated Indian film stars at the Singapore attraction."
+      "pubDate": "2026-10-23T13:54:03.000Z",
+      "snippet": "Black Rock Hotels & Resorts has unveiled an expansion pipeline of approximately 900 rooms, marking a significant new phase for the Rajasthan-based hospitality company as it moves beyond third-party hotel management into hotel ownership and enters new markets across North India. The company, which currently operates seven hotels with approximately 950 rooms, is targeting six additional hotel openings through 2027."
     },
     {
-      "title": "Swiggy’s India ownership shift could lift Instamart margins; Q2 loss widens to Rs 922 crore",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/technology/swiggys-india-ownership-shift-could-lift-instamart-margins-q2-loss-widens-to-rs-922-crore/135118494",
+      "title": "Is Trondheim the Nordics’ Coolest New Business Stop? Its Tastemakers Think So",
+      "link": "https://www.businesstraveller.com/destinations/is-trondheim-the-nordics-coolest-new-business-stop-its-tastemakers-think-so/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-10-23T11:54:49.000Z",
+      "snippet": "From a floating sauna village to a ballroom restaurant, three local entrepreneurs reveal where to eat, unwind and make connections in Norway’s third city, and why its cooperative spirit makes it so rewarding to work in."
+    },
+    {
+      "title": "Westlife Foodworld delivers strongest growth momentum with double-digit same-store sales growth in Q2 FY27",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/westlife-foodworld-delivers-strongest-growth-momentum-with-double-digit-same-store-sales-growth-in-q2-fy27/135140235",
       "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-10-22T13:30:00.000Z",
-      "snippet": "Swiggy is transitioning to an India-owned structure to gain greater control over its Instamart operations and improve margins. The company aims to enhance profitability while managing competition from rival services like Blinkit and Zepto. Instamart's contribution margin is projected to improve, and overall growth is anticipated over the coming quarters."
+      "pubDate": "2026-10-23T10:30:00.000Z",
+      "snippet": "The company delivered one of its strongest quarterly performances in recent years, with revenue from operations increasing 16 percent year-on-year to Rs 747 crore and same store sales growth (SSSG) accelerating to 10.1 percent, driven by double-digit guest count growth. Strong operating leverage and disciplined cost management supported continued profitability growth during the quarter."
     },
     {
-      "title": "Harajuku Tokyo Cafe raises $3 million in Pre-Series A funding round",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/harajuku-tokyo-cafe-raises-3-million-in-pre-series-a-funding-round/135113462",
-      "source": "ET HospitalityWorld",
+      "title": "Akasa Air strengthens its network as daily number of departures cross 200",
+      "link": "https://travelbizmonitor.com/top-stories/akasa-air-strengthens-its-network-as-daily-number-of-departures-cross-200/",
+      "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-10-22T10:30:00.000Z",
-      "snippet": "Over the next two quarters, Harajuku plans to open ten outlets across new neighbourhoods in Delhi NCR and Mumbai, while entering Bengaluru and Chandigarh for the first time. The company also plans to operationalise central kitchens in Mumbai and Bengaluru by December 2026."
+      "pubDate": "2026-10-23T10:00:31.000Z",
+      "snippet": "Akasa Air, India’s fastest-growing airline, announced a significant scale-up of its network with new connections and increased frequencies across key routes underscoring Akasa Air’s continued focus on building a robust network and offering travellers greater convenience, connectivity, and choice."
     },
     {
-      "title": "Accor signs Novotel Solan Kumarhatti, marking its entry into Himachal Pradesh",
-      "link": "https://traveltradejournal.com/accor-signs-novotel-solan-kumarhatti-marking-its-entry-into-himachal-pradesh/",
+      "title": "Yatra partners with 4 banks to offer special discounts on Diwali bookings to eligible patrons",
+      "link": "https://travelbizmonitor.com/top-stories/yatra-partners-with-4-banks-to-offer-special-discounts-on-diwali-bookings-to-eligible-patrons/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-23T08:59:24.000Z",
+      "snippet": "Yatra Online Limited (Yatra) has partnered with AU Small Finance Bank, HSBC, RBL Bank and YES BANK to make travelling home for Diwali more affordable and convenient for customers across the country. Through this partnership, eligible cardholders can avail of special offers on domestic and international flights, as well as domestic hotel bookings made through Yatra’s website and app."
+    },
+    {
+      "title": "Radisson Hotel Group opens Jungle Home Resort Tadoba near Kolara Gate in Maharashtra",
+      "link": "https://traveltradejournal.com/radisson-hotel-group-opens-jungle-home-resort-tadoba-near-kolara-gate-in-maharashtra/",
       "source": "Travel Trade Journal",
       "region": "India",
-      "pubDate": "2026-10-21T16:50:18.000Z",
-      "snippet": "Accor has signed Novotel Solan Kumarhatti, marking the hospitality group’s entry into Himachal Pradesh. Scheduled to open in 2031, the 120-key hotel will strengthen Accor’s presence in India’s emerging leisure destinations, with a focus on wellness, family travel, destination weddings and MICE. Located along the Kalka–Shimla Highway, the property will offer convenient access to Kasauli, Chail and Shimla."
+      "pubDate": "2026-10-23T04:38:27.000Z",
+      "snippet": "Radisson Hotel Group has announced the opening of Jungle Home Resort Tadoba, a member of Radisson Individuals Retreats, near the Kolara Gate of Tadoba-Andhari Tiger Reserve in Maharashtra. The opening marks the Group’s first resort within a forest reserve and strengthens its presence in India’s emerging wildlife and nature-led tourism destinations."
     }
   ]
 }
