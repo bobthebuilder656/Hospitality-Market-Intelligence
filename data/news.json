@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T21:11:48.778Z",
+  "generatedAt": "2026-10-25T21:13:24.853Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -157,6 +157,7 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
+        "no usable body text": 1,
         "non-English": 2,
         "award announcement with no real content": 1
       },
@@ -187,6 +188,11 @@
     },
     {
       "source": "Business Traveller",
+      "title": "Explorer Lucy Shepherd on Expeditions, Obstacles and Travel Essentials",
+      "reason": "no usable body text"
+    },
+    {
+      "source": "Business Traveller",
       "title": "Lufthansa Group: 10 neue Langstrecken im Sommer 2027",
       "reason": "non-English"
     },
@@ -207,6 +213,38 @@
     }
   ],
   "items": [
+    {
+      "title": "How growing hotel groups share finance across properties",
+      "link": "https://www.hospitalitynet.org/opinion/4135081/how-growing-hotel-groups-share-finance-across-properties",
+      "source": "Hospitality Net",
+      "region": "Global",
+      "pubDate": "2026-10-25T12:00:00.000Z",
+      "snippet": "The article outlines how hotel groups can cluster finance functions across properties using shared teams and digital workflows, reducing headcount needs and improving group-level visibility."
+    },
+    {
+      "title": "Palazzo Segni, five centuries in the hands of Florentine families before joining the La Réserve collection",
+      "link": "https://hospitality-on.com/en/hotellerie/palazzo-segni-five-centuries-hands-florentine-families-joining-la-reserve-collection",
+      "source": "Hospitality ON",
+      "region": "Global",
+      "pubDate": "2026-10-25T07:00:00.000Z",
+      "snippet": "On Via Santo Spirito, the Palazzo Segni reopens after four years of work under the La Réserve brand. Reali, Segni, Sannini, Poccianti, Marciano: five families of merchants, men of letters, and industrialists have succeeded one another within these walls since the 15th century. The latest installment in our “One Building, One Destiny” series."
+    },
+    {
+      "title": "China revises visa application process for Indian travellers",
+      "link": "https://travelbizmonitor.com/top-stories/china-revises-visa-application-process-for-indian-travellers/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-25T05:30:50.000Z",
+      "snippet": "China will begin directly accepting and processing visa applications and consular legalisation requests at its Embassy in New Delhi and Consulate General in Mumbai from October 26, 2026. The revised system will replace submissions through Chinese Visa Application Centres in New Delhi, Mumbai and Kolkata, which will stop accepting new applications from that date."
+    },
+    {
+      "title": "Goa unveils AI policy to diversify economy beyond tourism",
+      "link": "https://travelbizmonitor.com/top-stories/goa-unveils-ai-policy-to-diversify-economy-beyond-tourism/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-25T04:30:08.000Z",
+      "snippet": "Goa has unveiled its AI Policy 2026, backed by an innovation fund spread over five years, as the state seeks to develop its technology sector and reduce its dependence on tourism. The policy will run for three years, from 2026 to 2029, with a focus on developing artificial intelligence skills, supporting startups and attracting investment."
+    },
     {
       "title": "Uttar Pradesh launches 4-Day Dev Deepawali tourism experience",
       "link": "https://travelbizmonitor.com/top-stories/uttar-pradesh-launches-four-day-dev-deepawali-tourism-experience/",
@@ -254,38 +292,6 @@
       "region": "India",
       "pubDate": "2026-10-24T04:45:16.000Z",
       "snippet": "Taking its food safety training initiative to Lonavala, the Hotel And Restaurant Association (Western India) – HRAWI organized FSSAI’s latest Food Safety Supervisor Training in Advance Catering (FoSTaC) at Triose Boutique Hotel on 14th Oct, 2026, training forty-six hospitality professionals."
-    },
-    {
-      "title": "Airbnb’s Amex Travel Deal Puts It Inside a Key Expedia B2B Channel",
-      "link": "https://skift.com/2026/10/23/what-the-amex-travel-airbnb-deal-means-for-expedia/",
-      "source": "Skift",
-      "region": "Global",
-      "pubDate": "2026-10-23T20:49:45.000Z",
-      "snippet": "Skift Take: On paper, Airbnb's exclusive short-term rental partnership with Amex Travel didn't change anything for Expedia because it wasn't supplying vacation rentals to Amex Travel. But Expedia's Vrbo has begun supplying vacation rentals to other B2B partners, and now the Airbnb deal blocks that potential expansion. Two online travel rivals are now selling side by side on American Express Travel."
-    },
-    {
-      "title": "How Holiday Inn Paris — Gare de Lyon Bastille Unlocked an Extra €2K in Monthly Revenue",
-      "link": "https://www.hospitalitynet.org/casestudy/4134928/how-holiday-inn-paris-gare-de-lyon-bastille-unlocked-an-extra-2k-in-monthly-revenue",
-      "source": "Hospitality Net",
-      "region": "Global",
-      "pubDate": "2026-10-23T18:00:00.000Z",
-      "snippet": "Holiday Inn Paris Gare de Lyon Bastille generates €2K monthly in upsell revenue and reclaims significant staff time after deploying Canary Technologies' full guest management suite."
-    },
-    {
-      "title": "Is Trondheim the Nordics’ Coolest New Business Stop? Its Tastemakers Think So",
-      "link": "https://www.businesstraveller.com/destinations/is-trondheim-the-nordics-coolest-new-business-stop-its-tastemakers-think-so/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-10-23T11:54:49.000Z",
-      "snippet": "From a floating sauna village to a ballroom restaurant, three local entrepreneurs reveal where to eat, unwind and make connections in Norway’s third city, and why its cooperative spirit makes it so rewarding to work in."
-    },
-    {
-      "title": "Radisson Hotel Group opens Jungle Home Resort Tadoba near Kolara Gate in Maharashtra",
-      "link": "https://traveltradejournal.com/radisson-hotel-group-opens-jungle-home-resort-tadoba-near-kolara-gate-in-maharashtra/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-10-23T04:38:27.000Z",
-      "snippet": "Radisson Hotel Group has announced the opening of Jungle Home Resort Tadoba, a member of Radisson Individuals Retreats, near the Kolara Gate of Tadoba-Andhari Tiger Reserve in Maharashtra. The opening marks the Group’s first resort within a forest reserve and strengthens its presence in India’s emerging wildlife and nature-led tourism destinations."
     }
   ]
 }
