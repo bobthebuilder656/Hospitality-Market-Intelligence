@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T21:13:24.853Z",
+  "generatedAt": "2026-10-26T22:52:32.005Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -105,7 +105,8 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "too old": 3
+        "staff appointment": 1,
+        "too old": 5
       },
       "error": null
     },
@@ -116,7 +117,7 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
-        "too old": 3
+        "too old": 4
       },
       "error": null
     },
@@ -127,8 +128,8 @@
       "fetched": 20,
       "kept": 4,
       "dropped": {
-        "several headlines in one title": 1,
-        "award announcement with no real content": 1
+        "award announcement with no real content": 2,
+        "several headlines in one title": 1
       },
       "error": null
     },
@@ -157,9 +158,8 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "no usable body text": 1,
         "non-English": 2,
-        "award announcement with no real content": 1
+        "no usable body text": 1
       },
       "error": null
     },
@@ -177,34 +177,39 @@
   ],
   "droppedItems": [
     {
+      "source": "Travel Trade Journal",
+      "title": "Crowne Plaza Greater Noida appoints Dinesh Rai as General Manager",
+      "reason": "staff appointment"
+    },
+    {
       "source": "Hospitality Net",
-      "title": "The GDS Still Runs the Business Trip, Are Hotels Repeating Black Hat SEO with GEO?, Where AI Should Decide, Recommend and Stop",
+      "title": "Langham Hospitality Group Celebrates Dr. Lo Ka Shui’s HICAP Lifetime Achievement Award",
+      "reason": "award announcement with no real content"
+    },
+    {
+      "source": "Hospitality Net",
+      "title": "Radisson CEO Federico González on Turnarounds That Work, Prism Acquires Fletcher Hotels, Booking.com's AI Answers Guest Questions Before the Hotel Can",
       "reason": "several headlines in one title"
     },
     {
       "source": "Hospitality Net",
-      "title": "Celebrating Hospitality Excellence: 2026 GuestRevu GREAT Awards Europe, America & APAC Winners Announced",
+      "title": "Canary Technologies Wins AI & Digital Innovation Impact Award at TIS 2026",
       "reason": "award announcement with no real content"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Reise-Tipp Córdoba: Diese floralen Kunstwerke müssen Sie gesehen haben",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "EU-Kommission: Geht Booking zu lax gegen Betrüger vor?",
+      "reason": "non-English"
     },
     {
       "source": "Business Traveller",
       "title": "Explorer Lucy Shepherd on Expeditions, Obstacles and Travel Essentials",
       "reason": "no usable body text"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Lufthansa Group: 10 neue Langstrecken im Sommer 2027",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Meet the Judges: Business Traveller Awards 2026",
-      "reason": "award announcement with no real content"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Die besten Wein-Events im Rheingau",
-      "reason": "non-English"
     },
     {
       "source": "Hotel Dive",
@@ -214,84 +219,84 @@
   ],
   "items": [
     {
-      "title": "How growing hotel groups share finance across properties",
-      "link": "https://www.hospitalitynet.org/opinion/4135081/how-growing-hotel-groups-share-finance-across-properties",
+      "title": "Could JetBlue Become the Next U.S. Airline to Face Bankruptcy?",
+      "link": "https://www.businesstraveller.com/news/jetblue-bankruptcy-fears-creditors-restructuring-financial-crisis/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-10-26T22:40:02.000Z",
+      "snippet": "JetBlue faces mounting financial pressure as creditors hire restructuring advisers, bond prices plunge and fuel costs soar, raising questions about its turnaround strategy, liquidity and the airline’s long-term survival prospects."
+    },
+    {
+      "title": "Beaten-Down JetBlue Shares Rebound as Carrier Says 2027 Profit Is on Track",
+      "link": "https://skift.com/2026/10/26/beaten-down-jetblue-shares-rebound-as-carrier-says-2027-profit-is-on-track/",
+      "source": "Skift",
+      "region": "Global",
+      "pubDate": "2026-10-26T19:42:06.000Z",
+      "snippet": "Skift Take: JetBlue shares rebounded after market on Monday after the carrier reaffirmed its long-term profit goals. JetBlue cut its 2026 outlook and posted a wider third-quarter loss Monday, but said it remains on track to return to sustained profitability in 2027."
+    },
+    {
+      "title": "From Long Lines to Warm Welcomes: How Mangia's Modernized the Guest Journey With Canary",
+      "link": "https://www.hospitalitynet.org/casestudy/4134929/from-long-lines-to-warm-welcomes-how-mangias-modernized-the-guest-journey-with-canary",
       "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-10-25T12:00:00.000Z",
-      "snippet": "The article outlines how hotel groups can cluster finance functions across properties using shared teams and digital workflows, reducing headcount needs and improving group-level visibility."
+      "pubDate": "2026-10-26T18:00:00.000Z",
+      "snippet": "Mangia's 16-property Italian group cut check-in time by 10 minutes per guest and unlocked net-new revenue by deploying Canary's mobile check-in, AI messaging, and dynamic upsell tools."
     },
     {
-      "title": "Palazzo Segni, five centuries in the hands of Florentine families before joining the La Réserve collection",
-      "link": "https://hospitality-on.com/en/hotellerie/palazzo-segni-five-centuries-hands-florentine-families-joining-la-reserve-collection",
-      "source": "Hospitality ON",
-      "region": "Global",
-      "pubDate": "2026-10-25T07:00:00.000Z",
-      "snippet": "On Via Santo Spirito, the Palazzo Segni reopens after four years of work under the La Réserve brand. Reali, Segni, Sannini, Poccianti, Marciano: five families of merchants, men of letters, and industrialists have succeeded one another within these walls since the 15th century. The latest installment in our “One Building, One Destiny” series."
-    },
-    {
-      "title": "China revises visa application process for Indian travellers",
-      "link": "https://travelbizmonitor.com/top-stories/china-revises-visa-application-process-for-indian-travellers/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-25T05:30:50.000Z",
-      "snippet": "China will begin directly accepting and processing visa applications and consular legalisation requests at its Embassy in New Delhi and Consulate General in Mumbai from October 26, 2026. The revised system will replace submissions through Chinese Visa Application Centres in New Delhi, Mumbai and Kolkata, which will stop accepting new applications from that date."
-    },
-    {
-      "title": "Goa unveils AI policy to diversify economy beyond tourism",
-      "link": "https://travelbizmonitor.com/top-stories/goa-unveils-ai-policy-to-diversify-economy-beyond-tourism/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-25T04:30:08.000Z",
-      "snippet": "Goa has unveiled its AI Policy 2026, backed by an innovation fund spread over five years, as the state seeks to develop its technology sector and reduce its dependence on tourism. The policy will run for three years, from 2026 to 2029, with a focus on developing artificial intelligence skills, supporting startups and attracting investment."
-    },
-    {
-      "title": "Uttar Pradesh launches 4-Day Dev Deepawali tourism experience",
-      "link": "https://travelbizmonitor.com/top-stories/uttar-pradesh-launches-four-day-dev-deepawali-tourism-experience/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-24T11:54:28.000Z",
-      "snippet": "Uttar Pradesh is developing a four-day tourism experience around Dev Deepawali in Varanasi under its “Visit My State” campaign. The initiative brings together the city’s illuminated ghats, temple circuit, heritage walks and the Buddhist heritage of Sarnath."
-    },
-    {
-      "title": "Goa cuts aviation fuel VAT to 7%, IndiGo welcomes move",
-      "link": "https://travelbizmonitor.com/top-stories/goa-cuts-aviation-fuel-vat-to-7-indigo-welcomes-move/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-24T11:51:05.000Z",
-      "snippet": "The Goa government has reduced the value-added tax (VAT) on aviation turbine fuel (ATF) to 7%, with the revised rate taking effect from October 24, 2026. The decision lowers the tax from the previous rate of 15%, which had been in place since March 2024. The move is expected to support the aviation sector by reducing the tax burden on fuel and strengthening the state’s air connectivity."
-    },
-    {
-      "title": "Hotel AI enters through the back door of chain hotels",
-      "link": "https://hospitality-on.com/en/hospitality/hotel-ai-enters-through-back-door-chain-hotels",
-      "source": "Hospitality ON",
-      "region": "Global",
-      "pubDate": "2026-10-24T09:22:38.000Z",
-      "snippet": "Guests see neither the inspection checklist for their room, nor the handling of their towel request, nor the translation of the website, nor the portal where the franchisee gets their standards validated. Yet it is there, at Accor, H World, Radisson, and Wyndham, that AI and data are showing their first quantified results."
-    },
-    {
-      "title": "Diet Coke, beer makers get 6-month breather as govt extends aluminium can certification deadline",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/diet-coke-beer-makers-get-6-month-breather-as-govt-extends-aluminium-can-certification-deadline/135163248",
+      "title": "Shree Naman Group completes acquisition of JW Marriott Bengaluru and Crowne Plaza Pune",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/shree-naman-group-completes-acquisition-of-jw-marriott-bengaluru-and-crowne-plaza-pune/135212458",
       "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-10-24T06:30:00.000Z",
-      "snippet": "The government has extended the deadline for quality certification of aluminium beverage cans to April 2027. The extension provides manufacturers necessary time to increase production amidst growing demand. Many brands are experiencing supply challenges due to disruptions from the Middle East conflict. The beverage industry had hoped to produce additional cans but fell short of expectations."
+      "pubDate": "2026-10-26T14:30:00.000Z",
+      "snippet": "JW Marriott Bengaluru and Crowne Plaza Pune join a growing hospitality portfolio with five operating hotels and three under development. Going forward, Shree Naman Group will continue to pursue a dual growth strategy, combining acquisitions of operating hotels with greenfield developments on its existing land parcels and mixed-use projects, particularly in Mumbai."
     },
     {
-      "title": "As hotels seek quality talent, salaries of senior roles see substantial jump",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/as-hotels-seek-quality-talent-salaries-of-senior-roles-see-substantial-jump/135162969",
+      "title": "Travel + Leisure Co. expands Eddie Bauer Adventure Club to Texas Hill Country",
+      "link": "https://www.hoteldive.com/news/travel-leisure-co-expands-eddie-bauer-adventure-club-to-texas/856903/",
+      "source": "Hotel Dive",
+      "region": "Global",
+      "pubDate": "2026-10-26T14:05:11.000Z",
+      "snippet": "Located outside of Austin, the brand’s first “Outpost” property will feature geodomes, yurts and cabins, as travelers continue to crave nature-oriented experiences. The upcoming Outpost in Texas will feature fire pits, outdoor camp kitchens, an onsite trail and yard games including bocce ball and pickleball. Additionally, the property’s existing event space will become an owners’ lounge with self-serve retail."
+    },
+    {
+      "title": "ITC Hotels Limited registers strong performance: Continued momentum in growth and expansion for Q2 FY27",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/itc-hotels-limited-registers-strong-performance-continued-momentum-in-growth-and-expansion-for-q2-fy27/135212373",
       "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-10-24T05:30:00.000Z",
-      "snippet": "Senior hospitality executives, particularly general managers, have seen substantial pay increases due to market demand and talent shortages. Compensation for luxury hotel general managers has risen by 40-75% over three years, reflecting a competitive environment. Key roles in operations, sales, and marketing are also witnessing significant pay growth."
+      "pubDate": "2026-10-26T13:30:00.000Z",
+      "snippet": "The company recorded consolidated revenue from operations at Rs 1,054 crore up 26 percent, EBITDA at Rs 337 crore up 37 percent, and PAT at Rs 203 crore up 52 percent. Standalone revenue from operation at Rs 885 crore up 16 percent, EBITDA at Rs 301 crore up 28 percent, and PAT at Rs 207 crore up 37 percent and Standalone operating ROCE at 20 percent, increased by 310 bps, according to a release."
     },
     {
-      "title": "HRAWI Takes FSSAI’s FoSTaC Programme To Lonavala",
-      "link": "https://hospitalitybizindia.com/news-track/hrawi-takes-fssais-fostac-programme-to-lonavala/",
+      "title": "RWS strengthens Indian trade partnerships through networking",
+      "link": "https://travelbizmonitor.com/top-stories/rws-strengthens-indian-trade-partnerships-through-networking/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-26T13:15:19.000Z",
+      "snippet": "Resorts World Sentosa (RWS) has concluded two travel trade networking evenings in India, held in New Delhi on October 6 and Mumbai on October 8, 2026. The events brought together the resort’s Regional Sales & Marketing and MICE representatives with Indian travel trade partners to share destination updates, strengthen collaboration and introduce a limited-period incentive for eligible leisure bookings from India."
+    },
+    {
+      "title": "Air India Express launches direct Kochi-Bangkok flights",
+      "link": "https://travelbizmonitor.com/top-stories/air-india-express-launches-direct-kochi-bangkok-flights/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-26T12:50:53.000Z",
+      "snippet": "Air India Express has launched direct flights between Kochi and Bangkok, strengthening air connectivity between Kerala and Thailand. The new service commenced operations on October 25, 2026, as part of the airline’s largest-ever Winter Schedule 2026. The route adds a non-stop international connection for travellers from Kerala and expands the airline’s growing network across South and Southeast Asia."
+    },
+    {
+      "title": "Brigade Group and Hyatt Announce Plans for Two New Hyatt Regency Hotels in Bengaluru",
+      "link": "https://hospitalitybizindia.com/news-track/brigade-group-and-hyatt-announce-plans-for-two-new-hyatt-regency-hotels-in-bengaluru/",
       "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-10-24T04:45:16.000Z",
-      "snippet": "Taking its food safety training initiative to Lonavala, the Hotel And Restaurant Association (Western India) – HRAWI organized FSSAI’s latest Food Safety Supervisor Training in Advance Catering (FoSTaC) at Triose Boutique Hotel on 14th Oct, 2026, training forty-six hospitality professionals."
+      "pubDate": "2026-10-26T12:20:37.000Z",
+      "snippet": "Brigade Group today announced the signing of management agreements with Hyatt Hotels Corporation for two new hotels in Bengaluru: Hyatt Regency Bengaluru at Brigade Global Park and Hyatt Regency Bengaluru at Brigade’s upcoming integrated township on Whitefield-Kadugodi Road. Together, the two hotels are expected to add 600 rooms to Brigade’s hotel portfolio in Bengaluru."
+    },
+    {
+      "title": "Shangri-La Eros fined INR 1 lakh over service charge",
+      "link": "https://hospitalitybizindia.com/news-track/shangri-la-eros-fined-inr-1-lakh-over-service-charge/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-10-26T10:36:48.000Z",
+      "snippet": "The Central Consumer Protection Authority (CCPA) has imposed a penalty of INR 1 lakh on Mister Chai, the restaurant at Shangri-La Eros New Delhi, for automatically levying a 10% service charge without customers’ explicit consent. In an order dated October 22, the regulator held that the practice violated consumer rights and constituted an unfair trade practice under the Consumer Protection Act, 2019."
     }
   ]
 }

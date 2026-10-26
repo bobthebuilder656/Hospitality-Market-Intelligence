@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T21:13:25.137Z",
+  "generatedAt": "2026-10-26T22:52:32.229Z",
   "quotes": [
     {
       "id": "indian-hotels",
@@ -9,9 +9,9 @@
       "domain": "tajhotels.com",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 781.75,
-      "change": -0.54998779296875,
-      "changePercent": -0.07030395008957883,
+      "price": 795.5,
+      "change": 13.20001220703125,
+      "changePercent": 1.6873338122209658,
       "trend": [
         725.4000244140625,
         741.4500122070312,
@@ -22,8 +22,8 @@
         781.75
       ],
       "weekLow52": 565,
-      "weekHigh52": 794.65,
-      "asOf": "2026-10-23T09:58:20.000Z"
+      "weekHigh52": 795.65,
+      "asOf": "2026-10-26T09:58:11.000Z"
     },
     {
       "id": "eih",
@@ -33,9 +33,9 @@
       "domain": "oberoihotels.com",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 288.85,
-      "change": -6.399999999999977,
-      "changePercent": -2.167654530059264,
+      "price": 288.8,
+      "change": -6.449999999999989,
+      "changePercent": -2.184589331075356,
       "trend": [
         291.95001220703125,
         294.45001220703125,
@@ -47,7 +47,7 @@
       ],
       "weekLow52": 271.15,
       "weekHigh52": 405,
-      "asOf": "2026-10-23T09:59:56.000Z"
+      "asOf": "2026-10-26T09:59:52.000Z"
     },
     {
       "id": "lemon-tree",
@@ -57,9 +57,9 @@
       "domain": "lemontreehotels.com",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 109.2,
-      "change": -1.7499969482421847,
-      "changePercent": -1.5772843590600119,
+      "price": 110.14,
+      "change": -0.8099969482421869,
+      "changePercent": -0.7300558544585161,
       "trend": [
         111.45999908447266,
         112.5,
@@ -71,7 +71,7 @@
       ],
       "weekLow52": 99.61,
       "weekHigh52": 170.68,
-      "asOf": "2026-10-23T10:00:02.000Z"
+      "asOf": "2026-10-26T10:00:00.000Z"
     },
     {
       "id": "chalet",
@@ -81,9 +81,9 @@
       "domain": "chalethotels.com",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 790,
-      "change": -29.20001220703125,
-      "changePercent": -3.5644545620016075,
+      "price": 798.4,
+      "change": -20.800012207031273,
+      "changePercent": -2.539063952281121,
       "trend": [
         820.7000122070312,
         842.5999755859375,
@@ -95,7 +95,7 @@
       ],
       "weekLow52": 691.35,
       "weekHigh52": 977.7,
-      "asOf": "2026-10-23T10:00:00.000Z"
+      "asOf": "2026-10-26T09:59:50.000Z"
     },
     {
       "id": "itc-hotels",
@@ -105,9 +105,9 @@
       "domain": "itchotels.com",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 156.49,
-      "change": -5.340001831054678,
-      "changePercent": -3.2997601004969823,
+      "price": 164.31,
+      "change": 2.4799981689453148,
+      "changePercent": 1.5324711987177464,
       "trend": [
         156.8699951171875,
         158.67999267578125,
@@ -119,7 +119,7 @@
       ],
       "weekLow52": 137.3,
       "weekHigh52": 226.63,
-      "asOf": "2026-10-23T09:59:51.000Z"
+      "asOf": "2026-10-26T09:59:57.000Z"
     },
     {
       "id": "samhi",
@@ -129,9 +129,9 @@
       "domain": "samhi.co.in",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 153.5,
-      "change": 3.0099945068359375,
-      "changePercent": 2.0001291760021003,
+      "price": 153.91,
+      "change": 3.419994506835934,
+      "changePercent": 2.272572517775133,
       "trend": [
         144.17999267578125,
         144.99000549316406,
@@ -143,7 +143,7 @@
       ],
       "weekLow52": 127,
       "weekHigh52": 217.3,
-      "asOf": "2026-10-23T09:59:44.000Z"
+      "asOf": "2026-10-26T09:59:57.000Z"
     },
     {
       "id": "juniper",
@@ -153,9 +153,9 @@
       "domain": "juniperhotels.com",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 195,
-      "change": -4.0399932861328125,
-      "changePercent": -2.029739460614361,
+      "price": 201.07,
+      "change": 2.0300067138671807,
+      "changePercent": 1.019898905919332,
       "trend": [
         213.88999938964844,
         216.10000610351562,
@@ -167,7 +167,7 @@
       ],
       "weekLow52": 188.5,
       "weekHigh52": 285.75,
-      "asOf": "2026-10-23T09:59:59.000Z"
+      "asOf": "2026-10-26T09:59:53.000Z"
     },
     {
       "id": "mahindra-holidays",
@@ -177,9 +177,9 @@
       "domain": "clubmahindra.com",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 184,
-      "change": -7.600006103515625,
-      "changePercent": -3.966600136437143,
+      "price": 184.59,
+      "change": -7.010006103515622,
+      "changePercent": -3.6586669520920214,
       "trend": [
         200.67999267578125,
         199.47999572753906,
@@ -189,9 +189,9 @@
         191.60000610351562,
         185.47000122070312
       ],
-      "weekLow52": 184,
+      "weekLow52": 180.41,
       "weekHigh52": 345.95,
-      "asOf": "2026-10-23T09:59:58.000Z"
+      "asOf": "2026-10-26T09:59:49.000Z"
     },
     {
       "id": "royal-orchid",
@@ -201,9 +201,9 @@
       "domain": "royalorchidhotels.com",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 269.4,
-      "change": -4.550012207031273,
-      "changePercent": -1.6608914051052162,
+      "price": 270.3,
+      "change": -3.6500122070312386,
+      "changePercent": -1.3323643162581165,
       "trend": [
         279.25,
         277.5,
@@ -215,7 +215,7 @@
       ],
       "weekLow52": 260.6,
       "weekHigh52": 499.5,
-      "asOf": "2026-10-23T10:00:01.000Z"
+      "asOf": "2026-10-26T09:59:56.000Z"
     },
     {
       "id": "jubilant-foodworks",
@@ -225,9 +225,9 @@
       "domain": "dominos.co.in",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 404,
-      "change": -0.899993896484375,
-      "changePercent": -0.2222756013956535,
+      "price": 422.9,
+      "change": 18.000006103515602,
+      "changePercent": 4.4455436835885545,
       "trend": [
         425.70001220703125,
         422.79998779296875,
@@ -239,7 +239,7 @@
       ],
       "weekLow52": 397.8,
       "weekHigh52": 622.95,
-      "asOf": "2026-10-23T09:58:21.000Z"
+      "asOf": "2026-10-26T09:58:12.000Z"
     },
     {
       "id": "westlife",
@@ -249,9 +249,9 @@
       "domain": "westlife.in",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 558.1,
-      "change": 22.750024414062523,
-      "changePercent": 4.2495611191842775,
+      "price": 587.6,
+      "change": 52.25002441406252,
+      "changePercent": 9.759975118496115,
       "trend": [
         589.4500122070312,
         573.5999755859375,
@@ -263,7 +263,7 @@
       ],
       "weekLow52": 398.4,
       "weekHigh52": 636,
-      "asOf": "2026-10-23T09:59:57.000Z"
+      "asOf": "2026-10-26T10:00:02.000Z"
     },
     {
       "id": "devyani",
@@ -273,9 +273,9 @@
       "domain": "devyaniinternational.com",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 118.3,
-      "change": -1.0499984741210966,
-      "changePercent": -0.8797641286512207,
+      "price": 120.12,
+      "change": 0.7700015258789108,
+      "changePercent": 0.6451625770618437,
       "trend": [
         122.73999786376953,
         121.56999969482422,
@@ -287,7 +287,7 @@
       ],
       "weekLow52": 91.55,
       "weekHigh52": 169.4,
-      "asOf": "2026-10-23T10:00:03.000Z"
+      "asOf": "2026-10-26T09:59:59.000Z"
     },
     {
       "id": "sapphire-foods",
@@ -297,9 +297,9 @@
       "domain": "sapphirefoods.in",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 196,
-      "change": 0.149993896484375,
-      "changePercent": 0.07658610763846309,
+      "price": 195.55,
+      "change": -0.30000610351561363,
+      "changePercent": -0.15318156454743576,
       "trend": [
         200.75999450683594,
         196.33999633789062,
@@ -311,7 +311,7 @@
       ],
       "weekLow52": 139.91,
       "weekHigh52": 310.5,
-      "asOf": "2026-10-23T09:59:54.000Z"
+      "asOf": "2026-10-26T09:59:54.000Z"
     },
     {
       "id": "restaurant-brands-asia",
@@ -321,9 +321,9 @@
       "domain": "burgerking.in",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 89.4,
-      "change": 3.0600036621093807,
-      "changePercent": 3.5441322583963175,
+      "price": 91.9,
+      "change": 5.560003662109381,
+      "changePercent": 6.439661683966684,
       "trend": [
         93.94999694824219,
         91.63999938964844,
@@ -335,7 +335,7 @@
       ],
       "weekLow52": 57.15,
       "weekHigh52": 111.15,
-      "asOf": "2026-10-23T09:59:50.000Z"
+      "asOf": "2026-10-26T09:59:59.000Z"
     },
     {
       "id": "speciality-restaurants",
@@ -345,9 +345,9 @@
       "domain": "specialityrestaurants.in",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 132.02,
-      "change": 5.049998779296885,
-      "changePercent": 3.977316476920264,
+      "price": 129.46,
+      "change": 2.489998779296883,
+      "changePercent": 1.961092191350531,
       "trend": [
         145.6999969482422,
         142.75,
@@ -359,7 +359,7 @@
       ],
       "weekLow52": 82.7,
       "weekHigh52": 167.46,
-      "asOf": "2026-10-23T10:00:00.000Z"
+      "asOf": "2026-10-26T09:59:50.000Z"
     },
     {
       "id": "makemytrip",
@@ -369,21 +369,21 @@
       "domain": "makemytrip.com",
       "exchange": "NasdaqGS",
       "currency": "USD",
-      "price": 42.09,
-      "change": -3.250000152587887,
-      "changePercent": -7.168063832488508,
+      "price": 41.2,
+      "change": -0.8900001525878878,
+      "changePercent": -2.1145168670976267,
       "trend": [
-        46.779998779296875,
         46.599998474121094,
         44.52000045776367,
         45.90999984741211,
         44.29999923706055,
         45.34000015258789,
-        42.09000015258789
+        42.09000015258789,
+        41.20000076293945
       ],
       "weekLow52": 32.67,
       "weekHigh52": 92.09,
-      "asOf": "2026-10-23T20:00:01.000Z"
+      "asOf": "2026-10-26T20:00:01.000Z"
     },
     {
       "id": "easemytrip",
@@ -393,9 +393,9 @@
       "domain": "easemytrip.com",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 5.59,
-      "change": 0.26000007629394517,
-      "changePercent": 4.878050281718615,
+      "price": 5.51,
+      "change": 0.1800000762939451,
+      "changePercent": 3.3771121739301537,
       "trend": [
         5.78000020980835,
         5.75,
@@ -407,7 +407,7 @@
       ],
       "weekLow52": 5.1,
       "weekHigh52": 10.6,
-      "asOf": "2026-10-23T10:00:04.000Z"
+      "asOf": "2026-10-26T09:59:57.000Z"
     },
     {
       "id": "ixigo",
@@ -417,9 +417,9 @@
       "domain": "ixigo.com",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 145.7,
-      "change": -3.290005493164074,
-      "changePercent": -2.2082054982641273,
+      "price": 145.14,
+      "change": -3.850005493164076,
+      "changePercent": -2.5840696363627704,
       "trend": [
         138.4600067138672,
         138.1199951171875,
@@ -431,7 +431,7 @@
       ],
       "weekLow52": 136.35,
       "weekHigh52": 328.15,
-      "asOf": "2026-10-23T10:00:03.000Z"
+      "asOf": "2026-10-26T10:00:02.000Z"
     },
     {
       "id": "yatra",
@@ -441,9 +441,9 @@
       "domain": "yatra.com",
       "exchange": "NSE",
       "currency": "INR",
-      "price": 76.91,
-      "change": -5.729999389648441,
-      "changePercent": -6.933687599187212,
+      "price": 76.07,
+      "change": -6.569999389648444,
+      "changePercent": -7.950144528282037,
       "trend": [
         96.5,
         94.4800033569336,
@@ -453,9 +453,9 @@
         82.63999938964844,
         76.66999816894531
       ],
-      "weekLow52": 75.45,
+      "weekLow52": 74.52,
       "weekHigh52": 202,
-      "asOf": "2026-10-23T09:59:50.000Z"
+      "asOf": "2026-10-26T10:00:01.000Z"
     }
   ]
 }
