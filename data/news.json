@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T22:36:10.636Z",
+  "generatedAt": "2026-10-28T22:50:51.507Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -103,10 +103,10 @@
       "name": "Travel Trade Journal",
       "ok": true,
       "fetched": 10,
-      "kept": 4,
+      "kept": 1,
       "dropped": {
         "staff appointment": 1,
-        "too old": 5
+        "too old": 8
       },
       "error": null
     },
@@ -128,9 +128,7 @@
       "fetched": 20,
       "kept": 4,
       "dropped": {
-        "several headlines in one title": 1,
-        "no usable body text": 1,
-        "award announcement with no real content": 2
+        "several headlines in one title": 2
       },
       "error": null
     },
@@ -140,9 +138,7 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {
-        "no usable body text": 1
-      },
+      "dropped": {},
       "error": null
     },
     {
@@ -161,7 +157,7 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 1,
+        "non-English": 2,
         "sponsored": 1
       },
       "error": null
@@ -191,38 +187,28 @@
     },
     {
       "source": "Hospitality Net",
-      "title": "Is ARI Plumbing the Main Obstacle to Agentic AI?, Seven Components for Hotel Agent Governance, HVS: Broad RevPAR Recovery Sets an Elevated Base for 2027",
+      "title": "Alisa Kremer on Social Media as a Commercial Discipline, Baoase on Family Hospitality and the Art of Saying Yes, Outdated AI Data Can Erase a Hotel from Shortlists",
       "reason": "several headlines in one title"
     },
     {
       "source": "Hospitality Net",
-      "title": "How Integrated Design and Technology are Redefining the Hotel Guest Journey",
-      "reason": "no usable body text"
+      "title": "AI-Powered Guest Engagement Linked to Higher Hotel Revenue, Better Personalization and Happier Guests, Study of 10+ Million Interactions Finds",
+      "reason": "several headlines in one title"
     },
     {
-      "source": "Hospitality Net",
-      "title": "Touchstone 1 Named World's Best in Hotel Wi-Fi and In-Room Entertainment at 2026 World Travel Tech Awards",
-      "reason": "award announcement with no real content"
+      "source": "Business Traveller",
+      "title": "Das sind die Gewinner der Business Traveller Awards 2026",
+      "reason": "non-English"
     },
     {
-      "source": "Hospitality Net",
-      "title": "Meliá Hotels International Recognised for Its Commitment to Employment Inclusion at the Diversity and Inclusion Awards",
-      "reason": "award announcement with no real content"
-    },
-    {
-      "source": "Skift",
-      "title": "Royal Caribbean Says Sandals Deal Can Help It Win Half of Guests’ Travel Spend",
-      "reason": "no usable body text"
+      "source": "Business Traveller",
+      "title": "Beyond the Capital: The Best Day Trips from Rome by Train",
+      "reason": "sponsored"
     },
     {
       "source": "Business Traveller",
       "title": "Warum die Lufthansa Green Fare in Impact Fare umbenennt",
       "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "CANEX WKND 2026 brings Global Africa’s Creative Economy to Lagos this November",
-      "reason": "sponsored"
     },
     {
       "source": "Hotel Dive",
@@ -232,44 +218,76 @@
   ],
   "items": [
     {
-      "title": "Airbnb to Require Temporary Phone Numbers for Large Hosts and Guests",
-      "link": "https://skift.com/2026/10/27/airbnb-to-require-temporary-phone-numbers-for-large-hosts-and-guests/",
+      "title": "Spain train collision kills at least 68 after control error",
+      "link": "https://www.traveldailynews.com/ground-transportation/spain-train-collision/",
+      "source": "Travel Daily News",
+      "region": "Global",
+      "pubDate": "2026-10-28T22:01:44.000Z",
+      "snippet": "A Spain train collision near Urda, in Toledo province, killed at least 68 people on 28 October 2026, according to the regional government of Castilla-La Mancha. The Associated Press reported that another 58 people were receiving hospital treatment. The crash involved two high-speed trains travelling from Madrid towards Seville, prompting an emergency response and suspending services on the affected corridor."
+    },
+    {
+      "title": "Vrbo Launches Reserve Now, Pay Later — With a Twist on Airbnb’s Approach",
+      "link": "https://skift.com/2026/10/28/vrbo-launches-reserve-now-pay-later-with-a-twist-on-airbnbs-approach/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-10-27T22:36:03.000Z",
-      "snippet": "Skift Take: Airbnb says the temporary phone numbers are meant to protect privacy. But the change also makes it harder for property managers to turn Airbnb guests into direct bookers. Starting October 30, Airbnb will issue temporary phone numbers to guests and to large hosts and property managers in the U.S. and Canada."
+      "pubDate": "2026-10-28T21:00:00.000Z",
+      "snippet": "Skift Take: Paying nothing up-front has been one of Airbnb's clearest growth levers. Vrbo's version of Reserve Now, Pay Later seems more host-friendly, but it gives guests less flexibility in when they can cancel without penalty. Will that weaken the tailwinds for Vrbo that Airbnb got?"
     },
     {
-      "title": "The Urban Escape: Inside Faena New York’s Spectacular Spa",
-      "link": "https://www.businesstraveller.com/lifestyle/the-urban-escape-faena-spa-new-york/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-10-27T19:39:30.000Z",
-      "snippet": "From meetings to massages, Faena New York’s Tierra Santa Healing House offers business travelers a luxurious urban escape, blending South American healing rituals, indulgent treatments and an extraordinary thermal sanctuary."
+      "title": "True Palate Hospitality Targets 50 Outlets Across Its Restaurant Portfolio by 2030",
+      "link": "https://hospitalitybizindia.com/news-track/true-palate-hospitality-targets-50-outlets-across-its-restaurant-portfolio-by-2030/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-10-28T18:56:48.000Z",
+      "snippet": "True Palate Hospitality, the hospitality company behind One8 Commune, Neuma and Pincode, is targeting a portfolio of 50 outlets and revenue of ₹900–1,000 crore over the next five years, by 2030. The company currently operates approximately 20–22 outlets across India and international markets."
     },
     {
-      "title": "Hilton raises full-year RevPAR outlook after ‘strong’ Q3 results",
-      "link": "https://www.hoteldive.com/news/hilton-raises-full-year-revpar-outlook-after-strong-q3/872934/",
-      "source": "Hotel Dive",
-      "region": "Global",
-      "pubDate": "2026-10-27T19:23:08.000Z",
-      "snippet": "Systemwide RevPAR increased 5.8% year over year during the quarter, driven by strength in demand and “favorable macro trends,” CEO Chris Nassetta said on an earnings call."
-    },
-    {
-      "title": "BWH® Hotels Unveils Enterprise Transformation, Uniting Global Portfolio Under WorldHotels™",
-      "link": "https://www.hospitalitynet.org/news/4135140/bwh-hotels-unveils-enterprise-transformation-uniting-global-portfolio-under-worldhotels",
+      "title": "Your Operator Is a Staffing Company With a Logo. The VCs Just Figured It Out.",
+      "link": "https://www.hospitalitynet.org/podcast/4135167/your-operator-is-a-staffing-company-with-a-logo-the-vcs-just-figured-it-out",
       "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-10-27T18:14:29.000Z",
-      "snippet": "BWH Hotels is rebranding under the WorldHotels masterbrand, consolidating 4,000+ properties and 18 brands into a single loyalty program with 70 million members and a new digital platform."
+      "pubDate": "2026-10-28T18:11:19.000Z",
+      "snippet": "Thayer Ventures co-founder Chris shares lessons from travel tech investing: why AI will reshape hotel distribution, why 2027 is the inflection point for agentic operations, and why the hotel operating model is overdue for reinvention."
     },
     {
-      "title": "TAAI Convention charts new course for India’s travel trade amid AI-led transformation",
-      "link": "https://travelbizmonitor.com/top-stories/taai-convention-charts-new-course-for-indias-travel-trade-amid-ai-led-transformation/",
+      "title": "Can Pakistan International Airlines Recapture Its Former Glory?",
+      "link": "https://www.businesstraveller.com/insights/pakistan-international-airlines-pia-privatization-comeback/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-10-28T17:56:55.000Z",
+      "snippet": "Once among Asia’s most admired airlines, Pakistan International Airlines faces a difficult comeback under private ownership, confronting decades of financial troubles, political interference, fleet challenges and a troubled leadership search."
+    },
+    {
+      "title": "Sterling ONE wins national B2B technology award as transactions rise 34%",
+      "link": "https://hospitalitybizindia.com/news-track/sterling-one-wins-national-b2b-technology-award-as-transactions-rise-34/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-10-28T17:13:58.000Z",
+      "snippet": "Sterling Holiday Resorts Limited (SHRL) has won the ‘Smart Tech Enabled Platform of the Year 2026 – B2B’ award for Sterling ONE, its proprietary digital distribution platform, at the Indian Travel & Technology Summit & Awards 2026 in Delhi. The recognition comes as Sterling’s partner-led distribution business gains traction."
+    },
+    {
+      "title": "India is ready for global restaurant brands, but the bigger opportunity lies in taking Indian cuisine worldwide: Zorawar Kalra",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/india-is-ready-for-global-restaurant-brands-but-the-bigger-opportunity-lies-in-taking-indian-cuisine-worldwide-zorawar-kalra/135267312",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-10-28T14:30:00.000Z",
+      "snippet": "Speaking at the 2nd edition of ET FoodXP 2026, Zorawar Kalra, Founder & MD, Massive Restaurants, and Yangdup Lama, Celebrity Bartender & Owner, Sidecar, discussed India's growing appeal to international restaurant and bar brands."
+    },
+    {
+      "title": "ATOAI to host 2026 Convention in Jim Corbett, Uttarakhand from Dec 13-16",
+      "link": "https://travelbizmonitor.com/top-stories/atoai-to-host-2026-convention-in-jim-corbett-uttarakhand-from-dec-13-16/",
       "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-10-27T15:51:23.000Z",
-      "snippet": "The Travel Agents Association of India’s (TAAI) 69th Convention & Exhibition – Indian Travel Congress 2026 concludes in Kolkata tonight, bringing together travel agents, airlines, hotel groups, tourism boards and technology providers to discuss the changing dynamics of India’s travel and tourism industry."
+      "pubDate": "2026-10-28T13:27:50.000Z",
+      "snippet": "The Adventure Tour Operators’ Association of India (ATOAI), in collaboration with the Ministry of Tourism, Government of India, and the Uttarakhand Tourism Development Board, will host its 18th Annual Adventure Convention at Jim Corbett National Park, Uttarakhand, from December 13 to 16, 2026."
+    },
+    {
+      "title": "‘Small operational details can have a big impact’ : Sandip Satange",
+      "link": "https://travelbizmonitor.com/top-stories/ibis-mumbai-bkc-targets-growth-across-corporate-mice-leisure/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-28T13:00:39.000Z",
+      "snippet": "As BKC continues to strengthen its position as a key business and hospitality hub in Mumbai, hotels are balancing strong corporate demand with opportunities across MICE, events and leisure. At ibis Mumbai BKC, General Manager, Sandip Satange is focused on driving occupancy, ADR and profitability while strengthening guest experience and operational efficiency."
     },
     {
       "title": "It’s a wrap! THINC Sri Lanka & Maldives",
@@ -278,38 +296,6 @@
       "region": "India",
       "pubDate": "2026-10-27T14:30:04.000Z",
       "snippet": "It’s a wrap! THINC Sri Lanka & Maldives by Hotelivate | Oct 27, 2026 After a six-year hiatus, Hotelivate-Savills returned to Colombo for the fourth edition of the Tourism Hotel Investment & Networking Conference (THINC). The last edition of the conference was held in 2019, making this year's gathering particularly significant for the region's hospitality industry."
-    },
-    {
-      "title": "Baden-Württemberg hosts FAM Trips to attract Indian travellers",
-      "link": "https://travelbizmonitor.com/top-stories/baden-wurttemberg-hosts-fam-trips-to-attract-indian-travellers/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-27T13:45:40.000Z",
-      "snippet": "Tourismus Marketing GmbH Baden-Württemberg (TMBW), in partnership with Air India, organised two familiarisation (FAM) trips for Indian travel trade and corporate representatives to showcase the tourism offerings of Baden-Württemberg in southwestern Germany."
-    },
-    {
-      "title": "Kalyani Developers to expand Hospitality Portfolio to over 1400 Keys",
-      "link": "https://hospitalitybizindia.com/news-track/kalyani-developers-to-expand-hospitality-portfolio-to-over-1400-keys/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-10-27T11:16:28.000Z",
-      "snippet": "Bengaluru based Kalyani Developers is set to significantly expand its hospitality portfolio, targeting over 1400 keys over the next two years across Bengaluru and Hyderabad."
-    },
-    {
-      "title": "Shree Naman Group Completes LandmarkAcquisition of JW Marriott Bengaluru and Crowne Plaza Pune",
-      "link": "https://hospitalitybizindia.com/news-track/shree-naman-group-completes-landmarkacquisition-of-jw-marriott-bengaluru-and-crowne-plaza-pune/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-10-27T08:32:34.000Z",
-      "snippet": "Shree Naman Group, has completed the acquisition of JW Marriott Bengaluru for ₹1,611 crore and Crowne Plaza Pune for ₹189 crore, marking a landmark expansion of its hospitality business. The ₹1,800-crore transaction was completed on 1 October 2026, within 30 days of approval by the National Company Law Tribunal on 3 September 2026, following a competitive bidding process."
-    },
-    {
-      "title": "MMT reports net profit of $1.8 million in Q2, revenues at $235.2 million",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/travel/mmt-reports-net-profit-of-1-8-million-in-q2-revenues-at-235-2-million/135223209",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-10-27T05:30:00.000Z",
-      "snippet": "MakeMyTrip reported a $1.8 million Q2 net profit, reversing a year-earlier loss of $5.7 million. Revenue rose 11.2% to $235.2 million, while gross bookings grew 20.9%, supported by hotels, transport and AI-powered travel assistant Myra. MakeMyTrip has reported a net profit of $1.8 million in quarter two of this fiscal year compared to a net loss of $5.7 million in the corresponding period of the previous fiscal year."
     }
   ]
 }
