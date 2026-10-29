@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T22:50:51.507Z",
+  "generatedAt": "2026-10-29T22:58:01.550Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -66,7 +66,9 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "award announcement with no real content": 1
+      },
       "error": null
     },
     {
@@ -103,10 +105,10 @@
       "name": "Travel Trade Journal",
       "ok": true,
       "fetched": 10,
-      "kept": 1,
+      "kept": 4,
       "dropped": {
         "staff appointment": 1,
-        "too old": 8
+        "too old": 5
       },
       "error": null
     },
@@ -128,7 +130,7 @@
       "fetched": 20,
       "kept": 4,
       "dropped": {
-        "several headlines in one title": 2
+        "several headlines in one title": 1
       },
       "error": null
     },
@@ -158,7 +160,7 @@
       "kept": 4,
       "dropped": {
         "non-English": 2,
-        "sponsored": 1
+        "sponsored": 3
       },
       "error": null
     },
@@ -168,13 +170,16 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {
-        "roundup/digest (title)": 1
-      },
+      "dropped": {},
       "error": null
     }
   ],
   "droppedItems": [
+    {
+      "source": "ET HospitalityWorld",
+      "title": "Who were the winners of the fifth edition of Restaurant and Nightlife Awards",
+      "reason": "award announcement with no real content"
+    },
     {
       "source": "Travel Trade Journal",
       "title": "Crowne Plaza Greater Noida appoints Dinesh Rai as General Manager",
@@ -187,115 +192,115 @@
     },
     {
       "source": "Hospitality Net",
-      "title": "Alisa Kremer on Social Media as a Commercial Discipline, Baoase on Family Hospitality and the Art of Saying Yes, Outdated AI Data Can Erase a Hotel from Shortlists",
+      "title": "Have Hotel Websites Become the Least Important Part of the Journey?, Expedia Adds 30+ AI Features as European Trust Lags, Boutique Hotels Win on Specificity at BLLA 2026",
       "reason": "several headlines in one title"
     },
     {
-      "source": "Hospitality Net",
-      "title": "AI-Powered Guest Engagement Linked to Higher Hotel Revenue, Better Personalization and Happier Guests, Study of 10+ Million Interactions Finds",
-      "reason": "several headlines in one title"
+      "source": "Business Traveller",
+      "title": "Streiks: Wir navigieren Sie durch die geplanten Ausstände",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "A Feast for the Senses: How to Savor Fall on Long Island",
+      "reason": "sponsored"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "There’s More to Qatar: Why Business Travellers are Staying Longer",
+      "reason": "sponsored"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "A New Chapter of Waterfront Living at InterContinental Dubai Marina",
+      "reason": "sponsored"
     },
     {
       "source": "Business Traveller",
       "title": "Das sind die Gewinner der Business Traveller Awards 2026",
       "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Beyond the Capital: The Best Day Trips from Rome by Train",
-      "reason": "sponsored"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Warum die Lufthansa Green Fare in Impact Fare umbenennt",
-      "reason": "non-English"
-    },
-    {
-      "source": "Hotel Dive",
-      "title": "Lodging Lowdown: Expedia Group launches autonomous onboarding, Signia Hilton Savannah tops out",
-      "reason": "roundup/digest (title)"
     }
   ],
   "items": [
     {
-      "title": "Spain train collision kills at least 68 after control error",
-      "link": "https://www.traveldailynews.com/ground-transportation/spain-train-collision/",
-      "source": "Travel Daily News",
-      "region": "Global",
-      "pubDate": "2026-10-28T22:01:44.000Z",
-      "snippet": "A Spain train collision near Urda, in Toledo province, killed at least 68 people on 28 October 2026, according to the regional government of Castilla-La Mancha. The Associated Press reported that another 58 people were receiving hospital treatment. The crash involved two high-speed trains travelling from Madrid towards Seville, prompting an emergency response and suspending services on the affected corridor."
+      "title": "Brigade Group Hospitality Revenue Rises 41% to INR 161 Crore in Q2",
+      "link": "https://hospitalitybizindia.com/news-track/brigade-group-hospitality-revenue-rises-41-to-inr-161-crore-in-q2/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-10-29T19:00:07.000Z",
+      "snippet": "­The group’s hospitality EBITDA increased 41% year on year to INR 59 crore, with a margin of 37%. Brigade Group reported a 41% year-on-year increase in hospitality EBITDA to INR 59 crore in Q2 FY27, while revenue from the segment stood at INR 161 crore."
     },
     {
-      "title": "Vrbo Launches Reserve Now, Pay Later — With a Twist on Airbnb’s Approach",
-      "link": "https://skift.com/2026/10/28/vrbo-launches-reserve-now-pay-later-with-a-twist-on-airbnbs-approach/",
+      "title": "Wyndham Launches Homes & Havens to Take On Marriott",
+      "link": "https://skift.com/2026/10/29/wyndham-launches-homes-havens-to-take-on-marriott/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-10-28T21:00:00.000Z",
-      "snippet": "Skift Take: Paying nothing up-front has been one of Airbnb's clearest growth levers. Vrbo's version of Reserve Now, Pay Later seems more host-friendly, but it gives guests less flexibility in when they can cancel without penalty. Will that weaken the tailwinds for Vrbo that Airbnb got?"
+      "pubDate": "2026-10-29T18:34:08.000Z",
+      "snippet": "Skift Take: Whether Wyndham's Homes & Havens can compete with Marriott's far larger collection is an open question. But for Wyndham, this is only day one. Wyndham is moving into curated vacation rentals, a market where hotel loyalty programs and credit card issuers are waging an intense competition for travelers."
     },
     {
-      "title": "True Palate Hospitality Targets 50 Outlets Across Its Restaurant Portfolio by 2030",
-      "link": "https://hospitalitybizindia.com/news-track/true-palate-hospitality-targets-50-outlets-across-its-restaurant-portfolio-by-2030/",
+      "title": "Scapia Adds 2 Lakh Villas and Homes to Travel Booking Platform",
+      "link": "https://hospitalitybizindia.com/news-track/scapia-adds-2-lakh-villas-and-homes-to-travel-booking-platform/",
       "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-10-28T18:56:48.000Z",
-      "snippet": "True Palate Hospitality, the hospitality company behind One8 Commune, Neuma and Pincode, is targeting a portfolio of 50 outlets and revenue of ₹900–1,000 crore over the next five years, by 2030. The company currently operates approximately 20–22 outlets across India and international markets."
+      "pubDate": "2026-10-29T18:19:31.000Z",
+      "snippet": "The launch expands its accommodation offering beyond hotels, with rewards and booking assistance aimed at travellers seeking alternative stays. Scapia has launched Villas & Homes on its travel app, adding more than 2 lakh villas, homestays, apartments and cottages across India and international destinations to its accommodation portfolio."
     },
     {
-      "title": "Your Operator Is a Staffing Company With a Logo. The VCs Just Figured It Out.",
-      "link": "https://www.hospitalitynet.org/podcast/4135167/your-operator-is-a-staffing-company-with-a-logo-the-vcs-just-figured-it-out",
+      "title": "Three Weeks to ROI With Canary at Das Aunhamer Suite & Spa",
+      "link": "https://www.hospitalitynet.org/casestudy/4135189/three-weeks-to-roi-with-canary-at-das-aunhamer-suite-spa",
       "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-10-28T18:11:19.000Z",
-      "snippet": "Thayer Ventures co-founder Chris shares lessons from travel tech investing: why AI will reshape hotel distribution, why 2027 is the inflection point for agentic operations, and why the hotel operating model is overdue for reinvention."
+      "pubDate": "2026-10-29T18:00:00.000Z",
+      "snippet": "Das Aunhamer Suite & Spa in Bavaria recouped its full Canary Technologies platform cost within three weeks through mobile check-in, AI messaging, and dynamic upsell tools."
     },
     {
-      "title": "Can Pakistan International Airlines Recapture Its Former Glory?",
-      "link": "https://www.businesstraveller.com/insights/pakistan-international-airlines-pia-privatization-comeback/",
+      "title": "Luxury drives Hyatt’s Q3 RevPAR growth above expectations",
+      "link": "https://www.hoteldive.com/news/hyatt-q3-2026-earnings/873205/",
+      "source": "Hotel Dive",
+      "region": "Global",
+      "pubDate": "2026-10-29T16:10:51.000Z",
+      "snippet": "The company also saw “exceptionally strong development activity” in the third quarter, as it looks to expand its brand presence across the U.S., said CEO Mark Hoplamazian. Hyatt saw RevPAR increase across all customer segments in Q3, with leisure transient and group RevPAR seeing strong gains, while business transient RevPAR increased in the low single digits, per the report."
+    },
+    {
+      "title": "Hotel Review: Hôtel Hermitage Monte-Carlo, Monaco – The Landmark Hotel Enters a Glamorous New Era",
+      "link": "https://www.businesstraveller.com/tried-tested/hotel-review-hotel-hermitage-monte-carlo-monaco/",
       "source": "Business Traveller",
       "region": "Global",
-      "pubDate": "2026-10-28T17:56:55.000Z",
-      "snippet": "Once among Asia’s most admired airlines, Pakistan International Airlines faces a difficult comeback under private ownership, confronting decades of financial troubles, political interference, fleet challenges and a troubled leadership search."
+      "pubDate": "2026-10-29T15:51:56.000Z",
+      "snippet": "A true great of the French Riviera, whose ongoing refurbishment sees it reach even higher levels of opulence and service."
     },
     {
-      "title": "Sterling ONE wins national B2B technology award as transactions rise 34%",
-      "link": "https://hospitalitybizindia.com/news-track/sterling-one-wins-national-b2b-technology-award-as-transactions-rise-34/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-10-28T17:13:58.000Z",
-      "snippet": "Sterling Holiday Resorts Limited (SHRL) has won the ‘Smart Tech Enabled Platform of the Year 2026 – B2B’ award for Sterling ONE, its proprietary digital distribution platform, at the Indian Travel & Technology Summit & Awards 2026 in Delhi. The recognition comes as Sterling’s partner-led distribution business gains traction."
-    },
-    {
-      "title": "India is ready for global restaurant brands, but the bigger opportunity lies in taking Indian cuisine worldwide: Zorawar Kalra",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/india-is-ready-for-global-restaurant-brands-but-the-bigger-opportunity-lies-in-taking-indian-cuisine-worldwide-zorawar-kalra/135267312",
+      "title": "Food brands must move beyond viral reels to build trust and long-term creator partnerships: Industry experts",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/food-brands-must-move-beyond-viral-reels-to-build-trust-and-long-term-creator-partnerships-industry-experts/135293685",
       "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-10-28T14:30:00.000Z",
-      "snippet": "Speaking at the 2nd edition of ET FoodXP 2026, Zorawar Kalra, Founder & MD, Massive Restaurants, and Yangdup Lama, Celebrity Bartender & Owner, Sidecar, discussed India's growing appeal to international restaurant and bar brands."
+      "pubDate": "2026-10-29T11:30:00.000Z",
+      "snippet": "At the 2nd edition of ET FoodXP 2026, food creators Kuljyoti Dhingra and Priyanka Kapoor, co-founder of Dillifoodies, discussed how authenticity, creative freedom and relatable storytelling are reshaping food marketing."
     },
     {
-      "title": "ATOAI to host 2026 Convention in Jim Corbett, Uttarakhand from Dec 13-16",
-      "link": "https://travelbizmonitor.com/top-stories/atoai-to-host-2026-convention-in-jim-corbett-uttarakhand-from-dec-13-16/",
+      "title": "Celebrity chefs can attract diners, but food quality and consistency build lasting restaurant brands: Industry leaders",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/celebrity-chefs-can-attract-diners-but-food-quality-and-consistency-build-lasting-restaurant-brands-industry-leaders/135293373",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-10-29T10:30:00.000Z",
+      "snippet": "At the 2nd edition of ET FoodXP 2026, chefs Kunal Kapur, Manish Mehrotra, Manisha Bhasin and Saby Gorai discussed how celebrity recognition influences restaurant visibility, consumer expectations and business growth."
+    },
+    {
+      "title": "Tarangire Sopa Lodge in Tanzania introduces night game drives",
+      "link": "https://traveltradejournal.com/tarangire-sopa-lodge-in-tanzania-introduces-night-game-drives/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-10-29T07:27:20.000Z",
+      "snippet": "Tarangire Sopa Lodge in Tanzania has introduced night game drives, offering guests an opportunity to explore Tarangire National Park after sunset and observe wildlife activity that is rarely witnessed during daytime safaris. The new experience allows guests to discover the park’s nocturnal wildlife and gain a different perspective on its ecosystem."
+    },
+    {
+      "title": "Patna Airport plans customs & immigration facilities by January",
+      "link": "https://travelbizmonitor.com/top-stories/patna-airport-plans-customs-immigration-facilities-by-january/",
       "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-10-28T13:27:50.000Z",
-      "snippet": "The Adventure Tour Operators’ Association of India (ATOAI), in collaboration with the Ministry of Tourism, Government of India, and the Uttarakhand Tourism Development Board, will host its 18th Annual Adventure Convention at Jim Corbett National Park, Uttarakhand, from December 13 to 16, 2026."
-    },
-    {
-      "title": "‘Small operational details can have a big impact’ : Sandip Satange",
-      "link": "https://travelbizmonitor.com/top-stories/ibis-mumbai-bkc-targets-growth-across-corporate-mice-leisure/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-28T13:00:39.000Z",
-      "snippet": "As BKC continues to strengthen its position as a key business and hospitality hub in Mumbai, hotels are balancing strong corporate demand with opportunities across MICE, events and leisure. At ibis Mumbai BKC, General Manager, Sandip Satange is focused on driving occupancy, ADR and profitability while strengthening guest experience and operational efficiency."
-    },
-    {
-      "title": "It’s a wrap! THINC Sri Lanka & Maldives",
-      "link": "https://www.hotelivate.com/conferences/its-a-wrap-thinc-sri-lanka-maldives/",
-      "source": "Hotelivate",
-      "region": "India",
-      "pubDate": "2026-10-27T14:30:04.000Z",
-      "snippet": "It’s a wrap! THINC Sri Lanka & Maldives by Hotelivate | Oct 27, 2026 After a six-year hiatus, Hotelivate-Savills returned to Colombo for the fourth edition of the Tourism Hotel Investment & Networking Conference (THINC). The last edition of the conference was held in 2019, making this year's gathering particularly significant for the region's hospitality industry."
+      "pubDate": "2026-10-29T04:30:52.000Z",
+      "snippet": "Jay Prakash Narayan International Airport in Patna is preparing to introduce customs and immigration facilities, enabling passengers travelling internationally via connecting flights to complete the required formalities at the city airport instead of major hubs such as Delhi and Mumbai. The move is expected to simplify international journeys for passengers departing from Bihar."
     }
   ]
 }
