@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T22:58:01.550Z",
+  "generatedAt": "2026-10-30T22:38:36.685Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -118,9 +118,7 @@
       "ok": true,
       "fetched": 100,
       "kept": 4,
-      "dropped": {
-        "non-English": 1
-      },
+      "dropped": {},
       "error": null
     },
     {
@@ -130,7 +128,8 @@
       "fetched": 20,
       "kept": 4,
       "dropped": {
-        "several headlines in one title": 1
+        "several headlines in one title": 1,
+        "award announcement with no real content": 1
       },
       "error": null
     },
@@ -160,7 +159,8 @@
       "kept": 4,
       "dropped": {
         "non-English": 2,
-        "sponsored": 3
+        "no usable body text": 1,
+        "sponsored": 2
       },
       "error": null
     },
@@ -170,7 +170,9 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "roundup/digest (title)": 1
+      },
       "error": null
     }
   ],
@@ -186,14 +188,24 @@
       "reason": "staff appointment"
     },
     {
-      "source": "Hospitality ON",
-      "title": "Sofitel Legend s’allie à l’UNESCO et fait de Hanoï sa vitrine",
-      "reason": "non-English"
+      "source": "Hospitality Net",
+      "title": "Finding Your Guests in the ChatGPT Data, Most Hotel Budgets Are Agreed but Few Are Owned, The HR Playbook for Competing with Alternative Stays",
+      "reason": "several headlines in one title"
     },
     {
       "source": "Hospitality Net",
-      "title": "Have Hotel Websites Become the Least Important Part of the Journey?, Expedia Adds 30+ AI Features as European Trust Lags, Boutique Hotels Win on Specificity at BLLA 2026",
-      "reason": "several headlines in one title"
+      "title": "Lauren Maunder Receives 2026 Rising Star Award Asia Pacific",
+      "reason": "award announcement with no real content"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Neue Einreiseregeln weltweit: Das hat sich aktuell geändert",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Hotel Review: Faena, New York – Theatrical Design in West Chelsea",
+      "reason": "no usable body text"
     },
     {
       "source": "Business Traveller",
@@ -211,96 +223,91 @@
       "reason": "sponsored"
     },
     {
-      "source": "Business Traveller",
-      "title": "A New Chapter of Waterfront Living at InterContinental Dubai Marina",
-      "reason": "sponsored"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Das sind die Gewinner der Business Traveller Awards 2026",
-      "reason": "non-English"
+      "source": "Hotel Dive",
+      "title": "Lodging Lowdown: Trailborn names new CFO, Wyndham Rewards expands with vacation rentals",
+      "reason": "roundup/digest (title)"
     }
   ],
   "items": [
     {
-      "title": "Brigade Group Hospitality Revenue Rises 41% to INR 161 Crore in Q2",
-      "link": "https://hospitalitybizindia.com/news-track/brigade-group-hospitality-revenue-rises-41-to-inr-161-crore-in-q2/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-10-29T19:00:07.000Z",
-      "snippet": "­The group’s hospitality EBITDA increased 41% year on year to INR 59 crore, with a margin of 37%. Brigade Group reported a 41% year-on-year increase in hospitality EBITDA to INR 59 crore in Q2 FY27, while revenue from the segment stood at INR 161 crore."
-    },
-    {
-      "title": "Wyndham Launches Homes & Havens to Take On Marriott",
-      "link": "https://skift.com/2026/10/29/wyndham-launches-homes-havens-to-take-on-marriott/",
+      "title": "Disney Cuts More Than 100 Jobs In Theme Park Division",
+      "link": "https://skift.com/2026/10/30/disney-job-cuts-experiences-theme-parks/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-10-29T18:34:08.000Z",
-      "snippet": "Skift Take: Whether Wyndham's Homes & Havens can compete with Marriott's far larger collection is an open question. But for Wyndham, this is only day one. Wyndham is moving into curated vacation rentals, a market where hotel loyalty programs and credit card issuers are waging an intense competition for travelers."
+      "pubDate": "2026-10-30T22:28:20.000Z",
+      "snippet": "Skift Take: CEO Josh D’Amaro has said he is highly focused on reducing costs at the media giant. The Walt Disney Company has laid off between 100 and 200 employees in its theme park division, according to a person familiar with the matter."
     },
     {
-      "title": "Scapia Adds 2 Lakh Villas and Homes to Travel Booking Platform",
-      "link": "https://hospitalitybizindia.com/news-track/scapia-adds-2-lakh-villas-and-homes-to-travel-booking-platform/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-10-29T18:19:31.000Z",
-      "snippet": "The launch expands its accommodation offering beyond hotels, with rewards and booking assistance aimed at travellers seeking alternative stays. Scapia has launched Villas & Homes on its travel app, adding more than 2 lakh villas, homestays, apartments and cottages across India and international destinations to its accommodation portfolio."
-    },
-    {
-      "title": "Three Weeks to ROI With Canary at Das Aunhamer Suite & Spa",
-      "link": "https://www.hospitalitynet.org/casestudy/4135189/three-weeks-to-roi-with-canary-at-das-aunhamer-suite-spa",
+      "title": "How CIVILIAN Hotel Uses Canary to Eliminate Lobby Lines in a Small Space",
+      "link": "https://www.hospitalitynet.org/casestudy/4135190/how-civilian-hotel-uses-canary-to-eliminate-lobby-lines-in-a-small-space",
       "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-10-29T18:00:00.000Z",
-      "snippet": "Das Aunhamer Suite & Spa in Bavaria recouped its full Canary Technologies platform cost within three weeks through mobile check-in, AI messaging, and dynamic upsell tools."
+      "pubDate": "2026-10-30T18:00:00.000Z",
+      "snippet": "CIVILIAN Hotel's 203-room NYC boutique property reduced front desk congestion by deploying Canary's kiosk, mobile check-in, digital authorizations, and guest messaging tools."
     },
     {
-      "title": "Luxury drives Hyatt’s Q3 RevPAR growth above expectations",
-      "link": "https://www.hoteldive.com/news/hyatt-q3-2026-earnings/873205/",
-      "source": "Hotel Dive",
+      "title": "World Cup, March Madness, Roland-Garros: when the hotel takes its place in the locker room",
+      "link": "https://hospitality-on.com/en/hospitality/world-cup-march-madness-roland-garros-when-hotel-takes-its-place-locker-room",
+      "source": "Hospitality ON",
       "region": "Global",
-      "pubDate": "2026-10-29T16:10:51.000Z",
-      "snippet": "The company also saw “exceptionally strong development activity” in the third quarter, as it looks to expand its brand presence across the U.S., said CEO Mark Hoplamazian. Hyatt saw RevPAR increase across all customer segments in Q3, with leisure transient and group RevPAR seeing strong gains, while business transient RevPAR increased in the low single digits, per the report."
+      "pubDate": "2026-10-30T17:31:10.000Z",
+      "snippet": "As partners of federations and tournaments, the major hotel groups are turning their properties into the backdrop of the sporting event. Hilton and Marriott film the pre-match ritual there, Accor redefines a palace hotel in the colours of a Grand Slam, and Hyatt records a podcast by women tennis players."
     },
     {
-      "title": "Hotel Review: Hôtel Hermitage Monte-Carlo, Monaco – The Landmark Hotel Enters a Glamorous New Era",
-      "link": "https://www.businesstraveller.com/tried-tested/hotel-review-hotel-hermitage-monte-carlo-monaco/",
+      "title": "From Airport to Rome’s City Center in 10 Minutes? ITA Airways and Archer Have a Plan",
+      "link": "https://www.businesstraveller.com/news/ita-airways-archer-aviation-rome-electric-air-taxi-flights/",
       "source": "Business Traveller",
       "region": "Global",
-      "pubDate": "2026-10-29T15:51:56.000Z",
-      "snippet": "A true great of the French Riviera, whose ongoing refurbishment sees it reach even higher levels of opulence and service."
+      "pubDate": "2026-10-30T15:04:44.000Z",
+      "snippet": "ITA Airways and Archer Aviation are exploring electric air taxi services connecting Italian airports with city centers, promising faster journeys aboard battery-powered aircraft, although certification and launch dates remain unresolved."
     },
     {
-      "title": "Food brands must move beyond viral reels to build trust and long-term creator partnerships: Industry experts",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/food-brands-must-move-beyond-viral-reels-to-build-trust-and-long-term-creator-partnerships-industry-experts/135293685",
+      "title": "Stone Wood Hotels to enter wildlife resort segment with ‘Vanntalya’ brand; first property to open in Jawai next month",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/stone-wood-hotels-to-enter-wildlife-resort-segment-with-vanntalya-brand-first-property-to-open-in-jawai-next-month/135345468",
       "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-10-29T11:30:00.000Z",
-      "snippet": "At the 2nd edition of ET FoodXP 2026, food creators Kuljyoti Dhingra and Priyanka Kapoor, co-founder of Dillifoodies, discussed how authenticity, creative freedom and relatable storytelling are reshaping food marketing."
+      "pubDate": "2026-10-30T12:30:00.000Z",
+      "snippet": "Goa-based mid-market hotel company Stone Wood Hotels has aggressive plans to expand into the boutique wildlife resort space with the new Vanntalya brand with at least 4 properties in key wilderness destinations in the next couple of years, says Shikhar Kumar, MD of the hotel company."
     },
     {
-      "title": "Celebrity chefs can attract diners, but food quality and consistency build lasting restaurant brands: Industry leaders",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/celebrity-chefs-can-attract-diners-but-food-quality-and-consistency-build-lasting-restaurant-brands-industry-leaders/135293373",
-      "source": "ET HospitalityWorld",
+      "title": "Hyatt signs four-hotel deal with Saraca across UP, Uttarakhand",
+      "link": "https://hospitalitybizindia.com/news-track/hyatt-signs-four-hotel-deal-with-saraca-across-up-uttarakhand/",
+      "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-10-29T10:30:00.000Z",
-      "snippet": "At the 2nd edition of ET FoodXP 2026, chefs Kunal Kapur, Manish Mehrotra, Manisha Bhasin and Saby Gorai discussed how celebrity recognition influences restaurant visibility, consumer expectations and business growth."
+      "pubDate": "2026-10-30T12:14:36.000Z",
+      "snippet": "Partnership brings two existing properties under Unscripted by Hyatt and adds two planned hotels near Jim Corbett National Park Hyatt Hotels Corporation has signed agreements with Saraca Hotels & Resorts to bring four hotels across Uttar Pradesh and Uttarakhand under its portfolio, expanding its presence in North India and introducing the Unscripted by Hyatt brand in India."
     },
     {
-      "title": "Tarangire Sopa Lodge in Tanzania introduces night game drives",
-      "link": "https://traveltradejournal.com/tarangire-sopa-lodge-in-tanzania-introduces-night-game-drives/",
-      "source": "Travel Trade Journal",
+      "title": "Himachal Secures 47.1% Revenue Share in Wildflower Hall Deal",
+      "link": "https://hospitalitybizindia.com/news-track/himachal-secures-47-1-revenue-share-in-wildflower-hall-deal/",
+      "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-10-29T07:27:20.000Z",
-      "snippet": "Tarangire Sopa Lodge in Tanzania has introduced night game drives, offering guests an opportunity to explore Tarangire National Park after sunset and observe wildlife activity that is rarely witnessed during daytime safaris. The new experience allows guests to discover the park’s nocturnal wildlife and gain a different perspective on its ecosystem."
+      "pubDate": "2026-10-30T12:09:28.000Z",
+      "snippet": "The 35-year operating licence is expected to generate around INR 2,000 crore for the state, while ownership of the hotel and its underlying assets remains with the government. The Himachal Pradesh government has secured a 47.1% share of annual gross revenue through the auction of operating and management rights for Wildflower Hall, the luxury hotel property at Chharabra near Shimla."
     },
     {
-      "title": "Patna Airport plans customs & immigration facilities by January",
-      "link": "https://travelbizmonitor.com/top-stories/patna-airport-plans-customs-immigration-facilities-by-january/",
+      "title": "Royal Caribbean’s Navigator of the Seas debuts in Asia",
+      "link": "https://travelbizmonitor.com/top-stories/royal-caribbeans-navigator-of-the-seas-debuts-in-asia/",
       "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-10-29T04:30:52.000Z",
-      "snippet": "Jay Prakash Narayan International Airport in Patna is preparing to introduce customs and immigration facilities, enabling passengers travelling internationally via connecting flights to complete the required formalities at the city airport instead of major hubs such as Delhi and Mumbai. The move is expected to simplify international journeys for passengers departing from Bihar."
+      "pubDate": "2026-10-30T09:30:16.000Z",
+      "snippet": "Royal Caribbean’s Navigator of the Seas has arrived in Singapore, marking its Asia debut and the beginning of a year-long sailing season from the city-state through October 2027."
+    },
+    {
+      "title": "Tarangire Sopa Lodge introduces night game drives",
+      "link": "https://travelbizmonitor.com/top-stories/tarangire-sopa-lodge-introduces-night-game-drives/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-30T08:30:43.000Z",
+      "snippet": "Tarangire Sopa Lodge in Tanzania has introduced night game drives at Tarangire National Park, offering guests a new way to experience the wilderness after sunset. The addition expands the lodge’s safari offerings, allowing visitors to explore the park’s nocturnal environment and observe wildlife behaviours that are rarely seen during daylight hours."
+    },
+    {
+      "title": "Black Rock Hotels and Resorts opens The Farm Stay by AamaGhati in Ranthambore",
+      "link": "https://traveltradejournal.com/black-rock-hotels-and-resorts-opens-the-farm-stay-by-aamaghati-in-ranthambore/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-10-30T06:25:48.000Z",
+      "snippet": "Black Rock Hotels and Resorts has announced the opening of The Farm Stay by AamaGhati, a 10-key boutique retreat in Village Sherpur, Ranthambore. Originally a private family residence owned by Abhishek Hissaria, the property has been converted into a hospitality retreat offering nature-focused stays, wildlife viewing, farm-led dining and local cultural experiences."
     }
   ]
 }
