@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T22:38:36.685Z",
+  "generatedAt": "2026-10-31T21:51:19.447Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -74,11 +74,11 @@
     {
       "id": "hospitalitybiz-india",
       "name": "HospitalityBiz India",
-      "ok": true,
-      "fetched": 10,
-      "kept": 4,
+      "ok": false,
+      "fetched": 0,
+      "kept": 0,
       "dropped": {},
-      "error": null
+      "error": "Status code 503"
     },
     {
       "id": "travelbiz-monitor",
@@ -108,7 +108,7 @@
       "kept": 4,
       "dropped": {
         "staff appointment": 1,
-        "too old": 5
+        "too old": 3
       },
       "error": null
     },
@@ -160,7 +160,7 @@
       "dropped": {
         "non-English": 2,
         "no usable body text": 1,
-        "sponsored": 2
+        "sponsored": 1
       },
       "error": null
     },
@@ -218,17 +218,68 @@
       "reason": "sponsored"
     },
     {
-      "source": "Business Traveller",
-      "title": "There’s More to Qatar: Why Business Travellers are Staying Longer",
-      "reason": "sponsored"
-    },
-    {
       "source": "Hotel Dive",
       "title": "Lodging Lowdown: Trailborn names new CFO, Wyndham Rewards expands with vacation rentals",
       "reason": "roundup/digest (title)"
     }
   ],
   "items": [
+    {
+      "title": "Sirpur Heritage Site enters UNESCO tentative list",
+      "link": "https://travelbizmonitor.com/top-stories/sirpur-heritage-site-enters-unesco-tentative-list/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-31T14:30:02.000Z",
+      "snippet": "Sirpur, the historic town on the banks of the Mahanadi in Chhattisgarh, has gained international recognition with its inclusion in UNESCO’s Tentative List. Known for its ancient temples, Buddhist monasteries and archaeological remains, the town reflects centuries of religious, artistic and cultural exchange."
+    },
+    {
+      "title": "IndiGo weighs fuel stabilisation fund participation",
+      "link": "https://travelbizmonitor.com/top-stories/indigo-weighs-fuel-stabilisation-fund-participation/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-10-31T14:00:16.000Z",
+      "snippet": "IndiGo CEO Pieter Elbers said the airline could participate in the Indian government’s proposed fuel price stabilisation fund, although no further details were provided. The move comes as elevated aviation fuel costs and currency depreciation continue to put pressure on the airline’s profitability. The airline also indicated that its long-term fleet expansion plans remain unchanged."
+    },
+    {
+      "title": "Ambuja Neotia to invest Rs 2,700 crore in West Bengal’s hospitality sector; strengthening partnership with IHCL",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/ambuja-neotia-to-invest-rs-2700-crore-in-west-bengals-hospitality-sector-strengthening-partnership-with-ihcl/135395324",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-10-31T09:30:00.000Z",
+      "snippet": "Indian Hotels Company Limited and Ambuja Neotia have launched AltAir House under the IHCL SeleQtions brand in Kolkata and Siliguri. The opening is part of a larger investment commitment of Rs 2,700 crore in West Bengal's hospitality sector. Each property is designed to reflect the local culture and offer unique dining experiences."
+    },
+    {
+      "title": "Glassmaker Maximilian Riedel on His Travel Tips, and Not Drinking When Flying",
+      "link": "https://www.businesstraveller.com/insights/glass-maker-maximilian-riedel-travel-tips/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-10-31T09:00:00.000Z",
+      "snippet": "Work takes Austrian glassmaker Maximilian Riedel all around the globe. His surprising hot take?"
+    },
+    {
+      "title": "Accor promotes Tejus Jose to Vice President – Asset Management, India and South Asia",
+      "link": "https://traveltradejournal.com/accor-promotes-tejus-jose-to-vice-president-asset-management-india-and-south-asia/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-10-31T06:48:12.000Z",
+      "snippet": "Accor has announced the promotion of Tejus Jose to Vice President – Asset Management, India and South Asia. In his new role, Jose will focus on strengthening hotel asset performance, enhancing owner relationships and driving strategic initiatives aimed at creating long-term value across the group’s regional portfolio."
+    },
+    {
+      "title": "Himachal government holds e-auction for Wildflower Hall Hotel, receives record bid of 47.1 per cent revenue",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/himachal-government-holds-e-auction-for-wildflower-hall-hotel-receives-record-bid-of-47-1-per-cent-revenue/135386435",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-10-31T05:00:00.000Z",
+      "snippet": "The Himachal Pradesh government held an e-auction for granting license rights for the operation and management of the prestigious Wildflower Hall Hotel in Shimla, which resulted in a record bid of 47.1% of the annual gross revenue, CM Sukhvinder Singh Sukhu said on Friday."
+    },
+    {
+      "title": "Hyatt and Saraca Hotels and Resorts announce plans for four hotels across North India",
+      "link": "https://traveltradejournal.com/hyatt-and-saraca-hotels-and-resorts-announce-plans-for-four-hotels-across-north-india/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-10-31T03:30:37.000Z",
+      "snippet": "Hyatt Hotels Corporation has signed agreements with Saraca Hotels and Resorts to add four Hyatt-branded properties across Uttar Pradesh and Uttarakhand. The collaboration will mark the entry of the Unscripted by Hyatt brand into India while expanding the group’s presence in the leisure and wildlife tourism markets of Lucknow and Jim Corbett."
+    },
     {
       "title": "Disney Cuts More Than 100 Jobs In Theme Park Division",
       "link": "https://skift.com/2026/10/30/disney-job-cuts-experiences-theme-parks/",
@@ -252,62 +303,6 @@
       "region": "Global",
       "pubDate": "2026-10-30T17:31:10.000Z",
       "snippet": "As partners of federations and tournaments, the major hotel groups are turning their properties into the backdrop of the sporting event. Hilton and Marriott film the pre-match ritual there, Accor redefines a palace hotel in the colours of a Grand Slam, and Hyatt records a podcast by women tennis players."
-    },
-    {
-      "title": "From Airport to Rome’s City Center in 10 Minutes? ITA Airways and Archer Have a Plan",
-      "link": "https://www.businesstraveller.com/news/ita-airways-archer-aviation-rome-electric-air-taxi-flights/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-10-30T15:04:44.000Z",
-      "snippet": "ITA Airways and Archer Aviation are exploring electric air taxi services connecting Italian airports with city centers, promising faster journeys aboard battery-powered aircraft, although certification and launch dates remain unresolved."
-    },
-    {
-      "title": "Stone Wood Hotels to enter wildlife resort segment with ‘Vanntalya’ brand; first property to open in Jawai next month",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/stone-wood-hotels-to-enter-wildlife-resort-segment-with-vanntalya-brand-first-property-to-open-in-jawai-next-month/135345468",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-10-30T12:30:00.000Z",
-      "snippet": "Goa-based mid-market hotel company Stone Wood Hotels has aggressive plans to expand into the boutique wildlife resort space with the new Vanntalya brand with at least 4 properties in key wilderness destinations in the next couple of years, says Shikhar Kumar, MD of the hotel company."
-    },
-    {
-      "title": "Hyatt signs four-hotel deal with Saraca across UP, Uttarakhand",
-      "link": "https://hospitalitybizindia.com/news-track/hyatt-signs-four-hotel-deal-with-saraca-across-up-uttarakhand/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-10-30T12:14:36.000Z",
-      "snippet": "Partnership brings two existing properties under Unscripted by Hyatt and adds two planned hotels near Jim Corbett National Park Hyatt Hotels Corporation has signed agreements with Saraca Hotels & Resorts to bring four hotels across Uttar Pradesh and Uttarakhand under its portfolio, expanding its presence in North India and introducing the Unscripted by Hyatt brand in India."
-    },
-    {
-      "title": "Himachal Secures 47.1% Revenue Share in Wildflower Hall Deal",
-      "link": "https://hospitalitybizindia.com/news-track/himachal-secures-47-1-revenue-share-in-wildflower-hall-deal/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-10-30T12:09:28.000Z",
-      "snippet": "The 35-year operating licence is expected to generate around INR 2,000 crore for the state, while ownership of the hotel and its underlying assets remains with the government. The Himachal Pradesh government has secured a 47.1% share of annual gross revenue through the auction of operating and management rights for Wildflower Hall, the luxury hotel property at Chharabra near Shimla."
-    },
-    {
-      "title": "Royal Caribbean’s Navigator of the Seas debuts in Asia",
-      "link": "https://travelbizmonitor.com/top-stories/royal-caribbeans-navigator-of-the-seas-debuts-in-asia/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-30T09:30:16.000Z",
-      "snippet": "Royal Caribbean’s Navigator of the Seas has arrived in Singapore, marking its Asia debut and the beginning of a year-long sailing season from the city-state through October 2027."
-    },
-    {
-      "title": "Tarangire Sopa Lodge introduces night game drives",
-      "link": "https://travelbizmonitor.com/top-stories/tarangire-sopa-lodge-introduces-night-game-drives/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-30T08:30:43.000Z",
-      "snippet": "Tarangire Sopa Lodge in Tanzania has introduced night game drives at Tarangire National Park, offering guests a new way to experience the wilderness after sunset. The addition expands the lodge’s safari offerings, allowing visitors to explore the park’s nocturnal environment and observe wildlife behaviours that are rarely seen during daylight hours."
-    },
-    {
-      "title": "Black Rock Hotels and Resorts opens The Farm Stay by AamaGhati in Ranthambore",
-      "link": "https://traveltradejournal.com/black-rock-hotels-and-resorts-opens-the-farm-stay-by-aamaghati-in-ranthambore/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-10-30T06:25:48.000Z",
-      "snippet": "Black Rock Hotels and Resorts has announced the opening of The Farm Stay by AamaGhati, a 10-key boutique retreat in Village Sherpur, Ranthambore. Originally a private family residence owned by Abhishek Hissaria, the property has been converted into a hospitality retreat offering nature-focused stays, wildlife viewing, farm-led dining and local cultural experiences."
     }
   ]
 }
