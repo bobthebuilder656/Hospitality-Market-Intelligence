@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T21:51:19.447Z",
+  "generatedAt": "2026-11-03T23:39:23.128Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -66,23 +66,12 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {
-        "award announcement with no real content": 1
-      },
+      "dropped": {},
       "error": null
     },
     {
       "id": "hospitalitybiz-india",
       "name": "HospitalityBiz India",
-      "ok": false,
-      "fetched": 0,
-      "kept": 0,
-      "dropped": {},
-      "error": "Status code 503"
-    },
-    {
-      "id": "travelbiz-monitor",
-      "name": "TravelBiz Monitor",
       "ok": true,
       "fetched": 10,
       "kept": 4,
@@ -90,13 +79,24 @@
       "error": null
     },
     {
+      "id": "travelbiz-monitor",
+      "name": "TravelBiz Monitor",
+      "ok": true,
+      "fetched": 10,
+      "kept": 4,
+      "dropped": {
+        "several headlines in one title": 1
+      },
+      "error": null
+    },
+    {
       "id": "hotelivate",
       "name": "Hotelivate",
       "ok": true,
       "fetched": 10,
-      "kept": 1,
+      "kept": 0,
       "dropped": {
-        "too old": 9
+        "too old": 10
       },
       "error": null
     },
@@ -106,10 +106,7 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {
-        "staff appointment": 1,
-        "too old": 3
-      },
+      "dropped": {},
       "error": null
     },
     {
@@ -118,7 +115,9 @@
       "ok": true,
       "fetched": 100,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "too old": 1
+      },
       "error": null
     },
     {
@@ -128,8 +127,7 @@
       "fetched": 20,
       "kept": 4,
       "dropped": {
-        "several headlines in one title": 1,
-        "award announcement with no real content": 1
+        "several headlines in one title": 1
       },
       "error": null
     },
@@ -158,9 +156,7 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 2,
-        "no usable body text": 1,
-        "sponsored": 1
+        "non-English": 4
       },
       "error": null
     },
@@ -178,34 +174,14 @@
   ],
   "droppedItems": [
     {
-      "source": "ET HospitalityWorld",
-      "title": "Who were the winners of the fifth edition of Restaurant and Nightlife Awards",
-      "reason": "award announcement with no real content"
-    },
-    {
-      "source": "Travel Trade Journal",
-      "title": "Crowne Plaza Greater Noida appoints Dinesh Rai as General Manager",
-      "reason": "staff appointment"
-    },
-    {
-      "source": "Hospitality Net",
-      "title": "Finding Your Guests in the ChatGPT Data, Most Hotel Budgets Are Agreed but Few Are Owned, The HR Playbook for Competing with Alternative Stays",
+      "source": "TravelBiz Monitor",
+      "title": "Demerger to unlock scale, growth focus and stakeholder value: Neelendra Singh, MD & CEO, Lemon Tree Hotels",
       "reason": "several headlines in one title"
     },
     {
       "source": "Hospitality Net",
-      "title": "Lauren Maunder Receives 2026 Rising Star Award Asia Pacific",
-      "reason": "award announcement with no real content"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Neue Einreiseregeln weltweit: Das hat sich aktuell geändert",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Hotel Review: Faena, New York – Theatrical Design in West Chelsea",
-      "reason": "no usable body text"
+      "title": "Have Hospitality Trade Shows Gone the Way of the Dodo?, Hotels Choose a Role in Guest Wellbeing, GEO and the Restaurant That Isn't Recommended",
+      "reason": "several headlines in one title"
     },
     {
       "source": "Business Traveller",
@@ -214,8 +190,18 @@
     },
     {
       "source": "Business Traveller",
-      "title": "A Feast for the Senses: How to Savor Fall on Long Island",
-      "reason": "sponsored"
+      "title": "Digitaler und persönlicher: Frankfurt Airport und Lufthansa testen „Gate der Zukunft“",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Lufthansa Group: Kein online Check-in ohne Travel ID",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "United Airlines eröffnet größte Airport-Lounge im Flughafen Houston",
+      "reason": "non-English"
     },
     {
       "source": "Hotel Dive",
@@ -225,84 +211,84 @@
   ],
   "items": [
     {
-      "title": "Sirpur Heritage Site enters UNESCO tentative list",
-      "link": "https://travelbizmonitor.com/top-stories/sirpur-heritage-site-enters-unesco-tentative-list/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-31T14:30:02.000Z",
-      "snippet": "Sirpur, the historic town on the banks of the Mahanadi in Chhattisgarh, has gained international recognition with its inclusion in UNESCO’s Tentative List. Known for its ancient temples, Buddhist monasteries and archaeological remains, the town reflects centuries of religious, artistic and cultural exchange."
-    },
-    {
-      "title": "IndiGo weighs fuel stabilisation fund participation",
-      "link": "https://travelbizmonitor.com/top-stories/indigo-weighs-fuel-stabilisation-fund-participation/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-10-31T14:00:16.000Z",
-      "snippet": "IndiGo CEO Pieter Elbers said the airline could participate in the Indian government’s proposed fuel price stabilisation fund, although no further details were provided. The move comes as elevated aviation fuel costs and currency depreciation continue to put pressure on the airline’s profitability. The airline also indicated that its long-term fleet expansion plans remain unchanged."
-    },
-    {
-      "title": "Ambuja Neotia to invest Rs 2,700 crore in West Bengal’s hospitality sector; strengthening partnership with IHCL",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/ambuja-neotia-to-invest-rs-2700-crore-in-west-bengals-hospitality-sector-strengthening-partnership-with-ihcl/135395324",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-10-31T09:30:00.000Z",
-      "snippet": "Indian Hotels Company Limited and Ambuja Neotia have launched AltAir House under the IHCL SeleQtions brand in Kolkata and Siliguri. The opening is part of a larger investment commitment of Rs 2,700 crore in West Bengal's hospitality sector. Each property is designed to reflect the local culture and offer unique dining experiences."
-    },
-    {
-      "title": "Glassmaker Maximilian Riedel on His Travel Tips, and Not Drinking When Flying",
-      "link": "https://www.businesstraveller.com/insights/glass-maker-maximilian-riedel-travel-tips/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-10-31T09:00:00.000Z",
-      "snippet": "Work takes Austrian glassmaker Maximilian Riedel all around the globe. His surprising hot take?"
-    },
-    {
-      "title": "Accor promotes Tejus Jose to Vice President – Asset Management, India and South Asia",
-      "link": "https://traveltradejournal.com/accor-promotes-tejus-jose-to-vice-president-asset-management-india-and-south-asia/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-10-31T06:48:12.000Z",
-      "snippet": "Accor has announced the promotion of Tejus Jose to Vice President – Asset Management, India and South Asia. In his new role, Jose will focus on strengthening hotel asset performance, enhancing owner relationships and driving strategic initiatives aimed at creating long-term value across the group’s regional portfolio."
-    },
-    {
-      "title": "Himachal government holds e-auction for Wildflower Hall Hotel, receives record bid of 47.1 per cent revenue",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/himachal-government-holds-e-auction-for-wildflower-hall-hotel-receives-record-bid-of-47-1-per-cent-revenue/135386435",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-10-31T05:00:00.000Z",
-      "snippet": "The Himachal Pradesh government held an e-auction for granting license rights for the operation and management of the prestigious Wildflower Hall Hotel in Shimla, which resulted in a record bid of 47.1% of the annual gross revenue, CM Sukhvinder Singh Sukhu said on Friday."
-    },
-    {
-      "title": "Hyatt and Saraca Hotels and Resorts announce plans for four hotels across North India",
-      "link": "https://traveltradejournal.com/hyatt-and-saraca-hotels-and-resorts-announce-plans-for-four-hotels-across-north-india/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-10-31T03:30:37.000Z",
-      "snippet": "Hyatt Hotels Corporation has signed agreements with Saraca Hotels and Resorts to add four Hyatt-branded properties across Uttar Pradesh and Uttarakhand. The collaboration will mark the entry of the Unscripted by Hyatt brand into India while expanding the group’s presence in the leisure and wildlife tourism markets of Lucknow and Jim Corbett."
-    },
-    {
-      "title": "Disney Cuts More Than 100 Jobs In Theme Park Division",
-      "link": "https://skift.com/2026/10/30/disney-job-cuts-experiences-theme-parks/",
+      "title": "JetBlue Raises Bag Fees for the Second Time This Year",
+      "link": "https://skift.com/2026/11/03/jetblue-raises-bag-fees-for-the-second-time-this-year/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-10-30T22:28:20.000Z",
-      "snippet": "Skift Take: CEO Josh D’Amaro has said he is highly focused on reducing costs at the media giant. The Walt Disney Company has laid off between 100 and 200 employees in its theme park division, according to a person familiar with the matter."
+      "pubDate": "2026-11-03T21:24:59.000Z",
+      "snippet": "Skift Take: JetBlue’s second bag fee increase this year tests how much more travelers will absorb. For travelers in economy, the cost of checking a bag is now $50, up from $45, if purchased more than 24 hours before departure, according to its website. Bags checked in within 24 hours of departure will cost $60."
     },
     {
-      "title": "How CIVILIAN Hotel Uses Canary to Eliminate Lobby Lines in a Small Space",
-      "link": "https://www.hospitalitynet.org/casestudy/4135190/how-civilian-hotel-uses-canary-to-eliminate-lobby-lines-in-a-small-space",
+      "title": "Fewer Calls, Better Service: Canary AI at The Pines Resort",
+      "link": "https://www.hospitalitynet.org/casestudy/4135192/fewer-calls-better-service-canary-ai-at-the-pines-resort",
       "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-10-30T18:00:00.000Z",
-      "snippet": "CIVILIAN Hotel's 203-room NYC boutique property reduced front desk congestion by deploying Canary's kiosk, mobile check-in, digital authorizations, and guest messaging tools."
+      "pubDate": "2026-11-03T19:00:00.000Z",
+      "snippet": "The Pines Resort cut guest messaging response times from 45 to 2 minutes and automated high-volume phone inquiries after deploying Canary AI Voice, Webchat, and Guest Messaging."
     },
     {
-      "title": "World Cup, March Madness, Roland-Garros: when the hotel takes its place in the locker room",
-      "link": "https://hospitality-on.com/en/hospitality/world-cup-march-madness-roland-garros-when-hotel-takes-its-place-locker-room",
+      "title": "Starhotels strengthens its leadership with Francesco Brunetti and Marco Gilardi",
+      "link": "https://hospitality-on.com/en/hospitality/starhotels-strengthens-its-leadership-francesco-brunetti-and-marco-gilardi",
       "source": "Hospitality ON",
       "region": "Global",
-      "pubDate": "2026-10-30T17:31:10.000Z",
-      "snippet": "As partners of federations and tournaments, the major hotel groups are turning their properties into the backdrop of the sporting event. Hilton and Marriott film the pre-match ritual there, Accor redefines a palace hotel in the colours of a Grand Slam, and Hyatt records a podcast by women tennis players."
+      "pubDate": "2026-11-03T17:56:28.000Z",
+      "snippet": "Italian hotel group Starhotels is evolving its organisation to support its growth. Francesco Brunetti becomes Deputy CEO & Asset Director, while Marco Gilardi, formerly of Minor Hotels, joins the group as Managing Director Hospitality."
+    },
+    {
+      "title": "The Postcard Hotel to Open in Nepal with ThePostcard on the Rapti River, Chitwan",
+      "link": "https://hospitalitybizindia.com/news/the-postcard-hotel-to-open-in-nepal-with-thepostcard-on-the-rapti-river-chitwan/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-11-03T15:49:07.000Z",
+      "snippet": "The Postcard Hotel is set to make its debut in Nepal with the opening of The Postcard on the Rapti River, Chitwan , in November 2026. Set along a picturesque bend of the Rapti River, with uninterrupted views of the surrounding forests and hills, the 22-room-and-suite luxury retreat adjoins the buffer zone of Chitwan National Park, one of South Asia’s most significant wildlife destinations."
+    },
+    {
+      "title": "Placemakr opens second apart-hotel property in Arizona",
+      "link": "https://www.hoteldive.com/news/placemakr-opens-second-apart-hotel-property-arizona/873577/",
+      "source": "Hotel Dive",
+      "region": "Global",
+      "pubDate": "2026-11-03T14:56:59.000Z",
+      "snippet": "The new-build Placemakr Tempe, Apartments by Hilton comes as “demand for apartment-style stays is outpacing supply” in the greater Phoenix market, per CEO Jason Fundin. Correction: This article has been updated with the correct spelling of Placemakr’s CEO. It is Jason Fudin. Hilton launched the Apartment Collection category in January with Placemakr to institutionalize home-style stays."
+    },
+    {
+      "title": "Accor expands Rajasthan portfolio with signing of Novotel Bhilwara Resort and Spa",
+      "link": "https://traveltradejournal.com/accor-expands-rajasthan-portfolio-with-signing-of-novotel-bhilwara-resort-and-spa/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-11-03T13:55:09.000Z",
+      "snippet": "Accor has signed Novotel Bhilwara Resort and Spa in Rajasthan, expanding its hospitality portfolio in the state. Scheduled to open in 2026, the 144-room property will introduce the Novotel brand to Bhilwara, known as the Textile City of India, with a fully vegetarian dining concept and extensive facilities for weddings, social celebrations and business events."
+    },
+    {
+      "title": "HRAWI Trains 44 Hospitality Professionals Under FoSTaC in Mumbai",
+      "link": "https://hospitalitybizindia.com/news-track/hrawi-trains-44-hospitality-professionals-under-fostac-in-mumbai/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-11-03T13:13:59.000Z",
+      "snippet": "The Hotel and Restaurant Association of Western India (HRAWI) conducted the Food Safety Supervisor Training in Advance Catering (FoSTaC), an initiative of the Food Safety and Standards Authority of India (FSSAI), at Pritam Da Dhaba in Dadar, Mumbai, on October 30. The programme saw the participation of 44 hospitality professionals."
+    },
+    {
+      "title": "Over 40 international buyers to take part in ITM for NE India at Tawang",
+      "link": "https://travelbizmonitor.com/top-stories/over-40-international-buyers-to-take-part-in-itm-for-ne-india-at-tawang/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-03T06:30:20.000Z",
+      "snippet": "TBM Staff | New Delhi According to the Ministry of Tourism, Government of India, over 200 travel and tourism stakeholders will participate in the 14th annual edition of International Travel Mart (ITM) for the North Eastern Region, which will include over 40 international buyers drawn from 22 countries of the world. The three-day annual event will get underway in Tawang, Arunachal Pradesh, today."
+    },
+    {
+      "title": "AltAir House arrives in Kolkata and Siliguri as Ambuja Neotia and IHCL deepen their eastern expansion",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/altair-house-arrives-in-kolkata-and-siliguri-as-ambuja-neotia-and-ihcl-deepen-their-eastern-expansion/135484274",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-03T06:30:00.000Z",
+      "snippet": "Ambuja Neotia Group and Indian Hotels Company Limited (IHCL) have launched AltAir House – IHCL SeleQtions in Kolkata and Siliguri, marking a significant step in their expanding hospitality partnership. The openings accompany an investment commitment of around Rs 2,700 crore across West Bengal, including projects in Kolkata, Raichak, Digha, Siliguri, Lataguri, Kalimpong and Darjeeling."
+    },
+    {
+      "title": "Marriott lifts annual room revenue growth forecast on resilient travel demand",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/update-2-marriott-lifts-annual-room-revenue-growth-forecast-on-resilient-travel-demand/135481259",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-03T05:30:00.000Z",
+      "snippet": "With robust travel demand and a rise in bookings, Marriott International anticipates significant room revenue growth. Their recent report shows an uptick in revenue per available room across the upscale sector, notably including Ritz-Carlton. The third quarter brought in nearly $7 billion, outperforming Wall Street estimates."
     }
   ]
 }
