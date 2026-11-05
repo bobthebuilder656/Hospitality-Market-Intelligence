@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T23:39:23.128Z",
+  "generatedAt": "2026-11-05T23:50:17.639Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -84,9 +84,7 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {
-        "several headlines in one title": 1
-      },
+      "dropped": {},
       "error": null
     },
     {
@@ -106,7 +104,9 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "staff appointment": 1
+      },
       "error": null
     },
     {
@@ -116,7 +116,7 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
-        "too old": 1
+        "too old": 2
       },
       "error": null
     },
@@ -156,7 +156,8 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 4
+        "sponsored": 2,
+        "non-English": 1
       },
       "error": null
     },
@@ -166,129 +167,117 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {
-        "roundup/digest (title)": 1
-      },
+      "dropped": {},
       "error": null
     }
   ],
   "droppedItems": [
     {
-      "source": "TravelBiz Monitor",
-      "title": "Demerger to unlock scale, growth focus and stakeholder value: Neelendra Singh, MD & CEO, Lemon Tree Hotels",
-      "reason": "several headlines in one title"
+      "source": "Travel Trade Journal",
+      "title": "Hyatt appoints Stephen Ho as Group President, Asia Pacific",
+      "reason": "staff appointment"
     },
     {
       "source": "Hospitality Net",
-      "title": "Have Hospitality Trade Shows Gone the Way of the Dodo?, Hotels Choose a Role in Guest Wellbeing, GEO and the Restaurant That Isn't Recommended",
+      "title": "Are Hotel Budgets Working Against Revenue Optimization?, Pertlink Puts a Meter on AI Costs Per Guest, Martin Soler Changes His Mind on AI Agents",
       "reason": "several headlines in one title"
     },
     {
       "source": "Business Traveller",
-      "title": "Streiks: Wir navigieren Sie durch die geplanten Ausstände",
-      "reason": "non-English"
+      "title": "The Rise of Travel Maxxing: What Changing Travel Habits Mean for Customer Loyalty",
+      "reason": "sponsored"
     },
     {
       "source": "Business Traveller",
-      "title": "Digitaler und persönlicher: Frankfurt Airport und Lufthansa testen „Gate der Zukunft“",
-      "reason": "non-English"
+      "title": "Fly Taos is Putting Taos Ski Valley on the Map",
+      "reason": "sponsored"
     },
     {
       "source": "Business Traveller",
-      "title": "Lufthansa Group: Kein online Check-in ohne Travel ID",
+      "title": "Haben Hacker Zugriff auf Ihre Flugdaten erlangt? Große Fluggesellschaften melden Datenpanne bei Amadeus",
       "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "United Airlines eröffnet größte Airport-Lounge im Flughafen Houston",
-      "reason": "non-English"
-    },
-    {
-      "source": "Hotel Dive",
-      "title": "Lodging Lowdown: Trailborn names new CFO, Wyndham Rewards expands with vacation rentals",
-      "reason": "roundup/digest (title)"
     }
   ],
   "items": [
     {
-      "title": "JetBlue Raises Bag Fees for the Second Time This Year",
-      "link": "https://skift.com/2026/11/03/jetblue-raises-bag-fees-for-the-second-time-this-year/",
+      "title": "Airbnb CEO: Our Specialized AI Agents Will Handle ‘Every Vertical in Travel’",
+      "link": "https://skift.com/2026/11/05/airbnb-ceo-our-specialized-ai-agents-will-handle-every-vertical-in-travel/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-11-03T21:24:59.000Z",
-      "snippet": "Skift Take: JetBlue’s second bag fee increase this year tests how much more travelers will absorb. For travelers in economy, the cost of checking a bag is now $50, up from $45, if purchased more than 24 hours before departure, according to its website. Bags checked in within 24 hours of departure will cost $60."
+      "pubDate": "2026-11-05T23:30:43.000Z",
+      "snippet": "Skift Take: There's been speculation for years about whether Airbnb would launch flights. Such small-minded speculation: Airbnb intends to use specialized AI agents to do every travel vertical. Airbnb Cruise, anyone? Airbnb CEO Brian Chesky said the company plans to develop specialized AI agents for integrations with numerous partners to handle bookings for \"every vertical in travel\" in the Airbnb app."
     },
     {
-      "title": "Fewer Calls, Better Service: Canary AI at The Pines Resort",
-      "link": "https://www.hospitalitynet.org/casestudy/4135192/fewer-calls-better-service-canary-ai-at-the-pines-resort",
+      "title": "The Creative Upsells That Made Elements of Byron Over AUD 250,000",
+      "link": "https://www.hospitalitynet.org/casestudy/4135194/the-creative-upsells-that-made-elements-of-byron-over-aud-250000",
       "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-11-03T19:00:00.000Z",
-      "snippet": "The Pines Resort cut guest messaging response times from 45 to 2 minutes and automated high-volume phone inquiries after deploying Canary AI Voice, Webchat, and Guest Messaging."
+      "pubDate": "2026-11-05T19:00:00.000Z",
+      "snippet": "Elements of Byron implemented Canary Technologies across check-in, upsells, and checkout, generating over AUD 250,000 in upsell revenue with 75% of guests opting for mobile check-in."
     },
     {
-      "title": "Starhotels strengthens its leadership with Francesco Brunetti and Marco Gilardi",
-      "link": "https://hospitality-on.com/en/hospitality/starhotels-strengthens-its-leadership-francesco-brunetti-and-marco-gilardi",
-      "source": "Hospitality ON",
-      "region": "Global",
-      "pubDate": "2026-11-03T17:56:28.000Z",
-      "snippet": "Italian hotel group Starhotels is evolving its organisation to support its growth. Francesco Brunetti becomes Deputy CEO & Asset Director, while Marco Gilardi, formerly of Minor Hotels, joins the group as Managing Director Hospitality."
-    },
-    {
-      "title": "The Postcard Hotel to Open in Nepal with ThePostcard on the Rapti River, Chitwan",
-      "link": "https://hospitalitybizindia.com/news/the-postcard-hotel-to-open-in-nepal-with-thepostcard-on-the-rapti-river-chitwan/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-11-03T15:49:07.000Z",
-      "snippet": "The Postcard Hotel is set to make its debut in Nepal with the opening of The Postcard on the Rapti River, Chitwan , in November 2026. Set along a picturesque bend of the Rapti River, with uninterrupted views of the surrounding forests and hills, the 22-room-and-suite luxury retreat adjoins the buffer zone of Chitwan National Park, one of South Asia’s most significant wildlife destinations."
-    },
-    {
-      "title": "Placemakr opens second apart-hotel property in Arizona",
-      "link": "https://www.hoteldive.com/news/placemakr-opens-second-apart-hotel-property-arizona/873577/",
+      "title": "Marriott focuses on AI, loyalty as tech enhances experiences",
+      "link": "https://www.hoteldive.com/news/marriott-focuses-ai-loyalty-tech-enhances-experiences/873571/",
       "source": "Hotel Dive",
       "region": "Global",
-      "pubDate": "2026-11-03T14:56:59.000Z",
-      "snippet": "The new-build Placemakr Tempe, Apartments by Hilton comes as “demand for apartment-style stays is outpacing supply” in the greater Phoenix market, per CEO Jason Fundin. Correction: This article has been updated with the correct spelling of Placemakr’s CEO. It is Jason Fudin. Hilton launched the Apartment Collection category in January with Placemakr to institutionalize home-style stays."
+      "pubDate": "2026-11-05T14:47:34.000Z",
+      "snippet": "AI is changing how travelers discover travel options, while the Marriott Bonvoy loyalty program deepens the brand’s relationships with guests, CEO Anthony Capuano said. Marriott is putting AI and loyalty at the center of its technology-driven AI upgrades as it works to upgrade its experience without losing touch with its human side."
     },
     {
-      "title": "Accor expands Rajasthan portfolio with signing of Novotel Bhilwara Resort and Spa",
-      "link": "https://traveltradejournal.com/accor-expands-rajasthan-portfolio-with-signing-of-novotel-bhilwara-resort-and-spa/",
-      "source": "Travel Trade Journal",
+      "title": "Airport Eats: Where to Eat and Drink at Portland International Airport",
+      "link": "https://www.businesstraveller.com/destinations/airport-eats-portland/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-11-05T14:47:02.000Z",
+      "snippet": "Portland International Airport’s $2.15 billion transformation brings travelers craft cocktails, wood-fired pizza, Oregon seafood and exceptional coffee, with local restaurants turning PDX into an unexpectedly delicious destination before departure."
+    },
+    {
+      "title": "We view tradition and innovation as complementary than opposing forces: Meerra Singh of Akhand Sweets",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/we-view-tradition-and-innovation-as-complementary-than-opposing-forces-meerra-singh-of-akhand-sweets/135562910",
+      "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-11-03T13:55:09.000Z",
-      "snippet": "Accor has signed Novotel Bhilwara Resort and Spa in Rajasthan, expanding its hospitality portfolio in the state. Scheduled to open in 2026, the 144-room property will introduce the Novotel brand to Bhilwara, known as the Textile City of India, with a fully vegetarian dining concept and extensive facilities for weddings, social celebrations and business events."
+      "pubDate": "2026-11-05T12:30:00.000Z",
+      "snippet": "An Indian sweets (Mithai) brand established by three passionate young entrepreneurs, Delhi-based Akhand Sweets has tried to give traditional Indian Mithais a new flavour to make them stay relevant for the contemporary taste palates. According to Meerra Singh, one of the partners of the company, their endeavour from the very inception has been to create products that feel familiar yet relevant to new-age customers."
     },
     {
-      "title": "HRAWI Trains 44 Hospitality Professionals Under FoSTaC in Mumbai",
-      "link": "https://hospitalitybizindia.com/news-track/hrawi-trains-44-hospitality-professionals-under-fostac-in-mumbai/",
+      "title": "Sashtra Wellness targets three cities for expansion over next 5 years",
+      "link": "https://hospitalitybizindia.com/example-1/sashtra-wellness-targets-three-cities-for-expansion-over-next-5-years/",
       "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-11-03T13:13:59.000Z",
-      "snippet": "The Hotel and Restaurant Association of Western India (HRAWI) conducted the Food Safety Supervisor Training in Advance Catering (FoSTaC), an initiative of the Food Safety and Standards Authority of India (FSSAI), at Pritam Da Dhaba in Dadar, Mumbai, on October 30. The programme saw the participation of 44 hospitality professionals."
+      "pubDate": "2026-11-05T11:56:30.000Z",
+      "snippet": "Hyderabad-based Sashtra Wellness Pvt Ltd is targeting expansion across Hyderabad, Bengaluru and Visakhapatnam over the next five years, with plans to add partnerships with five-star hotels, golf clubs, premium residential communities and exclusive lifestyle institutions."
     },
     {
-      "title": "Over 40 international buyers to take part in ITM for NE India at Tawang",
-      "link": "https://travelbizmonitor.com/top-stories/over-40-international-buyers-to-take-part-in-itm-for-ne-india-at-tawang/",
+      "title": "Eve & FlyBIS sign agreement for 12 eVTOLs",
+      "link": "https://travelbizmonitor.com/top-stories/eve-flybis-sign-agreement-for-12-evtols/",
       "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-11-03T06:30:20.000Z",
-      "snippet": "TBM Staff | New Delhi According to the Ministry of Tourism, Government of India, over 200 travel and tourism stakeholders will participate in the 14th annual edition of International Travel Mart (ITM) for the North Eastern Region, which will include over 40 international buyers drawn from 22 countries of the world. The three-day annual event will get underway in Tawang, Arunachal Pradesh, today."
+      "pubDate": "2026-11-05T08:22:00.000Z",
+      "snippet": "Eve Air Mobility and Brazilian operator FlyBIS have signed a binding agreement for up to 12 electric Vertical Take-Off and Landing (eVTOL) aircraft, marking a step towards establishing electric air mobility operations in Southern Brazil. The agreement includes two firm orders and purchase rights for ten additional aircraft, building on a Letter of Intent signed by the companies in 2022."
     },
     {
-      "title": "AltAir House arrives in Kolkata and Siliguri as Ambuja Neotia and IHCL deepen their eastern expansion",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/altair-house-arrives-in-kolkata-and-siliguri-as-ambuja-neotia-and-ihcl-deepen-their-eastern-expansion/135484274",
-      "source": "ET HospitalityWorld",
+      "title": "WTTC welcomes 50 new members across global tourism",
+      "link": "https://travelbizmonitor.com/top-stories/wttc-welcomes-50-new-members-across-global-tourism/",
+      "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-11-03T06:30:00.000Z",
-      "snippet": "Ambuja Neotia Group and Indian Hotels Company Limited (IHCL) have launched AltAir House – IHCL SeleQtions in Kolkata and Siliguri, marking a significant step in their expanding hospitality partnership. The openings accompany an investment commitment of around Rs 2,700 crore across West Bengal, including projects in Kolkata, Raichak, Digha, Siliguri, Lataguri, Kalimpong and Darjeeling."
+      "pubDate": "2026-11-05T08:20:04.000Z",
+      "snippet": "The World Travel & Tourism Council (WTTC) has announced that 50 new members have joined the organisation so far in 2026, reflecting growing industry engagement across the global travel and tourism sector. The new members represent a broad range of businesses, including mobility, hospitality, travel retail, investment and insurance."
     },
     {
-      "title": "Marriott lifts annual room revenue growth forecast on resilient travel demand",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/update-2-marriott-lifts-annual-room-revenue-growth-forecast-on-resilient-travel-demand/135481259",
+      "title": "Summit Hotels & Resorts reports 162% growth in net operating profit in H1 FY 2026–27",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/summit-hotels-resorts-reports-162-growth-in-net-operating-profit-in-h1-fy-202627/135560259",
       "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-11-03T05:30:00.000Z",
-      "snippet": "With robust travel demand and a rise in bookings, Marriott International anticipates significant room revenue growth. Their recent report shows an uptick in revenue per available room across the upscale sector, notably including Ritz-Carlton. The third quarter brought in nearly $7 billion, outperforming Wall Street estimates."
+      "pubDate": "2026-11-05T06:30:00.000Z",
+      "snippet": "In the first half of FY 2026–27, Summit Hotels & Resorts celebrated a remarkable 162 percent rise in net operating profit, significantly overshadowing its 14 percent revenue growth. The increase in average room rates by 26 percent reflects the company's adept revenue management."
+    },
+    {
+      "title": "Marriott International marks 800th property in Asia Pacific excluding China with debut in Laos",
+      "link": "https://traveltradejournal.com/marriott-international-marks-800th-property-in-asia-pacific-excluding-china-with-debut-in-laos/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-11-04T19:49:13.000Z",
+      "snippet": "Marriott International has reached a significant milestone in its Asia Pacific excluding China (APEC) region with the opening of its 800th property, La Résidence Phou Vao, a Luxury Collection Resort & Spa, Luang Prabang. The opening also marks the company’s entry into Laos, expanding its presence in Southeast Asia."
     }
   ]
 }
