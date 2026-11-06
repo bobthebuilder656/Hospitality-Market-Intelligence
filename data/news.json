@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T23:50:17.639Z",
+  "generatedAt": "2026-11-06T23:29:53.591Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -105,7 +105,7 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "staff appointment": 1
+        "staff appointment": 2
       },
       "error": null
     },
@@ -116,7 +116,7 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
-        "too old": 2
+        "too old": 5
       },
       "error": null
     },
@@ -156,8 +156,8 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "sponsored": 2,
-        "non-English": 1
+        "non-English": 3,
+        "sponsored": 3
       },
       "error": null
     },
@@ -167,11 +167,18 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "roundup/digest (title)": 1
+      },
       "error": null
     }
   ],
   "droppedItems": [
+    {
+      "source": "Travel Trade Journal",
+      "title": "Grand Metropolitan Hotels appoints Ramesh Arora as Chief Executive Officer",
+      "reason": "staff appointment"
+    },
     {
       "source": "Travel Trade Journal",
       "title": "Hyatt appoints Stephen Ho as Group President, Asia Pacific",
@@ -179,8 +186,33 @@
     },
     {
       "source": "Hospitality Net",
-      "title": "Are Hotel Budgets Working Against Revenue Optimization?, Pertlink Puts a Meter on AI Costs Per Guest, Martin Soler Changes His Mind on AI Agents",
+      "title": "Millennials and Gen Z Are Killing Stiff Luxury, Harassment Laws Changed but Has Hotel Culture?, Buying a Family-Run Hotel When the Owner Leaves",
       "reason": "several headlines in one title"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "„Preferred Hotels & Resorts“ nimmt 28 neue Mitglieder in das globale Portfolio auf",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Wheels Up: The Business of Flying Private",
+      "reason": "sponsored"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Die Zusammenfassung: Ein Leitfaden für Einsteiger zu Hotel-Treueprogrammen",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Gesundheit: Welches Land hat die wenigsten Ärzte pro Kopf?",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Over and Beyond: Visa Infinite Opens the Kitchen Door for Cardholders",
+      "reason": "sponsored"
     },
     {
       "source": "Business Traveller",
@@ -188,64 +220,83 @@
       "reason": "sponsored"
     },
     {
-      "source": "Business Traveller",
-      "title": "Fly Taos is Putting Taos Ski Valley on the Map",
-      "reason": "sponsored"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Haben Hacker Zugriff auf Ihre Flugdaten erlangt? Große Fluggesellschaften melden Datenpanne bei Amadeus",
-      "reason": "non-English"
+      "source": "Hotel Dive",
+      "title": "Lodging Lowdown: Remington names CTO, Hersha sells Boston Hilton",
+      "reason": "roundup/digest (title)"
     }
   ],
   "items": [
     {
-      "title": "Airbnb CEO: Our Specialized AI Agents Will Handle ‘Every Vertical in Travel’",
-      "link": "https://skift.com/2026/11/05/airbnb-ceo-our-specialized-ai-agents-will-handle-every-vertical-in-travel/",
-      "source": "Skift",
-      "region": "Global",
-      "pubDate": "2026-11-05T23:30:43.000Z",
-      "snippet": "Skift Take: There's been speculation for years about whether Airbnb would launch flights. Such small-minded speculation: Airbnb intends to use specialized AI agents to do every travel vertical. Airbnb Cruise, anyone? Airbnb CEO Brian Chesky said the company plans to develop specialized AI agents for integrations with numerous partners to handle bookings for \"every vertical in travel\" in the Airbnb app."
-    },
-    {
-      "title": "The Creative Upsells That Made Elements of Byron Over AUD 250,000",
-      "link": "https://www.hospitalitynet.org/casestudy/4135194/the-creative-upsells-that-made-elements-of-byron-over-aud-250000",
-      "source": "Hospitality Net",
-      "region": "Global",
-      "pubDate": "2026-11-05T19:00:00.000Z",
-      "snippet": "Elements of Byron implemented Canary Technologies across check-in, upsells, and checkout, generating over AUD 250,000 in upsell revenue with 75% of guests opting for mobile check-in."
-    },
-    {
-      "title": "Marriott focuses on AI, loyalty as tech enhances experiences",
-      "link": "https://www.hoteldive.com/news/marriott-focuses-ai-loyalty-tech-enhances-experiences/873571/",
+      "title": "Host Hotels & Resorts buys 1 Hotel Brooklyn Bridge, Renaissance Plano",
+      "link": "https://www.hoteldive.com/news/host-hotels-brooklyn-dallas-acquisitions/874044/",
       "source": "Hotel Dive",
       "region": "Global",
-      "pubDate": "2026-11-05T14:47:34.000Z",
-      "snippet": "AI is changing how travelers discover travel options, while the Marriott Bonvoy loyalty program deepens the brand’s relationships with guests, CEO Anthony Capuano said. Marriott is putting AI and loyalty at the center of its technology-driven AI upgrades as it works to upgrade its experience without losing touch with its human side."
+      "pubDate": "2026-11-06T20:17:02.000Z",
+      "snippet": "The acquisitions, totaling roughly $374 million combined, help the REIT expand its foothold in New York as well as enter the Dallas-Fort Worth market. The acquisitions, totaling approximately $374 million combined, help the REIT expand its foothold in New York as well as enter the Dallas-Fort Worth market. The Brooklyn hotel acquisition represents Host’s first property in the borough, and fourth in New York City ."
     },
     {
-      "title": "Airport Eats: Where to Eat and Drink at Portland International Airport",
-      "link": "https://www.businesstraveller.com/destinations/airport-eats-portland/",
+      "title": "“Business Travel is Going to Increase More and More“: Puneet Chhatwal, Managing Director and CEO of Indian Hotels Company Limited, on the Group’s Bright Future",
+      "link": "https://www.businesstraveller.com/videos/business-travel-is-going-to-increase-more-and-more-puneet-chhatwal-managing-director-and-ceo-of-indian-hotels-company-limited-on-the-groups-bright-future/",
       "source": "Business Traveller",
       "region": "Global",
-      "pubDate": "2026-11-05T14:47:02.000Z",
-      "snippet": "Portland International Airport’s $2.15 billion transformation brings travelers craft cocktails, wood-fired pizza, Oregon seafood and exceptional coffee, with local restaurants turning PDX into an unexpectedly delicious destination before departure."
+      "pubDate": "2026-11-06T16:53:31.000Z",
+      "snippet": "We sit down with Puneet Chhatwal, CEO and managing director of Indian Hotels Company Limited, to explore the evolving hospitality landscape and the brand's success."
     },
     {
-      "title": "We view tradition and innovation as complementary than opposing forces: Meerra Singh of Akhand Sweets",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/we-view-tradition-and-innovation-as-complementary-than-opposing-forces-meerra-singh-of-akhand-sweets/135562910",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-05T12:30:00.000Z",
-      "snippet": "An Indian sweets (Mithai) brand established by three passionate young entrepreneurs, Delhi-based Akhand Sweets has tried to give traditional Indian Mithais a new flavour to make them stay relevant for the contemporary taste palates. According to Meerra Singh, one of the partners of the company, their endeavour from the very inception has been to create products that feel familiar yet relevant to new-age customers."
+      "title": "Wynn Holds UAE Casino Date but Weighs How to Open Amid War",
+      "link": "https://skift.com/2026/11/06/wynn-holds-uae-casino-date-but-weighs-how-to-open-amid-war/",
+      "source": "Skift",
+      "region": "Global",
+      "pubDate": "2026-11-06T16:21:45.000Z",
+      "snippet": "Skift Take: Wynn is holding to its September 2027 date for the UAE’s first casino resort but it will now decide in February what form the opening takes. The U.S.-Iran war means its first customers may travel from down the road in Dubai and elsewhere in the UAE, rather than being the international guests it primarily wants."
     },
     {
-      "title": "Sashtra Wellness targets three cities for expansion over next 5 years",
-      "link": "https://hospitalitybizindia.com/example-1/sashtra-wellness-targets-three-cities-for-expansion-over-next-5-years/",
+      "title": "Embergrove Hospitality Group to Manage Historic Hotel Pattee in Perry, Iowa",
+      "link": "https://www.hospitalitynet.org/news/4135324/embergrove-hospitality-group-to-manage-historic-hotel-pattee-in-perry-iowa",
+      "source": "Hospitality Net",
+      "region": "Global",
+      "pubDate": "2026-11-06T15:16:28.000Z",
+      "snippet": "Embergrove Hospitality Group, which also manages Frank Lloyd Wright's Historic Park Inn, takes over Hotel Pattee on December 1 in a partnership with the City of Perry."
+    },
+    {
+      "title": "Nasi and Mee targets 50 outlets, plans INR 50-crore capex",
+      "link": "https://hospitalitybizindia.com/news-track/nasi-and-mee-targets-50-outlets-plans-inr-50-crore-capex/",
       "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-11-05T11:56:30.000Z",
-      "snippet": "Hyderabad-based Sashtra Wellness Pvt Ltd is targeting expansion across Hyderabad, Bengaluru and Visakhapatnam over the next five years, with plans to add partnerships with five-star hotels, golf clubs, premium residential communities and exclusive lifestyle institutions."
+      "pubDate": "2026-11-06T14:47:13.000Z",
+      "snippet": "Foodsta Kitchens plans to expand its Nasi and Mee brand from 15 to 50 outlets over the next three years, strengthening its presence across key markets with a capital expenditure outlay of around INR 50 crore. The company expects the expansion to drive a threefold increase in revenue, with growth initially concentrated in South India before it moves into western and northern markets."
+    },
+    {
+      "title": "Espire Hospitality targets 40% revenue contribution from weddings in 3 years",
+      "link": "https://hospitalitybizindia.com/news-track/espire-hospitality-targets-40-revenue-contribution-from-weddings-in-3-years/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-11-06T10:42:41.000Z",
+      "snippet": "Espire Hospitality is targeting a significant increase in wedding-led business, aiming to take the segment’s contribution to 40% and beyond of its overall revenue over the next three years."
+    },
+    {
+      "title": "Korea Tourism Organization, New Delhi Office Hosts Successful Roadshow 2026 in Ahmedabad and Mumbai",
+      "link": "https://travelbizmonitor.com/top-stories/korea-tourism-organization-hosts-roadshows-across-india/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-06T10:23:05.000Z",
+      "snippet": "The Korea Tourism Organization (KTO) New Delhi Office successfully hosted the Korea Tourism Roadshow 2026 in Ahmedabad on 28th October and Mumbai on 4th November, bringing together key stakeholders from India’s travel trade and tourism industry to explore new business opportunities and strengthen tourism ties between India and South Korea."
+    },
+    {
+      "title": "Lemon Tree Hotels reports 18 percent revenue growth, 90 percent PAT surge in Q2 FY27",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/lemon-tree-hotels-reports-18-percent-revenue-growth-90-percent-pat-surge-in-q2-fy27/135595200",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-06T05:40:02.000Z",
+      "snippet": "Lemon Tree Hotels delivered a strong performance in Q2 FY27, with total revenue rising 18 percent year on year to Rs 363.8 crore and PAT jumping 90 percent to Rs 79.8 crore. Net EBITDA grew 22 percent to Rs 162.2 crore, while the net EBITDA margin improved to 44.6 percent. The company expanded its network with eight hotel openings and 11 new signings, while reducing gross debt by 11 percent year on year."
+    },
+    {
+      "title": "Juniper Hotels Limited reports strong performance in Q2 and H1FY27",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/juniper-hotels-limited-reports-strong-performance-in-q2-and-h1fy27/135593403",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-06T04:30:00.000Z",
+      "snippet": "Q2 FY27 total income grew 10 percent YoY to Rs 258.1 crore, with ARR up 9 percent and RevPAR rising 12 percent. EBITDA for that period stood at Rs 91.4 crore, while PAT surged 121 percent YoY to Rs 37.2 crore while H1 FY27 total income reached Rs 510.3 crore (+10 percent), EBITDA Rs 180.3 crore and PAT Rs 70.4 crore (+173 percent), said a release."
     },
     {
       "title": "Eve & FlyBIS sign agreement for 12 eVTOLs",
@@ -254,30 +305,6 @@
       "region": "India",
       "pubDate": "2026-11-05T08:22:00.000Z",
       "snippet": "Eve Air Mobility and Brazilian operator FlyBIS have signed a binding agreement for up to 12 electric Vertical Take-Off and Landing (eVTOL) aircraft, marking a step towards establishing electric air mobility operations in Southern Brazil. The agreement includes two firm orders and purchase rights for ten additional aircraft, building on a Letter of Intent signed by the companies in 2022."
-    },
-    {
-      "title": "WTTC welcomes 50 new members across global tourism",
-      "link": "https://travelbizmonitor.com/top-stories/wttc-welcomes-50-new-members-across-global-tourism/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-05T08:20:04.000Z",
-      "snippet": "The World Travel & Tourism Council (WTTC) has announced that 50 new members have joined the organisation so far in 2026, reflecting growing industry engagement across the global travel and tourism sector. The new members represent a broad range of businesses, including mobility, hospitality, travel retail, investment and insurance."
-    },
-    {
-      "title": "Summit Hotels & Resorts reports 162% growth in net operating profit in H1 FY 2026–27",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/summit-hotels-resorts-reports-162-growth-in-net-operating-profit-in-h1-fy-202627/135560259",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-05T06:30:00.000Z",
-      "snippet": "In the first half of FY 2026–27, Summit Hotels & Resorts celebrated a remarkable 162 percent rise in net operating profit, significantly overshadowing its 14 percent revenue growth. The increase in average room rates by 26 percent reflects the company's adept revenue management."
-    },
-    {
-      "title": "Marriott International marks 800th property in Asia Pacific excluding China with debut in Laos",
-      "link": "https://traveltradejournal.com/marriott-international-marks-800th-property-in-asia-pacific-excluding-china-with-debut-in-laos/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-11-04T19:49:13.000Z",
-      "snippet": "Marriott International has reached a significant milestone in its Asia Pacific excluding China (APEC) region with the opening of its 800th property, La Résidence Phou Vao, a Luxury Collection Resort & Spa, Luang Prabang. The opening also marks the company’s entry into Laos, expanding its presence in Southeast Asia."
     }
   ]
 }
