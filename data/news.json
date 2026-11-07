@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T23:29:53.591Z",
+  "generatedAt": "2026-11-07T22:16:43.916Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -72,11 +72,11 @@
     {
       "id": "hospitalitybiz-india",
       "name": "HospitalityBiz India",
-      "ok": true,
-      "fetched": 10,
-      "kept": 4,
+      "ok": false,
+      "fetched": 0,
+      "kept": 0,
       "dropped": {},
-      "error": null
+      "error": "Request timed out after 15000ms"
     },
     {
       "id": "travelbiz-monitor",
@@ -227,28 +227,68 @@
   ],
   "items": [
     {
+      "title": "Karnataka Plans Mobile Museum Showcasing Western Ghats Biodiversity",
+      "link": "https://travelbizmonitor.com/top-stories/karnataka-plans-mobile-museum-showcasing-western-ghats-biodiversity/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-07T15:14:32.000Z",
+      "snippet": "Karnataka is planning to introduce a mobile museum dedicated to showcasing the unique biodiversity of the Western Ghats, with a specially designed Volvo bus travelling across the state to reach different sections of society."
+    },
+    {
+      "title": "Mumbai Airport Plans International Flight Shift to Navi Mumbai",
+      "link": "https://travelbizmonitor.com/top-stories/mumbai-airport-plans-international-flight-shift-to-navi-mumbai/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-07T15:12:02.000Z",
+      "snippet": "Mumbai International Airport Limited (MIAL) has proposed temporarily relocating all international flights connecting Mumbai with 14 destinations to Navi Mumbai International Airport if airlines do not voluntarily submit their shifting plans."
+    },
+    {
+      "title": "Airbnb Sells IP to AI Lab Owned by Its CEO and CTO",
+      "link": "https://skift.com/2026/11/07/airbnb-sells-ip-to-ai-lab-owned-by-its-ceo-and-cto/",
+      "source": "Skift",
+      "region": "Global",
+      "pubDate": "2026-11-07T14:13:07.000Z",
+      "snippet": "Skift Take: Airbnb’s CEO and CTO both own part of the lab buying its IP, but the filing gives shareholders little detail on what changed hands. Airbnb sold intellectual property to a private AI lab founded and controlled by CEO Brian Chesky. CTO Ahmad Al-Dahle also holds a stake in the lab, and both executives work for the entity."
+    },
+    {
+      "title": "Coca-Cola's India bottler Hindustan Coca-Cola files for IPO",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/coca-colas-india-bottler-hindustan-coca-cola-files-for-ipo/135635544",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-07T11:42:24.000Z",
+      "snippet": "Hindustan Coca-Cola Holdings, India's largest Coca-Cola bottler, has filed for an initial public offering consisting entirely of a stake sale by its majority shareholder, with no fresh money going to the company, draft papers showed."
+    },
+    {
+      "title": "Savile Row’s Taj Phull on Airport Fits and His Carry-On Essentials",
+      "link": "https://www.businesstraveller.com/insights/interviews/savile-rows-taj-phull-on-airport-fits-and-carry-on-essentials/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-11-07T09:00:00.000Z",
+      "snippet": "As chairman of Savile Row Bespoke Association, Taj Phull knows how to travel in style."
+    },
+    {
+      "title": "FDA suspends 105 food business licences, Blinkit, Zepto among them; orders closure of 7 outlets",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/fda-suspends-105-food-business-licences-blinkit-zepto-among-them-orders-closure-of-7-outlets/135627497",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-07T06:30:00.000Z",
+      "snippet": "Maharashtra FDA has suspended the licences of 105 food outlets, including those linked to Blinkit and Zepto, and ordered seven establishments to shut following inspections ahead of Diwali. The two-day drive uncovered hygiene and food safety violations, leading to the seizure of 39,485 kg of food articles worth Rs 1.35 crore."
+    },
+    {
+      "title": "Dusit Hotels and Resorts opens two distinctive hotels in Yangon, Myanmar",
+      "link": "https://traveltradejournal.com/dusit-hotels-and-resorts-opens-two-distinctive-hotels-in-yangon-myanmar/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-11-07T04:40:00.000Z",
+      "snippet": "Dusit Hotels and Resorts, the hotel arm of Thailand-based Dusit International, has officially opened two properties in Yangon, Myanmar, under its management. The Strand Hotel Yangon – Dusit Collection and ASAI Yangon Sule offer distinct hospitality experiences, combining heritage luxury and contemporary lifestyle accommodation with the group’s Thai-inspired hospitality."
+    },
+    {
       "title": "Host Hotels & Resorts buys 1 Hotel Brooklyn Bridge, Renaissance Plano",
       "link": "https://www.hoteldive.com/news/host-hotels-brooklyn-dallas-acquisitions/874044/",
       "source": "Hotel Dive",
       "region": "Global",
       "pubDate": "2026-11-06T20:17:02.000Z",
       "snippet": "The acquisitions, totaling roughly $374 million combined, help the REIT expand its foothold in New York as well as enter the Dallas-Fort Worth market. The acquisitions, totaling approximately $374 million combined, help the REIT expand its foothold in New York as well as enter the Dallas-Fort Worth market. The Brooklyn hotel acquisition represents Host’s first property in the borough, and fourth in New York City ."
-    },
-    {
-      "title": "“Business Travel is Going to Increase More and More“: Puneet Chhatwal, Managing Director and CEO of Indian Hotels Company Limited, on the Group’s Bright Future",
-      "link": "https://www.businesstraveller.com/videos/business-travel-is-going-to-increase-more-and-more-puneet-chhatwal-managing-director-and-ceo-of-indian-hotels-company-limited-on-the-groups-bright-future/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-11-06T16:53:31.000Z",
-      "snippet": "We sit down with Puneet Chhatwal, CEO and managing director of Indian Hotels Company Limited, to explore the evolving hospitality landscape and the brand's success."
-    },
-    {
-      "title": "Wynn Holds UAE Casino Date but Weighs How to Open Amid War",
-      "link": "https://skift.com/2026/11/06/wynn-holds-uae-casino-date-but-weighs-how-to-open-amid-war/",
-      "source": "Skift",
-      "region": "Global",
-      "pubDate": "2026-11-06T16:21:45.000Z",
-      "snippet": "Skift Take: Wynn is holding to its September 2027 date for the UAE’s first casino resort but it will now decide in February what form the opening takes. The U.S.-Iran war means its first customers may travel from down the road in Dubai and elsewhere in the UAE, rather than being the international guests it primarily wants."
     },
     {
       "title": "Embergrove Hospitality Group to Manage Historic Hotel Pattee in Perry, Iowa",
@@ -259,52 +299,12 @@
       "snippet": "Embergrove Hospitality Group, which also manages Frank Lloyd Wright's Historic Park Inn, takes over Hotel Pattee on December 1 in a partnership with the City of Perry."
     },
     {
-      "title": "Nasi and Mee targets 50 outlets, plans INR 50-crore capex",
-      "link": "https://hospitalitybizindia.com/news-track/nasi-and-mee-targets-50-outlets-plans-inr-50-crore-capex/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-11-06T14:47:13.000Z",
-      "snippet": "Foodsta Kitchens plans to expand its Nasi and Mee brand from 15 to 50 outlets over the next three years, strengthening its presence across key markets with a capital expenditure outlay of around INR 50 crore. The company expects the expansion to drive a threefold increase in revenue, with growth initially concentrated in South India before it moves into western and northern markets."
-    },
-    {
-      "title": "Espire Hospitality targets 40% revenue contribution from weddings in 3 years",
-      "link": "https://hospitalitybizindia.com/news-track/espire-hospitality-targets-40-revenue-contribution-from-weddings-in-3-years/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-11-06T10:42:41.000Z",
-      "snippet": "Espire Hospitality is targeting a significant increase in wedding-led business, aiming to take the segment’s contribution to 40% and beyond of its overall revenue over the next three years."
-    },
-    {
       "title": "Korea Tourism Organization, New Delhi Office Hosts Successful Roadshow 2026 in Ahmedabad and Mumbai",
       "link": "https://travelbizmonitor.com/top-stories/korea-tourism-organization-hosts-roadshows-across-india/",
       "source": "TravelBiz Monitor",
       "region": "India",
       "pubDate": "2026-11-06T10:23:05.000Z",
       "snippet": "The Korea Tourism Organization (KTO) New Delhi Office successfully hosted the Korea Tourism Roadshow 2026 in Ahmedabad on 28th October and Mumbai on 4th November, bringing together key stakeholders from India’s travel trade and tourism industry to explore new business opportunities and strengthen tourism ties between India and South Korea."
-    },
-    {
-      "title": "Lemon Tree Hotels reports 18 percent revenue growth, 90 percent PAT surge in Q2 FY27",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/lemon-tree-hotels-reports-18-percent-revenue-growth-90-percent-pat-surge-in-q2-fy27/135595200",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-06T05:40:02.000Z",
-      "snippet": "Lemon Tree Hotels delivered a strong performance in Q2 FY27, with total revenue rising 18 percent year on year to Rs 363.8 crore and PAT jumping 90 percent to Rs 79.8 crore. Net EBITDA grew 22 percent to Rs 162.2 crore, while the net EBITDA margin improved to 44.6 percent. The company expanded its network with eight hotel openings and 11 new signings, while reducing gross debt by 11 percent year on year."
-    },
-    {
-      "title": "Juniper Hotels Limited reports strong performance in Q2 and H1FY27",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/juniper-hotels-limited-reports-strong-performance-in-q2-and-h1fy27/135593403",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-06T04:30:00.000Z",
-      "snippet": "Q2 FY27 total income grew 10 percent YoY to Rs 258.1 crore, with ARR up 9 percent and RevPAR rising 12 percent. EBITDA for that period stood at Rs 91.4 crore, while PAT surged 121 percent YoY to Rs 37.2 crore while H1 FY27 total income reached Rs 510.3 crore (+10 percent), EBITDA Rs 180.3 crore and PAT Rs 70.4 crore (+173 percent), said a release."
-    },
-    {
-      "title": "Eve & FlyBIS sign agreement for 12 eVTOLs",
-      "link": "https://travelbizmonitor.com/top-stories/eve-flybis-sign-agreement-for-12-evtols/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-05T08:22:00.000Z",
-      "snippet": "Eve Air Mobility and Brazilian operator FlyBIS have signed a binding agreement for up to 12 electric Vertical Take-Off and Landing (eVTOL) aircraft, marking a step towards establishing electric air mobility operations in Southern Brazil. The agreement includes two firm orders and purchase rights for ten additional aircraft, building on a Letter of Intent signed by the companies in 2022."
     }
   ]
 }
