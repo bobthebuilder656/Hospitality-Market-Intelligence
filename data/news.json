@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T22:16:43.916Z",
+  "generatedAt": "2026-11-08T22:28:06.970Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -72,11 +72,11 @@
     {
       "id": "hospitalitybiz-india",
       "name": "HospitalityBiz India",
-      "ok": false,
-      "fetched": 0,
-      "kept": 0,
+      "ok": true,
+      "fetched": 10,
+      "kept": 4,
       "dropped": {},
-      "error": "Request timed out after 15000ms"
+      "error": null
     },
     {
       "id": "travelbiz-monitor",
@@ -116,7 +116,7 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
-        "too old": 5
+        "too old": 6
       },
       "error": null
     },
@@ -227,20 +227,52 @@
   ],
   "items": [
     {
+      "title": "AI Agents Still Need Middlemen. But Will They Need Amadeus?",
+      "link": "https://skift.com/2026/11/08/ai-agents-still-need-middlemen-but-will-they-need-amadeus/",
+      "source": "Skift",
+      "region": "Global",
+      "pubDate": "2026-11-08T13:31:27.000Z",
+      "snippet": "Skift Take: Amadeus has the scale and airline relationships, but those advantages don't guarantee it a direct role in AI-agent bookings. Amadeus has spent decades connecting airlines with travel sellers. AI agents may change how customers shop, but somebody still has to find flights, complete bookings, and handle changes."
+    },
+    {
+      "title": "Aviation’s Next Disaster Could Be In Your Carry-On",
+      "link": "https://skift.com/2026/11/08/aviations-next-disaster-could-be-in-your-carry-on/",
+      "source": "Skift",
+      "region": "Global",
+      "pubDate": "2026-11-08T13:00:00.000Z",
+      "snippet": "Skift Take: Battery incidents are rising and airlines are tightening restrictions, with cabin crews the last line of defense. Is the industry doing enough to prevent the next fire, or simply getting better at putting them out? The culprit was small enough to fit in a pocket, but the consequences were big enough to turn a Boeing 777 around over the Atlantic."
+    },
+    {
+      "title": "India Relaxes Passport Rules for Select Foreign Nationals",
+      "link": "https://travelbizmonitor.com/top-stories/india-relaxes-passport-rules-for-select-foreign-nationals/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-08T05:30:47.000Z",
+      "snippet": "The Ministry of Home Affairs has amended immigration rules to extend exemptions from passport and travel document requirements to several categories of foreign nationals residing in India, including certain Pakistani citizens, minority communities from neighbouring countries, registered Sri Lankan Tamil refugees and Tibetans."
+    },
+    {
+      "title": "HP: Tourism employees' union, BJP opposes proposed PPP transfer of Peterhoff",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/hp-tourism-employees-union-bjp-opposes-proposed-ppp-transfer-of-peterhoff/135635626",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-08T05:00:00.000Z",
+      "snippet": "The Himachal Pradesh government faces a plea from the Tourism Corporation Employees' Union regarding Hotel Peterhoff. Union general secretary Raj Kumar emphasised the hotel's capacity to generate significant revenue. Concerns are mounting about a potential transfer to private management via a Public-Private Partnership model, igniting criticism from BJP members who highlight the hotel's historical significance."
+    },
+    {
+      "title": "Chiang Mai Cancels Flights Ahead of Lantern Festival",
+      "link": "https://travelbizmonitor.com/top-stories/chiang-mai-cancels-flights-ahead-of-lantern-festival/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-08T04:30:43.000Z",
+      "snippet": "Chiang Mai International Airport in Thailand has announced 108 flight cancellations and schedule changes to another 80 services ahead of the annual Yi Peng and Loy Krathong festivals. The operational adjustments will remain in place from November 21 to 28, 2026, as authorities prepare for an estimated 200,000 sky lanterns and smoke balloons expected to be released during the celebrations."
+    },
+    {
       "title": "Karnataka Plans Mobile Museum Showcasing Western Ghats Biodiversity",
       "link": "https://travelbizmonitor.com/top-stories/karnataka-plans-mobile-museum-showcasing-western-ghats-biodiversity/",
       "source": "TravelBiz Monitor",
       "region": "India",
       "pubDate": "2026-11-07T15:14:32.000Z",
       "snippet": "Karnataka is planning to introduce a mobile museum dedicated to showcasing the unique biodiversity of the Western Ghats, with a specially designed Volvo bus travelling across the state to reach different sections of society."
-    },
-    {
-      "title": "Mumbai Airport Plans International Flight Shift to Navi Mumbai",
-      "link": "https://travelbizmonitor.com/top-stories/mumbai-airport-plans-international-flight-shift-to-navi-mumbai/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-07T15:12:02.000Z",
-      "snippet": "Mumbai International Airport Limited (MIAL) has proposed temporarily relocating all international flights connecting Mumbai with 14 destinations to Navi Mumbai International Airport if airlines do not voluntarily submit their shifting plans."
     },
     {
       "title": "Airbnb Sells IP to AI Lab Owned by Its CEO and CTO",
@@ -267,44 +299,12 @@
       "snippet": "As chairman of Savile Row Bespoke Association, Taj Phull knows how to travel in style."
     },
     {
-      "title": "FDA suspends 105 food business licences, Blinkit, Zepto among them; orders closure of 7 outlets",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/fda-suspends-105-food-business-licences-blinkit-zepto-among-them-orders-closure-of-7-outlets/135627497",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-07T06:30:00.000Z",
-      "snippet": "Maharashtra FDA has suspended the licences of 105 food outlets, including those linked to Blinkit and Zepto, and ordered seven establishments to shut following inspections ahead of Diwali. The two-day drive uncovered hygiene and food safety violations, leading to the seizure of 39,485 kg of food articles worth Rs 1.35 crore."
-    },
-    {
       "title": "Dusit Hotels and Resorts opens two distinctive hotels in Yangon, Myanmar",
       "link": "https://traveltradejournal.com/dusit-hotels-and-resorts-opens-two-distinctive-hotels-in-yangon-myanmar/",
       "source": "Travel Trade Journal",
       "region": "India",
       "pubDate": "2026-11-07T04:40:00.000Z",
       "snippet": "Dusit Hotels and Resorts, the hotel arm of Thailand-based Dusit International, has officially opened two properties in Yangon, Myanmar, under its management. The Strand Hotel Yangon – Dusit Collection and ASAI Yangon Sule offer distinct hospitality experiences, combining heritage luxury and contemporary lifestyle accommodation with the group’s Thai-inspired hospitality."
-    },
-    {
-      "title": "Host Hotels & Resorts buys 1 Hotel Brooklyn Bridge, Renaissance Plano",
-      "link": "https://www.hoteldive.com/news/host-hotels-brooklyn-dallas-acquisitions/874044/",
-      "source": "Hotel Dive",
-      "region": "Global",
-      "pubDate": "2026-11-06T20:17:02.000Z",
-      "snippet": "The acquisitions, totaling roughly $374 million combined, help the REIT expand its foothold in New York as well as enter the Dallas-Fort Worth market. The acquisitions, totaling approximately $374 million combined, help the REIT expand its foothold in New York as well as enter the Dallas-Fort Worth market. The Brooklyn hotel acquisition represents Host’s first property in the borough, and fourth in New York City ."
-    },
-    {
-      "title": "Embergrove Hospitality Group to Manage Historic Hotel Pattee in Perry, Iowa",
-      "link": "https://www.hospitalitynet.org/news/4135324/embergrove-hospitality-group-to-manage-historic-hotel-pattee-in-perry-iowa",
-      "source": "Hospitality Net",
-      "region": "Global",
-      "pubDate": "2026-11-06T15:16:28.000Z",
-      "snippet": "Embergrove Hospitality Group, which also manages Frank Lloyd Wright's Historic Park Inn, takes over Hotel Pattee on December 1 in a partnership with the City of Perry."
-    },
-    {
-      "title": "Korea Tourism Organization, New Delhi Office Hosts Successful Roadshow 2026 in Ahmedabad and Mumbai",
-      "link": "https://travelbizmonitor.com/top-stories/korea-tourism-organization-hosts-roadshows-across-india/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-06T10:23:05.000Z",
-      "snippet": "The Korea Tourism Organization (KTO) New Delhi Office successfully hosted the Korea Tourism Roadshow 2026 in Ahmedabad on 28th October and Mumbai on 4th November, bringing together key stakeholders from India’s travel trade and tourism industry to explore new business opportunities and strengthen tourism ties between India and South Korea."
     }
   ]
 }
