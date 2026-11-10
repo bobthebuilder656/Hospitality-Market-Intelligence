@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T22:28:06.970Z",
+  "generatedAt": "2026-11-10T01:45:25.514Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -105,7 +105,8 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "staff appointment": 2
+        "staff appointment": 2,
+        "too old": 3
       },
       "error": null
     },
@@ -116,7 +117,7 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
-        "too old": 6
+        "too old": 3
       },
       "error": null
     },
@@ -156,8 +157,8 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 3,
-        "sponsored": 3
+        "non-English": 2,
+        "sponsored": 1
       },
       "error": null
     },
@@ -186,8 +187,13 @@
     },
     {
       "source": "Hospitality Net",
-      "title": "Millennials and Gen Z Are Killing Stiff Luxury, Harassment Laws Changed but Has Hotel Culture?, Buying a Family-Run Hotel When the Owner Leaves",
+      "title": "HospITALY Brings 60 Italian Voices to the World Panel, Sloan Dean Asks Who Employs Your AI Agents, Accor and Hard Rock Sign Global Partnership",
       "reason": "several headlines in one title"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Ist Trondheim der coolste neue Wirtschaftsstandort in Skandinavien? Die Trendsetter vor Ort sind dieser Meinung.",
+      "reason": "non-English"
     },
     {
       "source": "Business Traveller",
@@ -200,26 +206,6 @@
       "reason": "sponsored"
     },
     {
-      "source": "Business Traveller",
-      "title": "Die Zusammenfassung: Ein Leitfaden für Einsteiger zu Hotel-Treueprogrammen",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Gesundheit: Welches Land hat die wenigsten Ärzte pro Kopf?",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Over and Beyond: Visa Infinite Opens the Kitchen Door for Cardholders",
-      "reason": "sponsored"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "The Rise of Travel Maxxing: What Changing Travel Habits Mean for Customer Loyalty",
-      "reason": "sponsored"
-    },
-    {
       "source": "Hotel Dive",
       "title": "Lodging Lowdown: Remington names CTO, Hersha sells Boston Hilton",
       "reason": "roundup/digest (title)"
@@ -227,20 +213,60 @@
   ],
   "items": [
     {
-      "title": "AI Agents Still Need Middlemen. But Will They Need Amadeus?",
-      "link": "https://skift.com/2026/11/08/ai-agents-still-need-middlemen-but-will-they-need-amadeus/",
-      "source": "Skift",
+      "title": "Exploring Un-Adulting as Adults Seek to Be Kids Again",
+      "link": "https://www.hospitalitynet.org/news/4135369/exploring-un-adulting-as-adults-seek-to-be-kids-again",
+      "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-11-08T13:31:27.000Z",
-      "snippet": "Skift Take: Amadeus has the scale and airline relationships, but those advantages don't guarantee it a direct role in AI-agent bookings. Amadeus has spent decades connecting airlines with travel sellers. AI agents may change how customers shop, but somebody still has to find flights, complete bookings, and handle changes."
+      "pubDate": "2026-11-10T01:28:00.000Z",
+      "snippet": "Expedia's Unpack '27 report finds 57% of travellers plan to book an \"Un-Adulting\" trip by 2027, prompting hoteliers to consider nostalgia-themed stays and adults-only playground resorts."
     },
     {
-      "title": "Aviation’s Next Disaster Could Be In Your Carry-On",
-      "link": "https://skift.com/2026/11/08/aviations-next-disaster-could-be-in-your-carry-on/",
+      "title": "Expedia’s $676 Million in Acquisitions Points to More B2B Buying",
+      "link": "https://skift.com/2026/11/09/expedias-676-million-in-deals-points-to-more-b2b-buying/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-11-08T13:00:00.000Z",
-      "snippet": "Skift Take: Battery incidents are rising and airlines are tightening restrictions, with cabin crews the last line of defense. Is the industry doing enough to prevent the next fire, or simply getting better at putting them out? The culprit was small enough to fit in a pocket, but the consequences were big enough to turn a Boeing 777 around over the Atlantic."
+      "pubDate": "2026-11-09T21:20:33.000Z",
+      "snippet": "Skift Take: Expedia’s 2026 deals are a fraction of the nearly $6 billion it spent in 2015. But three acquisitions in nine months, plus CEO Ariane Gorin’s pledge to keep investing, signal that Expedia is a buyer again. And B2B is where the money is going."
+    },
+    {
+      "title": "Washington Dulles Opens Its First New Concourse in Nearly 20 Years",
+      "link": "https://www.businesstraveller.com/news/washington-dulles-concourse-e-united-airlines-new-gates/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-11-09T20:48:00.000Z",
+      "snippet": "Washington Dulles opens its $745 million Concourse E with 14 United Airlines gates, a massive new lounge and improved passenger facilities, as the airport undertakes an ambitious $20 billion redevelopment program."
+    },
+    {
+      "title": "Cruises, glamping, Parc des Princes: loyalty now leaves the room",
+      "link": "https://hospitality-on.com/en/hospitality/cruises-glamping-parc-des-princes-loyalty-now-leaves-room",
+      "source": "Hospitality ON",
+      "region": "Global",
+      "pubDate": "2026-11-09T16:39:55.000Z",
+      "snippet": "Long reserved for hotel nights, loyalty points are finding new uses. Hilton opens them up to Explora Journeys cruises and AutoCamp camps, while Accor converts them into a day on the Parc des Princes pitch, alongside the PSG legends."
+    },
+    {
+      "title": "Ballard Pier Opens Mumbai’s Integrated Cruise Lifestyle Destination",
+      "link": "https://travelbizmonitor.com/top-stories/ballard-pier-opens-mumbais-integrated-cruise-lifestyle-destination/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-09T05:30:54.000Z",
+      "snippet": "The Ballard Pier Downtown Experience Centre has opened on Mumbai’s eastern waterfront, bringing the Mumbai International Cruise Terminal together with dining, retail, fashion, design and leisure experiences. Envisioned by the Mumbai Port Authority and operated by J M Baxi Ports & Logistics, the destination was formally inaugurated on October 23, 2026, by Mumbai Port Authority Chairman Shri Dr M."
+    },
+    {
+      "title": "Air Canada Drops Mumbai Service, Air India adds Non-stop Flights",
+      "link": "https://travelbizmonitor.com/top-stories/air-canada-drops-mumbai-service-air-india-adds-non-stop-flights/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-09T04:30:32.000Z",
+      "snippet": "Air Canada will not restore its Toronto Pearson–Mumbai service in 2027, leaving the Canadian carrier without a connection to India’s financial capital. The airline had operated the route through London Heathrow, using fifth-freedom traffic rights to carry passengers between the UK and India."
+    },
+    {
+      "title": "Meliá Hotels International expands Bangkok portfolio with two hotels, marking ME by Meliá’s Asia debut",
+      "link": "https://traveltradejournal.com/melia-hotels-international-expands-bangkok-portfolio-with-two-hotels-marking-me-by-melias-asia-debut/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-11-09T04:00:29.000Z",
+      "snippet": "Meliá Hotels International has expanded its presence in Thailand with the addition of two hotels in Bangkok’s Sukhumvit district, paving the way for the Asian debut of its luxury lifestyle brand, ME by Meliá, and further expansion of its flagship Meliá Hotels & Resorts brand."
     },
     {
       "title": "India Relaxes Passport Rules for Select Foreign Nationals",
@@ -265,46 +291,6 @@
       "region": "India",
       "pubDate": "2026-11-08T04:30:43.000Z",
       "snippet": "Chiang Mai International Airport in Thailand has announced 108 flight cancellations and schedule changes to another 80 services ahead of the annual Yi Peng and Loy Krathong festivals. The operational adjustments will remain in place from November 21 to 28, 2026, as authorities prepare for an estimated 200,000 sky lanterns and smoke balloons expected to be released during the celebrations."
-    },
-    {
-      "title": "Karnataka Plans Mobile Museum Showcasing Western Ghats Biodiversity",
-      "link": "https://travelbizmonitor.com/top-stories/karnataka-plans-mobile-museum-showcasing-western-ghats-biodiversity/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-07T15:14:32.000Z",
-      "snippet": "Karnataka is planning to introduce a mobile museum dedicated to showcasing the unique biodiversity of the Western Ghats, with a specially designed Volvo bus travelling across the state to reach different sections of society."
-    },
-    {
-      "title": "Airbnb Sells IP to AI Lab Owned by Its CEO and CTO",
-      "link": "https://skift.com/2026/11/07/airbnb-sells-ip-to-ai-lab-owned-by-its-ceo-and-cto/",
-      "source": "Skift",
-      "region": "Global",
-      "pubDate": "2026-11-07T14:13:07.000Z",
-      "snippet": "Skift Take: Airbnb’s CEO and CTO both own part of the lab buying its IP, but the filing gives shareholders little detail on what changed hands. Airbnb sold intellectual property to a private AI lab founded and controlled by CEO Brian Chesky. CTO Ahmad Al-Dahle also holds a stake in the lab, and both executives work for the entity."
-    },
-    {
-      "title": "Coca-Cola's India bottler Hindustan Coca-Cola files for IPO",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/coca-colas-india-bottler-hindustan-coca-cola-files-for-ipo/135635544",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-07T11:42:24.000Z",
-      "snippet": "Hindustan Coca-Cola Holdings, India's largest Coca-Cola bottler, has filed for an initial public offering consisting entirely of a stake sale by its majority shareholder, with no fresh money going to the company, draft papers showed."
-    },
-    {
-      "title": "Savile Row’s Taj Phull on Airport Fits and His Carry-On Essentials",
-      "link": "https://www.businesstraveller.com/insights/interviews/savile-rows-taj-phull-on-airport-fits-and-carry-on-essentials/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-11-07T09:00:00.000Z",
-      "snippet": "As chairman of Savile Row Bespoke Association, Taj Phull knows how to travel in style."
-    },
-    {
-      "title": "Dusit Hotels and Resorts opens two distinctive hotels in Yangon, Myanmar",
-      "link": "https://traveltradejournal.com/dusit-hotels-and-resorts-opens-two-distinctive-hotels-in-yangon-myanmar/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-11-07T04:40:00.000Z",
-      "snippet": "Dusit Hotels and Resorts, the hotel arm of Thailand-based Dusit International, has officially opened two properties in Yangon, Myanmar, under its management. The Strand Hotel Yangon – Dusit Collection and ASAI Yangon Sule offer distinct hospitality experiences, combining heritage luxury and contemporary lifestyle accommodation with the group’s Thai-inspired hospitality."
     }
   ]
 }
