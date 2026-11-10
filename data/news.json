@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T01:45:25.514Z",
+  "generatedAt": "2026-11-10T23:42:36.630Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -106,7 +106,7 @@
       "kept": 4,
       "dropped": {
         "staff appointment": 2,
-        "too old": 3
+        "too old": 2
       },
       "error": null
     },
@@ -117,7 +117,7 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
-        "too old": 3
+        "too old": 5
       },
       "error": null
     },
@@ -128,6 +128,7 @@
       "fetched": 20,
       "kept": 4,
       "dropped": {
+        "award announcement with no real content": 1,
         "several headlines in one title": 1
       },
       "error": null
@@ -157,7 +158,7 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 2,
+        "non-English": 4,
         "sponsored": 1
       },
       "error": null
@@ -187,23 +188,38 @@
     },
     {
       "source": "Hospitality Net",
-      "title": "HospITALY Brings 60 Italian Voices to the World Panel, Sloan Dean Asks Who Employs Your AI Agents, Accor and Hard Rock Sign Global Partnership",
+      "title": "Tambourine Earns Top Honors for Hospitality Website Design at 2026 Travel Weekly Magellan Awards",
+      "reason": "award announcement with no real content"
+    },
+    {
+      "source": "Hospitality Net",
+      "title": "Hotels Hand AI to Everyone Except the Frontline, Why AI Agents Aren't Booking Rooms Yet, What Makes a Luxury Stay Worth the Price?",
       "reason": "several headlines in one title"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Perk integriert als erste Plattform die Airbnb-API für Geschäftsreisen",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Geschäftsreisen: Für Umbuchungen werden nach Reiseantritt fast zehnmal so oft Gebühren fällig",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Three of A Kind for Sixt at Business Traveller Awards",
+      "reason": "sponsored"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Estrel Tower: Berlins erster Wolkenratzer eröffnet im Dezember",
+      "reason": "non-English"
     },
     {
       "source": "Business Traveller",
       "title": "Ist Trondheim der coolste neue Wirtschaftsstandort in Skandinavien? Die Trendsetter vor Ort sind dieser Meinung.",
       "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "„Preferred Hotels & Resorts“ nimmt 28 neue Mitglieder in das globale Portfolio auf",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Wheels Up: The Business of Flying Private",
-      "reason": "sponsored"
     },
     {
       "source": "Hotel Dive",
@@ -213,84 +229,84 @@
   ],
   "items": [
     {
-      "title": "Exploring Un-Adulting as Adults Seek to Be Kids Again",
-      "link": "https://www.hospitalitynet.org/news/4135369/exploring-un-adulting-as-adults-seek-to-be-kids-again",
-      "source": "Hospitality Net",
-      "region": "Global",
-      "pubDate": "2026-11-10T01:28:00.000Z",
-      "snippet": "Expedia's Unpack '27 report finds 57% of travellers plan to book an \"Un-Adulting\" trip by 2027, prompting hoteliers to consider nostalgia-themed stays and adults-only playground resorts."
-    },
-    {
-      "title": "Expedia’s $676 Million in Acquisitions Points to More B2B Buying",
-      "link": "https://skift.com/2026/11/09/expedias-676-million-in-deals-points-to-more-b2b-buying/",
-      "source": "Skift",
-      "region": "Global",
-      "pubDate": "2026-11-09T21:20:33.000Z",
-      "snippet": "Skift Take: Expedia’s 2026 deals are a fraction of the nearly $6 billion it spent in 2015. But three acquisitions in nine months, plus CEO Ariane Gorin’s pledge to keep investing, signal that Expedia is a buyer again. And B2B is where the money is going."
-    },
-    {
-      "title": "Washington Dulles Opens Its First New Concourse in Nearly 20 Years",
-      "link": "https://www.businesstraveller.com/news/washington-dulles-concourse-e-united-airlines-new-gates/",
+      "title": "Can Traveling With Your Dog Make Every Journey More Meaningful?",
+      "link": "https://www.businesstraveller.com/lifestyle/the-dogist-elias-weiss-friedman-dogs-travel/",
       "source": "Business Traveller",
       "region": "Global",
-      "pubDate": "2026-11-09T20:48:00.000Z",
-      "snippet": "Washington Dulles opens its $745 million Concourse E with 14 United Airlines gates, a massive new lounge and improved passenger facilities, as the airport undertakes an ambitious $20 billion redevelopment program."
+      "pubDate": "2026-11-10T23:05:42.000Z",
+      "snippet": "From photographing dogs worldwide to traveling with his beloved Elsa, The Dogist founder Elias Weiss Friedman shares how canine companionship transformed his career, inspired a business and enriched his travels."
     },
     {
-      "title": "Cruises, glamping, Parc des Princes: loyalty now leaves the room",
-      "link": "https://hospitality-on.com/en/hospitality/cruises-glamping-parc-des-princes-loyalty-now-leaves-room",
-      "source": "Hospitality ON",
+      "title": "Japan Is Closing in on the U.S. as High Costs and Politics Deter Travelers, Brand USA Says",
+      "link": "https://skift.com/2026/11/10/brand-usa-top-destination-closing-gap/",
+      "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-11-09T16:39:55.000Z",
-      "snippet": "Long reserved for hotel nights, loyalty points are finding new uses. Hilton opens them up to Explora Journeys cruises and AutoCamp camps, while Accor converts them into a day on the Parc des Princes pitch, alongside the PSG legends."
+      "pubDate": "2026-11-10T20:41:15.000Z",
+      "snippet": "Skift Take: Research shows the U.S. losing ground to Japan as costs and politics turn travelers away. Brand USA is betting the lost demand is deferred, not gone, but its budget to win it back is shrinking. The U.S.’ place as international travelers’ top destination is slipping as more key markets look to Japan and other destinations, according to new research from Brand USA shared at its board meeting Tuesday."
     },
     {
-      "title": "Ballard Pier Opens Mumbai’s Integrated Cruise Lifestyle Destination",
-      "link": "https://travelbizmonitor.com/top-stories/ballard-pier-opens-mumbais-integrated-cruise-lifestyle-destination/",
+      "title": "Mercure Hyderabad KCP Welcomes Amzala Chaitanya as Director of Sales",
+      "link": "https://hospitalitybizindia.com/news-track/mercure-hyderabad-kcp-welcomes-amzala-chaitanya-as-director-of-sales/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-11-10T19:06:56.000Z",
+      "snippet": "Bringing over 13 years of extensive experience in the hospitality industry to the hotel’s commercial leadership team. In his new role, Chaitanya will spearhead the hotel’s overall sales and marketing strategy, driving business growth across key segments including Rooms, Corporate Sales, Banquets, MICE and Business Development."
+    },
+    {
+      "title": "Tivoli Hospitality Group Doubles Down on Chhatarpur with launch of Midori by Tivoli",
+      "link": "https://hospitalitybizindia.com/news-track/tivoli-hospitality-group-doubles-down-on-chhatarpur-with-launch-of-midori-by-tivoli/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-11-10T18:30:35.000Z",
+      "snippet": "New luxury property to feature expansive banqueting venues, premium rooms and leisure facilities, targeting the growing weddings, celebrations and MICE market in Delhi-NCR. Following the successful establishment of its premium five-star property, The Tivoli Hotel, in Chhatarpur, Tivoli Hospitality Group is all geared up to launch Midori by Tivoli on November 13, 2026."
+    },
+    {
+      "title": "FLY91 to launch daily Navi Mumbai Sindhudurg flights",
+      "link": "https://travelbizmonitor.com/top-stories/fly91-to-launch-daily-navi-mumbai-sindhudurg-flights/",
       "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-11-09T05:30:54.000Z",
-      "snippet": "The Ballard Pier Downtown Experience Centre has opened on Mumbai’s eastern waterfront, bringing the Mumbai International Cruise Terminal together with dining, retail, fashion, design and leisure experiences. Envisioned by the Mumbai Port Authority and operated by J M Baxi Ports & Logistics, the destination was formally inaugurated on October 23, 2026, by Mumbai Port Authority Chairman Shri Dr M."
+      "pubDate": "2026-11-10T15:23:03.000Z",
+      "snippet": "FLY91 will launch daily flights connecting Sindhudurg with Navi Mumbai from November 16, restoring a direct air link between the district in South Maharashtra and the Mumbai region."
     },
     {
-      "title": "Air Canada Drops Mumbai Service, Air India adds Non-stop Flights",
-      "link": "https://travelbizmonitor.com/top-stories/air-canada-drops-mumbai-service-air-india-adds-non-stop-flights/",
+      "title": "Accor, Hard Rock enter partnership on loyalty, distribution",
+      "link": "https://www.hoteldive.com/news/accor-hard-rock-enter-partnership-loyalty-distribution/874251/",
+      "source": "Hotel Dive",
+      "region": "Global",
+      "pubDate": "2026-11-10T15:21:56.000Z",
+      "snippet": "The agreement will expand Hard Rock’s distribution network and accelerate its global development, while enhancing both companies’ loyalty programs. The agreement, which aims to preserve Hard Rock’s “distinctive identity and guest experience,” is expected to close by the end of this year, a Hard Rock International representative told Hotel Dive."
+    },
+    {
+      "title": "IRCTC intensifies action against unauthorised e-catering platforms",
+      "link": "https://travelbizmonitor.com/top-stories/irctc-intensifies-action-against-unauthorised-e-catering-platforms/",
       "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-11-09T04:30:32.000Z",
-      "snippet": "Air Canada will not restore its Toronto Pearson–Mumbai service in 2027, leaving the Canadian carrier without a connection to India’s financial capital. The airline had operated the route through London Heathrow, using fifth-freedom traffic rights to carry passengers between the UK and India."
+      "pubDate": "2026-11-10T15:19:24.000Z",
+      "snippet": "The Indian Railway Catering and Tourism Corporation (IRCTC) has launched a stringent enforcement drive to identify and curb unauthorised e-catering websites and mobile applications operating across the Indian Railways network. The initiative aims to protect passengers from risks associated with food safety, hygiene, data privacy and financial security arising from the use of unverified food-ordering platforms."
     },
     {
-      "title": "Meliá Hotels International expands Bangkok portfolio with two hotels, marking ME by Meliá’s Asia debut",
-      "link": "https://traveltradejournal.com/melia-hotels-international-expands-bangkok-portfolio-with-two-hotels-marking-me-by-melias-asia-debut/",
+      "title": "Grevon and Indio Partner to Enable End-to-End AI Bookings for RV Parks and Campgrounds",
+      "link": "https://www.hospitalitynet.org/news/4135388/grevon-and-indio-partner-to-enable-end-to-end-ai-bookings-for-rv-parks-and-campgrounds",
+      "source": "Hospitality Net",
+      "region": "Global",
+      "pubDate": "2026-11-10T14:15:00.000Z",
+      "snippet": "Grevon and Indio are integrating to let RV park and campground guests inquire, check availability, and pay within a single AI conversation, without redirection to a separate booking engine."
+    },
+    {
+      "title": "Accor signs Novotel Jim Corbett Chhoi, marking Uttarakhand debut in 2029",
+      "link": "https://traveltradejournal.com/accor-signs-novotel-jim-corbett-chhoi-marking-uttarakhand-debut-in-2029/",
       "source": "Travel Trade Journal",
       "region": "India",
-      "pubDate": "2026-11-09T04:00:29.000Z",
-      "snippet": "Meliá Hotels International has expanded its presence in Thailand with the addition of two hotels in Bangkok’s Sukhumvit district, paving the way for the Asian debut of its luxury lifestyle brand, ME by Meliá, and further expansion of its flagship Meliá Hotels & Resorts brand."
+      "pubDate": "2026-11-10T05:54:17.000Z",
+      "snippet": "Accor has announced the signing of Novotel Jim Corbett Chhoi, marking the hospitality group’s entry into Uttarakhand. Scheduled to open in 2029, the 150-key property will strengthen Accor’s presence in India’s leisure hospitality market, particularly in wildlife and nature-based destinations."
     },
     {
-      "title": "India Relaxes Passport Rules for Select Foreign Nationals",
-      "link": "https://travelbizmonitor.com/top-stories/india-relaxes-passport-rules-for-select-foreign-nationals/",
-      "source": "TravelBiz Monitor",
+      "title": "Fairmont Hotels and Resorts opens 100th hotel globally with debut of Fairmont New Orleans",
+      "link": "https://traveltradejournal.com/fairmont-hotels-and-resorts-opens-100th-hotel-globally-with-debut-of-fairmont-new-orleans/",
+      "source": "Travel Trade Journal",
       "region": "India",
-      "pubDate": "2026-11-08T05:30:47.000Z",
-      "snippet": "The Ministry of Home Affairs has amended immigration rules to extend exemptions from passport and travel document requirements to several categories of foreign nationals residing in India, including certain Pakistani citizens, minority communities from neighbouring countries, registered Sri Lankan Tamil refugees and Tibetans."
-    },
-    {
-      "title": "HP: Tourism employees' union, BJP opposes proposed PPP transfer of Peterhoff",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/hp-tourism-employees-union-bjp-opposes-proposed-ppp-transfer-of-peterhoff/135635626",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-08T05:00:00.000Z",
-      "snippet": "The Himachal Pradesh government faces a plea from the Tourism Corporation Employees' Union regarding Hotel Peterhoff. Union general secretary Raj Kumar emphasised the hotel's capacity to generate significant revenue. Concerns are mounting about a potential transfer to private management via a Public-Private Partnership model, igniting criticism from BJP members who highlight the hotel's historical significance."
-    },
-    {
-      "title": "Chiang Mai Cancels Flights Ahead of Lantern Festival",
-      "link": "https://travelbizmonitor.com/top-stories/chiang-mai-cancels-flights-ahead-of-lantern-festival/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-08T04:30:43.000Z",
-      "snippet": "Chiang Mai International Airport in Thailand has announced 108 flight cancellations and schedule changes to another 80 services ahead of the annual Yi Peng and Loy Krathong festivals. The operational adjustments will remain in place from November 21 to 28, 2026, as authorities prepare for an estimated 200,000 sky lanterns and smoke balloons expected to be released during the celebrations."
+      "pubDate": "2026-11-10T05:02:58.000Z",
+      "snippet": "Fairmont Hotels and Resorts, part of Accor, has officially opened Fairmont New Orleans, marking the luxury hospitality brand’s 100th hotel worldwide and its return to the Louisiana city after two decades."
     }
   ]
 }
