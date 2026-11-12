@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T00:59:00.154Z",
+  "generatedAt": "2026-11-12T23:52:16.153Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -105,8 +105,8 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "staff appointment": 1,
-        "too old": 3
+        "staff appointment": 2,
+        "too old": 1
       },
       "error": null
     },
@@ -117,7 +117,7 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
-        "too old": 6
+        "too old": 1
       },
       "error": null
     },
@@ -157,9 +157,10 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "no usable body text": 1,
-        "non-English": 4,
-        "sponsored": 1
+        "non-English": 3,
+        "award announcement with no real content": 1,
+        "sponsored": 2,
+        "no usable body text": 1
       },
       "error": null
     },
@@ -169,13 +170,16 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {
-        "roundup/digest (title)": 1
-      },
+      "dropped": {},
       "error": null
     }
   ],
   "droppedItems": [
+    {
+      "source": "Travel Trade Journal",
+      "title": "The Ritz-Carlton Yacht Collection appoints Alan Leibman as CEO and Tatiana Ferreira as President",
+      "reason": "staff appointment"
+    },
     {
       "source": "Travel Trade Journal",
       "title": "Grand Metropolitan Hotels appoints Ramesh Arora as Chief Executive Officer",
@@ -183,8 +187,33 @@
     },
     {
       "source": "Hospitality Net",
-      "title": "CityHub's Remco Gerritsen on Solo Travel and Revenue per Square Meter, Steve Rushmore on Key Money, Paris and London Set October Records",
+      "title": "OpenAI Buys an AI Travel Agent, Hotels Start Choosing Which AI Agents Get In, Should a Hotel Night Carry Its €5 Climate Cost?",
       "reason": "several headlines in one title"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Airbus bricht Boeings 21 Jahre alten Distanzrekord mit 24-stündigem A350-Flug",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Feinstaub: Die Städte mit den größten Smogproblemen",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "The World’s Most Beautiful Vintage Watches? Vacheron Constantin’s Inaugural Award Winners",
+      "reason": "award announcement with no real content"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Achieve Your Aesthetic at Bangkok’s Rattinan Clinic",
+      "reason": "sponsored"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "A Cut Above: Michelin Stars and Skyline Views at The Reverie Saigon",
+      "reason": "sponsored"
     },
     {
       "source": "Business Traveller",
@@ -195,113 +224,88 @@
       "source": "Business Traveller",
       "title": "Risk Map 2027: In diesen 15 Ländern hat sich die Sicherheit verschlechtert",
       "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Perk integriert als erste Plattform die Airbnb-API für Geschäftsreisen",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Geschäftsreisen: Für Umbuchungen werden nach Reiseantritt fast zehnmal so oft Gebühren fällig",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Three of A Kind for Sixt at Business Traveller Awards",
-      "reason": "sponsored"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Estrel Tower: Berlins erster Wolkenratzer eröffnet im Dezember",
-      "reason": "non-English"
-    },
-    {
-      "source": "Hotel Dive",
-      "title": "Lodging Lowdown: Remington names CTO, Hersha sells Boston Hilton",
-      "reason": "roundup/digest (title)"
     }
   ],
   "items": [
     {
-      "title": "How Conversational AI Is Moving Hotel Linen Management From Reactive to Proactive",
-      "link": "https://www.hospitalitynet.org/opinion/4135430/how-conversational-ai-is-moving-hotel-linen-management-from-reactive-to-proactive",
-      "source": "Hospitality Net",
-      "region": "Global",
-      "pubDate": "2026-11-11T23:10:17.000Z",
-      "snippet": "A conversational AI assistant built on RFID inventory data lets hotel operators query linen stock, loss trends, and reorder needs in plain language, shifting from reactive to predictive management."
-    },
-    {
-      "title": "First Look: Inside JetBlue’s New BlueFirst",
-      "link": "https://www.businesstraveller.com/news/first-look-inside-jetblues-new-bluefirst/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-11-11T22:24:35.000Z",
-      "snippet": "JetBlue unveils BlueFirst, its new domestic first-class cabin, featuring plush recliners, upgraded entertainment, creative dining and competitive fares, as the airline prepares its December debut and premium expansion across America."
-    },
-    {
-      "title": "MCR’s Tyler Morse Wants to Ban AI Bots From Booking His Hotels",
-      "link": "https://skift.com/2026/11/11/mcrs-tyler-morse-wants-to-ban-ai-bots-from-booking-his-hotels/",
+      "title": "Flight Attendants Union Chief Targets Regional Pay, Delta, and Worker Data",
+      "link": "https://skift.com/2026/11/12/flight-attendants-union-targets-regional-pay-delta-and-worker-data/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-11-11T21:46:26.000Z",
-      "snippet": "\" He prefers human customers, who can more easily be persuaded to make impulse purchases. Tyler Morse wants to stop personal AI agents from booking rooms at his hotels. The reason isn't privacy or regulation, according to the chairman and CEO of MCR Hotels. It's that the software can't be talked into a splurge."
+      "pubDate": "2026-11-12T23:42:20.000Z",
+      "snippet": "Skift Take: The era of catch-up flight attendant raises is ending, but airlines shouldn’t expect labor costs to ease. The next fights are over regional pay and worker data. Flight attendants and pilots saw massive pay jumps in recent negotiations. Association of Flight Attendants International President Sara Nelson doesn’t expect a repeat."
     },
     {
-      "title": "Hyatt Hyderabad Gachibowli Appoints Nisha Mundliya as Director of Finance and Suresh Raju as Human Resources Manager",
-      "link": "https://hospitalitybizindia.com/news-track/hyatt-hyderabad-gachibowli-appoints-nisha-mundliya-as-director-of-finance-and-suresh-raju-as-human-resources-manager/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-11-11T19:25:09.000Z",
-      "snippet": "Hyatt Hyderabad Gachibowli is pleased to announce the appointment of Nisha Mundliya as Director of Finance and Suresh Raju as Human Resources Manager , further strengthening the hotel’s leadership team and commitment to operational excellence and people-centric growth."
-    },
-    {
-      "title": "Braemar officially splits from Ashford, transitions to self-managed REIT",
-      "link": "https://www.hoteldive.com/news/braemar-splits-from-ashford-becomes-self-managed-reit/874422/",
+      "title": "Manhattan’s Elysée New York set to reopen after monthslong renovation",
+      "link": "https://www.hoteldive.com/news/elysee-new-york-reopens-after-renovation/874557/",
       "source": "Hotel Dive",
       "region": "Global",
-      "pubDate": "2026-11-11T18:36:34.000Z",
-      "snippet": "On Tuesday, the real estate investment trust terminated its advisory agreement with Ashford. It also appointed a new executive team and board of directors. On Tuesday, Braemar Hotels & Resorts entered into a termination and release agreement with Ashford Inc. and its affiliates, marking its official separation from the company and transition to a self-managed real estate investment trust, according to a Nov."
+      "pubDate": "2026-11-12T20:31:26.000Z",
+      "snippet": "The historic hotel will remain home to Monkey Bar and offer new culinary and wellness amenities as the flagship property of Hera Hospitality Group’s Wunderkind Hotels & Resorts."
     },
     {
-      "title": "Nearly 91% of Mumbai Airport's international traffic to remain unaffected by T1 redevelopment",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/travel/nearly-91-of-mumbai-airports-international-traffic-to-remain-unaffected-by-t1-redevelopment/135731364",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-11T13:30:00.000Z",
-      "snippet": "The new Terminal 1 is expected to increase the terminal's passenger-handling capacity from 15 million passengers per annum (MPPA) to 20 MPPA, a rise of about 33 per cent."
+      "title": "From Booking to Check-In: How to Make the Most of Travel Tuesday",
+      "link": "https://www.hospitalitynet.org/opinion/4135454/from-booking-to-check-in-how-to-make-the-most-of-travel-tuesday",
+      "source": "Hospitality Net",
+      "region": "Global",
+      "pubDate": "2026-11-12T18:01:38.000Z",
+      "snippet": "A tactical guide for hoteliers on maximising Travel Tuesday, covering distribution, rate protection, mobile check-in, guest messaging, and upselling to convert discount bookings into higher-value stays."
     },
     {
-      "title": "Royal Orchid eyes 35 hotels signings a year",
-      "link": "https://hospitalitybizindia.com/news-track/royal-orchid-eyes-35-hotels-signings-a-year/",
+      "title": "EIH Hotels revises Trident Tirupati project cost to Rs 344 crore",
+      "link": "https://hospitalitybizindia.com/news-track/eih-hotels-revises-trident-tirupati-project-cost-to-rs-344-crore/",
       "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-11-11T12:19:13.000Z",
-      "snippet": "With more than 125 operating hotels and over 50 projects in the pipeline, Royal Orchid Hotels is accelerating its asset-light expansion across emerging markets. The group is strengthening its Regenta portfolio, entering six states with Hampton by Hilton and targeting growing demand from domestic and pilgrimage travel."
+      "pubDate": "2026-11-12T17:45:59.000Z",
+      "snippet": "EIH Hotels Ltd has revised the planned capital expenditure for its proposed Trident hotel in Tirupati, Andhra Pradesh, to Rs 344 crore through its wholly owned subsidiary, Svara Hotels Ltd. The project is expected to become operational by March 2030. The revised investment follows an exchange of land allotted to Svara Hotels (formerly Mumtaz Hotels) by the Andhra Pradesh government."
     },
     {
-      "title": "South Africa Expands Digital Travel Authorisation for Indians",
-      "link": "https://travelbizmonitor.com/top-stories/south-africa-expands-digital-travel-authorisation-for-indians/",
+      "title": "Aman Enlists Djokovic for New Ultra-Luxury Wellness and Sports Retreat",
+      "link": "https://www.businesstraveller.com/news/aman-enlists-djokovic-for-new-ultra-luxury-wellness-and-sports-retreat/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-11-12T17:30:45.000Z",
+      "snippet": "Developed in collaboration with tennis star Novak Djokovic, the performance-led wellness brand will debut in Miami's Brickell district."
+    },
+    {
+      "title": "‘Hydration emerges as a key part of premium hospitality experience’:Jagriti Motwani, AUM Premium",
+      "link": "https://hospitalitybizindia.com/news-track/hydration-emerges-as-a-key-part-of-premium-hospitality-experiencejagriti-motwani-founder-ceo-aum-premium/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-11-12T15:08:15.000Z",
+      "snippet": "AUM Premium is targeting India’s hospitality sector to drive growth in the premium bottled water segment, with plans to build partnerships across hotels, restaurants and wellness establishments. The brand, which offers niche Himalayan spring water, Glow Water and an affirmation-led bottle collection, is banking on rising consumer interest in wellness and premium hydration to build its market presence."
+    },
+    {
+      "title": "Amidst adverse conditions, GNTO expects to end the year on a growth note",
+      "link": "https://travelbizmonitor.com/top-stories/amidst-adverse-conditions-gnto-expects-to-end-the-year-on-a-growth-note/",
       "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-11-11T10:13:12.000Z",
-      "snippet": "South Africa has expanded its Electronic Travel Authorisation (ETA) system, introducing new features to simplify travel planning for eligible visitors from India, Southeast Asia and the Middle East. The enhanced digital platform aims to make travel authorisation more accessible and convenient, encouraging international visitors to explore the country’s wildlife, landscapes, cities and cultural heritage."
+      "pubDate": "2026-11-12T12:53:12.000Z",
+      "snippet": "Although the decadal high of 961,656 Indian overnights to Germany recorded in 2019 is still far-fetched, the German National Tourism Organisation (GNTO) India Office is hopeful of ending the year on a positive note."
     },
     {
-      "title": "Vietjet Celebrates Diwali Onboard Bengaluru Ho Chi Minh Flights",
-      "link": "https://travelbizmonitor.com/top-stories/vietjet-celebrates-diwali-onboard-bengaluru-ho-chi-minh-flights/",
+      "title": "Maharashtra beaches earn international Blue Flag Certification",
+      "link": "https://travelbizmonitor.com/top-stories/maharashtra-beaches-earn-international-blue-flag-certification/",
       "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-11-11T10:11:07.000Z",
-      "snippet": "Vietjet celebrated India’s Festival of Lights by bringing Diwali festivities onboard its flights between Bengaluru and Ho Chi Minh City, creating a festive experience for passengers travelling between the two destinations. The special initiative brought Indian traditions and festive cheer to the skies, allowing travellers to experience the spirit of Diwali during their journey."
+      "pubDate": "2026-11-12T11:00:50.000Z",
+      "snippet": "Maharashtra has achieved an important milestone in sustainable tourism, with three of its beaches receiving the internationally recognised Blue Flag certification for the 2026–27 season. The newly certified beaches are Ladghar and Guhagar in Ratnagiri district and Shrivardhan in Raigad district. This is the first time beaches from Maharashtra have received this recognition."
     },
     {
-      "title": "Minor Hotels to enter Uzbekistan with 151-room NH Hotel Tashkent in 2027",
-      "link": "https://traveltradejournal.com/minor-hotels-to-enter-uzbekistan-with-151-room-nh-hotel-tashkent-in-2027/",
+      "title": "Kerzner International to debut rare finds in Asia with Vana Som Botanical Resort in Chiang Mai",
+      "link": "https://traveltradejournal.com/kerzner-international-to-debut-rare-finds-in-asia-with-vana-som-botanical-resort-in-chiang-mai/",
       "source": "Travel Trade Journal",
       "region": "India",
-      "pubDate": "2026-11-11T04:37:55.000Z",
-      "snippet": "Minor Hotels has signed a franchise agreement with EASYRENT PE for the 151-room NH Hotel Tashkent, marking the hospitality group’s entry into Uzbekistan and its debut in the Commonwealth of Independent States (CIS) and Central Asia. The property, currently undergoing refurbishment and repositioning under the NH Hotels & Resorts brand, is scheduled to open in the first quarter of 2027."
+      "pubDate": "2026-11-12T10:14:13.000Z",
+      "snippet": "Kerzner International has announced the development of Vana Som Botanical Resort in Mae Rim, Chiang Mai, marking the debut of its rare finds collection in Asia and the brand’s first property in Thailand. Scheduled to open in 2029, the resort will combine luxury hospitality, branded residences and cultural experiences inspired by Northern Thailand’s heritage."
+    },
+    {
+      "title": "Thomas Cook India CFO looks to recoup travel business shortfall through margin management, digital push",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/travel/thomas-cook-india-cfo-looks-to-recoup-travel-business-shortfall-through-margin-management-digital-push/135756309",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-12T06:30:00.000Z",
+      "snippet": "Brijesh Modi says the company is focusing on cost management, procurement efficiencies and automation to protect margins amid geopolitical disruptions and rising travel costs; holiday business forward bookings rise 30% year on year."
     }
   ]
 }
