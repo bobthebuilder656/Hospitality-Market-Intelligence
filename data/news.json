@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T23:42:36.630Z",
+  "generatedAt": "2026-11-12T00:59:00.154Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -105,8 +105,8 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "staff appointment": 2,
-        "too old": 2
+        "staff appointment": 1,
+        "too old": 3
       },
       "error": null
     },
@@ -117,7 +117,7 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
-        "too old": 5
+        "too old": 6
       },
       "error": null
     },
@@ -128,7 +128,6 @@
       "fetched": 20,
       "kept": 4,
       "dropped": {
-        "award announcement with no real content": 1,
         "several headlines in one title": 1
       },
       "error": null
@@ -158,6 +157,7 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
+        "no usable body text": 1,
         "non-English": 4,
         "sponsored": 1
       },
@@ -182,19 +182,19 @@
       "reason": "staff appointment"
     },
     {
-      "source": "Travel Trade Journal",
-      "title": "Hyatt appoints Stephen Ho as Group President, Asia Pacific",
-      "reason": "staff appointment"
-    },
-    {
       "source": "Hospitality Net",
-      "title": "Tambourine Earns Top Honors for Hospitality Website Design at 2026 Travel Weekly Magellan Awards",
-      "reason": "award announcement with no real content"
-    },
-    {
-      "source": "Hospitality Net",
-      "title": "Hotels Hand AI to Everyone Except the Frontline, Why AI Agents Aren't Booking Rooms Yet, What Makes a Luxury Stay Worth the Price?",
+      "title": "CityHub's Remco Gerritsen on Solo Travel and Revenue per Square Meter, Steve Rushmore on Key Money, Paris and London Set October Records",
       "reason": "several headlines in one title"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Mamaka Phuket to Bring 1960s Glamour to Bang Tao in December",
+      "reason": "no usable body text"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Risk Map 2027: In diesen 15 Ländern hat sich die Sicherheit verschlechtert",
+      "reason": "non-English"
     },
     {
       "source": "Business Traveller",
@@ -217,11 +217,6 @@
       "reason": "non-English"
     },
     {
-      "source": "Business Traveller",
-      "title": "Ist Trondheim der coolste neue Wirtschaftsstandort in Skandinavien? Die Trendsetter vor Ort sind dieser Meinung.",
-      "reason": "non-English"
-    },
-    {
       "source": "Hotel Dive",
       "title": "Lodging Lowdown: Remington names CTO, Hersha sells Boston Hilton",
       "reason": "roundup/digest (title)"
@@ -229,84 +224,84 @@
   ],
   "items": [
     {
-      "title": "Can Traveling With Your Dog Make Every Journey More Meaningful?",
-      "link": "https://www.businesstraveller.com/lifestyle/the-dogist-elias-weiss-friedman-dogs-travel/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-11-10T23:05:42.000Z",
-      "snippet": "From photographing dogs worldwide to traveling with his beloved Elsa, The Dogist founder Elias Weiss Friedman shares how canine companionship transformed his career, inspired a business and enriched his travels."
-    },
-    {
-      "title": "Japan Is Closing in on the U.S. as High Costs and Politics Deter Travelers, Brand USA Says",
-      "link": "https://skift.com/2026/11/10/brand-usa-top-destination-closing-gap/",
-      "source": "Skift",
-      "region": "Global",
-      "pubDate": "2026-11-10T20:41:15.000Z",
-      "snippet": "Skift Take: Research shows the U.S. losing ground to Japan as costs and politics turn travelers away. Brand USA is betting the lost demand is deferred, not gone, but its budget to win it back is shrinking. The U.S.’ place as international travelers’ top destination is slipping as more key markets look to Japan and other destinations, according to new research from Brand USA shared at its board meeting Tuesday."
-    },
-    {
-      "title": "Mercure Hyderabad KCP Welcomes Amzala Chaitanya as Director of Sales",
-      "link": "https://hospitalitybizindia.com/news-track/mercure-hyderabad-kcp-welcomes-amzala-chaitanya-as-director-of-sales/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-11-10T19:06:56.000Z",
-      "snippet": "Bringing over 13 years of extensive experience in the hospitality industry to the hotel’s commercial leadership team. In his new role, Chaitanya will spearhead the hotel’s overall sales and marketing strategy, driving business growth across key segments including Rooms, Corporate Sales, Banquets, MICE and Business Development."
-    },
-    {
-      "title": "Tivoli Hospitality Group Doubles Down on Chhatarpur with launch of Midori by Tivoli",
-      "link": "https://hospitalitybizindia.com/news-track/tivoli-hospitality-group-doubles-down-on-chhatarpur-with-launch-of-midori-by-tivoli/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-11-10T18:30:35.000Z",
-      "snippet": "New luxury property to feature expansive banqueting venues, premium rooms and leisure facilities, targeting the growing weddings, celebrations and MICE market in Delhi-NCR. Following the successful establishment of its premium five-star property, The Tivoli Hotel, in Chhatarpur, Tivoli Hospitality Group is all geared up to launch Midori by Tivoli on November 13, 2026."
-    },
-    {
-      "title": "FLY91 to launch daily Navi Mumbai Sindhudurg flights",
-      "link": "https://travelbizmonitor.com/top-stories/fly91-to-launch-daily-navi-mumbai-sindhudurg-flights/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-10T15:23:03.000Z",
-      "snippet": "FLY91 will launch daily flights connecting Sindhudurg with Navi Mumbai from November 16, restoring a direct air link between the district in South Maharashtra and the Mumbai region."
-    },
-    {
-      "title": "Accor, Hard Rock enter partnership on loyalty, distribution",
-      "link": "https://www.hoteldive.com/news/accor-hard-rock-enter-partnership-loyalty-distribution/874251/",
-      "source": "Hotel Dive",
-      "region": "Global",
-      "pubDate": "2026-11-10T15:21:56.000Z",
-      "snippet": "The agreement will expand Hard Rock’s distribution network and accelerate its global development, while enhancing both companies’ loyalty programs. The agreement, which aims to preserve Hard Rock’s “distinctive identity and guest experience,” is expected to close by the end of this year, a Hard Rock International representative told Hotel Dive."
-    },
-    {
-      "title": "IRCTC intensifies action against unauthorised e-catering platforms",
-      "link": "https://travelbizmonitor.com/top-stories/irctc-intensifies-action-against-unauthorised-e-catering-platforms/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-10T15:19:24.000Z",
-      "snippet": "The Indian Railway Catering and Tourism Corporation (IRCTC) has launched a stringent enforcement drive to identify and curb unauthorised e-catering websites and mobile applications operating across the Indian Railways network. The initiative aims to protect passengers from risks associated with food safety, hygiene, data privacy and financial security arising from the use of unverified food-ordering platforms."
-    },
-    {
-      "title": "Grevon and Indio Partner to Enable End-to-End AI Bookings for RV Parks and Campgrounds",
-      "link": "https://www.hospitalitynet.org/news/4135388/grevon-and-indio-partner-to-enable-end-to-end-ai-bookings-for-rv-parks-and-campgrounds",
+      "title": "How Conversational AI Is Moving Hotel Linen Management From Reactive to Proactive",
+      "link": "https://www.hospitalitynet.org/opinion/4135430/how-conversational-ai-is-moving-hotel-linen-management-from-reactive-to-proactive",
       "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-11-10T14:15:00.000Z",
-      "snippet": "Grevon and Indio are integrating to let RV park and campground guests inquire, check availability, and pay within a single AI conversation, without redirection to a separate booking engine."
+      "pubDate": "2026-11-11T23:10:17.000Z",
+      "snippet": "A conversational AI assistant built on RFID inventory data lets hotel operators query linen stock, loss trends, and reorder needs in plain language, shifting from reactive to predictive management."
     },
     {
-      "title": "Accor signs Novotel Jim Corbett Chhoi, marking Uttarakhand debut in 2029",
-      "link": "https://traveltradejournal.com/accor-signs-novotel-jim-corbett-chhoi-marking-uttarakhand-debut-in-2029/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-11-10T05:54:17.000Z",
-      "snippet": "Accor has announced the signing of Novotel Jim Corbett Chhoi, marking the hospitality group’s entry into Uttarakhand. Scheduled to open in 2029, the 150-key property will strengthen Accor’s presence in India’s leisure hospitality market, particularly in wildlife and nature-based destinations."
+      "title": "First Look: Inside JetBlue’s New BlueFirst",
+      "link": "https://www.businesstraveller.com/news/first-look-inside-jetblues-new-bluefirst/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-11-11T22:24:35.000Z",
+      "snippet": "JetBlue unveils BlueFirst, its new domestic first-class cabin, featuring plush recliners, upgraded entertainment, creative dining and competitive fares, as the airline prepares its December debut and premium expansion across America."
     },
     {
-      "title": "Fairmont Hotels and Resorts opens 100th hotel globally with debut of Fairmont New Orleans",
-      "link": "https://traveltradejournal.com/fairmont-hotels-and-resorts-opens-100th-hotel-globally-with-debut-of-fairmont-new-orleans/",
+      "title": "MCR’s Tyler Morse Wants to Ban AI Bots From Booking His Hotels",
+      "link": "https://skift.com/2026/11/11/mcrs-tyler-morse-wants-to-ban-ai-bots-from-booking-his-hotels/",
+      "source": "Skift",
+      "region": "Global",
+      "pubDate": "2026-11-11T21:46:26.000Z",
+      "snippet": "\" He prefers human customers, who can more easily be persuaded to make impulse purchases. Tyler Morse wants to stop personal AI agents from booking rooms at his hotels. The reason isn't privacy or regulation, according to the chairman and CEO of MCR Hotels. It's that the software can't be talked into a splurge."
+    },
+    {
+      "title": "Hyatt Hyderabad Gachibowli Appoints Nisha Mundliya as Director of Finance and Suresh Raju as Human Resources Manager",
+      "link": "https://hospitalitybizindia.com/news-track/hyatt-hyderabad-gachibowli-appoints-nisha-mundliya-as-director-of-finance-and-suresh-raju-as-human-resources-manager/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-11-11T19:25:09.000Z",
+      "snippet": "Hyatt Hyderabad Gachibowli is pleased to announce the appointment of Nisha Mundliya as Director of Finance and Suresh Raju as Human Resources Manager , further strengthening the hotel’s leadership team and commitment to operational excellence and people-centric growth."
+    },
+    {
+      "title": "Braemar officially splits from Ashford, transitions to self-managed REIT",
+      "link": "https://www.hoteldive.com/news/braemar-splits-from-ashford-becomes-self-managed-reit/874422/",
+      "source": "Hotel Dive",
+      "region": "Global",
+      "pubDate": "2026-11-11T18:36:34.000Z",
+      "snippet": "On Tuesday, the real estate investment trust terminated its advisory agreement with Ashford. It also appointed a new executive team and board of directors. On Tuesday, Braemar Hotels & Resorts entered into a termination and release agreement with Ashford Inc. and its affiliates, marking its official separation from the company and transition to a self-managed real estate investment trust, according to a Nov."
+    },
+    {
+      "title": "Nearly 91% of Mumbai Airport's international traffic to remain unaffected by T1 redevelopment",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/travel/nearly-91-of-mumbai-airports-international-traffic-to-remain-unaffected-by-t1-redevelopment/135731364",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-11T13:30:00.000Z",
+      "snippet": "The new Terminal 1 is expected to increase the terminal's passenger-handling capacity from 15 million passengers per annum (MPPA) to 20 MPPA, a rise of about 33 per cent."
+    },
+    {
+      "title": "Royal Orchid eyes 35 hotels signings a year",
+      "link": "https://hospitalitybizindia.com/news-track/royal-orchid-eyes-35-hotels-signings-a-year/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-11-11T12:19:13.000Z",
+      "snippet": "With more than 125 operating hotels and over 50 projects in the pipeline, Royal Orchid Hotels is accelerating its asset-light expansion across emerging markets. The group is strengthening its Regenta portfolio, entering six states with Hampton by Hilton and targeting growing demand from domestic and pilgrimage travel."
+    },
+    {
+      "title": "South Africa Expands Digital Travel Authorisation for Indians",
+      "link": "https://travelbizmonitor.com/top-stories/south-africa-expands-digital-travel-authorisation-for-indians/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-11T10:13:12.000Z",
+      "snippet": "South Africa has expanded its Electronic Travel Authorisation (ETA) system, introducing new features to simplify travel planning for eligible visitors from India, Southeast Asia and the Middle East. The enhanced digital platform aims to make travel authorisation more accessible and convenient, encouraging international visitors to explore the country’s wildlife, landscapes, cities and cultural heritage."
+    },
+    {
+      "title": "Vietjet Celebrates Diwali Onboard Bengaluru Ho Chi Minh Flights",
+      "link": "https://travelbizmonitor.com/top-stories/vietjet-celebrates-diwali-onboard-bengaluru-ho-chi-minh-flights/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-11T10:11:07.000Z",
+      "snippet": "Vietjet celebrated India’s Festival of Lights by bringing Diwali festivities onboard its flights between Bengaluru and Ho Chi Minh City, creating a festive experience for passengers travelling between the two destinations. The special initiative brought Indian traditions and festive cheer to the skies, allowing travellers to experience the spirit of Diwali during their journey."
+    },
+    {
+      "title": "Minor Hotels to enter Uzbekistan with 151-room NH Hotel Tashkent in 2027",
+      "link": "https://traveltradejournal.com/minor-hotels-to-enter-uzbekistan-with-151-room-nh-hotel-tashkent-in-2027/",
       "source": "Travel Trade Journal",
       "region": "India",
-      "pubDate": "2026-11-10T05:02:58.000Z",
-      "snippet": "Fairmont Hotels and Resorts, part of Accor, has officially opened Fairmont New Orleans, marking the luxury hospitality brand’s 100th hotel worldwide and its return to the Louisiana city after two decades."
+      "pubDate": "2026-11-11T04:37:55.000Z",
+      "snippet": "Minor Hotels has signed a franchise agreement with EASYRENT PE for the 151-room NH Hotel Tashkent, marking the hospitality group’s entry into Uzbekistan and its debut in the Commonwealth of Independent States (CIS) and Central Asia. The property, currently undergoing refurbishment and repositioning under the NH Hotels & Resorts brand, is scheduled to open in the first quarter of 2027."
     }
   ]
 }
