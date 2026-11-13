@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T23:52:16.153Z",
+  "generatedAt": "2026-11-13T23:51:57.190Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -105,8 +105,7 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "staff appointment": 2,
-        "too old": 1
+        "staff appointment": 1
       },
       "error": null
     },
@@ -128,7 +127,8 @@
       "fetched": 20,
       "kept": 4,
       "dropped": {
-        "several headlines in one title": 1
+        "several headlines in one title": 1,
+        "award announcement with no real content": 1
       },
       "error": null
     },
@@ -138,7 +138,9 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "no usable body text": 1
+      },
       "error": null
     },
     {
@@ -170,7 +172,9 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "roundup/digest (title)": 1
+      },
       "error": null
     }
   ],
@@ -181,14 +185,19 @@
       "reason": "staff appointment"
     },
     {
-      "source": "Travel Trade Journal",
-      "title": "Grand Metropolitan Hotels appoints Ramesh Arora as Chief Executive Officer",
-      "reason": "staff appointment"
+      "source": "Hospitality Net",
+      "title": "How to List Your Hotel on ChatGPT, Your Rights When Booking.com Closes Your Account, Questions to Ask Before a Loyalty Partnership",
+      "reason": "several headlines in one title"
     },
     {
       "source": "Hospitality Net",
-      "title": "OpenAI Buys an AI Travel Agent, Hotels Start Choosing Which AI Agents Get In, Should a Hotel Night Carry Its €5 Climate Cost?",
-      "reason": "several headlines in one title"
+      "title": "Corinthia Founder & Chairman, Alfred Pisani honoured with prestigious WTTC Icon Award",
+      "reason": "award announcement with no real content"
+    },
+    {
+      "source": "Skift",
+      "title": "New Webinar: Turning Travel Disruptions Into Guest Loyalty",
+      "reason": "no usable body text"
     },
     {
       "source": "Business Traveller",
@@ -224,88 +233,93 @@
       "source": "Business Traveller",
       "title": "Risk Map 2027: In diesen 15 Ländern hat sich die Sicherheit verschlechtert",
       "reason": "non-English"
+    },
+    {
+      "source": "Hotel Dive",
+      "title": "Lodging Lowdown: Hyatt opens lifestyle JdV hotel in Pacific Northwest",
+      "reason": "roundup/digest (title)"
     }
   ],
   "items": [
     {
-      "title": "Flight Attendants Union Chief Targets Regional Pay, Delta, and Worker Data",
-      "link": "https://skift.com/2026/11/12/flight-attendants-union-targets-regional-pay-delta-and-worker-data/",
-      "source": "Skift",
-      "region": "Global",
-      "pubDate": "2026-11-12T23:42:20.000Z",
-      "snippet": "Skift Take: The era of catch-up flight attendant raises is ending, but airlines shouldn’t expect labor costs to ease. The next fights are over regional pay and worker data. Flight attendants and pilots saw massive pay jumps in recent negotiations. Association of Flight Attendants International President Sara Nelson doesn’t expect a repeat."
-    },
-    {
-      "title": "Manhattan’s Elysée New York set to reopen after monthslong renovation",
-      "link": "https://www.hoteldive.com/news/elysee-new-york-reopens-after-renovation/874557/",
-      "source": "Hotel Dive",
-      "region": "Global",
-      "pubDate": "2026-11-12T20:31:26.000Z",
-      "snippet": "The historic hotel will remain home to Monkey Bar and offer new culinary and wellness amenities as the flagship property of Hera Hospitality Group’s Wunderkind Hotels & Resorts."
-    },
-    {
-      "title": "From Booking to Check-In: How to Make the Most of Travel Tuesday",
-      "link": "https://www.hospitalitynet.org/opinion/4135454/from-booking-to-check-in-how-to-make-the-most-of-travel-tuesday",
+      "title": "The Retail Opportunity Hotels Keep Missing",
+      "link": "https://www.hospitalitynet.org/opinion/4135473/the-retail-opportunity-hotels-keep-missing",
       "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-11-12T18:01:38.000Z",
-      "snippet": "A tactical guide for hoteliers on maximising Travel Tuesday, covering distribution, rate protection, mobile check-in, guest messaging, and upselling to convert discount bookings into higher-value stays."
+      "pubDate": "2026-11-13T23:00:00.000Z",
+      "snippet": "Founders of Basecamp Resorts and Nomada Hotel Group share lessons on building profitable hotel retail programs, from product curation and merchandising to vendor strategy and proprietary branding."
     },
     {
-      "title": "EIH Hotels revises Trident Tirupati project cost to Rs 344 crore",
-      "link": "https://hospitalitybizindia.com/news-track/eih-hotels-revises-trident-tirupati-project-cost-to-rs-344-crore/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-11-12T17:45:59.000Z",
-      "snippet": "EIH Hotels Ltd has revised the planned capital expenditure for its proposed Trident hotel in Tirupati, Andhra Pradesh, to Rs 344 crore through its wholly owned subsidiary, Svara Hotels Ltd. The project is expected to become operational by March 2030. The revised investment follows an exchange of land allotted to Svara Hotels (formerly Mumtaz Hotels) by the Andhra Pradesh government."
-    },
-    {
-      "title": "Aman Enlists Djokovic for New Ultra-Luxury Wellness and Sports Retreat",
-      "link": "https://www.businesstraveller.com/news/aman-enlists-djokovic-for-new-ultra-luxury-wellness-and-sports-retreat/",
-      "source": "Business Traveller",
+      "title": "FAA Orders Rare Nationwide Ground Stop Over Air Traffic Control Comms Issue",
+      "link": "https://skift.com/2026/11/13/faa-orders-rare-nationwide-ground-stop-over-air-traffic-control-comms-issue/",
+      "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-11-12T17:30:45.000Z",
-      "snippet": "Developed in collaboration with tennis star Novak Djokovic, the performance-led wellness brand will debut in Miami's Brickell district."
+      "pubDate": "2026-11-13T22:00:21.000Z",
+      "snippet": "Skift Take: This is only the third nationwide ground stop in 25 years. The last one, during a 2023 system outage, lasted about two hours."
     },
     {
-      "title": "‘Hydration emerges as a key part of premium hospitality experience’:Jagriti Motwani, AUM Premium",
-      "link": "https://hospitalitybizindia.com/news-track/hydration-emerges-as-a-key-part-of-premium-hospitality-experiencejagriti-motwani-founder-ceo-aum-premium/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-11-12T15:08:15.000Z",
-      "snippet": "AUM Premium is targeting India’s hospitality sector to drive growth in the premium bottled water segment, with plans to build partnerships across hotels, restaurants and wellness establishments. The brand, which offers niche Himalayan spring water, Glow Water and an affirmation-led bottle collection, is banking on rising consumer interest in wellness and premium hydration to build its market presence."
-    },
-    {
-      "title": "Amidst adverse conditions, GNTO expects to end the year on a growth note",
-      "link": "https://travelbizmonitor.com/top-stories/amidst-adverse-conditions-gnto-expects-to-end-the-year-on-a-growth-note/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-12T12:53:12.000Z",
-      "snippet": "Although the decadal high of 961,656 Indian overnights to Germany recorded in 2019 is still far-fetched, the German National Tourism Organisation (GNTO) India Office is hopeful of ending the year on a positive note."
-    },
-    {
-      "title": "Maharashtra beaches earn international Blue Flag Certification",
-      "link": "https://travelbizmonitor.com/top-stories/maharashtra-beaches-earn-international-blue-flag-certification/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-12T11:00:50.000Z",
-      "snippet": "Maharashtra has achieved an important milestone in sustainable tourism, with three of its beaches receiving the internationally recognised Blue Flag certification for the 2026–27 season. The newly certified beaches are Ladghar and Guhagar in Ratnagiri district and Shrivardhan in Raigad district. This is the first time beaches from Maharashtra have received this recognition."
-    },
-    {
-      "title": "Kerzner International to debut rare finds in Asia with Vana Som Botanical Resort in Chiang Mai",
-      "link": "https://traveltradejournal.com/kerzner-international-to-debut-rare-finds-in-asia-with-vana-som-botanical-resort-in-chiang-mai/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-11-12T10:14:13.000Z",
-      "snippet": "Kerzner International has announced the development of Vana Som Botanical Resort in Mae Rim, Chiang Mai, marking the debut of its rare finds collection in Asia and the brand’s first property in Thailand. Scheduled to open in 2029, the resort will combine luxury hospitality, branded residences and cultural experiences inspired by Northern Thailand’s heritage."
-    },
-    {
-      "title": "Thomas Cook India CFO looks to recoup travel business shortfall through margin management, digital push",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/travel/thomas-cook-india-cfo-looks-to-recoup-travel-business-shortfall-through-margin-management-digital-push/135756309",
+      "title": "Royal Orchid Hotels Ltd. strengthens National Presence with five new hotel openings adding 426 room keys in Q2 FY27",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/royal-orchid-hotels-ltd-strengthens-national-presence-with-five-new-hotel-openings-adding-426-room-keys-in-q2-fy27/135807322",
       "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-11-12T06:30:00.000Z",
-      "snippet": "Brijesh Modi says the company is focusing on cost management, procurement efficiencies and automation to protect margins amid geopolitical disruptions and rising travel costs; holiday business forward bookings rise 30% year on year."
+      "pubDate": "2026-11-13T15:30:00.000Z",
+      "snippet": "Total income for consolidated Q2 FY27 was reported at Rs 116 crore in comparison to Rs 86.77 crore in Q2 FY26. EBITDA was Rs 31.66 crore compared to Rs 20.79 crore with profit after tax (after exceptional items) stood at Rs 14.73 crore compared to Rs 4.29 crore. Standalone numbers for Q2 FY27 reported total income of Rs 58.75 crore compared to 49.64 crore in Q2 FY26."
+    },
+    {
+      "title": "Bodhi Tree System to invest $180mn for majority stake in Chennai's Adyar Ananda Bhavan",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/bodhi-tree-system-to-invest-180mn-for-majority-stake-in-chennais-adyar-ananda-bhavan/135806777",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-13T14:30:00.000Z",
+      "snippet": "Bodhi Tree System has decided to invest $180 million to acquire a controlling stake in Adyar Ananda Bhavan. This strategic investment aims to bolster the restaurant chain's reach both in domestic and international markets. Currently, A2B boasts 160 outlets across southern India and 30 international locations, including Singapore and the USA."
+    },
+    {
+      "title": "SFO’s Harvey Milk Terminal 1 Wins Five Design-Build Awards",
+      "link": "https://travelbizmonitor.com/top-stories/sfos-harvey-milk-terminal-1-wins-five-design-build-awards/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-13T13:49:08.000Z",
+      "snippet": "San Francisco International Airport (SFO) has received five honours for its Harvey Milk Terminal 1 at the Design-Build Institute of America’s (DBIA) 2026 Design-Build Awards. The terminal was recognised across multiple categories, including Project of the Year, Best in Design – Architecture, Best in Leadership/Training, National Award of Excellence – Aviation and National Award of Merit – Aviation."
+    },
+    {
+      "title": "VisitEngland announces 2025-2026 Visitor Attraction Accolade winners",
+      "link": "https://www.traveldailynews.com/organizations/visitengland-visitor-attraction-accolades-2025-2026/",
+      "source": "Travel Daily News",
+      "region": "Global",
+      "pubDate": "2026-11-13T13:47:31.000Z",
+      "snippet": "VisitEngland has announced the winners of its 2025–2026 Visitor Attraction Accolades . This year, 73 attractions across England received recognition. The awards celebrated excellence across five categories, highlighting the quality of the country’s visitor experiences. VisitEngland recognised 73 attractions across England."
+    },
+    {
+      "title": "10 Experiences That Showcase Spectacular Boston in Winter",
+      "link": "https://travelbizmonitor.com/top-stories/10-experiences-that-showcase-spectacular-boston-in-winter/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-13T13:41:14.000Z",
+      "snippet": "Winter in Boston offers a chance to see the city in a new way. Historic neighborhoods have a magic that seems amplified in the cold, the waterfront is filled with festivities, and the city’s restaurants and cultural attractions are an appealing counterbalance to the brisk weather. So that you can make the most of your visit, here’s how to experience a winter escape to Boston, Massachusetts."
+    },
+    {
+      "title": "Continent of Couture: Why African Designers Are the Talk of the Fashion World",
+      "link": "https://www.businesstraveller.com/insights/continent-of-couture-why-african-designers-are-the-talk-of-the-fashion-world/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-11-13T12:55:01.000Z",
+      "snippet": "African fashion is surging onto global catwalks with bold creativity, extraordinary craftsmanship and a deep-rooted heritage that’s redefining luxury."
+    },
+    {
+      "title": "Aspri Spirits, Flor de Caña Name Top 10 India Finalists for Sustainable Cocktail Challenge",
+      "link": "https://hospitalitybizindia.com/news-track/aspri-spirits-flor-de-cana-name-top-10-india-finalists-for-sustainable-cocktail-challenge/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-11-13T10:04:26.000Z",
+      "snippet": "Now in its 6th edition, and coinciding with Flor de Caña’s 135th anniversary, the Flor de Caña Sustainable Cocktail Challenge is a global celebration of sustainability that inspires, promotes and recognizes the world’s most talented mixologists."
+    },
+    {
+      "title": "Marriott International signs South Asia’s largest Courtyard by Marriott in Bengaluru",
+      "link": "https://traveltradejournal.com/marriott-international-signs-south-asias-largest-courtyard-by-marriott-in-bengaluru/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-11-13T04:03:08.000Z",
+      "snippet": "Marriott International has signed an agreement with Vedant Enterprises to develop Courtyard by Marriott Bengaluru Hi-Tech Defense and Aerospace Park, which is set to become the largest Courtyard by Marriott hotel in South Asia. Scheduled to open in 2030, the 350-key property will strengthen Marriott’s presence in Bengaluru’s growing business and hospitality market."
     }
   ]
 }
