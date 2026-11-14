@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T23:51:57.190Z",
+  "generatedAt": "2026-11-14T22:44:25.579Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -159,7 +159,7 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 3,
+        "non-English": 2,
         "award announcement with no real content": 1,
         "sponsored": 2,
         "no usable body text": 1
@@ -230,17 +230,60 @@
       "reason": "no usable body text"
     },
     {
-      "source": "Business Traveller",
-      "title": "Risk Map 2027: In diesen 15 Ländern hat sich die Sicherheit verschlechtert",
-      "reason": "non-English"
-    },
-    {
       "source": "Hotel Dive",
       "title": "Lodging Lowdown: Hyatt opens lifestyle JdV hotel in Pacific Northwest",
       "reason": "roundup/digest (title)"
     }
   ],
   "items": [
+    {
+      "title": "US ground stop lifted as airlines restart flights",
+      "link": "https://www.traveldailynews.com/aviation/us-ground-stop-lifted-airlines-restart-flights/",
+      "source": "Travel Daily News",
+      "region": "Global",
+      "pubDate": "2026-11-14T12:30:58.000Z",
+      "snippet": "The US ground stop ended, allowing airlines to restart departures after communications problems disrupted air traffic control. However, the resumption of flights did not immediately restore airline schedules. The Federal Aviation Administration said the nationwide restriction followed communications issues affecting multiple Air Route Traffic Control Centers."
+    },
+    {
+      "title": "Ireland extends visa waiver programme for Indians",
+      "link": "https://travelbizmonitor.com/top-stories/ireland-extends-visa-waiver-programme-for-indians/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-14T10:53:30.000Z",
+      "snippet": "Ireland has extended its Short-Stay Visa Waiver Programme until December 31, 2026, allowing eligible Indian nationals to visit the country without obtaining a separate Irish visa, provided they hold and have used a qualifying UK short-stay visa. The programme, which was earlier scheduled to end on October 31, covers nationals from countries across Asia, Europe, the Middle East and South America."
+    },
+    {
+      "title": "Kerzner Announces First Thailand Resort in Chiang Mai",
+      "link": "https://travelbizmonitor.com/top-stories/kerzner-announces-first-thailand-resort-in-chiang-mai/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-14T10:51:13.000Z",
+      "snippet": "Kerzner International Holdings Limited (Kerzner), a global developer and operator of destination resorts, ultra-luxury hotels, residences and hospitality experiences, has announced Vana Som Botanical Resort in Mae Rim, Chiang Mai."
+    },
+    {
+      "title": "Scotch whisky import dispute likely to be resolved 'very soon': Commerce secretary Rajesh Agrawal",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/scotch-whisky-import-dispute-likely-to-be-resolved-very-soon-commerce-secretary-rajesh-agrawal/135823187",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-14T08:30:00.000Z",
+      "snippet": "The government is hopeful of resolving the ongoing Scotch whisky import shipment issue within the next few days, with the Department of Revenue working to address concerns related to product classification, Commerce Secretary Rajesh Agrawal said on Friday."
+    },
+    {
+      "title": "Municipal Corporation of Delhi draws up stricter inspection norms for eateries, may issue sealing notices",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/municipal-corporation-of-delhi-draws-up-stricter-inspection-norms-for-eateries-may-issue-sealing-notices/135823042",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-14T07:30:00.000Z",
+      "snippet": "In a bid to elevate food safety standards, the MCD has launched stricter inspection protocols for eateries across the city. Inspections will assess hygiene practices, the quality of water used, and the sources of food supplies. Establishments that do not conform to these standards could face penalties or even closure."
+    },
+    {
+      "title": "Jungle Camps India expands portfolio with launch of Kuno Jungle Camp in Madhya Pradesh",
+      "link": "https://traveltradejournal.com/jungle-camps-india-expands-portfolio-with-launch-of-kuno-jungle-camp-in-madhya-pradesh/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-11-14T03:22:00.000Z",
+      "snippet": "Jungle Camps India Limited has announced the launch of Kuno Jungle Camp in Madhya Pradesh, expanding its portfolio to six wildlife lodges. Located in Sheopur district near Kuno National Park, the property was formerly known as The Palpur Fort."
+    },
     {
       "title": "The Retail Opportunity Hotels Keep Missing",
       "link": "https://www.hospitalitynet.org/opinion/4135473/the-retail-opportunity-hotels-keep-missing",
@@ -250,60 +293,20 @@
       "snippet": "Founders of Basecamp Resorts and Nomada Hotel Group share lessons on building profitable hotel retail programs, from product curation and merchandising to vendor strategy and proprietary branding."
     },
     {
-      "title": "FAA Orders Rare Nationwide Ground Stop Over Air Traffic Control Comms Issue",
-      "link": "https://skift.com/2026/11/13/faa-orders-rare-nationwide-ground-stop-over-air-traffic-control-comms-issue/",
+      "title": "What Caused the FAA Shutdown That Grounded U.S. Flights?",
+      "link": "https://www.businesstraveller.com/news/what-caused-faa-shutdown-november/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-11-13T22:30:00.000Z",
+      "snippet": "A nationwide FAA ground stop disrupted thousands of flights after telecommunications maintenance triggered network failures, prompting an investigation into L3Harris equipment, mounting weekend cancellations and renewed demands for modernization funding."
+    },
+    {
+      "title": "FAA Lifts 4-Hour Nationwide Ground Stop; Disruptions to Last Into Weekend",
+      "link": "https://skift.com/2026/11/13/nationwide-ground-stop-lifted-delays-to-last/",
       "source": "Skift",
       "region": "Global",
       "pubDate": "2026-11-13T22:00:21.000Z",
-      "snippet": "Skift Take: This is only the third nationwide ground stop in 25 years. The last one, during a 2023 system outage, lasted about two hours."
-    },
-    {
-      "title": "Royal Orchid Hotels Ltd. strengthens National Presence with five new hotel openings adding 426 room keys in Q2 FY27",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/royal-orchid-hotels-ltd-strengthens-national-presence-with-five-new-hotel-openings-adding-426-room-keys-in-q2-fy27/135807322",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-13T15:30:00.000Z",
-      "snippet": "Total income for consolidated Q2 FY27 was reported at Rs 116 crore in comparison to Rs 86.77 crore in Q2 FY26. EBITDA was Rs 31.66 crore compared to Rs 20.79 crore with profit after tax (after exceptional items) stood at Rs 14.73 crore compared to Rs 4.29 crore. Standalone numbers for Q2 FY27 reported total income of Rs 58.75 crore compared to 49.64 crore in Q2 FY26."
-    },
-    {
-      "title": "Bodhi Tree System to invest $180mn for majority stake in Chennai's Adyar Ananda Bhavan",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/bodhi-tree-system-to-invest-180mn-for-majority-stake-in-chennais-adyar-ananda-bhavan/135806777",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-13T14:30:00.000Z",
-      "snippet": "Bodhi Tree System has decided to invest $180 million to acquire a controlling stake in Adyar Ananda Bhavan. This strategic investment aims to bolster the restaurant chain's reach both in domestic and international markets. Currently, A2B boasts 160 outlets across southern India and 30 international locations, including Singapore and the USA."
-    },
-    {
-      "title": "SFO’s Harvey Milk Terminal 1 Wins Five Design-Build Awards",
-      "link": "https://travelbizmonitor.com/top-stories/sfos-harvey-milk-terminal-1-wins-five-design-build-awards/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-13T13:49:08.000Z",
-      "snippet": "San Francisco International Airport (SFO) has received five honours for its Harvey Milk Terminal 1 at the Design-Build Institute of America’s (DBIA) 2026 Design-Build Awards. The terminal was recognised across multiple categories, including Project of the Year, Best in Design – Architecture, Best in Leadership/Training, National Award of Excellence – Aviation and National Award of Merit – Aviation."
-    },
-    {
-      "title": "VisitEngland announces 2025-2026 Visitor Attraction Accolade winners",
-      "link": "https://www.traveldailynews.com/organizations/visitengland-visitor-attraction-accolades-2025-2026/",
-      "source": "Travel Daily News",
-      "region": "Global",
-      "pubDate": "2026-11-13T13:47:31.000Z",
-      "snippet": "VisitEngland has announced the winners of its 2025–2026 Visitor Attraction Accolades . This year, 73 attractions across England received recognition. The awards celebrated excellence across five categories, highlighting the quality of the country’s visitor experiences. VisitEngland recognised 73 attractions across England."
-    },
-    {
-      "title": "10 Experiences That Showcase Spectacular Boston in Winter",
-      "link": "https://travelbizmonitor.com/top-stories/10-experiences-that-showcase-spectacular-boston-in-winter/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-13T13:41:14.000Z",
-      "snippet": "Winter in Boston offers a chance to see the city in a new way. Historic neighborhoods have a magic that seems amplified in the cold, the waterfront is filled with festivities, and the city’s restaurants and cultural attractions are an appealing counterbalance to the brisk weather. So that you can make the most of your visit, here’s how to experience a winter escape to Boston, Massachusetts."
-    },
-    {
-      "title": "Continent of Couture: Why African Designers Are the Talk of the Fashion World",
-      "link": "https://www.businesstraveller.com/insights/continent-of-couture-why-african-designers-are-the-talk-of-the-fashion-world/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-11-13T12:55:01.000Z",
-      "snippet": "African fashion is surging onto global catwalks with bold creativity, extraordinary craftsmanship and a deep-rooted heritage that’s redefining luxury."
+      "snippet": "Skift Take: This is only the third nationwide ground stop in 25 years. The last one, during a 2023 system outage, lasted about two hours. The Federal Aviation Administration ended a nationwide ground stop Friday night more than four hours after a communication issue affected the Air Route Traffic Control Centers, the high-altitude air traffic control facilities that manage flights between airports."
     },
     {
       "title": "Aspri Spirits, Flor de Caña Name Top 10 India Finalists for Sustainable Cocktail Challenge",
@@ -312,14 +315,6 @@
       "region": "India",
       "pubDate": "2026-11-13T10:04:26.000Z",
       "snippet": "Now in its 6th edition, and coinciding with Flor de Caña’s 135th anniversary, the Flor de Caña Sustainable Cocktail Challenge is a global celebration of sustainability that inspires, promotes and recognizes the world’s most talented mixologists."
-    },
-    {
-      "title": "Marriott International signs South Asia’s largest Courtyard by Marriott in Bengaluru",
-      "link": "https://traveltradejournal.com/marriott-international-signs-south-asias-largest-courtyard-by-marriott-in-bengaluru/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-11-13T04:03:08.000Z",
-      "snippet": "Marriott International has signed an agreement with Vedant Enterprises to develop Courtyard by Marriott Bengaluru Hi-Tech Defense and Aerospace Park, which is set to become the largest Courtyard by Marriott hotel in South Asia. Scheduled to open in 2030, the 350-key property will strengthen Marriott’s presence in Bengaluru’s growing business and hospitality market."
     }
   ]
 }
