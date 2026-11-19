@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T01:17:51.583Z",
+  "generatedAt": "2026-11-19T00:43:09.653Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -125,7 +125,7 @@
       "fetched": 20,
       "kept": 4,
       "dropped": {
-        "several headlines in one title": 1
+        "several headlines in one title": 2
       },
       "error": null
     },
@@ -154,8 +154,7 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 5,
-        "sponsored": 1
+        "non-English": 5
       },
       "error": null
     },
@@ -184,8 +183,28 @@
     },
     {
       "source": "Hospitality Net",
-      "title": "Are We Overestimating Technical GEO?, Half of Consumers Mistake Deceptive Booking Sites for Hotel Websites, 47% of Americans Plan Holiday Travel",
+      "title": "Rebuilding Trust at the Signia by Hilton Diplomat, Accor Moves to Buy Out Ennismore's Minority Holders, Who Pays When an AI Agent Books the Wrong Rate?",
       "reason": "several headlines in one title"
+    },
+    {
+      "source": "Hospitality Net",
+      "title": "Global Hotel Alliance Reveals the New Traveller Mindset in 2027: Travel for Happiness, AI for Inspiration, Loyalty for Benefits, and Hotels That Make Every Trip Special",
+      "reason": "several headlines in one title"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Neue App „DB Info“ fasst Infos in Echtzeit zusammen – auch die der Konkurrenz",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Erster Eindruck: Ein Blick in JetBlues neue „BlueFirst“-Kabine",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "GTA 6 Release: Urlaubsanträge häufen sich, Miami dreht auf",
+      "reason": "non-English"
     },
     {
       "source": "Business Traveller",
@@ -198,26 +217,6 @@
       "reason": "non-English"
     },
     {
-      "source": "Business Traveller",
-      "title": "From Points to Privileges: Qatar Airways’ Loyalty Programme Is Now Even More Attractive to Corporate Travellers",
-      "reason": "sponsored"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Ausprobiert: Waldorf Astoria, New York – Hat Manhattans „Grande Dame“ ihre Krone zurückerobert?",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Ausprobiert: Grand Hyatt Manila – Großzügige Zimmer, herausragendes gastronomisches Angebot",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "50 Jahre Business Traveller: Highlights der Jubiläumsfeier und Verleihung der Business Traveller Awards 2026",
-      "reason": "non-English"
-    },
-    {
       "source": "Hotel Dive",
       "title": "Lodging Lowdown: Hyatt opens lifestyle JdV hotel in Pacific Northwest",
       "reason": "roundup/digest (title)"
@@ -225,52 +224,76 @@
   ],
   "items": [
     {
-      "title": "From dream to journey’s end: Why distribution is the quiet hero of the AI travel era",
-      "link": "https://www.hospitalitynet.org/opinion/4135533/from-dream-to-journeys-end-why-distribution-is-the-quiet-hero-of-the-ai-travel-era",
-      "source": "Hospitality Net",
-      "region": "Global",
-      "pubDate": "2026-11-17T23:04:02.000Z",
-      "snippet": "Amadeus argues that as AI assistants simplify hotel discovery, the complexity shifts to distribution, requiring structured content, intent-carrying systems, and seamless servicing to convert traveler queries into bookable, adaptable offers."
-    },
-    {
-      "title": "Marriott Bonvoy Sign-Ins Were Down for Hours",
-      "link": "https://skift.com/2026/11/17/marriott-bonvoy-sign-ins-were-down-for-hours-disrupting-mobile-keys/",
+      "title": "Booking Holdings Leaves Priceline Out of B2B Unit Amid FTC Scrutiny",
+      "link": "https://skift.com/2026/11/18/booking-holdings-leaves-priceline-out-of-b2b-unit-amid-ftc-scrutiny/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-11-17T22:42:59.000Z",
-      "snippet": "Skift Take: Marriott’s website and app briefly blocked loyalty member log-ins Tuesday. The company says the outage wasn’t a cyberattack. United Airlines and many non-travel companies have suffered various tech disruptions in recent days. Members of Marriott's loyalty program had trouble signing in Tuesday, with problems affecting access through its website and mobile app."
+      "pubDate": "2026-11-18T22:27:08.000Z",
+      "snippet": "Skift Take: Leaving Priceline out of the B2B consolidation is a blow to the goals of Booking Partner Division. Booking Holdings initially planned to consolidate three of its B2B brands into its new Booking Partner Division, but decided to leave Priceline out because of a potential U.S. Federal Trade Commission complaint against the brand."
     },
     {
-      "title": "The Comeback of Independent Bookstores: Why Readers Are Returning",
-      "link": "https://www.businesstraveller.com/lifestyle/independent-bookstores-revival-community-young-readers/",
+      "title": "Delta and Hyatt Launch Double Earning for Elite Members",
+      "link": "https://www.businesstraveller.com/news/delta-hyatt-double-earning-loyalty-partnership-elite-benefits/",
       "source": "Business Traveller",
       "region": "Global",
-      "pubDate": "2026-11-17T19:30:38.000Z",
-      "snippet": "Independent bookstores are flourishing across America, attracting younger readers with curated selections, author events and community spaces that offer something online retailers and algorithms cannot replicate: genuine human connection today."
+      "pubDate": "2026-11-18T21:30:38.000Z",
+      "snippet": "Delta and Hyatt have revived double earning for elite members, offering additional miles, hotel points and future status opportunities, although fare restrictions could limit the benefits for many frequent business travelers."
     },
     {
-      "title": "Novotel Hyderabad HITEC City prioritise MICE, weddings and F&B growth in FY27",
-      "link": "https://hospitalitybizindia.com/exclusive-news/__trashed-3/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-11-17T18:30:06.000Z",
-      "snippet": "Asmita Mukherjee | Hyderabad Inside the towering glass-and-concrete corridors of Hyderabad’s HITEC City, corporate hospitality typically follows a predictable script of check-ins, keynotes, and airport transfers."
-    },
-    {
-      "title": "Radisson Dining Makes Global Debut in India, Targets F&B Growth",
-      "link": "https://hospitalitybizindia.com/news-track/radisson-dining-makes-global-debut-in-india-targets-fb-growth/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-11-17T17:50:55.000Z",
-      "snippet": "Radisson Hotel Group has selected India for the global launch of Radisson Dining, a subscription-based programme designed to drive local engagement through dining, spa and hotel stay benefits. The initiative aims to extend the group’s customer engagement beyond hotel stays while generating incremental food and beverage (F&B) business for its properties."
-    },
-    {
-      "title": "Arizona’s VAI Resort adds Barbie Hotel, another Mattel-branded concept",
-      "link": "https://www.hoteldive.com/news/vai-resort-adds-barbie-hotel-mattel-branded-concept/874811/",
+      "title": "Marriott faces technical issues amid flurry of US outages, disruptions",
+      "link": "https://www.hoteldive.com/news/marriott-technology-disruption/875122/",
       "source": "Hotel Dive",
       "region": "Global",
-      "pubDate": "2026-11-17T15:01:24.000Z",
-      "snippet": "The two hotels will add more than 800 rooms to the Glendale entertainment destination as travelers seek immersive, branded experiences. The new hotels will bring Mattel Inc. brands to life through “immersive, family-friendly environments, one-of-a-kind themed suites and indoor entertainment,” per the release."
+      "pubDate": "2026-11-18T20:58:58.000Z",
+      "snippet": "A company spokesperson said tech complications impacted sign-in capabilities on its website and the Marriott Bonvoy app this week, though cybersecurity was a non-factor. Amid a flurry of technology disruptions at some of the country’s biggest companies this week, Marriott International faced its own technical challenges, the company confirmed to Hotel Dive."
+    },
+    {
+      "title": "A Back Office That Runs Itself: Automating Hotel Operations in 2027",
+      "link": "https://www.hospitalitynet.org/whitepaper/4135554/a-back-office-that-runs-itself-automating-hotel-operations-in-2027",
+      "source": "Hospitality Net",
+      "region": "Global",
+      "pubDate": "2026-11-18T19:45:45.000Z",
+      "snippet": "Otelier whitepaper draws on operator interviews to map which back-office tasks are ready to automate now, from night audit to OTA reconciliation, as GOPPAR growth stalls at 1% in 2027."
+    },
+    {
+      "title": "Royal Orchid Hotels Adds 102 Keys Across Rajkot and Vizag",
+      "link": "https://hospitalitybizindia.com/news-track/royal-orchid-hotels-adds-102-keys-across-rajkot-and-vizag/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-11-18T18:47:11.000Z",
+      "snippet": "The two launches strengthen the group’s presence in Gujarat and Andhra Pradesh with new business and lifestyle hotels. Royal Orchid Hotels Ltd. (ROHL), through its subsidiary Regenta Hotels Private Limited, has opened two properties, Regenta Crystal in Rajkot and Z by Regenta in Visakhapatnam, adding 102 rooms and suites to its portfolio."
+    },
+    {
+      "title": "Food Safety Crackdown: Licences of 13 Eateries Suspended in Mumbai and Hyderabad",
+      "link": "https://hospitalitybizindia.com/news-track/food-safety-crackdown-licences-of-13-eateries-suspended-in-mumbai-and-hyderabad/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-11-18T18:30:54.000Z",
+      "snippet": "FDA and TG SAFE inspections uncover hygiene violations across restaurants; establishments face closure, food seizures and possible delisting from online delivery platforms. Food safety authorities in Maharashtra and Telangana have stepped up enforcement against restaurants and food establishments following inspections that revealed serious hygiene and regulatory violations."
+    },
+    {
+      "title": "Bulk Scotch imports face 162.5 pc duty and tax amid India-UK trade pact dispute: Report",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/bulk-scotch-imports-face-162-5-pc-duty-and-tax-amid-india-uk-trade-pact-dispute-report/135968342",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-18T17:10:23.000Z",
+      "snippet": "Bulk Scotch whisky shipments caught in a customs classification dispute under the India-UK free trade agreement (FTA) face a combined duty and tax burden of 162.5 per cent in India, Reuters reported on Wednesday, citing a government document it reviewed and eight sources with direct knowledge of the matter."
+    },
+    {
+      "title": "California unveils 2027 lineup of major openings, landmark events and new resorts",
+      "link": "https://travelbizmonitor.com/top-stories/california-unveils-2027-lineup-of-major-openings-landmark-events-and-new-resorts/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-18T13:07:23.000Z",
+      "snippet": "California invites travelers to experience rich art and cultural offerings, major sporting events, immersive attractions, new accommodations and more in 2027."
+    },
+    {
+      "title": "10 Experiences That Showcase Spectacular Boston in Winter",
+      "link": "https://travelbizmonitor.com/top-stories/10-experiences-that-showcase-spectacular-boston-in-winter-2/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-18T13:04:08.000Z",
+      "snippet": "Winter in Boston offers a chance to see the city in a new way. Historic neighborhoods have a magic that seems amplified in the cold, the waterfront is filled with festivities, and the city’s restaurants and cultural attractions are an appealing counterbalance to the brisk weather. So that you can make the most of your visit, here’s how to experience a winter escape to Boston, Massachusetts."
     },
     {
       "title": "Radisson Hotel Group expands loyalty offering, selects India for global launch of Radisson Dining",
@@ -279,30 +302,6 @@
       "region": "India",
       "pubDate": "2026-11-17T15:00:24.000Z",
       "snippet": "Radisson Hotel Group has announced the launch of Radisson Dining in India, a subscription-based dining and lifestyle benefits programme developed in partnership with TLC DigiTech. Available from December 1, 2026, the initiative will extend the group’s Radisson Rewards loyalty ecosystem beyond hotel stays, offering local consumers benefits across dining, spa and accommodation at participating properties."
-    },
-    {
-      "title": "HKTB inks MoU with Consensus to Host Asia’s Flagship AI, Blockchain and Digital Assets Conference from 2027 to 2029",
-      "link": "https://travelbizmonitor.com/top-stories/hktb-inks-mou-with-consensus-to-host-asias-flagship-ai-blockchain-and-digital-assets-conference-from-2027-to-2029/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-17T13:00:46.000Z",
-      "snippet": "The Hong Kong Tourism Board (HKTB) signed a Memorandum of Understanding (MoU) with CoinDesk, a media, events, indices and data platform for the global digital asset economy, officially establishing a strategic partnership."
-    },
-    {
-      "title": "Meghalaya Tourism and Evoke Experiences launch ‘Living Meghalaya’ luxury tented stays across three destinations",
-      "link": "https://traveltradejournal.com/meghalaya-tourism-and-evoke-experiences-launch-living-meghalaya-luxury-tented-stays-across-three-destinations/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-11-17T12:58:52.000Z",
-      "snippet": "The Department of Tourism, Government of Meghalaya, in partnership with Evoke Experiences, has unveiled ‘Living Meghalaya’, a collection of luxury tented accommodation across three destinations in the state. The initiative aims to promote experiential tourism by combining distinctive natural settings, curated hospitality and locally rooted cultural experiences."
-    },
-    {
-      "title": "Delhi is our home market; we want to establish our brands here first: Chaitanya Mathur, Ninecamp Ventures",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/delhi-is-our-home-market-we-want-to-establish-our-brands-here-first-chaitanya-mathur-ninecamp-ventures/135912621",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-17T06:30:00.000Z",
-      "snippet": "With a focus on consolidating its Delhi NCR presence before entering other markets, Ninecamp Ventures is pursuing a measured expansion strategy while building a multi-brand F&B business across distinct dining formats. Get in-depth Industry Insights and Analysis through our \"Exclusive\" content, presented to you by our esteemed panel of writers, for free."
     }
   ]
 }
