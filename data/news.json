@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T00:43:09.653Z",
+  "generatedAt": "2026-11-21T00:11:32.711Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -54,11 +54,11 @@
     {
       "id": "hotelier-india",
       "name": "Hotelier India",
-      "ok": false,
-      "fetched": 0,
-      "kept": 0,
+      "ok": true,
+      "fetched": 60,
+      "kept": 4,
       "dropped": {},
-      "error": "Status code 403"
+      "error": null
     },
     {
       "id": "et-hospitality",
@@ -105,7 +105,7 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "staff appointment": 2
+        "staff appointment": 1
       },
       "error": null
     },
@@ -125,7 +125,8 @@
       "fetched": 20,
       "kept": 4,
       "dropped": {
-        "several headlines in one title": 2
+        "several headlines in one title": 1,
+        "award announcement with no real content": 1
       },
       "error": null
     },
@@ -154,7 +155,8 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 5
+        "non-English": 4,
+        "sponsored": 2
       },
       "error": null
     },
@@ -177,131 +179,131 @@
       "reason": "staff appointment"
     },
     {
-      "source": "Travel Trade Journal",
-      "title": "The Ritz-Carlton Yacht Collection appoints Alan Leibman as CEO and Tatiana Ferreira as President",
-      "reason": "staff appointment"
-    },
-    {
       "source": "Hospitality Net",
-      "title": "Rebuilding Trust at the Signia by Hilton Diplomat, Accor Moves to Buy Out Ennismore's Minority Holders, Who Pays When an AI Agent Books the Wrong Rate?",
+      "title": "Black Friday Now Prices 13 Months of Stays, 7.55% of Cancellations Are Cheaper Rebookings, Where Did the Full-Service GM Go?",
       "reason": "several headlines in one title"
     },
     {
       "source": "Hospitality Net",
-      "title": "Global Hotel Alliance Reveals the New Traveller Mindset in 2027: Travel for Happiness, AI for Inspiration, Loyalty for Benefits, and Hotels That Make Every Trip Special",
-      "reason": "several headlines in one title"
+      "title": "The Caribbean Hotel & Tourism Association Announces 2026 Chief Award Winners, Celebrating Excellence in Caribbean Hospitality",
+      "reason": "award announcement with no real content"
     },
     {
       "source": "Business Traveller",
-      "title": "Neue App „DB Info“ fasst Infos in Echtzeit zusammen – auch die der Konkurrenz",
+      "title": "Black Friday oder Travel Tuesday 2026? Das ist der günstigste Tag, um eine Reise zu buchen",
       "reason": "non-English"
     },
     {
       "source": "Business Traveller",
-      "title": "Erster Eindruck: Ein Blick in JetBlues neue „BlueFirst“-Kabine",
+      "title": "Small Brand, Big Ambition: Small African Luxury Brand takes the Skies with Ethiopian Airlines Inflight Duty-Free",
+      "reason": "sponsored"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Christchurch nach dem Wiederaufbau: Warum Neuseelands „Gartenstadt“ einen Besuch wert ist",
       "reason": "non-English"
     },
     {
       "source": "Business Traveller",
-      "title": "GTA 6 Release: Urlaubsanträge häufen sich, Miami dreht auf",
+      "title": "Ist Wein gut für die Haut? Diese Beauty-Marken sind davon überzeugt",
       "reason": "non-English"
     },
     {
       "source": "Business Traveller",
-      "title": "Hannover: Das Technologie-Zentrum der Zukunft",
-      "reason": "non-English"
+      "title": "A Stay Steeped in History",
+      "reason": "sponsored"
     },
     {
       "source": "Business Traveller",
-      "title": "Meinung: Die neue Business Class von Singapore Airlines? Urteilen Sie nicht nur nach dem Äußeren",
+      "title": "Was war die Ursache für den FAA-Betriebsausfall, der Flüge in den USA am Boden hielt?",
       "reason": "non-English"
     },
     {
       "source": "Hotel Dive",
-      "title": "Lodging Lowdown: Hyatt opens lifestyle JdV hotel in Pacific Northwest",
+      "title": "Lodging Lowdown: Accor increases stake in Ennismore, Under Canvas adds luxury cabins at Ulum Moab in Utah",
       "reason": "roundup/digest (title)"
     }
   ],
   "items": [
     {
-      "title": "Booking Holdings Leaves Priceline Out of B2B Unit Amid FTC Scrutiny",
-      "link": "https://skift.com/2026/11/18/booking-holdings-leaves-priceline-out-of-b2b-unit-amid-ftc-scrutiny/",
+      "title": "Accor’s Largest Shareholder Moves to Oust CEO After Ennismore Buyout",
+      "link": "https://skift.com/2026/11/20/accors-largest-shareholder-moves-to-oust-ceo-after-ennismore-buyout/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-11-18T22:27:08.000Z",
-      "snippet": "Skift Take: Leaving Priceline out of the B2B consolidation is a blow to the goals of Booking Partner Division. Booking Holdings initially planned to consolidate three of its B2B brands into its new Booking Partner Division, but decided to leave Priceline out because of a potential U.S. Federal Trade Commission complaint against the brand."
+      "pubDate": "2026-11-20T21:17:29.000Z",
+      "snippet": "Skift Take: Parvus, an activist investor, has criticized Accor's Ennismore buyout and 13 years of alleged stock price underperformance under CEO Sébastien Bazin. Accor's management has its own side to the story."
     },
     {
-      "title": "Delta and Hyatt Launch Double Earning for Elite Members",
-      "link": "https://www.businesstraveller.com/news/delta-hyatt-double-earning-loyalty-partnership-elite-benefits/",
+      "title": "Chinese Electric Commercial Aircraft Completes First Crewed Flight",
+      "link": "https://www.businesstraveller.com/news/chinese-electric-commercial-aircraft-completes-first-crewed-flight/",
       "source": "Business Traveller",
       "region": "Global",
-      "pubDate": "2026-11-18T21:30:38.000Z",
-      "snippet": "Delta and Hyatt have revived double earning for elite members, offering additional miles, hotel points and future status opportunities, although fare restrictions could limit the benefits for many frequent business travelers."
+      "pubDate": "2026-11-20T17:27:44.000Z",
+      "snippet": "Short test-flight for three aboard COMAC’s 10-tonne plane brings prospect of battery-powered passenger services a step closer to reality."
     },
     {
-      "title": "Marriott faces technical issues amid flurry of US outages, disruptions",
-      "link": "https://www.hoteldive.com/news/marriott-technology-disruption/875122/",
-      "source": "Hotel Dive",
+      "title": "Peachtree Group acquires Home2 Suites by Hilton in Destin",
+      "link": "https://www.traveldailynews.com/hotels-lodging/peachtree-group-acquires-home2-suites-destin/",
+      "source": "Travel Daily News",
       "region": "Global",
-      "pubDate": "2026-11-18T20:58:58.000Z",
-      "snippet": "A company spokesperson said tech complications impacted sign-in capabilities on its website and the Marriott Bonvoy app this week, though cybersecurity was a non-factor. Amid a flurry of technology disruptions at some of the country’s biggest companies this week, Marriott International faced its own technical challenges, the company confirmed to Hotel Dive."
+      "pubDate": "2026-11-20T15:11:25.000Z",
+      "snippet": "ATLANTA – Peachtree Group ‘s latest investment includes the Home2 Suites Destin acquisition, adding 112 rooms to its hospitality portfolio. The property operates under the Home2 Suites by Hilton brand. It stands at 14060 Emerald Coast Parkway in Destin, Florida. The deal strengthens Peachtree’s presence in one of the Southeast’s established coastal tourism markets."
     },
     {
-      "title": "A Back Office That Runs Itself: Automating Hotel Operations in 2027",
-      "link": "https://www.hospitalitynet.org/whitepaper/4135554/a-back-office-that-runs-itself-automating-hotel-operations-in-2027",
+      "title": "WTTC launches Ocean Catalyst Group at COP31",
+      "link": "https://travelbizmonitor.com/top-stories/wttc-launches-ocean-catalyst-group-at-cop31/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-20T14:09:09.000Z",
+      "snippet": "The World Travel & Tourism Council (WTTC), its members Iberostar Group and Intrepid Travel, and the Ocean & Climate Platform (OCP) have announced the creation of the Ocean Catalyst Group at COP31 in Antalya, Türkiye. Launched during COP31’s Ocean Day on November 18, 2026, the initiative aims to bring tourism businesses together to drive collective action to protect coastal destinations, communities and livelihoods."
+    },
+    {
+      "title": "IndiGo to launch Bengaluru to Hanoi & Darbhanga flights",
+      "link": "https://travelbizmonitor.com/top-stories/indigo-to-launch-bengaluru-to-hanoi-darbhanga-flights/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-20T14:05:40.000Z",
+      "snippet": "IndiGo will launch daily direct flights connecting Bengaluru with Hanoi in Vietnam and Darbhanga in Bihar from December 20, 2026, the airline announced in a press release on Thursday. The new services are aimed at strengthening connectivity from Bengaluru, expanding the airline’s network across international and domestic markets."
+    },
+    {
+      "title": "Why the Hotel Website is More Important than Ever",
+      "link": "https://www.hospitalitynet.org/opinion/4135173/why-the-hotel-website-is-more-important-than-ever",
       "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-11-18T19:45:45.000Z",
-      "snippet": "Otelier whitepaper draws on operator interviews to map which back-office tasks are ready to automate now, from night audit to OTA reconciliation, as GOPPAR growth stalls at 1% in 2027."
+      "pubDate": "2026-11-20T14:00:00.000Z",
+      "snippet": "As AI tools reshape travel discovery, hotel websites must balance visual appeal with structured, text-based content that AI systems like ChatGPT and Gemini can parse and cite."
     },
     {
-      "title": "Royal Orchid Hotels Adds 102 Keys Across Rajkot and Vizag",
-      "link": "https://hospitalitybizindia.com/news-track/royal-orchid-hotels-adds-102-keys-across-rajkot-and-vizag/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-11-18T18:47:11.000Z",
-      "snippet": "The two launches strengthen the group’s presence in Gujarat and Andhra Pradesh with new business and lifestyle hotels. Royal Orchid Hotels Ltd. (ROHL), through its subsidiary Regenta Hotels Private Limited, has opened two properties, Regenta Crystal in Rajkot and Z by Regenta in Visakhapatnam, adding 102 rooms and suites to its portfolio."
-    },
-    {
-      "title": "Food Safety Crackdown: Licences of 13 Eateries Suspended in Mumbai and Hyderabad",
-      "link": "https://hospitalitybizindia.com/news-track/food-safety-crackdown-licences-of-13-eateries-suspended-in-mumbai-and-hyderabad/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-11-18T18:30:54.000Z",
-      "snippet": "FDA and TG SAFE inspections uncover hygiene violations across restaurants; establishments face closure, food seizures and possible delisting from online delivery platforms. Food safety authorities in Maharashtra and Telangana have stepped up enforcement against restaurants and food establishments following inspections that revealed serious hygiene and regulatory violations."
-    },
-    {
-      "title": "Bulk Scotch imports face 162.5 pc duty and tax amid India-UK trade pact dispute: Report",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/bulk-scotch-imports-face-162-5-pc-duty-and-tax-amid-india-uk-trade-pact-dispute-report/135968342",
+      "title": "IHCL’s growth is about returns and quality, not just hotel numbers: Puneet Chhatwal",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/ihcls-growth-is-about-returns-and-quality-not-just-hotel-numbers-puneet-chhatwal/136019815",
       "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-11-18T17:10:23.000Z",
-      "snippet": "Bulk Scotch whisky shipments caught in a customs classification dispute under the India-UK free trade agreement (FTA) face a combined duty and tax burden of 162.5 per cent in India, Reuters reported on Wednesday, citing a government document it reviewed and eight sources with direct knowledge of the matter."
+      "pubDate": "2026-11-20T11:30:00.000Z",
+      "snippet": "The MD & CEO of the Indian Hotels Company Limited, outlined an ambitious growth agenda, saying his company was opening 50 hotels this financial year while positioning Taj as a global leader in luxury hospitality. He indicated that the company could achieve its 700-hotel target well ahead of its 2030 deadline, even as it focuses on returns, profitability and brand strength alongside expansion."
     },
     {
-      "title": "California unveils 2027 lineup of major openings, landmark events and new resorts",
-      "link": "https://travelbizmonitor.com/top-stories/california-unveils-2027-lineup-of-major-openings-landmark-events-and-new-resorts/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-18T13:07:23.000Z",
-      "snippet": "California invites travelers to experience rich art and cultural offerings, major sporting events, immersive attractions, new accommodations and more in 2027."
-    },
-    {
-      "title": "10 Experiences That Showcase Spectacular Boston in Winter",
-      "link": "https://travelbizmonitor.com/top-stories/10-experiences-that-showcase-spectacular-boston-in-winter-2/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-18T13:04:08.000Z",
-      "snippet": "Winter in Boston offers a chance to see the city in a new way. Historic neighborhoods have a magic that seems amplified in the cold, the waterfront is filled with festivities, and the city’s restaurants and cultural attractions are an appealing counterbalance to the brisk weather. So that you can make the most of your visit, here’s how to experience a winter escape to Boston, Massachusetts."
-    },
-    {
-      "title": "Radisson Hotel Group expands loyalty offering, selects India for global launch of Radisson Dining",
-      "link": "https://traveltradejournal.com/radisson-hotel-group-expands-loyalty-offering-selects-india-for-global-launch-of-radisson-dining/",
+      "title": "Above the Lagoon, Beneath the Sea – The world of You&Me Maldives",
+      "link": "https://traveltradejournal.com/above-the-lagoon-beneath-the-sea-the-world-of-youme-maldives/",
       "source": "Travel Trade Journal",
       "region": "India",
-      "pubDate": "2026-11-17T15:00:24.000Z",
-      "snippet": "Radisson Hotel Group has announced the launch of Radisson Dining in India, a subscription-based dining and lifestyle benefits programme developed in partnership with TLC DigiTech. Available from December 1, 2026, the initiative will extend the group’s Radisson Rewards loyalty ecosystem beyond hotel stays, offering local consumers benefits across dining, spa and accommodation at participating properties."
+      "pubDate": "2026-11-20T11:05:12.000Z",
+      "snippet": "An adults-only island in the turquoise waters of the Indian Ocean offers a serene retreat for travellers seeking peace, privacy, and quiet. While the Maldives has no shortage of resorts, You&Me is one of the few resorts in the Maldives that offers the seclusion of an adults-only island with an underwater restaurant."
+    },
+    {
+      "title": "Blue gold: Hotels step up conservation",
+      "link": "https://hospitalitybizindia.com/news-track/blue-gold-hotels-step-up-conservation/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-11-20T10:37:35.000Z",
+      "snippet": "Water scarcity is emerging as a growing concern across India, with urban expansion, rising consumption, erratic rainfall patterns and mounting pressure on existing water infrastructure adding to the challenge. From metropolitan cities to rapidly developing urban centres, water availability is becoming an increasingly important concern for businesses, residential communities and industries."
+    },
+    {
+      "title": "Courtyard by Marriott Ranchi appoints Chef Rajnish K. Kaushik as Executive Chef",
+      "link": "https://www.hotelierindia.com/appointments/courtyard-by-marriott-ranchi-appoints-chef-rajnish-k-kaushik-as-executive-chef",
+      "source": "Hotelier India",
+      "region": "India",
+      "pubDate": "2026-11-20T08:49:56.000Z",
+      "snippet": ""
     }
   ]
 }
