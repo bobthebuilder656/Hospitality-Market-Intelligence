@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T00:11:32.711Z",
+  "generatedAt": "2026-11-21T23:34:57.235Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -155,7 +155,7 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 4,
+        "non-English": 3,
         "sponsored": 2
       },
       "error": null
@@ -214,17 +214,52 @@
       "reason": "sponsored"
     },
     {
-      "source": "Business Traveller",
-      "title": "Was war die Ursache für den FAA-Betriebsausfall, der Flüge in den USA am Boden hielt?",
-      "reason": "non-English"
-    },
-    {
       "source": "Hotel Dive",
       "title": "Lodging Lowdown: Accor increases stake in Ennismore, Under Canvas adds luxury cabins at Ulum Moab in Utah",
       "reason": "roundup/digest (title)"
     }
   ],
   "items": [
+    {
+      "title": "Hotel Review: Fouquet’s, Paris – A Palace on the Champs-Elysées",
+      "link": "https://www.businesstraveller.com/tried-tested/hotel-review-fouquets-paris-a-palace-on-the-champs-elysees/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-11-21T09:00:00.000Z",
+      "snippet": "The newly minted Palace serves up far more than its famous restaurant."
+    },
+    {
+      "title": "The Best Hotel Room Service App in 2027",
+      "link": "https://www.hospitalitynet.org/opinion/4135601/the-best-hotel-room-service-app-in-2027",
+      "source": "Hospitality Net",
+      "region": "Global",
+      "pubDate": "2026-11-21T08:00:00.000Z",
+      "snippet": "A vendor-authored comparison of hotel room service apps for 2027, covering Duve, STAY, Canary, INTELITY and others, with F&B labour cost context and guidance on POS/PMS integration."
+    },
+    {
+      "title": "India’s Recognition as Destination of the Year 2027 Is a Defining Opportunity for Inbound Tourism: Hotel Association of India",
+      "link": "https://hospitalitybizindia.com/news-track/indias-recognition-as-destination-of-the-year-2027-is-a-defining-opportunity-for-inbound-tourism-hotel-association-of-india/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-11-21T07:34:35.000Z",
+      "snippet": "The Hotel Association of India (HAI) has hailed India being named Destination of the Year for 2027. HAI called it a significant development that will draw attention to India from around the world and strengthen the country’s position as a global tourism destination."
+    },
+    {
+      "title": "Anand Mahindra urges India to improve tourism experience",
+      "link": "https://travelbizmonitor.com/top-stories/anand-mahindra-urges-india-to-improve-tourism-experience/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-21T07:17:11.000Z",
+      "snippet": "Mahindra Group Chairman Anand Mahindra has called on the Centre and state governments to strengthen India’s tourism infrastructure and visitor experience following the country’s selection as Travel + Leisure’s ‘Destination of the Year 2027’. He said the recognition should be viewed as an opportunity to strengthen the country’s tourism offering rather than simply a reason to celebrate."
+    },
+    {
+      "title": "Atout France confers 7th edition of Ambassador’s Travel Awards across 5 categories",
+      "link": "https://travelbizmonitor.com/top-stories/atout-france-confers-7th-edition-of-ambassadors-travel-awards-across-5-categories/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-21T06:28:15.000Z",
+      "snippet": "Atout France – France Tourism Development Agency organised the 7th edition of the very Ambassador’s Travel Awards in Mumbai on 19th November under the patronage and presence of His Excellency, The Ambassador of France to India Thierry Mathou. This edition of the awards was of particular significance as it was organised in the context of the India-France Year of Innovation 2026."
+    },
     {
       "title": "Accor’s Largest Shareholder Moves to Oust CEO After Ennismore Buyout",
       "link": "https://skift.com/2026/11/20/accors-largest-shareholder-moves-to-oust-ceo-after-ennismore-buyout/",
@@ -234,44 +269,12 @@
       "snippet": "Skift Take: Parvus, an activist investor, has criticized Accor's Ennismore buyout and 13 years of alleged stock price underperformance under CEO Sébastien Bazin. Accor's management has its own side to the story."
     },
     {
-      "title": "Chinese Electric Commercial Aircraft Completes First Crewed Flight",
-      "link": "https://www.businesstraveller.com/news/chinese-electric-commercial-aircraft-completes-first-crewed-flight/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-11-20T17:27:44.000Z",
-      "snippet": "Short test-flight for three aboard COMAC’s 10-tonne plane brings prospect of battery-powered passenger services a step closer to reality."
-    },
-    {
       "title": "Peachtree Group acquires Home2 Suites by Hilton in Destin",
       "link": "https://www.traveldailynews.com/hotels-lodging/peachtree-group-acquires-home2-suites-destin/",
       "source": "Travel Daily News",
       "region": "Global",
       "pubDate": "2026-11-20T15:11:25.000Z",
       "snippet": "ATLANTA – Peachtree Group ‘s latest investment includes the Home2 Suites Destin acquisition, adding 112 rooms to its hospitality portfolio. The property operates under the Home2 Suites by Hilton brand. It stands at 14060 Emerald Coast Parkway in Destin, Florida. The deal strengthens Peachtree’s presence in one of the Southeast’s established coastal tourism markets."
-    },
-    {
-      "title": "WTTC launches Ocean Catalyst Group at COP31",
-      "link": "https://travelbizmonitor.com/top-stories/wttc-launches-ocean-catalyst-group-at-cop31/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-20T14:09:09.000Z",
-      "snippet": "The World Travel & Tourism Council (WTTC), its members Iberostar Group and Intrepid Travel, and the Ocean & Climate Platform (OCP) have announced the creation of the Ocean Catalyst Group at COP31 in Antalya, Türkiye. Launched during COP31’s Ocean Day on November 18, 2026, the initiative aims to bring tourism businesses together to drive collective action to protect coastal destinations, communities and livelihoods."
-    },
-    {
-      "title": "IndiGo to launch Bengaluru to Hanoi & Darbhanga flights",
-      "link": "https://travelbizmonitor.com/top-stories/indigo-to-launch-bengaluru-to-hanoi-darbhanga-flights/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-20T14:05:40.000Z",
-      "snippet": "IndiGo will launch daily direct flights connecting Bengaluru with Hanoi in Vietnam and Darbhanga in Bihar from December 20, 2026, the airline announced in a press release on Thursday. The new services are aimed at strengthening connectivity from Bengaluru, expanding the airline’s network across international and domestic markets."
-    },
-    {
-      "title": "Why the Hotel Website is More Important than Ever",
-      "link": "https://www.hospitalitynet.org/opinion/4135173/why-the-hotel-website-is-more-important-than-ever",
-      "source": "Hospitality Net",
-      "region": "Global",
-      "pubDate": "2026-11-20T14:00:00.000Z",
-      "snippet": "As AI tools reshape travel discovery, hotel websites must balance visual appeal with structured, text-based content that AI systems like ChatGPT and Gemini can parse and cite."
     },
     {
       "title": "IHCL’s growth is about returns and quality, not just hotel numbers: Puneet Chhatwal",
@@ -288,14 +291,6 @@
       "region": "India",
       "pubDate": "2026-11-20T11:05:12.000Z",
       "snippet": "An adults-only island in the turquoise waters of the Indian Ocean offers a serene retreat for travellers seeking peace, privacy, and quiet. While the Maldives has no shortage of resorts, You&Me is one of the few resorts in the Maldives that offers the seclusion of an adults-only island with an underwater restaurant."
-    },
-    {
-      "title": "Blue gold: Hotels step up conservation",
-      "link": "https://hospitalitybizindia.com/news-track/blue-gold-hotels-step-up-conservation/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-11-20T10:37:35.000Z",
-      "snippet": "Water scarcity is emerging as a growing concern across India, with urban expansion, rising consumption, erratic rainfall patterns and mounting pressure on existing water infrastructure adding to the challenge. From metropolitan cities to rapidly developing urban centres, water availability is becoming an increasingly important concern for businesses, residential communities and industries."
     },
     {
       "title": "Courtyard by Marriott Ranchi appoints Chef Rajnish K. Kaushik as Executive Chef",
