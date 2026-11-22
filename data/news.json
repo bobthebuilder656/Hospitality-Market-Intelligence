@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T23:34:57.235Z",
+  "generatedAt": "2026-11-22T23:48:51.546Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -105,7 +105,8 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "staff appointment": 1
+        "staff appointment": 1,
+        "too old": 1
       },
       "error": null
     },
@@ -115,7 +116,9 @@
       "ok": true,
       "fetched": 100,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "too old": 1
+      },
       "error": null
     },
     {
@@ -156,7 +159,7 @@
       "kept": 4,
       "dropped": {
         "non-English": 3,
-        "sponsored": 2
+        "sponsored": 1
       },
       "error": null
     },
@@ -209,17 +212,60 @@
       "reason": "non-English"
     },
     {
-      "source": "Business Traveller",
-      "title": "A Stay Steeped in History",
-      "reason": "sponsored"
-    },
-    {
       "source": "Hotel Dive",
       "title": "Lodging Lowdown: Accor increases stake in Ennismore, Under Canvas adds luxury cabins at Ulum Moab in Utah",
       "reason": "roundup/digest (title)"
     }
   ],
   "items": [
+    {
+      "title": "JK Urbanscapes to invest Rs 1,000 cr to build 6 hotels, plans Rs 4,500-cr housing projects",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/jk-urbanscapes-to-invest-rs-1000-cr-to-build-6-hotels-plans-rs-4500-cr-housing-projects/136078213",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-22T15:52:07.000Z",
+      "snippet": "JK Urbanscapes Developers Ltd is embarking on an ambitious journey with a series of real estate projects that promise lucrative returns. The company aims to launch six hotels in various locations, including Kanpur and Mussoorie, while also working on a sprawling 90-acre township in Kanpur and a senior living initiative in Gurugram."
+    },
+    {
+      "title": "GTA VI: from W to Y, when a Miami Beach hotel lends its façade to Vice City",
+      "link": "https://hospitality-on.com/en/hospitality/gta-vi-w-y-when-miami-beach-hotel-lends-its-facade-vice-city",
+      "source": "Hospitality ON",
+      "region": "Global",
+      "pubDate": "2026-11-22T12:38:53.000Z",
+      "snippet": "In Miami Beach, the W South Beach has become the \"Y Hotel\" of GTA VI, for $650,000 paid by Rockstar Games. The video game is emerging as a lever for place marketing for hoteliers."
+    },
+    {
+      "title": "Taj appoints Sandeep Raghav as Cluster Sales and Marketing Director for Maldives resorts",
+      "link": "https://hospitalitybizindia.com/news-track/taj-appoints-sandeep-raghav-as-cluster-sales-and-marketing-director-for-maldives-resorts/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-11-22T12:23:39.000Z",
+      "snippet": "Sandeep Raghav has been appointed Cluster Director of Sales and Marketing for Taj Exotica Resort and Spa, Maldives, and Taj Coral Reef Resort and Spa, Maldives. In his new role, Raghav will lead sales, marketing and strategic business development initiatives across international markets, including India."
+    },
+    {
+      "title": "How to Spend an Extra Day in Colombo, Sri Lanka",
+      "link": "https://www.businesstraveller.com/lifestyle/how-to-spend-an-extra-day-in-colombo-sri-lanka/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-11-22T09:00:00.000Z",
+      "snippet": "Business Traveller's top picks on where to eat, drink, shop and relax in the Sri Lankan capital."
+    },
+    {
+      "title": "Kolkata Municipal Corporation’s conditional nod for reopening of hotels, guest houses in hospital zone",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/kolkata-municipal-corporations-conditional-nod-for-reopening-of-hotels-guest-houses-in-hospital-zone/136067008",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-22T05:00:00.000Z",
+      "snippet": "There are around 300 hotels-cum-guest houses in the hospital zone off E M Bypass that cater to the families of patients at six major private hospitals in the vicinity. A KMC buildings department official said the civic body gave unconditional permission to 13 of the guest houses in the vicinity."
+    },
+    {
+      "title": "India proposes free tourist e-Visas for ASEAN citizens",
+      "link": "https://travelbizmonitor.com/top-stories/india-proposes-free-tourist-e-visas-for-asean-citizens/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-22T04:30:50.000Z",
+      "snippet": "India has proposed waiving tourist e-Visa fees for citizens of all ASEAN member states as part of nine initiatives aimed at strengthening ties with Southeast Asian partners. The proposal, announced in Manila, reflects New Delhi’s broader efforts to make international travel more accessible, encourage tourism and promote people-to-people exchanges across the region."
+    },
     {
       "title": "Hotel Review: Fouquet’s, Paris – A Palace on the Champs-Elysées",
       "link": "https://www.businesstraveller.com/tried-tested/hotel-review-fouquets-paris-a-palace-on-the-champs-elysees/",
@@ -251,54 +297,6 @@
       "region": "India",
       "pubDate": "2026-11-21T07:17:11.000Z",
       "snippet": "Mahindra Group Chairman Anand Mahindra has called on the Centre and state governments to strengthen India’s tourism infrastructure and visitor experience following the country’s selection as Travel + Leisure’s ‘Destination of the Year 2027’. He said the recognition should be viewed as an opportunity to strengthen the country’s tourism offering rather than simply a reason to celebrate."
-    },
-    {
-      "title": "Atout France confers 7th edition of Ambassador’s Travel Awards across 5 categories",
-      "link": "https://travelbizmonitor.com/top-stories/atout-france-confers-7th-edition-of-ambassadors-travel-awards-across-5-categories/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-21T06:28:15.000Z",
-      "snippet": "Atout France – France Tourism Development Agency organised the 7th edition of the very Ambassador’s Travel Awards in Mumbai on 19th November under the patronage and presence of His Excellency, The Ambassador of France to India Thierry Mathou. This edition of the awards was of particular significance as it was organised in the context of the India-France Year of Innovation 2026."
-    },
-    {
-      "title": "Accor’s Largest Shareholder Moves to Oust CEO After Ennismore Buyout",
-      "link": "https://skift.com/2026/11/20/accors-largest-shareholder-moves-to-oust-ceo-after-ennismore-buyout/",
-      "source": "Skift",
-      "region": "Global",
-      "pubDate": "2026-11-20T21:17:29.000Z",
-      "snippet": "Skift Take: Parvus, an activist investor, has criticized Accor's Ennismore buyout and 13 years of alleged stock price underperformance under CEO Sébastien Bazin. Accor's management has its own side to the story."
-    },
-    {
-      "title": "Peachtree Group acquires Home2 Suites by Hilton in Destin",
-      "link": "https://www.traveldailynews.com/hotels-lodging/peachtree-group-acquires-home2-suites-destin/",
-      "source": "Travel Daily News",
-      "region": "Global",
-      "pubDate": "2026-11-20T15:11:25.000Z",
-      "snippet": "ATLANTA – Peachtree Group ‘s latest investment includes the Home2 Suites Destin acquisition, adding 112 rooms to its hospitality portfolio. The property operates under the Home2 Suites by Hilton brand. It stands at 14060 Emerald Coast Parkway in Destin, Florida. The deal strengthens Peachtree’s presence in one of the Southeast’s established coastal tourism markets."
-    },
-    {
-      "title": "IHCL’s growth is about returns and quality, not just hotel numbers: Puneet Chhatwal",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/ihcls-growth-is-about-returns-and-quality-not-just-hotel-numbers-puneet-chhatwal/136019815",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-20T11:30:00.000Z",
-      "snippet": "The MD & CEO of the Indian Hotels Company Limited, outlined an ambitious growth agenda, saying his company was opening 50 hotels this financial year while positioning Taj as a global leader in luxury hospitality. He indicated that the company could achieve its 700-hotel target well ahead of its 2030 deadline, even as it focuses on returns, profitability and brand strength alongside expansion."
-    },
-    {
-      "title": "Above the Lagoon, Beneath the Sea – The world of You&Me Maldives",
-      "link": "https://traveltradejournal.com/above-the-lagoon-beneath-the-sea-the-world-of-youme-maldives/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-11-20T11:05:12.000Z",
-      "snippet": "An adults-only island in the turquoise waters of the Indian Ocean offers a serene retreat for travellers seeking peace, privacy, and quiet. While the Maldives has no shortage of resorts, You&Me is one of the few resorts in the Maldives that offers the seclusion of an adults-only island with an underwater restaurant."
-    },
-    {
-      "title": "Courtyard by Marriott Ranchi appoints Chef Rajnish K. Kaushik as Executive Chef",
-      "link": "https://www.hotelierindia.com/appointments/courtyard-by-marriott-ranchi-appoints-chef-rajnish-k-kaushik-as-executive-chef",
-      "source": "Hotelier India",
-      "region": "India",
-      "pubDate": "2026-11-20T08:49:56.000Z",
-      "snippet": ""
     }
   ]
 }
