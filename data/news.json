@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T23:48:51.546Z",
+  "generatedAt": "2026-11-24T04:04:35.743Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -105,8 +105,7 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "staff appointment": 1,
-        "too old": 1
+        "too old": 3
       },
       "error": null
     },
@@ -128,7 +127,6 @@
       "fetched": 20,
       "kept": 4,
       "dropped": {
-        "several headlines in one title": 1,
         "award announcement with no real content": 1
       },
       "error": null
@@ -139,7 +137,9 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "no usable body text": 1
+      },
       "error": null
     },
     {
@@ -158,8 +158,8 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 3,
-        "sponsored": 1
+        "sponsored": 1,
+        "non-English": 6
       },
       "error": null
     },
@@ -177,38 +177,48 @@
   ],
   "droppedItems": [
     {
-      "source": "Travel Trade Journal",
-      "title": "Padmaraga Galle Fort appoints Black Turtle as its India Representative",
-      "reason": "staff appointment"
-    },
-    {
       "source": "Hospitality Net",
-      "title": "Black Friday Now Prices 13 Months of Stays, 7.55% of Cancellations Are Cheaper Rebookings, Where Did the Full-Service GM Go?",
-      "reason": "several headlines in one title"
-    },
-    {
-      "source": "Hospitality Net",
-      "title": "The Caribbean Hotel & Tourism Association Announces 2026 Chief Award Winners, Celebrating Excellence in Caribbean Hospitality",
+      "title": "HAMA Europe opens applications for the 11th annual Asset Management Achievement Award",
       "reason": "award announcement with no real content"
     },
     {
-      "source": "Business Traveller",
-      "title": "Black Friday oder Travel Tuesday 2026? Das ist der günstigste Tag, um eine Reise zu buchen",
-      "reason": "non-English"
+      "source": "Skift",
+      "title": "New Webinar: Who Remembers the Traveler? Building a Connected Customer Journey in the Age of AI",
+      "reason": "no usable body text"
     },
     {
       "source": "Business Traveller",
-      "title": "Small Brand, Big Ambition: Small African Luxury Brand takes the Skies with Ethiopian Airlines Inflight Duty-Free",
+      "title": "Peak Luxury: Inside the Exclusive Pacific Club Lounge in Singapore",
       "reason": "sponsored"
     },
     {
       "source": "Business Traveller",
-      "title": "Christchurch nach dem Wiederaufbau: Warum Neuseelands „Gartenstadt“ einen Besuch wert ist",
+      "title": "Meinung: Sollte Unvollkommenheit wirklich ein Verkaufsargument für Luxusartikel sein? Rimowa ist davon überzeugt",
       "reason": "non-English"
     },
     {
       "source": "Business Traveller",
-      "title": "Ist Wein gut für die Haut? Diese Beauty-Marken sind davon überzeugt",
+      "title": "Europapremiere: Fairmont eröffnet seine ersten Luxus-Residenzen an der Costa del Sol",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Die schönsten Vintage-Uhren der Welt? Die Preisträger der ersten Auszeichnung von Vacheron Constantin",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Fünf Gründe, warum jede Airline eine Premium Economy Class haben muss",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Ausprobiert: Portrait Firenze – museumsreife Fotosammlung und versteckte Küchenzeilen",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Black Friday oder Travel Tuesday 2026? Das ist der günstigste Tag, um eine Reise zu buchen",
       "reason": "non-English"
     },
     {
@@ -219,84 +229,84 @@
   ],
   "items": [
     {
-      "title": "JK Urbanscapes to invest Rs 1,000 cr to build 6 hotels, plans Rs 4,500-cr housing projects",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/jk-urbanscapes-to-invest-rs-1000-cr-to-build-6-hotels-plans-rs-4500-cr-housing-projects/136078213",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-22T15:52:07.000Z",
-      "snippet": "JK Urbanscapes Developers Ltd is embarking on an ambitious journey with a series of real estate projects that promise lucrative returns. The company aims to launch six hotels in various locations, including Kanpur and Mussoorie, while also working on a sprawling 90-acre township in Kanpur and a senior living initiative in Gurugram."
-    },
-    {
-      "title": "GTA VI: from W to Y, when a Miami Beach hotel lends its façade to Vice City",
-      "link": "https://hospitality-on.com/en/hospitality/gta-vi-w-y-when-miami-beach-hotel-lends-its-facade-vice-city",
-      "source": "Hospitality ON",
-      "region": "Global",
-      "pubDate": "2026-11-22T12:38:53.000Z",
-      "snippet": "In Miami Beach, the W South Beach has become the \"Y Hotel\" of GTA VI, for $650,000 paid by Rockstar Games. The video game is emerging as a lever for place marketing for hoteliers."
-    },
-    {
-      "title": "Taj appoints Sandeep Raghav as Cluster Sales and Marketing Director for Maldives resorts",
-      "link": "https://hospitalitybizindia.com/news-track/taj-appoints-sandeep-raghav-as-cluster-sales-and-marketing-director-for-maldives-resorts/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-11-22T12:23:39.000Z",
-      "snippet": "Sandeep Raghav has been appointed Cluster Director of Sales and Marketing for Taj Exotica Resort and Spa, Maldives, and Taj Coral Reef Resort and Spa, Maldives. In his new role, Raghav will lead sales, marketing and strategic business development initiatives across international markets, including India."
-    },
-    {
-      "title": "How to Spend an Extra Day in Colombo, Sri Lanka",
-      "link": "https://www.businesstraveller.com/lifestyle/how-to-spend-an-extra-day-in-colombo-sri-lanka/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-11-22T09:00:00.000Z",
-      "snippet": "Business Traveller's top picks on where to eat, drink, shop and relax in the Sri Lankan capital."
-    },
-    {
-      "title": "Kolkata Municipal Corporation’s conditional nod for reopening of hotels, guest houses in hospital zone",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/kolkata-municipal-corporations-conditional-nod-for-reopening-of-hotels-guest-houses-in-hospital-zone/136067008",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-22T05:00:00.000Z",
-      "snippet": "There are around 300 hotels-cum-guest houses in the hospital zone off E M Bypass that cater to the families of patients at six major private hospitals in the vicinity. A KMC buildings department official said the civic body gave unconditional permission to 13 of the guest houses in the vicinity."
-    },
-    {
-      "title": "India proposes free tourist e-Visas for ASEAN citizens",
-      "link": "https://travelbizmonitor.com/top-stories/india-proposes-free-tourist-e-visas-for-asean-citizens/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-22T04:30:50.000Z",
-      "snippet": "India has proposed waiving tourist e-Visa fees for citizens of all ASEAN member states as part of nine initiatives aimed at strengthening ties with Southeast Asian partners. The proposal, announced in Manila, reflects New Delhi’s broader efforts to make international travel more accessible, encourage tourism and promote people-to-people exchanges across the region."
-    },
-    {
-      "title": "Hotel Review: Fouquet’s, Paris – A Palace on the Champs-Elysées",
-      "link": "https://www.businesstraveller.com/tried-tested/hotel-review-fouquets-paris-a-palace-on-the-champs-elysees/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-11-21T09:00:00.000Z",
-      "snippet": "The newly minted Palace serves up far more than its famous restaurant."
-    },
-    {
-      "title": "The Best Hotel Room Service App in 2027",
-      "link": "https://www.hospitalitynet.org/opinion/4135601/the-best-hotel-room-service-app-in-2027",
+      "title": "The Leading Hotels of the World Unites More Than 400 Independent Hoteliers in Rome for Its 60th Annual Convention",
+      "link": "https://www.hospitalitynet.org/news/4135656/the-leading-hotels-of-the-world-unites-more-than-400-independent-hoteliers-in-rome-for-its-60th-annual-convention",
       "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-11-21T08:00:00.000Z",
-      "snippet": "A vendor-authored comparison of hotel room service apps for 2027, covering Duve, STAY, Canary, INTELITY and others, with F&B labour cost context and guidance on POS/PMS integration."
+      "pubDate": "2026-11-23T23:55:52.000Z",
+      "snippet": "LHW's 60th Annual Convention brought 400+ hoteliers to Rome across six member properties, covering AI, luxury market trends, and traveler expectations, closing with the 2026 Membership Awards."
     },
     {
-      "title": "India’s Recognition as Destination of the Year 2027 Is a Defining Opportunity for Inbound Tourism: Hotel Association of India",
-      "link": "https://hospitalitybizindia.com/news-track/indias-recognition-as-destination-of-the-year-2027-is-a-defining-opportunity-for-inbound-tourism-hotel-association-of-india/",
+      "title": "The Pressures on Expedia B2B",
+      "link": "https://skift.com/2026/11/23/the-pressures-on-expedia-b2b/",
+      "source": "Skift",
+      "region": "Global",
+      "pubDate": "2026-11-23T21:50:53.000Z",
+      "snippet": "Skift Take: Expedia's partner business has carried the company's growth for years. A slowdown caused by a tough comparison to last year's fourth quarter would be a blip. One driven by deteriorating economics and potentially a stronger rival in Booking Holdings would be a much larger issue."
+    },
+    {
+      "title": "JK Urbanscapes plans INR 965-crore hospitality investment across five destinations",
+      "link": "https://hospitalitybizindia.com/news-track/jk-urbanscapes-plans-inr-965-crore-hospitality-investment-across-five-destinations/",
       "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-11-21T07:34:35.000Z",
-      "snippet": "The Hotel Association of India (HAI) has hailed India being named Destination of the Year for 2027. HAI called it a significant development that will draw attention to India from around the world and strengthen the country’s position as a global tourism destination."
+      "pubDate": "2026-11-23T18:30:40.000Z",
+      "snippet": "Developer’s 650-key pipeline includes projects with IHCL and Minor Hotels, spanning pilgrimage, heritage, leisure and urban markets JK Urbanscapes Developers Ltd (JKUDL), part of the JK Organisation, is planning an investment of approximately INR 965 crore, including land cost, to develop six hospitality projects across India, with a combined pipeline of nearly 650 keys."
     },
     {
-      "title": "Anand Mahindra urges India to improve tourism experience",
-      "link": "https://travelbizmonitor.com/top-stories/anand-mahindra-urges-india-to-improve-tourism-experience/",
+      "title": "Another Airline Outage: Delta Struggles With Flight Delays Before Thanksgiving",
+      "link": "https://www.businesstraveller.com/news/airline-outage-delta-thanksgiving/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-11-23T16:17:42.000Z",
+      "snippet": "Delta Air Lines suffered widespread flight delays and cancellations after a weight-and-balance system failure disrupted operations nationwide, adding to aviation technology concerns as millions prepare for Thanksgiving holiday travel."
+    },
+    {
+      "title": "Trailborn Hotels & Resorts expands to Yosemite with 3 properties",
+      "link": "https://www.hoteldive.com/news/trailborn-hotels-resorts-expands-to-yosemite-national-park/875470/",
+      "source": "Hotel Dive",
+      "region": "Global",
+      "pubDate": "2026-11-23T15:27:15.000Z",
+      "snippet": "The outdoor hospitality brand will assume management of Firefall Ranch at the California national park. It will also manage Rush Creek Lodge & Spa and Evergreen Lodge after Castle Peak Holdings acquired both properties."
+    },
+    {
+      "title": "Moldova targets Indian wine trade and tourism market",
+      "link": "https://hospitalitybizindia.com/news-track/moldova-targets-indian-wine-trade-and-tourism-market/",
+      "source": "HospitalityBiz India",
+      "region": "India",
+      "pubDate": "2026-11-23T11:42:23.000Z",
+      "snippet": "Moldova is exploring opportunities to enter the Indian wine market, with local producers using international trade exhibitions to identify potential importers and distributors. The country is also looking to develop its tourism engagement with India, supported by its diplomatic presence in the market."
+    },
+    {
+      "title": "JK Urbanscapes plans ₹965 crore hospitality investment across six projects",
+      "link": "https://www.hotelierindia.com/operations/jk-urbanscapes-plans-%e2%82%b9965-crore-hospitality-investment-across-six-projects",
+      "source": "Hotelier India",
+      "region": "India",
+      "pubDate": "2026-11-23T09:53:04.000Z",
+      "snippet": ""
+    },
+    {
+      "title": "Eco Hotels opens 52-room hotel in Chhatrapati Sambhaji Nagar",
+      "link": "https://www.hotelierindia.com/development/eco-hotels-opens-52-room-hotel-in-chhatrapati-sambhaji-nagar",
+      "source": "Hotelier India",
+      "region": "India",
+      "pubDate": "2026-11-23T09:52:10.000Z",
+      "snippet": ""
+    },
+    {
+      "title": "Bangladesh Visa centres in Kolkata, Siliguri to close",
+      "link": "https://travelbizmonitor.com/top-stories/bangladesh-visa-centres-in-kolkata-siliguri-to-close/",
       "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-11-21T07:17:11.000Z",
-      "snippet": "Mahindra Group Chairman Anand Mahindra has called on the Centre and state governments to strengthen India’s tourism infrastructure and visitor experience following the country’s selection as Travel + Leisure’s ‘Destination of the Year 2027’. He said the recognition should be viewed as an opportunity to strengthen the country’s tourism offering rather than simply a reason to celebrate."
+      "pubDate": "2026-11-23T09:19:13.000Z",
+      "snippet": "Bangladesh will suspend visa application-related operations at its existing visa application centres in Kolkata and Siliguri from December 1 after the government decided not to renew its visa outsourcing agreement with DU Digital Global Ltd, which expires on November 30."
+    },
+    {
+      "title": "India's food regulator to take Bisleri to court over water quality finding",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/indias-food-regulator-to-take-bisleri-to-court-over-water-quality-finding/136088410",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-23T06:30:00.000Z",
+      "snippet": "India's food safety regulator will take Bisleri International, maker of the country's best-known bottled water brand, to court after a sample of its packaged drinking water was found to be unsafe, the regulator said on Sunday."
     }
   ]
 }
