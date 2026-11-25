@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T04:04:35.743Z",
+  "generatedAt": "2026-11-25T02:46:09.676Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -105,7 +105,7 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "too old": 3
+        "too old": 4
       },
       "error": null
     },
@@ -116,7 +116,8 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
-        "too old": 1
+        "non-English": 1,
+        "too old": 2
       },
       "error": null
     },
@@ -126,9 +127,7 @@
       "ok": true,
       "fetched": 20,
       "kept": 4,
-      "dropped": {
-        "award announcement with no real content": 1
-      },
+      "dropped": {},
       "error": null
     },
     {
@@ -158,8 +157,9 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "sponsored": 1,
-        "non-English": 6
+        "non-English": 3,
+        "sponsored": 3,
+        "no usable body text": 1
       },
       "error": null
     },
@@ -177,13 +177,38 @@
   ],
   "droppedItems": [
     {
-      "source": "Hospitality Net",
-      "title": "HAMA Europe opens applications for the 11th annual Asset Management Achievement Award",
-      "reason": "award announcement with no real content"
+      "source": "Hospitality ON",
+      "title": "Hospitality Asset Forum 2026: extended stay and secondary cities, hospitality explores new ground",
+      "reason": "non-English"
     },
     {
       "source": "Skift",
       "title": "New Webinar: Who Remembers the Traveler? Building a Connected Customer Journey in the Age of AI",
+      "reason": "no usable body text"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "China: Elektro-Verkehrsflugzeug absolviert ersten bemannten Flug",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Ambition Has No Passport: LemFi is Built for Living Across Borders",
+      "reason": "sponsored"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Lagos Free Zone – The First Private Free Zone in Nigeria",
+      "reason": "sponsored"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "10 der besten Reiseanzeigen der letzten fünf Jahrzehnte",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Hotel Review: Amansara, Siem Reap – Timeless Royal Glamour",
       "reason": "no usable body text"
     },
     {
@@ -197,31 +222,6 @@
       "reason": "non-English"
     },
     {
-      "source": "Business Traveller",
-      "title": "Europapremiere: Fairmont eröffnet seine ersten Luxus-Residenzen an der Costa del Sol",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Die schönsten Vintage-Uhren der Welt? Die Preisträger der ersten Auszeichnung von Vacheron Constantin",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Fünf Gründe, warum jede Airline eine Premium Economy Class haben muss",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Ausprobiert: Portrait Firenze – museumsreife Fotosammlung und versteckte Küchenzeilen",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Black Friday oder Travel Tuesday 2026? Das ist der günstigste Tag, um eine Reise zu buchen",
-      "reason": "non-English"
-    },
-    {
       "source": "Hotel Dive",
       "title": "Lodging Lowdown: Accor increases stake in Ennismore, Under Canvas adds luxury cabins at Ulum Moab in Utah",
       "reason": "roundup/digest (title)"
@@ -229,52 +229,76 @@
   ],
   "items": [
     {
-      "title": "The Leading Hotels of the World Unites More Than 400 Independent Hoteliers in Rome for Its 60th Annual Convention",
-      "link": "https://www.hospitalitynet.org/news/4135656/the-leading-hotels-of-the-world-unites-more-than-400-independent-hoteliers-in-rome-for-its-60th-annual-convention",
-      "source": "Hospitality Net",
-      "region": "Global",
-      "pubDate": "2026-11-23T23:55:52.000Z",
-      "snippet": "LHW's 60th Annual Convention brought 400+ hoteliers to Rome across six member properties, covering AI, luxury market trends, and traveler expectations, closing with the 2026 Membership Awards."
-    },
-    {
-      "title": "The Pressures on Expedia B2B",
-      "link": "https://skift.com/2026/11/23/the-pressures-on-expedia-b2b/",
+      "title": "American Drops Lawsuit Over Gates at Chicago O’Hare but It’s Still Locked in a Battle With United",
+      "link": "https://skift.com/2026/11/24/american-drops-lawsuit-over-gates-at-chicago-o-hare/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-11-23T21:50:53.000Z",
-      "snippet": "Skift Take: Expedia's partner business has carried the company's growth for years. A slowdown caused by a tough comparison to last year's fourth quarter would be a blip. One driven by deteriorating economics and potentially a stronger rival in Booking Holdings would be a much larger issue."
+      "pubDate": "2026-11-24T23:18:37.000Z",
+      "snippet": "Skift Take: American has spent much of the year building back its Chicago presence, even earning another gate at O’Hare just from increasing capacity at the airport, which has been the backdrop of an intense turf war with United."
     },
     {
-      "title": "JK Urbanscapes plans INR 965-crore hospitality investment across five destinations",
-      "link": "https://hospitalitybizindia.com/news-track/jk-urbanscapes-plans-inr-965-crore-hospitality-investment-across-five-destinations/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-11-23T18:30:40.000Z",
-      "snippet": "Developer’s 650-key pipeline includes projects with IHCL and Minor Hotels, spanning pilgrimage, heritage, leisure and urban markets JK Urbanscapes Developers Ltd (JKUDL), part of the JK Organisation, is planning an investment of approximately INR 965 crore, including land cost, to develop six hospitality projects across India, with a combined pipeline of nearly 650 keys."
-    },
-    {
-      "title": "Another Airline Outage: Delta Struggles With Flight Delays Before Thanksgiving",
-      "link": "https://www.businesstraveller.com/news/airline-outage-delta-thanksgiving/",
+      "title": "Lufthansa Group Launches One App for Six Airlines – But Will Travelers Use It?",
+      "link": "https://www.businesstraveller.com/news/lufthansa-group-app-six-airlines-miles-more-booking/",
       "source": "Business Traveller",
       "region": "Global",
-      "pubDate": "2026-11-23T16:17:42.000Z",
-      "snippet": "Delta Air Lines suffered widespread flight delays and cancellations after a weight-and-balance system failure disrupted operations nationwide, adding to aviation technology concerns as millions prepare for Thanksgiving holiday travel."
+      "pubDate": "2026-11-24T17:56:08.000Z",
+      "snippet": "The Lufthansa Group has released a new app combining bookings, check-in and loyalty services across six airlines, offering travelers greater convenience while raising questions about its commercial ambitions and existing airline apps."
     },
     {
-      "title": "Trailborn Hotels & Resorts expands to Yosemite with 3 properties",
-      "link": "https://www.hoteldive.com/news/trailborn-hotels-resorts-expands-to-yosemite-national-park/875470/",
-      "source": "Hotel Dive",
+      "title": "A hotel flag should be more than a name above the door",
+      "link": "https://www.hospitalitynet.org/opinion/4135681/a-hotel-flag-should-be-more-than-a-name-above-the-door",
+      "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-11-23T15:27:15.000Z",
-      "snippet": "The outdoor hospitality brand will assume management of Firefall Ranch at the California national park. It will also manage Rush Creek Lodge & Spa and Evergreen Lodge after Castle Peak Holdings acquired both properties."
+      "pubDate": "2026-11-24T16:40:22.000Z",
+      "snippet": "Choice Hotels' Raul Ramirez outlines how franchisors evaluate property fit, support owner economics, and compete on distribution as AI reshapes how guests discover and book hotels."
     },
     {
-      "title": "Moldova targets Indian wine trade and tourism market",
-      "link": "https://hospitalitybizindia.com/news-track/moldova-targets-indian-wine-trade-and-tourism-market/",
+      "title": "Hospitality Asset Forum 2026 : Hospitality, a constrained market but an asset class that holds up",
+      "link": "https://hospitality-on.com/en/hospitality/hospitality-asset-forum-2026-hospitality-constrained-market-asset-class-holds",
+      "source": "Hospitality ON",
+      "region": "Global",
+      "pubDate": "2026-11-24T15:03:54.000Z",
+      "snippet": "Scarce land, longer timelines, rising costs: developing a hotel in France has never been so demanding. At the Hospitality Asset Forum 2026, MSCI, MKG and BNP Paribas Real Estate nevertheless showed that hospitality absorbs these shocks better than most other asset classes."
+    },
+    {
+      "title": "OYO eyes Q1 2027 IPO at reported INR 20,000-22,000 crore valuation",
+      "link": "https://hospitalitybizindia.com/news-track/oyo-eyes-q1-2027-ipo-at-reported-inr-20000-22000-crore-valuation/",
       "source": "HospitalityBiz India",
       "region": "India",
-      "pubDate": "2026-11-23T11:42:23.000Z",
-      "snippet": "Moldova is exploring opportunities to enter the Indian wine market, with local producers using international trade exhibitions to identify potential importers and distributors. The country is also looking to develop its tourism engagement with India, supported by its diplomatic presence in the market."
+      "pubDate": "2026-11-24T13:42:24.000Z",
+      "snippet": "Oravel Stays is reportedly preparing for another attempt at a public listing, with a proposed fresh issue of INR 3,350 crore, as investors assess the hospitality company’s profitability and international business."
+    },
+    {
+      "title": "AVIAREPS hosts second ‘Around the World’ roadshow in India with 5 partners",
+      "link": "https://travelbizmonitor.com/top-stories/aviareps-hosts-second-around-the-world-roadshow-in-india-with-5-partners/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-24T12:29:10.000Z",
+      "snippet": "AVIAREPS India has successfully concluded the second edition of its flagship ‘Around the World’ Roadshow in India, completing a three-city programme across Delhi, Mumbai and Chennai."
+    },
+    {
+      "title": "Azerbaijan Tourism hosts 3-city India roadshow for promotion beyond Baku",
+      "link": "https://travelbizmonitor.com/top-stories/azerbaijan-tourism-hosts-3-city-india-roadshow-for-promotion-beyond-baku/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-24T12:18:24.000Z",
+      "snippet": "Azerbaijan Tourism Board (ATB) concluded its three-city roadshow across Chennai, Ahmedabad and New Delhi, reinforcing its commitment to the Indian market and strengthening engagement with the country’s travel trade."
+    },
+    {
+      "title": "ABNAH bets on talent, technology and experience to scale India’s evolving dining-out market",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/abnah-bets-on-talent-technology-and-experience-to-scale-indias-evolving-dining-out-market/136119631",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-24T10:30:00.000Z",
+      "snippet": "Aditya Birla New Age Hospitality (ABNAH) has entered Bengaluru with Supa San, marking the Japanese-inspired brand’s first restaurant in the city. For CEO Udai Pinnali, the launch reflects a broader conviction: that India’s dining-out market is expanding, and consumers increasingly seek well-designed, quality-led experiences."
+    },
+    {
+      "title": "Six Senses debuts in the UAE with the opening of Six Senses The Palm, Dubai",
+      "link": "https://traveltradejournal.com/six-senses-debuts-in-the-uae-with-the-opening-of-six-senses-the-palm-dubai/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-11-24T05:29:55.000Z",
+      "snippet": "Six Senses has marked its debut in the United Arab Emirates with the opening of Six Senses The Palm, Dubai, on the West Crescent of Palm Jumeirah. The beachfront resort comprises 61 suites and 172 private residences, bringing together wellness, contemporary design, destination-inspired experiences and residential living."
     },
     {
       "title": "JK Urbanscapes plans ₹965 crore hospitality investment across six projects",
@@ -283,30 +307,6 @@
       "region": "India",
       "pubDate": "2026-11-23T09:53:04.000Z",
       "snippet": ""
-    },
-    {
-      "title": "Eco Hotels opens 52-room hotel in Chhatrapati Sambhaji Nagar",
-      "link": "https://www.hotelierindia.com/development/eco-hotels-opens-52-room-hotel-in-chhatrapati-sambhaji-nagar",
-      "source": "Hotelier India",
-      "region": "India",
-      "pubDate": "2026-11-23T09:52:10.000Z",
-      "snippet": ""
-    },
-    {
-      "title": "Bangladesh Visa centres in Kolkata, Siliguri to close",
-      "link": "https://travelbizmonitor.com/top-stories/bangladesh-visa-centres-in-kolkata-siliguri-to-close/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-23T09:19:13.000Z",
-      "snippet": "Bangladesh will suspend visa application-related operations at its existing visa application centres in Kolkata and Siliguri from December 1 after the government decided not to renew its visa outsourcing agreement with DU Digital Global Ltd, which expires on November 30."
-    },
-    {
-      "title": "India's food regulator to take Bisleri to court over water quality finding",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/operations/food-and-beverages/indias-food-regulator-to-take-bisleri-to-court-over-water-quality-finding/136088410",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-23T06:30:00.000Z",
-      "snippet": "India's food safety regulator will take Bisleri International, maker of the country's best-known bottled water brand, to court after a sample of its packaged drinking water was found to be unsafe, the regulator said on Sunday."
     }
   ]
 }
