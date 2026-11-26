@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T02:46:09.676Z",
+  "generatedAt": "2026-11-26T01:56:38.258Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -72,11 +72,11 @@
     {
       "id": "hospitalitybiz-india",
       "name": "HospitalityBiz India",
-      "ok": true,
-      "fetched": 10,
-      "kept": 4,
+      "ok": false,
+      "fetched": 0,
+      "kept": 0,
       "dropped": {},
-      "error": null
+      "error": "Status code 401"
     },
     {
       "id": "travelbiz-monitor",
@@ -105,7 +105,7 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "too old": 4
+        "too old": 2
       },
       "error": null
     },
@@ -117,7 +117,7 @@
       "kept": 4,
       "dropped": {
         "non-English": 1,
-        "too old": 2
+        "too old": 1
       },
       "error": null
     },
@@ -127,7 +127,9 @@
       "ok": true,
       "fetched": 20,
       "kept": 4,
-      "dropped": {},
+      "dropped": {
+        "several headlines in one title": 1
+      },
       "error": null
     },
     {
@@ -157,9 +159,8 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 3,
-        "sponsored": 3,
-        "no usable body text": 1
+        "non-English": 4,
+        "sponsored": 1
       },
       "error": null
     },
@@ -178,48 +179,43 @@
   "droppedItems": [
     {
       "source": "Hospitality ON",
-      "title": "Hospitality Asset Forum 2026: extended stay and secondary cities, hospitality explores new ground",
+      "title": "Extended stay and secondary cities, hospitality explores new ground",
       "reason": "non-English"
+    },
+    {
+      "source": "Hospitality Net",
+      "title": "AI Is Taking the Jobs That Trained Future GMs, Chains Sign Up the Independents, Meta's Muse Wants a Cut",
+      "reason": "several headlines in one title"
     },
     {
       "source": "Skift",
-      "title": "New Webinar: Who Remembers the Traveler? Building a Connected Customer Journey in the Age of AI",
+      "title": "Norse Atlantic Faces Fight for Survival as Cash Crisis Deepens",
       "reason": "no usable body text"
     },
     {
       "source": "Business Traveller",
-      "title": "China: Elektro-Verkehrsflugzeug absolviert ersten bemannten Flug",
+      "title": "Return on Time: Woran sich ein gutes Event künftig messen lässt",
       "reason": "non-English"
     },
     {
       "source": "Business Traveller",
-      "title": "Ambition Has No Passport: LemFi is Built for Living Across Borders",
-      "reason": "sponsored"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Lagos Free Zone – The First Private Free Zone in Nigeria",
-      "reason": "sponsored"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "10 der besten Reiseanzeigen der letzten fünf Jahrzehnte",
+      "title": "EL AL führt den Flex-Tarif in der Premium- und Business Class ein",
       "reason": "non-English"
     },
     {
       "source": "Business Traveller",
-      "title": "Hotel Review: Amansara, Siem Reap – Timeless Royal Glamour",
-      "reason": "no usable body text"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Peak Luxury: Inside the Exclusive Pacific Club Lounge in Singapore",
-      "reason": "sponsored"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Meinung: Sollte Unvollkommenheit wirklich ein Verkaufsargument für Luxusartikel sein? Rimowa ist davon überzeugt",
+      "title": "Air Monitor 2027: Was Geschäftsreisen im kommenden Jahr teurer macht",
       "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Fast die Hälfte aller Reisenden nutzt inzwischen KI zur Reiseplanung. Werden sie ihr auch bei der Buchung vertrauen?",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Vom Boardroom ins weihnachtliche Frankfurt",
+      "reason": "sponsored"
     },
     {
       "source": "Hotel Dive",
@@ -229,84 +225,84 @@
   ],
   "items": [
     {
-      "title": "American Drops Lawsuit Over Gates at Chicago O’Hare but It’s Still Locked in a Battle With United",
-      "link": "https://skift.com/2026/11/24/american-drops-lawsuit-over-gates-at-chicago-o-hare/",
-      "source": "Skift",
-      "region": "Global",
-      "pubDate": "2026-11-24T23:18:37.000Z",
-      "snippet": "Skift Take: American has spent much of the year building back its Chicago presence, even earning another gate at O’Hare just from increasing capacity at the airport, which has been the backdrop of an intense turf war with United."
-    },
-    {
-      "title": "Lufthansa Group Launches One App for Six Airlines – But Will Travelers Use It?",
-      "link": "https://www.businesstraveller.com/news/lufthansa-group-app-six-airlines-miles-more-booking/",
-      "source": "Business Traveller",
-      "region": "Global",
-      "pubDate": "2026-11-24T17:56:08.000Z",
-      "snippet": "The Lufthansa Group has released a new app combining bookings, check-in and loyalty services across six airlines, offering travelers greater convenience while raising questions about its commercial ambitions and existing airline apps."
-    },
-    {
-      "title": "A hotel flag should be more than a name above the door",
-      "link": "https://www.hospitalitynet.org/opinion/4135681/a-hotel-flag-should-be-more-than-a-name-above-the-door",
+      "title": "Sustainable Ideas for Hotels to Create a More Thoughtful Christmas in 2026",
+      "link": "https://www.hospitalitynet.org/news/4135707/sustainable-ideas-for-hotels-to-create-a-more-thoughtful-christmas-in-2026",
       "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-11-24T16:40:22.000Z",
-      "snippet": "Choice Hotels' Raul Ramirez outlines how franchisors evaluate property fit, support owner economics, and compete on distribution as AI reshapes how guests discover and book hotels."
+      "pubDate": "2026-11-26T01:37:00.000Z",
+      "snippet": "Practical guide for hotels on running more sustainable Christmas events, covering waste reduction, local talent, community giving, and responsible resource management."
     },
     {
-      "title": "Hospitality Asset Forum 2026 : Hospitality, a constrained market but an asset class that holds up",
-      "link": "https://hospitality-on.com/en/hospitality/hospitality-asset-forum-2026-hospitality-constrained-market-asset-class-holds",
+      "title": "Middle East Tourism Has Split. Which Demand Gets Capital?",
+      "link": "https://skift.com/2026/11/25/middle-east-tourism-gulf-capital-2027/",
+      "source": "Skift",
+      "region": "Global",
+      "pubDate": "2026-11-25T18:05:54.000Z",
+      "snippet": "Skift Take: Gulf travel now runs at two speeds. Pilgrimage and resort demand held through 2026, while long-haul and corporate travel fell away. Every 2027 capital and capacity plan for the region depends on which market an operator underwrites."
+    },
+    {
+      "title": "Lifetime Achievement: Sébastien Bazin springs a surprise to honour Serge Trigano",
+      "link": "https://hospitality-on.com/en/hospitality/lifetime-achievement-sebastien-bazin-springs-surprise-honour-serge-trigano",
       "source": "Hospitality ON",
       "region": "Global",
-      "pubDate": "2026-11-24T15:03:54.000Z",
-      "snippet": "Scarce land, longer timelines, rising costs: developing a hotel in France has never been so demanding. At the Hospitality Asset Forum 2026, MSCI, MKG and BNP Paribas Real Estate nevertheless showed that hospitality absorbs these shocks better than most other asset classes."
+      "pubDate": "2026-11-25T16:57:17.000Z",
+      "snippet": "Serge Trigano received the Hospitality Awards Lifetime Achievement award on Monday 23 November at the InterContinental Paris Le Grand. The trophy was presented to him by Sébastien Bazin, Chairman and CEO of Accor, who came on stage for the occasion. It crowns three lives in hospitality: Club Med, Mama Shelter and, since October, the chairmanship of France Hospitalité."
     },
     {
-      "title": "OYO eyes Q1 2027 IPO at reported INR 20,000-22,000 crore valuation",
-      "link": "https://hospitalitybizindia.com/news-track/oyo-eyes-q1-2027-ipo-at-reported-inr-20000-22000-crore-valuation/",
-      "source": "HospitalityBiz India",
-      "region": "India",
-      "pubDate": "2026-11-24T13:42:24.000Z",
-      "snippet": "Oravel Stays is reportedly preparing for another attempt at a public listing, with a proposed fresh issue of INR 3,350 crore, as investors assess the hospitality company’s profitability and international business."
+      "title": "Extended stay property in Florida sells for $22.75M",
+      "link": "https://www.hoteldive.com/news/staybridge-suites-naples-florida-sells-for-2275m/875742/",
+      "source": "Hotel Dive",
+      "region": "Global",
+      "pubDate": "2026-11-25T15:05:24.000Z",
+      "snippet": "Staybridge Suites Naples - Marco Island by IHG has changed hands, reflecting the strength of the Naples and Marco Island market, per Ahmed Kabani, CEO of Kabani Hotel Group, which brokered the transaction. “The transaction delivered a premium valuation for the seller while providing the buyer an attractive basis in a high-barrier, supply-constrained market,” McLean said."
     },
     {
-      "title": "AVIAREPS hosts second ‘Around the World’ roadshow in India with 5 partners",
-      "link": "https://travelbizmonitor.com/top-stories/aviareps-hosts-second-around-the-world-roadshow-in-india-with-5-partners/",
+      "title": "Malaysia Airlines orders 10 Boeing 787 Dreamliners",
+      "link": "https://travelbizmonitor.com/uncategorized/malaysia-airlines-orders-10-boeing-787-dreamliners/",
       "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-11-24T12:29:10.000Z",
-      "snippet": "AVIAREPS India has successfully concluded the second edition of its flagship ‘Around the World’ Roadshow in India, completing a three-city programme across Delhi, Mumbai and Chennai."
+      "pubDate": "2026-11-25T14:55:52.000Z",
+      "snippet": "Malaysia Aviation Group (MAG), the parent company of Malaysia Airlines, has placed an order for 10 Boeing 787 Dreamliner aircraft directly from Boeing, with options for six additional aircraft, as part of its fleet modernisation strategy. Powered by GE Aerospace’s GEnx engines, the aircraft are scheduled for delivery between 2032 and 2035."
     },
     {
-      "title": "Azerbaijan Tourism hosts 3-city India roadshow for promotion beyond Baku",
-      "link": "https://travelbizmonitor.com/top-stories/azerbaijan-tourism-hosts-3-city-india-roadshow-for-promotion-beyond-baku/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-24T12:18:24.000Z",
-      "snippet": "Azerbaijan Tourism Board (ATB) concluded its three-city roadshow across Chennai, Ahmedabad and New Delhi, reinforcing its commitment to the Indian market and strengthening engagement with the country’s travel trade."
-    },
-    {
-      "title": "ABNAH bets on talent, technology and experience to scale India’s evolving dining-out market",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/abnah-bets-on-talent-technology-and-experience-to-scale-indias-evolving-dining-out-market/136119631",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-24T10:30:00.000Z",
-      "snippet": "Aditya Birla New Age Hospitality (ABNAH) has entered Bengaluru with Supa San, marking the Japanese-inspired brand’s first restaurant in the city. For CEO Udai Pinnali, the launch reflects a broader conviction: that India’s dining-out market is expanding, and consumers increasingly seek well-designed, quality-led experiences."
-    },
-    {
-      "title": "Six Senses debuts in the UAE with the opening of Six Senses The Palm, Dubai",
-      "link": "https://traveltradejournal.com/six-senses-debuts-in-the-uae-with-the-opening-of-six-senses-the-palm-dubai/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-11-24T05:29:55.000Z",
-      "snippet": "Six Senses has marked its debut in the United Arab Emirates with the opening of Six Senses The Palm, Dubai, on the West Crescent of Palm Jumeirah. The beachfront resort comprises 61 suites and 172 private residences, bringing together wellness, contemporary design, destination-inspired experiences and residential living."
-    },
-    {
-      "title": "JK Urbanscapes plans ₹965 crore hospitality investment across six projects",
-      "link": "https://www.hotelierindia.com/operations/jk-urbanscapes-plans-%e2%82%b9965-crore-hospitality-investment-across-six-projects",
+      "title": "Accor signs Grand Mercure Mansar Resort in Maharashtra",
+      "link": "https://www.hotelierindia.com/development/accor-signs-grand-mercure-mansar-resort-in-maharashtra",
       "source": "Hotelier India",
       "region": "India",
-      "pubDate": "2026-11-23T09:53:04.000Z",
+      "pubDate": "2026-11-25T13:52:22.000Z",
       "snippet": ""
+    },
+    {
+      "title": "Powai Lake unveils musical fountain show in Mumbai",
+      "link": "https://travelbizmonitor.com/uncategorized/powai-lake-unveils-musical-fountain-show-in-mumbai/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-25T11:17:10.000Z",
+      "snippet": "Mumbai’s Powai Lake has added a new attraction with the launch of a 180-metre-long musical fountain and light-and-sound show at Ganesh Ghat. Inaugurated by Maharashtra Cabinet Minister Mangal Prabhat Lodha on November 22, the attraction combines water displays, music, laser projections and fire jets to showcase Maharashtra’s history, cultural heritage and the legacy of Chhatrapati Shivaji Maharaj."
+    },
+    {
+      "title": "Barun Gupta elevated to Chief Executive Officer of INDEVA Hotels and Resorts",
+      "link": "https://traveltradejournal.com/barun-gupta-elevated-to-chief-executive-officer-of-indeva-hotels-and-resorts/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-11-25T09:22:50.000Z",
+      "snippet": "INDEVA Hotels and Resorts has announced the promotion of Barun Gupta from Chief Operating Officer (COO) to Chief Executive Officer (CEO), as the company prepares for its next phase of growth, portfolio expansion and brand development."
+    },
+    {
+      "title": "Vineet Kumar elevated to Director of Operations at Hilton Bangalore Embassy GolfLinks",
+      "link": "https://www.hotelierindia.com/appointments/vineet-kumar-elevated-to-director-of-operations-at-hilton-bangalore-embassy-golflinks",
+      "source": "Hotelier India",
+      "region": "India",
+      "pubDate": "2026-11-25T08:28:51.000Z",
+      "snippet": ""
+    },
+    {
+      "title": "Renaissance Bengaluru reimagines hotel dining with Cooke Town and Chor Bizarre’s distinctive, story-led culinary experiences",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/renaissance-bengaluru-reimagines-hotel-dining-with-cooke-town-and-chor-bizarres-distinctive-story-led-culinary-experiences/136146311",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-25T06:30:00.000Z",
+      "snippet": "Food and beverage is a vital revenue driver for hotels, and distinctive new dining concepts can refresh a property’s appeal while strengthening sales."
     }
   ]
 }
