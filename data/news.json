@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T01:56:38.258Z",
+  "generatedAt": "2026-11-27T01:55:09.374Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -105,6 +105,7 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
+        "staff appointment": 1,
         "too old": 2
       },
       "error": null
@@ -116,8 +117,9 @@
       "fetched": 100,
       "kept": 4,
       "dropped": {
+        "award announcement with no real content": 1,
         "non-English": 1,
-        "too old": 1
+        "too old": 2
       },
       "error": null
     },
@@ -128,7 +130,7 @@
       "fetched": 20,
       "kept": 4,
       "dropped": {
-        "several headlines in one title": 1
+        "award announcement with no real content": 1
       },
       "error": null
     },
@@ -138,9 +140,7 @@
       "ok": true,
       "fetched": 10,
       "kept": 4,
-      "dropped": {
-        "no usable body text": 1
-      },
+      "dropped": {},
       "error": null
     },
     {
@@ -159,7 +159,7 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 4,
+        "non-English": 5,
         "sponsored": 1
       },
       "error": null
@@ -171,12 +171,23 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "roundup/digest (title)": 1
+        "roundup/digest (title)": 1,
+        "too old": 3
       },
       "error": null
     }
   ],
   "droppedItems": [
+    {
+      "source": "Travel Trade Journal",
+      "title": "Radisson Blu Faridabad appoints Shubhankar Jyoti as General Manager",
+      "reason": "staff appointment"
+    },
+    {
+      "source": "Hospitality ON",
+      "title": "Hospitality Awards 2026: Accor, IHG, Hilton and Switzerland among the winners of the 26th edition",
+      "reason": "award announcement with no real content"
+    },
     {
       "source": "Hospitality ON",
       "title": "Extended stay and secondary cities, hospitality explores new ground",
@@ -184,13 +195,13 @@
     },
     {
       "source": "Hospitality Net",
-      "title": "AI Is Taking the Jobs That Trained Future GMs, Chains Sign Up the Independents, Meta's Muse Wants a Cut",
-      "reason": "several headlines in one title"
+      "title": "Radisson Hotel Group wins 2026 Hotel Visionary Award for AI-powered revenue management innovation",
+      "reason": "award announcement with no real content"
     },
     {
-      "source": "Skift",
-      "title": "Norse Atlantic Faces Fight for Survival as Cash Crisis Deepens",
-      "reason": "no usable body text"
+      "source": "Business Traveller",
+      "title": "Wie Sie einen Extra-Tag in Colombo, Sri Lanka, verbringen können",
+      "reason": "non-English"
     },
     {
       "source": "Business Traveller",
@@ -225,84 +236,84 @@
   ],
   "items": [
     {
-      "title": "Sustainable Ideas for Hotels to Create a More Thoughtful Christmas in 2026",
-      "link": "https://www.hospitalitynet.org/news/4135707/sustainable-ideas-for-hotels-to-create-a-more-thoughtful-christmas-in-2026",
-      "source": "Hospitality Net",
-      "region": "Global",
-      "pubDate": "2026-11-26T01:37:00.000Z",
-      "snippet": "Practical guide for hotels on running more sustainable Christmas events, covering waste reduction, local talent, community giving, and responsible resource management."
-    },
-    {
-      "title": "Middle East Tourism Has Split. Which Demand Gets Capital?",
-      "link": "https://skift.com/2026/11/25/middle-east-tourism-gulf-capital-2027/",
+      "title": "Travelodge’s New CEO Inherits Safety Reckoning, Rising Costs and Looming Debt",
+      "link": "https://skift.com/2026/11/26/travelodges-new-ceo-inherits-safety-reckoning-rising-costs-and-looming-debt/",
       "source": "Skift",
       "region": "Global",
-      "pubDate": "2026-11-25T18:05:54.000Z",
-      "snippet": "Skift Take: Gulf travel now runs at two speeds. Pilgrimage and resort demand held through 2026, while long-haul and corporate travel fell away. Every 2027 capital and capacity plan for the region depends on which market an operator underwrites."
+      "pubDate": "2026-11-26T17:34:03.000Z",
+      "snippet": "Skift Take: Travelodge has a new chief executive, 38 safety recommendations to implement, and debt to refinance. Peter Krueger starts Tuesday. Travelodge's new boss is a former investment banker, and he'll need to be. The UK budget hotel group named Peter Krueger CEO on Thursday alongside third-quarter results that showed earnings falling."
     },
     {
-      "title": "Lifetime Achievement: Sébastien Bazin springs a surprise to honour Serge Trigano",
-      "link": "https://hospitality-on.com/en/hospitality/lifetime-achievement-sebastien-bazin-springs-surprise-honour-serge-trigano",
-      "source": "Hospitality ON",
+      "title": "Hotel Groups Sell Brands and Loyalty, Not Rooms, Luxury Starts Selling Time, and Tokens Wait for Proven Income",
+      "link": "https://www.hospitalitynet.org/editorial/4135720/hotel-groups-sell-brands-and-loyalty-not-rooms-luxury-starts-selling-time-and-tokens-wait-for-proven-income",
+      "source": "Hospitality Net",
       "region": "Global",
-      "pubDate": "2026-11-25T16:57:17.000Z",
-      "snippet": "Serge Trigano received the Hospitality Awards Lifetime Achievement award on Monday 23 November at the InterContinental Paris Le Grand. The trophy was presented to him by Sébastien Bazin, Chairman and CEO of Accor, who came on stage for the occasion. It crowns three lives in hospitality: Club Med, Mama Shelter and, since October, the chairmanship of France Hospitalité."
+      "pubDate": "2026-11-26T15:35:00.000Z",
+      "snippet": "Thursday asked what the largest hotel groups actually sell, finding brands and loyalty rather than rooms, and why luxury hospitality now sells freedom of time as much as it sells ownership."
     },
     {
-      "title": "Extended stay property in Florida sells for $22.75M",
-      "link": "https://www.hoteldive.com/news/staybridge-suites-naples-florida-sells-for-2275m/875742/",
-      "source": "Hotel Dive",
-      "region": "Global",
-      "pubDate": "2026-11-25T15:05:24.000Z",
-      "snippet": "Staybridge Suites Naples - Marco Island by IHG has changed hands, reflecting the strength of the Naples and Marco Island market, per Ahmed Kabani, CEO of Kabani Hotel Group, which brokered the transaction. “The transaction delivered a premium valuation for the seller while providing the buyer an attractive basis in a high-barrier, supply-constrained market,” McLean said."
-    },
-    {
-      "title": "Malaysia Airlines orders 10 Boeing 787 Dreamliners",
-      "link": "https://travelbizmonitor.com/uncategorized/malaysia-airlines-orders-10-boeing-787-dreamliners/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-25T14:55:52.000Z",
-      "snippet": "Malaysia Aviation Group (MAG), the parent company of Malaysia Airlines, has placed an order for 10 Boeing 787 Dreamliner aircraft directly from Boeing, with options for six additional aircraft, as part of its fleet modernisation strategy. Powered by GE Aerospace’s GEnx engines, the aircraft are scheduled for delivery between 2032 and 2035."
-    },
-    {
-      "title": "Accor signs Grand Mercure Mansar Resort in Maharashtra",
-      "link": "https://www.hotelierindia.com/development/accor-signs-grand-mercure-mansar-resort-in-maharashtra",
-      "source": "Hotelier India",
-      "region": "India",
-      "pubDate": "2026-11-25T13:52:22.000Z",
-      "snippet": ""
-    },
-    {
-      "title": "Powai Lake unveils musical fountain show in Mumbai",
-      "link": "https://travelbizmonitor.com/uncategorized/powai-lake-unveils-musical-fountain-show-in-mumbai/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-25T11:17:10.000Z",
-      "snippet": "Mumbai’s Powai Lake has added a new attraction with the launch of a 180-metre-long musical fountain and light-and-sound show at Ganesh Ghat. Inaugurated by Maharashtra Cabinet Minister Mangal Prabhat Lodha on November 22, the attraction combines water displays, music, laser projections and fire jets to showcase Maharashtra’s history, cultural heritage and the legacy of Chhatrapati Shivaji Maharaj."
-    },
-    {
-      "title": "Barun Gupta elevated to Chief Executive Officer of INDEVA Hotels and Resorts",
-      "link": "https://traveltradejournal.com/barun-gupta-elevated-to-chief-executive-officer-of-indeva-hotels-and-resorts/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-11-25T09:22:50.000Z",
-      "snippet": "INDEVA Hotels and Resorts has announced the promotion of Barun Gupta from Chief Operating Officer (COO) to Chief Executive Officer (CEO), as the company prepares for its next phase of growth, portfolio expansion and brand development."
-    },
-    {
-      "title": "Vineet Kumar elevated to Director of Operations at Hilton Bangalore Embassy GolfLinks",
-      "link": "https://www.hotelierindia.com/appointments/vineet-kumar-elevated-to-director-of-operations-at-hilton-bangalore-embassy-golflinks",
-      "source": "Hotelier India",
-      "region": "India",
-      "pubDate": "2026-11-25T08:28:51.000Z",
-      "snippet": ""
-    },
-    {
-      "title": "Renaissance Bengaluru reimagines hotel dining with Cooke Town and Chor Bizarre’s distinctive, story-led culinary experiences",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/restaurants/renaissance-bengaluru-reimagines-hotel-dining-with-cooke-town-and-chor-bizarres-distinctive-story-led-culinary-experiences/136146311",
+      "title": "Jet Airways staff to get Rs 480 crore gratuity, PF dues with interest: NCLAT",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/travel/jet-airways-staff-to-get-rs-480-crore-gratuity-pf-dues-with-interest-nclat/136191500",
       "source": "ET HospitalityWorld",
       "region": "India",
-      "pubDate": "2026-11-25T06:30:00.000Z",
-      "snippet": "Food and beverage is a vital revenue driver for hotels, and distinctive new dining concepts can refresh a property’s appeal while strengthening sales."
+      "pubDate": "2026-11-26T15:30:00.000Z",
+      "snippet": "The National Company Law Appellate Tribunal (NCLAT) on Thursday ordered the Jet Airways liquidator to pay Rs 480 crore in pending gratuity and provident fund (PF) dues, along with interest, to eligible employees of the defunct airline within two weeks."
+    },
+    {
+      "title": "Hospitality Asset Forum 2026, relive the morning",
+      "link": "https://hospitality-on.com/en/hospitality/hospitality-asset-forum-2026-relive-morning",
+      "source": "Hospitality ON",
+      "region": "Global",
+      "pubDate": "2026-11-26T13:41:49.000Z",
+      "snippet": "The 16th edition of the Hospitality Asset Forum took place on November 23 at the InterContinental Paris Le Grand. Three financing cases put to a vote of the room, a Covivio-Generator duo opening up their contracts, Philippe Journo recounting the Sax and what followed, and a Spanish closing session where B&B Hotels announced its 1,000th hotel in Seville."
+    },
+    {
+      "title": "Atmosphere Core signs 109-key resort in Udaipur under A Signature Atmosphere",
+      "link": "https://www.hotelierindia.com/development/atmosphere-core-signs-109-key-resort-in-udaipur-under-a-signature-atmosphere",
+      "source": "Hotelier India",
+      "region": "India",
+      "pubDate": "2026-11-26T12:57:03.000Z",
+      "snippet": ""
+    },
+    {
+      "title": "Radisson Golf View Resort Pahalgam elevated to Radisson Blu",
+      "link": "https://traveltradejournal.com/radisson-golf-view-resort-pahalgam-elevated-to-radisson-blu/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-11-26T12:30:17.000Z",
+      "snippet": "Radisson Hotel Group has announced the elevation of Radisson Golf View Resort Pahalgam to Radisson Blu Golf View Resort Pahalgam, strengthening its presence in Jammu and Kashmir. With this transition, the property moves from the upscale to the upper-upscale segment within the Group’s portfolio."
+    },
+    {
+      "title": "Wellness Connect 2026 explores India’s evolving wellness economy",
+      "link": "https://www.hotelierindia.com/operations/wellness-connect-2026-explores-indias-evolving-wellness-economy",
+      "source": "Hotelier India",
+      "region": "India",
+      "pubDate": "2026-11-26T12:06:46.000Z",
+      "snippet": ""
+    },
+    {
+      "title": "Thomas Cook India unveils Europe Summer 2027 packages with offers for first 1000 customers",
+      "link": "https://travelbizmonitor.com/top-stories/thomas-cook-india-unveils-europe-summer-2027-with-offers-for-first-1000-customers/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-26T11:36:19.000Z",
+      "snippet": "Thomas Cook (India) Limited has unveiled its Europe Summer 2027 Holidays portfolio, introducing its exciting ‘Holiday Pe Holiday Free’ proposition for the first 1000 customers."
+    },
+    {
+      "title": "Park Hyatt to Open Brisbane Riverfront Address Ahead of 2032 Olympics",
+      "link": "https://www.businesstraveller.com/news/park-hyatt-brisbane-2031/",
+      "source": "Business Traveller",
+      "region": "Global",
+      "pubDate": "2026-11-26T10:33:55.000Z",
+      "snippet": "Park Hyatt Brisbane is due in 2031 with 201 rooms and 50 serviced apartments at the top of a North Quay tower."
+    },
+    {
+      "title": "Air India Group to streamline operations under ‘One Air India Group’ structure",
+      "link": "https://travelbizmonitor.com/aviation/air-india-group-to-streamline-operations-under-one-air-india-group-structure/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-26T07:11:11.000Z",
+      "snippet": "Air India and Air India Express will come under a unified management framework called ‘One Air India Group’, aimed at reducing costs, improving operational efficiency and optimising resources across the two airlines."
     }
   ]
 }
