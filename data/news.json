@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T01:55:09.374Z",
+  "generatedAt": "2026-11-28T01:40:09.850Z",
   "sources": [
     {
       "name": "Hotelier India",
@@ -92,9 +92,9 @@
       "name": "Hotelivate",
       "ok": true,
       "fetched": 10,
-      "kept": 0,
+      "kept": 1,
       "dropped": {
-        "too old": 10
+        "too old": 9
       },
       "error": null
     },
@@ -159,8 +159,7 @@
       "fetched": 18,
       "kept": 4,
       "dropped": {
-        "non-English": 5,
-        "sponsored": 1
+        "non-English": 5
       },
       "error": null
     },
@@ -171,8 +170,7 @@
       "fetched": 10,
       "kept": 4,
       "dropped": {
-        "roundup/digest (title)": 1,
-        "too old": 3
+        "too old": 4
       },
       "error": null
     }
@@ -195,8 +193,23 @@
     },
     {
       "source": "Hospitality Net",
-      "title": "Radisson Hotel Group wins 2026 Hotel Visionary Award for AI-powered revenue management innovation",
+      "title": "RIU Hotels & Resorts rewards its top agencies in the United States and Canada at the ninth edition of the RIU Awards in Playa del Carmen",
       "reason": "award announcement with no real content"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Neue Einreiseregeln weltweit: Das hat sich aktuell geändert",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Streiks: Wir navigieren Sie durch die geplanten Ausstände",
+      "reason": "non-English"
+    },
+    {
+      "source": "Business Traveller",
+      "title": "Ein Auftritt, sechs Airlines: Lufthansa Group App bündelt Airline-Services und Miles & More",
+      "reason": "non-English"
     },
     {
       "source": "Business Traveller",
@@ -207,113 +220,88 @@
       "source": "Business Traveller",
       "title": "Return on Time: Woran sich ein gutes Event künftig messen lässt",
       "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "EL AL führt den Flex-Tarif in der Premium- und Business Class ein",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Air Monitor 2027: Was Geschäftsreisen im kommenden Jahr teurer macht",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Fast die Hälfte aller Reisenden nutzt inzwischen KI zur Reiseplanung. Werden sie ihr auch bei der Buchung vertrauen?",
-      "reason": "non-English"
-    },
-    {
-      "source": "Business Traveller",
-      "title": "Vom Boardroom ins weihnachtliche Frankfurt",
-      "reason": "sponsored"
-    },
-    {
-      "source": "Hotel Dive",
-      "title": "Lodging Lowdown: Accor increases stake in Ennismore, Under Canvas adds luxury cabins at Ulum Moab in Utah",
-      "reason": "roundup/digest (title)"
     }
   ],
   "items": [
     {
-      "title": "Travelodge’s New CEO Inherits Safety Reckoning, Rising Costs and Looming Debt",
-      "link": "https://skift.com/2026/11/26/travelodges-new-ceo-inherits-safety-reckoning-rising-costs-and-looming-debt/",
-      "source": "Skift",
-      "region": "Global",
-      "pubDate": "2026-11-26T17:34:03.000Z",
-      "snippet": "Skift Take: Travelodge has a new chief executive, 38 safety recommendations to implement, and debt to refinance. Peter Krueger starts Tuesday. Travelodge's new boss is a former investment banker, and he'll need to be. The UK budget hotel group named Peter Krueger CEO on Thursday alongside third-quarter results that showed earnings falling."
-    },
-    {
-      "title": "Hotel Groups Sell Brands and Loyalty, Not Rooms, Luxury Starts Selling Time, and Tokens Wait for Proven Income",
-      "link": "https://www.hospitalitynet.org/editorial/4135720/hotel-groups-sell-brands-and-loyalty-not-rooms-luxury-starts-selling-time-and-tokens-wait-for-proven-income",
-      "source": "Hospitality Net",
-      "region": "Global",
-      "pubDate": "2026-11-26T15:35:00.000Z",
-      "snippet": "Thursday asked what the largest hotel groups actually sell, finding brands and loyalty rather than rooms, and why luxury hospitality now sells freedom of time as much as it sells ownership."
-    },
-    {
-      "title": "Jet Airways staff to get Rs 480 crore gratuity, PF dues with interest: NCLAT",
-      "link": "https://hospitality.economictimes.indiatimes.com/news/travel/jet-airways-staff-to-get-rs-480-crore-gratuity-pf-dues-with-interest-nclat/136191500",
-      "source": "ET HospitalityWorld",
-      "region": "India",
-      "pubDate": "2026-11-26T15:30:00.000Z",
-      "snippet": "The National Company Law Appellate Tribunal (NCLAT) on Thursday ordered the Jet Airways liquidator to pay Rs 480 crore in pending gratuity and provident fund (PF) dues, along with interest, to eligible employees of the defunct airline within two weeks."
-    },
-    {
-      "title": "Hospitality Asset Forum 2026, relive the morning",
-      "link": "https://hospitality-on.com/en/hospitality/hospitality-asset-forum-2026-relive-morning",
-      "source": "Hospitality ON",
-      "region": "Global",
-      "pubDate": "2026-11-26T13:41:49.000Z",
-      "snippet": "The 16th edition of the Hospitality Asset Forum took place on November 23 at the InterContinental Paris Le Grand. Three financing cases put to a vote of the room, a Covivio-Generator duo opening up their contracts, Philippe Journo recounting the Sax and what followed, and a Spanish closing session where B&B Hotels announced its 1,000th hotel in Seville."
-    },
-    {
-      "title": "Atmosphere Core signs 109-key resort in Udaipur under A Signature Atmosphere",
-      "link": "https://www.hotelierindia.com/development/atmosphere-core-signs-109-key-resort-in-udaipur-under-a-signature-atmosphere",
-      "source": "Hotelier India",
-      "region": "India",
-      "pubDate": "2026-11-26T12:57:03.000Z",
-      "snippet": ""
-    },
-    {
-      "title": "Radisson Golf View Resort Pahalgam elevated to Radisson Blu",
-      "link": "https://traveltradejournal.com/radisson-golf-view-resort-pahalgam-elevated-to-radisson-blu/",
-      "source": "Travel Trade Journal",
-      "region": "India",
-      "pubDate": "2026-11-26T12:30:17.000Z",
-      "snippet": "Radisson Hotel Group has announced the elevation of Radisson Golf View Resort Pahalgam to Radisson Blu Golf View Resort Pahalgam, strengthening its presence in Jammu and Kashmir. With this transition, the property moves from the upscale to the upper-upscale segment within the Group’s portfolio."
-    },
-    {
-      "title": "Wellness Connect 2026 explores India’s evolving wellness economy",
-      "link": "https://www.hotelierindia.com/operations/wellness-connect-2026-explores-indias-evolving-wellness-economy",
-      "source": "Hotelier India",
-      "region": "India",
-      "pubDate": "2026-11-26T12:06:46.000Z",
-      "snippet": ""
-    },
-    {
-      "title": "Thomas Cook India unveils Europe Summer 2027 packages with offers for first 1000 customers",
-      "link": "https://travelbizmonitor.com/top-stories/thomas-cook-india-unveils-europe-summer-2027-with-offers-for-first-1000-customers/",
-      "source": "TravelBiz Monitor",
-      "region": "India",
-      "pubDate": "2026-11-26T11:36:19.000Z",
-      "snippet": "Thomas Cook (India) Limited has unveiled its Europe Summer 2027 Holidays portfolio, introducing its exciting ‘Holiday Pe Holiday Free’ proposition for the first 1000 customers."
-    },
-    {
-      "title": "Park Hyatt to Open Brisbane Riverfront Address Ahead of 2032 Olympics",
-      "link": "https://www.businesstraveller.com/news/park-hyatt-brisbane-2031/",
+      "title": "How to Buy a Rare Watch Direct From the Maker – and Skip Auction Prices",
+      "link": "https://www.businesstraveller.com/lifestyle/how-to-buy-a-rare-watch-direct-from-the-maker-and-skip-auction-prices/",
       "source": "Business Traveller",
       "region": "Global",
-      "pubDate": "2026-11-26T10:33:55.000Z",
-      "snippet": "Park Hyatt Brisbane is due in 2031 with 201 rooms and 50 serviced apartments at the top of a North Quay tower."
+      "pubDate": "2026-11-27T17:36:14.000Z",
+      "snippet": "Independent watchmakers only produce a few dozen timepieces a year – and they don’t sell them to just anyone. Here's the playbook for getting into the workshop and onto the order book."
     },
     {
-      "title": "Air India Group to streamline operations under ‘One Air India Group’ structure",
-      "link": "https://travelbizmonitor.com/aviation/air-india-group-to-streamline-operations-under-one-air-india-group-structure/",
+      "title": "Mama Shelter arrives in Africa, on the day it opens in Mexico City",
+      "link": "https://hospitality-on.com/en/hospitality/mama-shelter-arrives-africa-day-it-opens-mexico-city",
+      "source": "Hospitality ON",
+      "region": "Global",
+      "pubDate": "2026-11-27T17:35:44.000Z",
+      "snippet": "Mama Shelter opens its first hotel on the African continent on 1 December, in Cape Town, at 111 Bree Street. On the same day, Ennismore's brand inaugurates its first address in Latin America, in Mexico City."
+    },
+    {
+      "title": "Leonardo’s UK Loss Shows the Cost of Renting Hotels",
+      "link": "https://skift.com/2026/11/27/leonardos-uk-loss-shows-the-cost-of-renting-hotels/",
+      "source": "Skift",
+      "region": "Global",
+      "pubDate": "2026-11-27T15:50:11.000Z",
+      "snippet": "Skift Take: Leonardo's UK hotels are making money from guests, but not enough to cover the rent. With costs rising and more rooms coming onto the market, the lease-heavy model that let hotel groups expand fast in the UK is starting to look like a liability."
+    },
+    {
+      "title": "Hotel Tech’s Shelf Reaches 1,900 Products, Everyone Courts the Small-Company Traveler, and Promises Go Missing Between Sales and Operations",
+      "link": "https://www.hospitalitynet.org/editorial/4135730/hotel-techs-shelf-reaches-1900-products-everyone-courts-the-small-company-traveler-and-promises-go-missing-between-sales-and-operations",
+      "source": "Hospitality Net",
+      "region": "Global",
+      "pubDate": "2026-11-27T15:45:00.000Z",
+      "snippet": "Friday closed the week with a count of nearly 1,900 hotel technology products on the shelf, and a look at who now sells rooms to the business travelers that small companies send out on their own."
+    },
+    {
+      "title": "Vadodara plans crocodile-themed bridge at Sayajibaug",
+      "link": "https://travelbizmonitor.com/top-stories/vadodara-plans-crocodile-themed-bridge-at-sayajibaug/",
       "source": "TravelBiz Monitor",
       "region": "India",
-      "pubDate": "2026-11-26T07:11:11.000Z",
-      "snippet": "Air India and Air India Express will come under a unified management framework called ‘One Air India Group’, aimed at reducing costs, improving operational efficiency and optimising resources across the two airlines."
+      "pubDate": "2026-11-27T13:34:03.000Z",
+      "snippet": "The Vadodara Municipal Corporation (VMC) is planning a INR 12.70-crore crocodile-themed foot overbridge across the Vishwamitri River inside Sayajibaug (Kamatibaug), designed to serve as a city landmark and wildlife-viewing attraction. The proposed bridge will replace the existing footbridge connecting the bird house with the lion and tiger enclosures."
+    },
+    {
+      "title": "West Bengal set for INR 75,000 cr highway expansion",
+      "link": "https://travelbizmonitor.com/top-stories/west-bengal-set-for-inr-75000-cr-highway-expansion/",
+      "source": "TravelBiz Monitor",
+      "region": "India",
+      "pubDate": "2026-11-27T13:31:31.000Z",
+      "snippet": "Union Minister for Road Transport and Highways Nitin Gadkari has announced a pipeline of National Highway and road infrastructure projects worth approximately INR 75,000 crore for West Bengal. The announcement was made at a programme in Kolaghat, East Medinipur, where the minister inaugurated and laid the foundation stones for 22 National Highway projects worth more than INR 8,700 crore."
+    },
+    {
+      "title": "Legacy, innovation and expertise drive hotel’s growing MICE leadership in Delhi NCR",
+      "link": "https://hospitality.economictimes.indiatimes.com/news/hotels/legacy-innovation-and-expertise-drive-hotels-growing-mice-leadership-in-delhi-ncr/136222412",
+      "source": "ET HospitalityWorld",
+      "region": "India",
+      "pubDate": "2026-11-27T12:33:59.000Z",
+      "snippet": "Hyatt Regency Delhi continues to reinforce its position as one of Delhi NCR’s leading destinations for meetings, incentives, conferences and exhibitions. With more than four decades of hospitality experience, the hotel combines institutional expertise with contemporary event infrastructure, personalised service and innovative venues such as The Mansion."
+    },
+    {
+      "title": "Medusa Beverages wins two bronze medals at China Beer Competition 2026",
+      "link": "https://www.hotelierindia.com/fb/medusa-beverages-wins-two-bronze-medals-at-china-beer-competition-2026",
+      "source": "Hotelier India",
+      "region": "India",
+      "pubDate": "2026-11-27T09:10:10.000Z",
+      "snippet": ""
+    },
+    {
+      "title": "Onyxx Nature Resort opens near Jim Corbett National Park, targets destination weddings and MICE",
+      "link": "https://traveltradejournal.com/onyxx-nature-resort-opens-near-jim-corbett-national-park-targets-destination-weddings-and-mice/",
+      "source": "Travel Trade Journal",
+      "region": "India",
+      "pubDate": "2026-11-27T08:51:45.000Z",
+      "snippet": "Onyxx Nature Resort has announced its official launch with a wedding celebration at its property in Village Chhoi, Ramnagar, near Jim Corbett National Park in Uttarakhand. Positioned as a boutique four-star property, the resort features 54 rooms and approximately 58,000 sq. ft. of event space, catering to destination weddings, leisure travellers, families and corporate groups."
+    },
+    {
+      "title": "Hotelivate-Savills’ Hotel Check-In: Q2 2026/27(Jul-Sept)",
+      "link": "https://www.hotelivate.com/listed-hotel-companies/hotelivate-savills-hotel-check-in-q2-2026-27jul-sept/",
+      "source": "Hotelivate",
+      "region": "India",
+      "pubDate": "2026-11-27T04:48:38.000Z",
+      "snippet": "Hotelivate-Savills’ Hotel Check-In: Q2 2026/27(Jul-Sept) by Hotelivate | Nov 27, 2026 Hotelivate-Savills’ Hotel Check-in (HCI): India Quarterly Report is an update on critical metrics and data points for the Indian Hospitality Industry . The sector has witnessed rapid growth over the past few years and is now slowly achieving a state of maturity."
     }
   ]
 }
